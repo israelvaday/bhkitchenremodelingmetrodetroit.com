@@ -12,7 +12,7 @@ export function AreaTeaser() {
             Serving all of Metro Detroit.
           </h2>
           <p className="mt-3 max-w-2xl text-ink-300">
-            Painting service across {AREAS.length}+ Metro Detroit cities, communities, and neighborhoods.
+            Kitchen remodeling across {AREAS.length}+ Metro Detroit cities, communities, and neighborhoods.
           </p>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">

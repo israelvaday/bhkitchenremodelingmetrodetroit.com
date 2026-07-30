@@ -27,7 +27,7 @@ function isInsideMetroDetroit(lat: number, lng: number) {
 
 export function AvailabilityChecker({ service }: { service?: AvailabilityService } = {}) {
   const [phase, setPhase] = useState<Phase>("idle");
-  const serviceLabel = service?.shortName ?? "painting";
+  const serviceLabel = service?.shortName ?? "kitchen remodeling";
 
   function checkLocation() {
     if (phase === "locating") return;

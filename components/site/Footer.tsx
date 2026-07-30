@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Paintbrush, Clock, Instagram, ChevronDown } from "lucide-react";
+import { ChefHat, Clock, Instagram, ChevronDown } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { MAIN_AREAS } from "@/lib/areas";
 import { SERVICES } from "@/content/services";
@@ -14,12 +14,12 @@ export function Footer() {
         <div className="flex flex-col items-center text-center md:items-start md:text-left">
           <Logo size="md" />
           <p className="mt-4 max-w-xs text-sm text-ink-300">
-            Metro Detroit Kitchen Remodeling for interiors, exteriors, cabinets, trim, commercial spaces, and wood surfaces
+            Custom kitchen remodeling, cabinet installation, countertop replacement, and kitchen design
             across Wayne, Oakland &amp; Macomb counties.
           </p>
           <div className="mt-3 flex flex-wrap justify-center gap-2 md:justify-start">
             <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/30 bg-brass-500/10 px-3 py-1.5 text-xs font-semibold text-brass-300">
-              <Paintbrush className="h-3.5 w-3.5" /> Written scopes
+              <ChefHat className="h-3.5 w-3.5" /> Written scopes
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300">
               <Clock className="h-3.5 w-3.5" /> Mon–Sat service
