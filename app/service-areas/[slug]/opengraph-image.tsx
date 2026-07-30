@@ -11,7 +11,7 @@ export async function generateImageMetadata({ params }: { params: Promise<{ slug
   const a = AREAS_BY_SLUG[slug];
   return [{
     id: slug,
-    alt: a ? `${a.name} painting services — ${BIZ.name}` : `${BIZ.name} Service Area`,
+    alt: a ? `${a.name} kitchen remodeling services — ${BIZ.name}` : `${BIZ.name} Service Area`,
     size,
     contentType,
   }];
@@ -79,7 +79,7 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
               {BIZ.name.toUpperCase()}
             </div>
             <div style={{ fontSize: 15, color: "#C9A24A", marginTop: 4, letterSpacing: 2, fontWeight: 700 }}>
-              PAINTING SERVICES · METRO DETROIT
+              kitchen remodeling services · METRO DETROIT
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
             {name}
           </div>
           <div style={{ fontSize: 28, color: "#C8C4BB", display: "flex" }}>
-            Interior, exterior, cabinet, and commercial painting serving {sub}
+            custom kitchen remodeling, cabinet installation, countertop replacement, and commercial painting serving {sub}
           </div>
         </div>
 

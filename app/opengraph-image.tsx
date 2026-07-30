@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { BIZ } from "@/lib/business";
 
 export const dynamic = "force-static";
-export const alt = `${BIZ.name} — Metro Detroit painting company`;
+export const alt = `${BIZ.name} — Metro Detroit Kitchen Remodeling company`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -59,7 +59,7 @@ export default async function OgImage() {
               {BIZ.name.toUpperCase()}
             </div>
             <div style={{ fontSize: 18, color: "#C9A24A", marginTop: 6, letterSpacing: 2, fontWeight: 700 }}>
-              METRO DETROIT PAINTING
+              Metro Detroit Kitchen Remodeling
             </div>
           </div>
         </div>
@@ -80,7 +80,7 @@ export default async function OgImage() {
             Interior · Exterior · Cabinets · Commercial
           </div>
           <div style={{ fontSize: 28, color: "#C8C4BB", maxWidth: 980, display: "flex" }}>
-            Painting for homes, businesses, rentals, trim, ceilings, decks, and fences. Free estimates.
+            kitchen remodeling for homes, businesses, rentals, trim, ceilings, decks, and fences. Free estimates.
           </div>
         </div>
 

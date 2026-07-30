@@ -8,131 +8,129 @@ export type FAQSection = {
   items: FAQ[];
 };
 
-export const FAQ_HERO_IMAGE = "/photos/branding-generated--hero-painting-metro-detroit.png";
+export const FAQ_HERO_IMAGE = "/photos/branding-generated--hero-kitchen-metro-detroit.png";
 export const FAQ_HERO_ALT =
-  "BH Painting Metro Detroit painter reviewing an interior color sample with a homeowner";
+  "BH Kitchen Remodeling Metro Detroit contractor reviewing kitchen layout options with a homeowner";
 
 export const FAQ_SECTIONS: FAQSection[] = [
   {
     id: "pricing",
     title: "Pricing & estimates",
     emoji: "💰",
-    description: "How painting scopes, materials, and written estimates are prepared.",
+    description: "How kitchen remodeling scopes, materials, and written estimates are prepared.",
     items: [
       {
-        q: "How much does professional painting cost in Metro Detroit?",
-        a: "Pricing depends on surface area, condition, ceiling height, access, color changes, coating system, and the amount of protection and preparation required. We provide a written estimate after reviewing the property so the scope is based on the actual project rather than an unreliable one-size-fits-all rate.",
+        q: "How much does a kitchen remodel cost in Metro Detroit?",
+        a: "Pricing depends on layout changes, cabinet quality, countertop material, electrical and plumbing adjustments, flooring, backsplash, and the amount of demolition required. We provide a written estimate after reviewing your kitchen so the scope reflects your actual space rather than a generic square-foot rate.",
       },
       {
-        q: "Do you provide free painting estimates?",
-        a: "Yes. We provide free estimates for residential and commercial painting in Wayne, Oakland, and Macomb counties. Photos can help us understand the project, but larger or more detailed scopes may require an on-site walkthrough before final pricing.",
+        q: "Do you provide free kitchen remodeling estimates?",
+        a: "Yes. We provide free estimates for kitchen remodeling across Wayne, Oakland, and Macomb counties. Photos and rough measurements help us start the conversation, but most full remodels benefit from an on-site walkthrough before final pricing.",
       },
       {
-        q: "Are paint and supplies included in the estimate?",
-        a: "The proposal identifies whether coatings and standard supplies are included, along with the planned product type, finish, and number of coats. Specialty products, major color changes, or added work are listed clearly so comparisons between bids are meaningful.",
+        q: "Are cabinets, counters, and fixtures included in the estimate?",
+        a: "The proposal identifies whether cabinets, countertops, backsplash, hardware, lighting, and standard installation labor are included, along with allowance levels for fixtures and appliances. Allowances and exclusions are listed clearly so you can compare bids meaningfully.",
       },
       {
         q: "How are changes handled after work begins?",
-        a: "If you request another room, a different coating, or work outside the original scope, we document the price and schedule impact before proceeding. We do not rely on surprise extras at the end of a project.",
+        a: "If you request a layout change, upgraded material, or added scope, we document the price and schedule impact before proceeding. We do not rely on surprise extras at the end of a project.",
       },
     ],
   },
   {
     id: "process",
-    title: "Painting process",
-    emoji: "🖌️",
-    description: "What happens from the first walkthrough through the final inspection.",
+    title: "Remodeling process",
+    emoji: "🔨",
+    description: "What happens from the first consultation through the final walkthrough.",
     items: [
       {
-        q: "What does your painting process include?",
-        a: "A typical project includes a scope review, color and finish confirmation, room protection, surface preparation, primer where needed, finish coats, cleanup, and a final walkthrough. The exact sequence is written into the proposal for your property.",
+        q: "What does your kitchen remodeling process include?",
+        a: "A typical project includes a scope review, design and layout confirmation, demolition when needed, rough-in coordination, cabinet installation, countertop templating and install, backsplash, flooring, fixture setting, cleanup, and a final walkthrough. The exact sequence is written into your proposal.",
       },
       {
-        q: "How long will my painting project take?",
-        a: "A single room may be completed quickly, while whole-home, cabinet, exterior, and commercial projects require more time for preparation and curing. We provide an estimated start window and duration after seeing the scope, then communicate if weather or discovered conditions affect the schedule.",
+        q: "How long will my kitchen remodel take?",
+        a: "A partial refresh may take a few weeks, while a full gut remodel commonly requires several weeks depending on lead times, inspections, and trade scheduling. We provide an estimated start window and duration after seeing the scope, then communicate if discoveries or material delays affect the schedule.",
       },
       {
-        q: "Can you paint while we live or work in the property?",
-        a: "Yes. We can phase many occupied home and business projects by room or zone. We discuss access, ventilation, drying time, children, pets, customer traffic, and daily cleanup before scheduling so the plan fits normal operations.",
+        q: "Can you remodel while we live in the home?",
+        a: "Yes. Many occupied-home projects are phased to maintain access to a sink, refrigerator, or microwave when possible. We discuss temporary kitchen setups, dust control, daily cleanup, pets, and children before scheduling.",
       },
       {
         q: "Who will perform the work?",
-        a: "BH Painting Metro Detroit provides insured professional painters and direct project communication. The written scope identifies the work being performed, and you can raise questions with our team throughout the project.",
+        a: "BH Kitchen Remodeling Metro Detroit provides insured professional remodeling crews and direct project communication. Licensed trade partners handle electrical, plumbing, and gas work when required, and you can raise questions with our team throughout the project.",
       },
     ],
   },
   {
     id: "products",
-    title: "Paints & finishes",
+    title: "Materials & selections",
     emoji: "🎨",
-    description: "How primers, coatings, colors, and sheens are selected.",
+    description: "How cabinets, counters, tile, flooring, and hardware are selected.",
     items: [
       {
-        q: "Which paint brands do you use?",
-        a: "We select professional coating lines based on the surface, environment, performance requirements, availability, and customer preference. Product line matters as much as the brand name, so the proposal specifies the intended system instead of promising one product for every situation.",
+        q: "Which cabinet lines do you install?",
+        a: "We work with stock, semi-custom, and custom cabinet options based on budget, lead time, and layout needs. The proposal specifies the intended cabinet tier, door style, and finish rather than promising one brand for every situation.",
       },
       {
-        q: "How do I choose the right paint sheen?",
-        a: "Lower sheens help soften surface variation, while higher sheens generally improve washability but reflect more light. We recommend finishes by room use, moisture, traffic, desired appearance, and the condition of the surface.",
+        q: "What countertop materials do you recommend?",
+        a: "Quartz is popular for durability and low maintenance, while granite, marble, butcher block, and solid surface each have different care and performance traits. We recommend materials based on how you cook, clean, and use the space.",
       },
       {
-        q: "Do you offer low-odor or low-VOC options?",
-        a: "Yes. Low-odor and low-VOC products are available for many occupied homes, offices, and rental turnovers. Ventilation and cure time still matter, so we review product guidance and occupancy needs before work begins.",
+        q: "Do you help with kitchen design and layout?",
+        a: "Yes. Kitchen design is part of most remodeling projects. We review workflow, storage, appliance placement, lighting, and finish combinations before cabinets are ordered so costly layout mistakes are avoided.",
       },
       {
-        q: "When is primer necessary?",
-        a: "Primer may be needed over bare material, glossy surfaces, difficult stains, strong color changes, or areas with adhesion concerns. We choose a primer for the specific condition rather than adding or skipping it automatically.",
+        q: "Can I supply my own materials or fixtures?",
+        a: "Homeowner-supplied items can sometimes be incorporated when lead times, warranties, and compatibility are confirmed in writing. We note any adjusted labor, scheduling, or warranty terms when customer-supplied products are used.",
       },
     ],
   },
   {
-    id: "preparation",
-    title: "Preparation & protection",
-    emoji: "🧰",
-    description: "How the property and each surface are readied for a lasting finish.",
+    id: "planning",
+    title: "Planning & permits",
+    emoji: "📋",
+    description: "Permits, inspections, lead times, and pre-construction decisions.",
     items: [
       {
-        q: "What should I do before the painters arrive?",
-        a: "Remove small valuables, wall decorations, and fragile items, and provide a clear path into the work area. We will confirm whether larger furniture should be moved, centered, or handled as part of the scope before the start date.",
+        q: "Do kitchen remodels require permits in Metro Detroit?",
+        a: "Projects involving structural changes, electrical upgrades, plumbing relocations, or vent modifications often require permits depending on municipality. We identify likely permit needs during scoping and coordinate submissions when included in the project.",
       },
       {
-        q: "How do you protect floors, furniture, and fixtures?",
-        a: "We use appropriate floor coverings, plastic, masking materials, and controlled work zones based on the room and application method. Fixtures and hardware are removed or protected as the scope requires, and work areas are cleaned at agreed milestones.",
+        q: "How far in advance should I order cabinets and counters?",
+        a: "Cabinet lead times vary by manufacturer and season. Countertops are templated after base cabinets are installed. We build a realistic order and install sequence into the schedule so trades are not waiting on materials.",
       },
       {
-        q: "What surface preparation is included?",
-        a: "Preparation may include cleaning, light sanding, caulking paintable gaps, stabilizing minor imperfections, dulling glossy finishes, and spot priming. The estimate states the preparation level because a durable finish depends on what happens before the first finish coat.",
+        q: "What should I decide before demolition begins?",
+        a: "Finalize layout, appliance locations, cabinet heights, outlet and lighting plans, flooring direction, backsplash height, and major finish selections before demolition when possible. Late changes are manageable but often affect cost and timeline.",
       },
       {
-        q: "How are cabinets and wallpaper handled before painting?",
-        a: "Cabinets require labeling, degreasing, sanding, bonding primer, and suitable cabinet-grade coatings. Wallpaper removal begins with a test area, followed by controlled removal, adhesive cleanup, surface preparation, and primer selection before repainting.",
+        q: "Do you handle appliance installation?",
+        a: "We plan appliance openings, panels, and clearances as part of the remodel. Hookup of gas, dedicated circuits, or complex built-in units may involve licensed partners or the appliance retailer depending on the scope.",
       },
     ],
   },
   {
-    id: "weather",
-    title: "Michigan weather",
-    emoji: "🌦️",
-    description: "How temperature, moisture, rain, and seasonal conditions affect painting.",
+    id: "service-area",
+    title: "Service area",
+    emoji: "📍",
+    description: "Where we remodel kitchens across Metro Detroit.",
     items: [
       {
-        q: "When is the best season for exterior painting in Metro Detroit?",
-        a: "Exterior work is best scheduled when surface temperature, air temperature, moisture, and the forecast stay within the coating manufacturer's limits. The practical season often runs from spring through fall, but daily conditions determine whether application should proceed.",
+        q: "Which areas do you serve?",
+        a: "We serve Wayne, Oakland, and Macomb counties, including Detroit, Dearborn, Livonia, Troy, Royal Oak, Birmingham, Sterling Heights, Warren, Clinton Township, and surrounding communities.",
       },
       {
-        q: "Can you paint an exterior after rain?",
-        a: "Only after the surface has dried sufficiently and the upcoming weather provides a safe application and cure window. We check conditions rather than relying only on how dry a surface looks from a distance.",
+        q: "Do you work on condos and townhomes?",
+        a: "Yes. We remodel kitchens in single-family homes, condos, townhomes, and some light-commercial break areas. Association rules, elevator access, and parking logistics are discussed during scheduling.",
       },
       {
-        q: "How do humidity and temperature affect paint?",
-        a: "High humidity and low temperatures can slow drying and curing, while excessive heat or direct sun can make a coating set too quickly. We adjust timing, sequence, and product selection to the manufacturer's published conditions.",
+        q: "Do you offer partial kitchen updates?",
+        a: "Yes. Partial refreshes can focus on cabinets, counters, backsplash, lighting, or flooring when a full gut remodel is not needed. We define what stays, what changes, and how phasing affects daily use.",
       },
       {
-        q: "Can interior painting be done during a Michigan winter?",
-        a: "Yes. Interior painting can be completed year-round when the space is heated, ventilated, and kept within product requirements. Winter projects benefit from a clear ventilation plan that balances fresh air with stable indoor temperature.",
+        q: "How do I schedule a consultation?",
+        a: `Call or text ${"(313) 236-4558"} or request an estimate through our website. We will review your goals, timeline, and kitchen photos, then schedule a walkthrough when appropriate.`,
       },
     ],
   },
 ];
-
-export const ALL_FAQ_ITEMS = FAQ_SECTIONS.flatMap((section) => section.items);

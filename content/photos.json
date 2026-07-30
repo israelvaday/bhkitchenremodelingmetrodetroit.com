@@ -2,7 +2,7 @@
   {
     "id": "logo-master-on-navy",
     "src": "/logo.png",
-    "alt": "BH Painting Metro Detroit navy and gold paint roller logo",
+    "alt": "BH Kitchen Remodeling Metro Detroit navy and gold kitchen remodeling logo",
     "category": "brand",
     "kind": "brand",
     "services": [
@@ -18,7 +18,7 @@
   {
     "id": "logo-icon-square",
     "src": "/logo-256.png",
-    "alt": "BH Painting Metro Detroit BH logo icon",
+    "alt": "BH Kitchen Remodeling Metro Detroit BH logo icon",
     "category": "brand",
     "kind": "brand",
     "services": [
@@ -34,7 +34,7 @@
   {
     "id": "logo-large-square",
     "src": "/logo-512.png",
-    "alt": "BH Painting Metro Detroit large BH logo",
+    "alt": "BH Kitchen Remodeling Metro Detroit large BH logo",
     "category": "brand",
     "kind": "brand",
     "services": [
@@ -49,33 +49,33 @@
   },
   {
     "id": "branding-hero-metro",
-    "src": "/photos/branding-generated--hero-painting-metro-detroit.png",
-    "alt": "BH Painting Metro Detroit professional painter working in a protected Michigan home",
+    "src": "/photos/branding-generated--hero-kitchen-metro-detroit.png",
+    "alt": "BH Kitchen Remodeling Metro Detroit completed modern kitchen remodel in a Metro Detroit home",
     "category": "branding-generated",
     "kind": "hero",
     "services": [
-      "interior-painting",
-      "exterior-painting",
-      "cabinet-painting",
-      "commercial-painting",
-      "deck-fence-staining",
-      "trim-door-painting",
-      "ceiling-painting",
-      "rental-turnover-painting",
-      "wallpaper-removal",
-      "color-consultation"
+      "custom-kitchen-remodeling",
+      "cabinet-installation",
+      "countertop-replacement",
+      "kitchen-design",
+      "kitchen-backsplash-tile",
+      "kitchen-lighting-upgrades",
+      "kitchen-flooring",
+      "kitchen-island-installation",
+      "kitchen-appliance-layout",
+      "partial-kitchen-refresh"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 763231,
+    "bytes": 672239,
     "source": "openrouter-generated"
   },
   {
     "id": "branding-map-metro",
     "src": "/photos/branding-generated--metro-detroit-map.png",
-    "alt": "BH Painting Metro Detroit service area across Metro Detroit, MI",
+    "alt": "BH Kitchen Remodeling Metro Detroit service area across Metro Detroit, MI",
     "category": "branding-generated",
     "kind": "brand",
     "services": [
@@ -85,399 +85,400 @@
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 849055,
+    "bytes": 717625,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-interior-painting",
-    "src": "/photos/service-hero-interior-painting.png",
-    "alt": "Interior painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-custom-kitchen-remodeling",
+    "src": "/photos/service-hero-custom-kitchen-remodeling.png",
+    "alt": "Custom kitchen remodeling by BH Kitchen Remodeling Metro Detroit in Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "interior-painting"
+      "custom-kitchen-remodeling"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 735375,
+    "bytes": 737636,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-exterior-painting",
-    "src": "/photos/service-hero-exterior-painting.png",
-    "alt": "Exterior painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-cabinet-installation",
+    "src": "/photos/service-hero-cabinet-installation.png",
+    "alt": "Cabinet installation by BH Kitchen Remodeling Metro Detroit in Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "exterior-painting"
+      "cabinet-installation"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 1123659,
+    "bytes": 673000,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-cabinet-painting",
-    "src": "/photos/service-hero-cabinet-painting.png",
-    "alt": "Cabinet painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-countertop-replacement",
+    "src": "/photos/service-hero-countertop-replacement.png",
+    "alt": "Countertop replacement by BH Kitchen Remodeling Metro Detroit in Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "cabinet-painting"
+      "countertop-replacement"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 726042,
+    "bytes": 741378,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-commercial-painting",
-    "src": "/photos/service-hero-commercial-painting.png",
-    "alt": "Commercial painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-kitchen-design",
+    "src": "/photos/service-hero-kitchen-design.png",
+    "alt": "Kitchen design by BH Kitchen Remodeling Metro Detroit in Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "commercial-painting"
+      "kitchen-design"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 863736,
+    "bytes": 892492,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-deck-fence-staining",
-    "src": "/photos/service-hero-deck-fence-staining.png",
-    "alt": "Deck and fence staining by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-kitchen-backsplash-tile",
+    "src": "/photos/service-hero-kitchen-backsplash-tile.png",
+    "alt": "Kitchen backsplash and tile by BH Kitchen Remodeling Metro Detroit in Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "deck-fence-staining"
+      "kitchen-backsplash-tile"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 1106123,
+    "bytes": 815688,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-trim-door-painting",
-    "src": "/photos/service-hero-trim-door-painting.png",
-    "alt": "Trim and door painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-kitchen-lighting-upgrades",
+    "src": "/photos/service-hero-kitchen-lighting-upgrades.png",
+    "alt": "Kitchen lighting upgrades by BH Kitchen Remodeling Metro Detroit in Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "trim-door-painting"
+      "kitchen-lighting-upgrades"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 648810,
+    "bytes": 796114,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-ceiling-painting",
-    "src": "/photos/service-hero-ceiling-painting.png",
-    "alt": "Ceiling painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-kitchen-flooring",
+    "src": "/photos/service-hero-kitchen-flooring.png",
+    "alt": "Kitchen flooring by BH Kitchen Remodeling Metro Detroit in Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "ceiling-painting"
+      "kitchen-flooring"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 736245,
+    "bytes": 779584,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-rental-turnover-painting",
-    "src": "/photos/service-hero-rental-turnover-painting.png",
-    "alt": "Rental turnover painting by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-kitchen-island-installation",
+    "src": "/photos/service-hero-kitchen-island-installation.png",
+    "alt": "Kitchen island installation by BH Kitchen Remodeling Metro Detroit in Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "rental-turnover-painting"
+      "kitchen-island-installation"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 722862,
+    "bytes": 844614,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-wallpaper-removal",
-    "src": "/photos/service-hero-wallpaper-removal.png",
-    "alt": "Wallpaper removal by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-kitchen-appliance-layout",
+    "src": "/photos/service-hero-kitchen-appliance-layout.png",
+    "alt": "Kitchen appliance layout by BH Kitchen Remodeling Metro Detroit in Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "wallpaper-removal"
+      "kitchen-appliance-layout"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 759247,
+    "bytes": 772329,
     "source": "openrouter-generated"
   },
   {
-    "id": "service-hero-color-consultation",
-    "src": "/photos/service-hero-color-consultation.png",
-    "alt": "Color consultation by BH Painting Metro Detroit in Metro Detroit, MI",
+    "id": "service-hero-partial-kitchen-refresh",
+    "src": "/photos/service-hero-partial-kitchen-refresh.png",
+    "alt": "Partial kitchen refresh by BH Kitchen Remodeling Metro Detroit in Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "color-consultation"
+      "partial-kitchen-refresh"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 710665,
+    "bytes": 786049,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--interior-living-room",
-    "src": "/photos/painting-gallery--interior-living-room.png",
-    "alt": "Professional painter finishing a protected Metro Detroit living room — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "interior",
+    "id": "kitchen-gallery--modern-white-shaker",
+    "src": "/photos/kitchen-gallery--modern-white-shaker.png",
+    "alt": "Completed modern white shaker kitchen with quartz island in Metro Detroit — BH Kitchen Remodeling Metro Detroit, Metro Detroit, MI",
+    "category": "full-remodel",
     "kind": "work",
     "services": [
-      "interior-painting"
+      "custom-kitchen-remodeling",
+      "cabinet-installation"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 716576,
+    "bytes": 635114,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--exterior-brick-home",
-    "src": "/photos/painting-gallery--exterior-brick-home.png",
-    "alt": "Exterior trim painting on a brick Michigan home — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "exterior",
+    "id": "kitchen-gallery--navy-gold-remodel",
+    "src": "/photos/kitchen-gallery--navy-gold-remodel.png",
+    "alt": "Navy and brass kitchen remodel with marble-look quartz counters — BH Kitchen Remodeling Metro Detroit, Metro Detroit, MI",
+    "category": "full-remodel",
     "kind": "work",
     "services": [
-      "exterior-painting",
-      "trim-door-painting"
+      "custom-kitchen-remodeling",
+      "kitchen-design"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 1094607,
+    "bytes": 693592,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--cabinet-finish",
-    "src": "/photos/painting-gallery--cabinet-finish.png",
-    "alt": "Smooth cabinet-grade finish applied in a controlled work area — BH Painting Metro Detroit, Metro Detroit, MI",
+    "id": "kitchen-gallery--cabinet-install-progress",
+    "src": "/photos/kitchen-gallery--cabinet-install-progress.png",
+    "alt": "Professional contractors installing kitchen wall cabinets — BH Kitchen Remodeling Metro Detroit, Metro Detroit, MI",
     "category": "cabinets",
     "kind": "work",
     "services": [
-      "cabinet-painting"
+      "cabinet-installation"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 680684,
+    "bytes": 824251,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--commercial-office",
-    "src": "/photos/painting-gallery--commercial-office.png",
-    "alt": "Protected Metro Detroit office during professional painting — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "commercial",
+    "id": "kitchen-gallery--countertop-template",
+    "src": "/photos/kitchen-gallery--countertop-template.png",
+    "alt": "Countertop templating for a kitchen island quartz install — BH Kitchen Remodeling Metro Detroit, Metro Detroit, MI",
+    "category": "countertops",
     "kind": "work",
     "services": [
-      "commercial-painting"
+      "countertop-replacement"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 725292,
+    "bytes": 744507,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--deck-staining",
-    "src": "/photos/painting-gallery--deck-staining.png",
-    "alt": "Semi-transparent stain applied to clean Michigan deck boards — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "wood-staining",
+    "id": "kitchen-gallery--subway-backsplash",
+    "src": "/photos/kitchen-gallery--subway-backsplash.png",
+    "alt": "White subway tile backsplash behind a stainless range — BH Kitchen Remodeling Metro Detroit, Metro Detroit, MI",
+    "category": "backsplash",
     "kind": "work",
     "services": [
-      "deck-fence-staining"
+      "kitchen-backsplash-tile"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 882438,
+    "bytes": 695585,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--trim-detail",
-    "src": "/photos/painting-gallery--trim-detail.png",
-    "alt": "Crisp professional finish on interior window trim and baseboard — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "trim-doors",
+    "id": "kitchen-gallery--open-concept",
+    "src": "/photos/kitchen-gallery--open-concept.png",
+    "alt": "Open-concept kitchen remodel with large island seating — BH Kitchen Remodeling Metro Detroit, Metro Detroit, MI",
+    "category": "full-remodel",
     "kind": "work",
     "services": [
-      "trim-door-painting",
-      "interior-painting"
+      "custom-kitchen-remodeling",
+      "kitchen-design"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 641111,
+    "bytes": 683584,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--ceiling-rolling",
-    "src": "/photos/painting-gallery--ceiling-rolling.png",
-    "alt": "Professional ceiling painting above a fully protected room — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "ceilings",
+    "id": "kitchen-gallery--butcher-block-island",
+    "src": "/photos/kitchen-gallery--butcher-block-island.png",
+    "alt": "Kitchen island with butcher block top and pendant lights — BH Kitchen Remodeling Metro Detroit, Metro Detroit, MI",
+    "category": "islands",
     "kind": "work",
     "services": [
-      "ceiling-painting",
-      "interior-painting"
+      "kitchen-island-installation",
+      "countertop-replacement"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 763121,
+    "bytes": 732076,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--rental-turnover",
-    "src": "/photos/painting-gallery--rental-turnover.png",
-    "alt": "Vacant Metro Detroit apartment prepared for new residents — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "rental-turnover",
+    "id": "kitchen-gallery--lighting-upgrade",
+    "src": "/photos/kitchen-gallery--lighting-upgrade.png",
+    "alt": "Layered kitchen lighting with under-cabinet LEDs and pendants — BH Kitchen Remodeling Metro Detroit, Metro Detroit, MI",
+    "category": "lighting",
     "kind": "work",
     "services": [
-      "rental-turnover-painting",
-      "interior-painting"
+      "kitchen-lighting-upgrades"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 721795,
+    "bytes": 731675,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--wallpaper-removal",
-    "src": "/photos/painting-gallery--wallpaper-removal.png",
-    "alt": "Careful wallpaper removal with floor protection — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "wallpaper",
+    "id": "kitchen-gallery--luxury-vinyl-floor",
+    "src": "/photos/kitchen-gallery--luxury-vinyl-floor.png",
+    "alt": "Luxury vinyl plank flooring installed in a remodeled kitchen — BH Kitchen Remodeling Metro Detroit, Metro Detroit, MI",
+    "category": "flooring",
     "kind": "work",
     "services": [
-      "wallpaper-removal",
-      "interior-painting"
+      "kitchen-flooring"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 759247,
+    "bytes": 768482,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--color-sampling",
-    "src": "/photos/painting-gallery--color-sampling.png",
-    "alt": "Interior color samples reviewed beside permanent finishes — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "color",
+    "id": "kitchen-gallery--compact-galley",
+    "src": "/photos/kitchen-gallery--compact-galley.png",
+    "alt": "Smart galley kitchen remodel maximizing storage — BH Kitchen Remodeling Metro Detroit, Metro Detroit, MI",
+    "category": "full-remodel",
     "kind": "work",
     "services": [
-      "color-consultation",
-      "interior-painting"
+      "custom-kitchen-remodeling",
+      "kitchen-design"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 756729,
+    "bytes": 624523,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--exterior-siding",
-    "src": "/photos/painting-gallery--exterior-siding.png",
-    "alt": "Durable exterior finish applied to prepared Michigan siding — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "exterior",
+    "id": "kitchen-gallery--farmhouse-sink",
+    "src": "/photos/kitchen-gallery--farmhouse-sink.png",
+    "alt": "Farmhouse sink with quartz counters and bridge faucet — BH Kitchen Remodeling Metro Detroit, Metro Detroit, MI",
+    "category": "countertops",
     "kind": "work",
     "services": [
-      "exterior-painting"
+      "countertop-replacement",
+      "custom-kitchen-remodeling"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 951455,
+    "bytes": 735039,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--occupied-office",
-    "src": "/photos/painting-gallery--occupied-office.png",
-    "alt": "After-hours office painting with desks and floors protected — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "commercial",
+    "id": "kitchen-gallery--pantry-wall",
+    "src": "/photos/kitchen-gallery--pantry-wall.png",
+    "alt": "Floor-to-ceiling pantry wall with tall cabinet storage — BH Kitchen Remodeling Metro Detroit, Metro Detroit, MI",
+    "category": "cabinets",
     "kind": "work",
     "services": [
-      "commercial-painting"
+      "cabinet-installation",
+      "custom-kitchen-remodeling"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 788852,
+    "bytes": 743798,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--front-door",
-    "src": "/photos/painting-gallery--front-door.png",
-    "alt": "Deep navy finish on a Metro Detroit home's front door — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "trim-doors",
+    "id": "kitchen-gallery--two-tone-cabinets",
+    "src": "/photos/kitchen-gallery--two-tone-cabinets.png",
+    "alt": "Two-tone kitchen with white perimeter cabinets and navy island — BH Kitchen Remodeling Metro Detroit, Metro Detroit, MI",
+    "category": "cabinets",
     "kind": "work",
     "services": [
-      "trim-door-painting",
-      "exterior-painting"
+      "cabinet-installation",
+      "kitchen-design"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 1101866,
+    "bytes": 664179,
     "source": "openrouter-generated"
   },
   {
-    "id": "painting-gallery--multifamily-hallway",
-    "src": "/photos/painting-gallery--multifamily-hallway.png",
-    "alt": "Apartment hallway repainted in carefully planned sections — BH Painting Metro Detroit, Metro Detroit, MI",
-    "category": "commercial",
+    "id": "kitchen-gallery--before-after-staging",
+    "src": "/photos/kitchen-gallery--before-after-staging.png",
+    "alt": "Freshly completed kitchen remodel staged and ready to use — BH Kitchen Remodeling Metro Detroit, Metro Detroit, MI",
+    "category": "full-remodel",
     "kind": "work",
     "services": [
-      "commercial-painting",
-      "rental-turnover-painting"
+      "custom-kitchen-remodeling",
+      "partial-kitchen-refresh"
     ],
     "width": 1600,
     "height": 900,
     "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 690143,
+    "bytes": 682362,
     "source": "openrouter-generated"
   }
 ]

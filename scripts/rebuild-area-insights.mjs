@@ -1,5 +1,5 @@
 /**
- * Rebuild local painting copy while preserving the existing Metro Detroit
+ * Rebuild local kitchen remodeling copy while preserving the existing Metro Detroit
  * service-area names and landmark lists. This provides an offline fallback
  * when the optional OpenRouter copy refresh is unavailable.
  */
@@ -16,24 +16,24 @@ const current = JSON.parse(
 );
 
 const taglines = [
-  "Careful interior and exterior painting for homes, rentals, and businesses.",
-  "Preparation-first painting with clean protection and written project scopes.",
-  "Professional painting planned around your property, colors, and schedule.",
-  "Interior, exterior, cabinet, and commercial painting across Metro Detroit.",
+  "Custom kitchen remodeling with clear scopes and organized jobsite protection.",
+  "Cabinet, counter, and backsplash upgrades planned around your layout and budget.",
+  "Professional kitchen design and remodeling across Metro Detroit.",
+  "Full and partial kitchen remodels with written estimates and direct communication.",
 ];
 
 const callSets = [
-  ["whole-home interior repaint", "exterior trim refresh", "cabinet color update"],
-  ["rental turnover painting", "ceiling and trim painting", "deck or fence staining"],
-  ["commercial interior repaint", "wallpaper removal", "color and sheen guidance"],
-  ["living-area color update", "weathered exterior repaint", "door and baseboard painting"],
+  ["full kitchen remodel", "cabinet installation", "quartz countertop replacement"],
+  ["kitchen island install", "backsplash upgrade", "kitchen design consultation"],
+  ["cabinet refacing refresh", "lighting upgrade", "kitchen flooring replacement"],
+  ["countertop replacement", "partial kitchen refresh", "appliance layout update"],
 ];
 
 const propertyNotes = [
-  "Properties here range from established homes to updated commercial spaces, so preparation and product selection should follow the actual surface condition. Michigan temperature and humidity swings also make cure time and exterior scheduling important.",
-  "Local painting projects often involve a mix of original finishes, renovated rooms, and high-use surfaces. A clear plan for protection, primer, sheen, and color samples helps the finished work stay consistent.",
-  "Homes and businesses in this area benefit from coating systems chosen for the substrate rather than a one-product-fits-all approach. Exterior work is scheduled around moisture, direct sun, wind, and the product's application range.",
-  "Interior updates here commonly focus on durable, washable finishes and clean room-to-room color transitions. Exterior projects require careful cleaning, adhesion checks, and a dependable Michigan weather window.",
+  "Homes here range from established colonials to updated ranch layouts, so kitchen plans should reflect room size, ceiling height, and how the space connects to adjacent rooms. Storage, lighting, and workflow matter as much as finish selections.",
+  "Kitchen remodeling in this area often involves balancing modern layouts with existing plumbing and vent paths. A written scope for cabinets, counters, backsplash, and trade coordination helps avoid surprises mid-project.",
+  "Local kitchens frequently need smarter storage, durable counters, and layered lighting because these rooms anchor daily life. Partial refreshes can be phased when a full gut remodel is not required yet.",
+  "Properties here benefit from layouts planned around prep zones, landing space, and appliance clearances. Countertop templating, cabinet alignment, and backsplash terminations should be sequenced carefully for a clean finished look.",
 ];
 
 function hash(value) {
@@ -64,14 +64,14 @@ const output = Object.fromEntries(
         tagline: `${place}: ${taglines[index]}`,
         landmarks: priorLandmarks,
         common_calls: callSets[index],
-        neighborhood_notes: `${city} is within our regular Metro Detroit painting service area. ${propertyNotes[index]}`,
+        neighborhood_notes: `${city} is within our regular Metro Detroit kitchen remodeling service area. ${propertyNotes[index]}`,
         keywords: [
-          `${lowerPlace(place)} painters`,
-          `painting company ${lowerPlace(place)} mi`,
-          `interior painting ${lowerPlace(place)}`,
-          `exterior painting ${lowerPlace(place)}`,
-          `house painters ${lowerPlace(place)}`,
-          `commercial painting ${lowerPlace(place)}`,
+          `${lowerPlace(place)} kitchen remodeling`,
+          `kitchen remodel ${lowerPlace(place)} mi`,
+          `kitchen contractor ${lowerPlace(place)}`,
+          `cabinet installation ${lowerPlace(place)}`,
+          `countertop replacement ${lowerPlace(place)}`,
+          `kitchen design ${lowerPlace(place)}`,
         ],
       },
     ];
@@ -82,4 +82,4 @@ writeFileSync(
   join(ROOT, "content/area-insights.json"),
   `${JSON.stringify(output, null, 2)}\n`
 );
-console.log(`Wrote painting insights for ${Object.keys(output).length} service areas`);
+console.log(`Rebuilt ${Object.keys(output).length} kitchen area insights`);

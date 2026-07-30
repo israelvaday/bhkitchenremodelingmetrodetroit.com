@@ -7,42 +7,41 @@ export function BuyersGuide() {
         <header>
           <p className="text-xs font-semibold uppercase tracking-wider text-brass-400">Buyer&apos;s guide</p>
           <h2 className="mt-2 font-display text-2xl font-bold text-white md:text-3xl">
-            How to compare painting estimates in Metro Detroit
+            How to compare kitchen remodeling estimates in Metro Detroit
           </h2>
           <p className="mt-3 text-ink-300">
-            A useful painting estimate identifies the surfaces, preparation, coating system, and exclusions. Use this
-            checklist before approving a scope.
+            A useful kitchen estimate identifies layout changes, cabinet tier, countertop allowances, trade coordination,
+            and exclusions. Use this checklist before approving a scope.
           </p>
         </header>
 
         <p>
-          <strong className="text-white">1. Compare the same surfaces.</strong> Confirm which walls, ceilings, trim,
-          doors, cabinets, siding, decks, or fences are included and which are excluded.
+          <strong className="text-white">1. Compare the same scope.</strong> Confirm whether demolition, cabinets,
+          counters, backsplash, flooring, lighting, and fixture setting are included or excluded.
         </p>
         <p>
-          <strong className="text-white">2. Define surface preparation.</strong> Washing, scraping, sanding, filling,
-          caulking, spot repairs, and protection should be described instead of grouped into a vague &ldquo;prep&rdquo; line.
+          <strong className="text-white">2. Define layout decisions.</strong> Appliance locations, island size, pantry
+          depth, and electrical changes should be documented—not assumed.
         </p>
         <p>
-          <strong className="text-white">3. Record primer and paint.</strong> Note the manufacturer, product line,
-          color, sheen, and where primer is planned. Product selection can matter as much as coat count.
+          <strong className="text-white">3. Record cabinet and counter specs.</strong> Note door style, box material,
+          hardware, countertop type, edge profile, and seam expectations.
         </p>
         <p>
-          <strong className="text-white">4. Clarify coats and coverage.</strong> Ask whether the quote defines a planned
-          number of coats, a finished-appearance standard, or both, especially for dramatic color changes.
+          <strong className="text-white">4. Clarify allowances.</strong> Ask what happens if tile, fixtures, or stone
+          selections exceed the allowance and how change orders are handled.
         </p>
         <p>
-          <strong className="text-white">5. Plan color approval.</strong> Confirm who supplies samples, who gives final
-          approval, and when colors must be locked to protect the schedule.
+          <strong className="text-white">5. Review trade coordination.</strong> Electrical, plumbing, gas, and vent work
+          should identify who performs it and whether permits are included.
         </p>
         <p>
-          <strong className="text-white">6. Review weather, access, and cleanup.</strong> Exterior work needs
-          product-appropriate conditions. Interior and commercial work should address occupied spaces, daily reset,
-          final cleanup, and the walkthrough.
+          <strong className="text-white">6. Plan livability and cleanup.</strong> Discuss temporary kitchen setups, dust
+          control, daily reset, substantial completion, and the final walkthrough.
         </p>
         <p>
           {BIZ.name} serves Wayne, Oakland, and Macomb counties and answers project questions at {BIZ.phone}. Compare
-          estimates only after the surfaces, preparation, products, and closeout expectations are aligned.
+          estimates only after layout, materials, trades, and closeout expectations are aligned.
         </p>
       </div>
     </section>

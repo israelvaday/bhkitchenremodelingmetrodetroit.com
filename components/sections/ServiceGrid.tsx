@@ -11,11 +11,11 @@ export function ServiceGrid({ city }: { city?: string }) {
         <div className="mb-10 flex flex-col items-center text-center">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">What we do</p>
           <h2 className="mt-2 font-display text-3xl font-bold tracking-tight md:text-5xl">
-            Painting built around the surface.
+            Kitchen remodeling built around your layout.
           </h2>
           <p className="mt-3 max-w-2xl text-ink-300">
-            Ten painting services across Metro Detroit. Explore preparation, finish options, project inspiration, and
-            quote details.
+            Ten kitchen remodeling services across Metro Detroit. Explore cabinets, counters, design, backsplash, islands,
+            and quote details.
           </p>
           <Link href="/services" className="mt-4 text-sm font-semibold text-brass-400 hover:text-brass-300">
             View all services →

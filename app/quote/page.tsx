@@ -21,7 +21,7 @@ export default function QuotePage() {
             One question at a <span className="text-brass-gradient">time</span>.
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-ink-200">
-            Choose the painting service and property type, then share the surfaces, colors, condition, and timing.
+            Choose the kitchen remodeling service and property type, then share your layout goals, materials, condition, and timing.
           </p>
           <div className="mt-6 flex justify-center">
             <ContactCTA size="md" />
@@ -40,7 +40,7 @@ export default function QuotePage() {
           <div>
             <h2 className="font-display text-2xl font-bold text-white md:text-3xl">How the quote works</h2>
             <p className="mt-3">
-              The picture-driven wizard collects the basic information needed to understand a Metro Detroit painting
+              The picture-driven wizard collects the basic information needed to understand a Metro Detroit Kitchen Remodeling
               request. There is no account to create and no obligation to proceed.
             </p>
             <p className="mt-3">
@@ -69,7 +69,7 @@ export default function QuotePage() {
           </div>
         </div>
       </section>
-      <LongFormFaq subject="Metro Detroit Painting" kind="service" />
+      <LongFormFaq subject="Metro Detroit Kitchen Remodeling" kind="service" />
     </>
   );
 }

@@ -1,5 +1,5 @@
 /**
- * Rebuild content/photos.json from the current painting asset set only.
+ * Rebuild content/photos.json from the current kitchen remodeling asset set only.
  */
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -7,136 +7,106 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUTPUT = join(ROOT, "content/photos.json");
-const BUSINESS_NAME = "BH Painting Metro Detroit";
+const BUSINESS_NAME = "BH Kitchen Remodeling Metro Detroit";
 const REGION = "Metro Detroit, MI";
 
 const SERVICES = [
-  {
-    slug: "interior-painting",
-    label: "Interior painting",
-  },
-  {
-    slug: "exterior-painting",
-    label: "Exterior painting",
-  },
-  {
-    slug: "cabinet-painting",
-    label: "Cabinet painting",
-  },
-  {
-    slug: "commercial-painting",
-    label: "Commercial painting",
-  },
-  {
-    slug: "deck-fence-staining",
-    label: "Deck and fence staining",
-  },
-  {
-    slug: "trim-door-painting",
-    label: "Trim and door painting",
-  },
-  {
-    slug: "ceiling-painting",
-    label: "Ceiling painting",
-  },
-  {
-    slug: "rental-turnover-painting",
-    label: "Rental turnover painting",
-  },
-  {
-    slug: "wallpaper-removal",
-    label: "Wallpaper removal",
-  },
-  {
-    slug: "color-consultation",
-    label: "Color consultation",
-  },
+  { slug: "custom-kitchen-remodeling", label: "Custom kitchen remodeling" },
+  { slug: "cabinet-installation", label: "Cabinet installation" },
+  { slug: "countertop-replacement", label: "Countertop replacement" },
+  { slug: "kitchen-design", label: "Kitchen design" },
+  { slug: "kitchen-backsplash-tile", label: "Kitchen backsplash and tile" },
+  { slug: "kitchen-lighting-upgrades", label: "Kitchen lighting upgrades" },
+  { slug: "kitchen-flooring", label: "Kitchen flooring" },
+  { slug: "kitchen-island-installation", label: "Kitchen island installation" },
+  { slug: "kitchen-appliance-layout", label: "Kitchen appliance layout" },
+  { slug: "partial-kitchen-refresh", label: "Partial kitchen refresh" },
 ];
 
 const GALLERY = [
   {
-    file: "painting-gallery--interior-living-room.png",
-    category: "interior",
-    services: ["interior-painting"],
-    alt: "Professional painter finishing a protected Metro Detroit living room",
+    file: "kitchen-gallery--modern-white-shaker.png",
+    category: "full-remodel",
+    services: ["custom-kitchen-remodeling", "cabinet-installation"],
+    alt: "Completed modern white shaker kitchen with quartz island in Metro Detroit",
   },
   {
-    file: "painting-gallery--exterior-brick-home.png",
-    category: "exterior",
-    services: ["exterior-painting", "trim-door-painting"],
-    alt: "Exterior trim painting on a brick Michigan home",
+    file: "kitchen-gallery--navy-gold-remodel.png",
+    category: "full-remodel",
+    services: ["custom-kitchen-remodeling", "kitchen-design"],
+    alt: "Navy and brass kitchen remodel with marble-look quartz counters",
   },
   {
-    file: "painting-gallery--cabinet-finish.png",
+    file: "kitchen-gallery--cabinet-install-progress.png",
     category: "cabinets",
-    services: ["cabinet-painting"],
-    alt: "Smooth cabinet-grade finish applied in a controlled work area",
+    services: ["cabinet-installation"],
+    alt: "Professional contractors installing kitchen wall cabinets",
   },
   {
-    file: "painting-gallery--commercial-office.png",
-    category: "commercial",
-    services: ["commercial-painting"],
-    alt: "Protected Metro Detroit office during professional painting",
+    file: "kitchen-gallery--countertop-template.png",
+    category: "countertops",
+    services: ["countertop-replacement"],
+    alt: "Countertop templating for a kitchen island quartz install",
   },
   {
-    file: "painting-gallery--deck-staining.png",
-    category: "wood-staining",
-    services: ["deck-fence-staining"],
-    alt: "Semi-transparent stain applied to clean Michigan deck boards",
+    file: "kitchen-gallery--subway-backsplash.png",
+    category: "backsplash",
+    services: ["kitchen-backsplash-tile"],
+    alt: "White subway tile backsplash behind a stainless range",
   },
   {
-    file: "painting-gallery--trim-detail.png",
-    category: "trim-doors",
-    services: ["trim-door-painting", "interior-painting"],
-    alt: "Crisp professional finish on interior window trim and baseboard",
+    file: "kitchen-gallery--open-concept.png",
+    category: "full-remodel",
+    services: ["custom-kitchen-remodeling", "kitchen-design"],
+    alt: "Open-concept kitchen remodel with large island seating",
   },
   {
-    file: "painting-gallery--ceiling-rolling.png",
-    category: "ceilings",
-    services: ["ceiling-painting", "interior-painting"],
-    alt: "Professional ceiling painting above a fully protected room",
+    file: "kitchen-gallery--butcher-block-island.png",
+    category: "islands",
+    services: ["kitchen-island-installation", "countertop-replacement"],
+    alt: "Kitchen island with butcher block top and pendant lights",
   },
   {
-    file: "painting-gallery--rental-turnover.png",
-    category: "rental-turnover",
-    services: ["rental-turnover-painting", "interior-painting"],
-    alt: "Vacant Metro Detroit apartment prepared for new residents",
+    file: "kitchen-gallery--lighting-upgrade.png",
+    category: "lighting",
+    services: ["kitchen-lighting-upgrades"],
+    alt: "Layered kitchen lighting with under-cabinet LEDs and pendants",
   },
   {
-    file: "painting-gallery--wallpaper-removal.png",
-    category: "wallpaper",
-    services: ["wallpaper-removal", "interior-painting"],
-    alt: "Careful wallpaper removal with floor protection",
+    file: "kitchen-gallery--luxury-vinyl-floor.png",
+    category: "flooring",
+    services: ["kitchen-flooring"],
+    alt: "Luxury vinyl plank flooring installed in a remodeled kitchen",
   },
   {
-    file: "painting-gallery--color-sampling.png",
-    category: "color",
-    services: ["color-consultation", "interior-painting"],
-    alt: "Interior color samples reviewed beside permanent finishes",
+    file: "kitchen-gallery--compact-galley.png",
+    category: "full-remodel",
+    services: ["custom-kitchen-remodeling", "kitchen-design"],
+    alt: "Smart galley kitchen remodel maximizing storage",
   },
   {
-    file: "painting-gallery--exterior-siding.png",
-    category: "exterior",
-    services: ["exterior-painting"],
-    alt: "Durable exterior finish applied to prepared Michigan siding",
+    file: "kitchen-gallery--farmhouse-sink.png",
+    category: "countertops",
+    services: ["countertop-replacement", "custom-kitchen-remodeling"],
+    alt: "Farmhouse sink with quartz counters and bridge faucet",
   },
   {
-    file: "painting-gallery--occupied-office.png",
-    category: "commercial",
-    services: ["commercial-painting"],
-    alt: "After-hours office painting with desks and floors protected",
+    file: "kitchen-gallery--pantry-wall.png",
+    category: "cabinets",
+    services: ["cabinet-installation", "custom-kitchen-remodeling"],
+    alt: "Floor-to-ceiling pantry wall with tall cabinet storage",
   },
   {
-    file: "painting-gallery--front-door.png",
-    category: "trim-doors",
-    services: ["trim-door-painting", "exterior-painting"],
-    alt: "Deep navy finish on a Metro Detroit home's front door",
+    file: "kitchen-gallery--two-tone-cabinets.png",
+    category: "cabinets",
+    services: ["cabinet-installation", "kitchen-design"],
+    alt: "Two-tone kitchen with white perimeter cabinets and navy island",
   },
   {
-    file: "painting-gallery--multifamily-hallway.png",
-    category: "commercial",
-    services: ["commercial-painting", "rental-turnover-painting"],
-    alt: "Apartment hallway repainted in carefully planned sections",
+    file: "kitchen-gallery--before-after-staging.png",
+    category: "full-remodel",
+    services: ["custom-kitchen-remodeling", "partial-kitchen-refresh"],
+    alt: "Freshly completed kitchen remodel staged and ready to use",
   },
 ];
 
@@ -186,7 +156,7 @@ const expectedAssets = [
   {
     id: "logo-master-on-navy",
     src: "/logo.png",
-    alt: `${BUSINESS_NAME} navy and gold paint roller logo`,
+    alt: `${BUSINESS_NAME} navy and gold kitchen remodeling logo`,
     category: "brand",
     kind: "brand",
     services: ["brand"],
@@ -209,8 +179,8 @@ const expectedAssets = [
   },
   {
     id: "branding-hero-metro",
-    src: "/photos/branding-generated--hero-painting-metro-detroit.png",
-    alt: `${BUSINESS_NAME} professional painter working in a protected Michigan home`,
+    src: "/photos/branding-generated--hero-kitchen-metro-detroit.png",
+    alt: `${BUSINESS_NAME} completed modern kitchen remodel in a Metro Detroit home`,
     category: "branding-generated",
     kind: "hero",
     services: SERVICES.map(({ slug }) => slug),
@@ -244,5 +214,5 @@ const expectedAssets = [
 const photos = expectedAssets.map(catalogAsset).filter(Boolean);
 writeFileSync(OUTPUT, `${JSON.stringify(photos, null, 2)}\n`);
 console.log(
-  `Wrote ${photos.length}/${expectedAssets.length} current painting assets to content/photos.json`
+  `Wrote ${photos.length}/${expectedAssets.length} current kitchen assets to content/photos.json`
 );

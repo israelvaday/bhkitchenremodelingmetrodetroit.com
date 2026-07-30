@@ -124,7 +124,7 @@ export default function BlogIndex() {
         </div>
       </section>
 
-      <LongFormFaq subject="Metro Detroit Painting" kind="service" />
+      <LongFormFaq subject="Metro Detroit Kitchen Remodeling" kind="service" />
 
       <FinalCTA />
     </>

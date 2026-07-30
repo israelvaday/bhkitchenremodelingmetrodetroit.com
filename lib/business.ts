@@ -1,23 +1,23 @@
 // Single source of truth for NAP, hours, insurance wording, and links.
 export const BIZ = {
-  name: "BH Painting Metro Detroit",
-  legalName: "BH Painting Metro Detroit",
-  tagline: "Insured Professional Painters — Free Estimates Across Metro Detroit",
+  name: "BH Kitchen Remodeling Metro Detroit",
+  legalName: "BH Kitchen Remodeling Metro Detroit",
+  tagline: "Insured Kitchen Remodeling Contractors — Free Estimates Across Metro Detroit",
   phone: "(313) 236-4558",
   phoneE164: "+13132364558",
   phoneHref: "tel:+13132364558",
   smsHref: "sms:+13132364558",
-  email: "info@bhpaintingmetrodetroit.com",
-  emailHref: "mailto:info@bhpaintingmetrodetroit.com",
+  email: "info@bhkitchenremodelingmetrodetroit.com",
+  emailHref: "mailto:info@bhkitchenremodelingmetrodetroit.com",
   /** Routed via Cloudflare Email Routing → your personal inbox (see Cloudflare dashboard). */
-  quotesEmail: "quotes@bhpaintingmetrodetroit.com",
+  quotesEmail: "quotes@bhkitchenremodelingmetrodetroit.com",
   /** Quote form notifications (Railway + Resend). Override with QUOTE_TO_EMAIL env (comma-separated). */
   quoteNotifyEmails: ["israelvaday97@gmail.com", "oren.siyonov@gmail.com"],
   /** Compatibility field for existing trust components; no license is asserted. */
   licenseId: "Insured",
   /** Legacy compatibility field used by existing templates. */
   bsis: "Insured",
-  url: "https://bhpaintingmetrodetroit.com",
+  url: "https://bhkitchenremodelingmetrodetroit.com",
   address: {
     street: "Metro Detroit Service Area",
     locality: "Detroit",

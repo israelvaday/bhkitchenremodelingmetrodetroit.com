@@ -17,23 +17,23 @@ export function generateStaticParams() {
 }
 
 const ICONS: Record<string, string> = {
-  "interior-painting": "🏠",
-  "exterior-painting": "🏡",
-  "cabinet-painting": "🗄️",
-  "commercial-painting": "🏢",
-  "deck-fence-staining": "🪵",
-  "trim-door-painting": "🚪",
-  "ceiling-painting": "⬆️",
-  "rental-turnover-painting": "🏘️",
-  "wallpaper-removal": "🧽",
-  "color-consultation": "🎨",
+  "custom-kitchen-remodeling": "🏠",
+  "cabinet-installation": "🗄️",
+  "countertop-replacement": "💎",
+  "kitchen-design": "📐",
+  "kitchen-backsplash-tile": "🧱",
+  "kitchen-lighting-upgrades": "💡",
+  "kitchen-flooring": "🪵",
+  "kitchen-island-installation": "🏝️",
+  "kitchen-appliance-layout": "🔌",
+  "partial-kitchen-refresh": "✨",
 };
 
 export default async function ServiceOg({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const s = SERVICES.find((x) => x.slug === slug);
-  const headline = s?.name ?? "Metro Detroit painting";
-  const tagline = s?.tagline ?? "Painting services for homes and businesses across Metro Detroit.";
+  const headline = s?.name ?? "Metro Detroit Kitchen Remodeling";
+  const tagline = s?.tagline ?? "kitchen remodeling services for homes and businesses across Metro Detroit.";
   const icon = (s && ICONS[s.slug]) ?? "🎨";
   const bullets = (s?.bullets ?? []).slice(0, 3);
 
@@ -90,7 +90,7 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
                 {BIZ.name.toUpperCase()}
               </div>
               <div style={{ fontSize: 15, color: "#C9A24A", marginTop: 4, letterSpacing: 2, fontWeight: 700 }}>
-                METRO DETROIT · PAINTING SERVICES
+                METRO DETROIT · kitchen remodeling services
               </div>
             </div>
           </div>

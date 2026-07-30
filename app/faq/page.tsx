@@ -10,7 +10,7 @@ const FAQ_SECTIONS = [
     id: "scope",
     emoji: "📋",
     title: "Estimates & scope",
-    description: "How painting projects are defined before work begins.",
+    description: "How kitchen remodeling projects are defined before work begins.",
     items: [
       {
         q: "What information helps you prepare an estimate?",
@@ -96,7 +96,7 @@ const ALL_FAQ_ITEMS = FAQ_SECTIONS.flatMap((section) => section.items);
 
 export const metadata: Metadata = {
   title: "Painting FAQ — Metro Detroit",
-  description: `Answers from ${BIZ.name} about painting estimates, surface preparation, primer, sheen, coats, color, exterior weather, and cleanup.`,
+  description: `Answers from ${BIZ.name} about kitchen remodeling estimates, surface preparation, primer, sheen, coats, color, exterior weather, and cleanup.`,
   alternates: { canonical: `${BIZ.url}/faq` },
 };
 
@@ -132,8 +132,8 @@ export default function FAQPage() {
           </div>
           <div className="relative aspect-[5/4] overflow-hidden rounded-3xl border border-brass-500/30">
             <Image
-              src={`${base}/photos/branding-generated--hero-painting-metro-detroit.png`}
-              alt="Metro Detroit painting project inspiration"
+              src={`${base}/photos/branding-generated--hero-kitchen-metro-detroit.png`}
+              alt="Metro Detroit Kitchen Remodeling project inspiration"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
@@ -178,7 +178,7 @@ export default function FAQPage() {
         </div>
       </section>
 
-      <LongFormFaq subject="Metro Detroit Painting" kind="service" />
+      <LongFormFaq subject="Metro Detroit Kitchen Remodeling" kind="service" />
       <FinalCTA />
     </>
   );

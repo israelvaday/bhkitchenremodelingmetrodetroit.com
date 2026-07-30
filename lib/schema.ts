@@ -5,7 +5,7 @@ import { SERVICES } from "@/content/services";
 export function localBusinessJsonLd() {
   return {
     "@context": "https://schema.org",
-    "@type": "HousePainter",
+    "@type": "HomeAndConstructionBusiness",
     "@id": `${BIZ.url}/#business`,
     name: BIZ.name,
     image: `${BIZ.url}/opengraph-image.png`,
@@ -43,7 +43,7 @@ export function localBusinessJsonLd() {
     hasCredential: {
       "@type": "EducationalOccupationalCredential",
       credentialCategory: "Insurance documentation",
-      name: "Insured professional painting business",
+      name: "Insured professional kitchen remodeling business",
     },
     sameAs: Object.values(BIZ.social).filter(Boolean),
   };

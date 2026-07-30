@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { ClipboardCheck, Clock, MapPin, Paintbrush, Palette, Phone, Sparkles } from "lucide-react";
+import { ChefHat, ClipboardCheck, Clock, Gem, MapPin, PanelsTopLeft, Phone, Sparkles } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { FinalCTA } from "@/components/sections/FinalCTA";
@@ -8,7 +8,7 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
   title: `About ${BIZ.name}`,
-  description: `Learn how ${BIZ.name} approaches preparation, product planning, property protection, and painting service across Metro Detroit.`,
+  description: `Learn how ${BIZ.name} approaches kitchen design, cabinet installation, countertop replacement, jobsite protection, and remodeling service across Metro Detroit.`,
   alternates: { canonical: `${BIZ.url}/about` },
 };
 
@@ -17,19 +17,19 @@ const APPROACH = [
     Icon: ClipboardCheck,
     label: "Scope",
     value: "Written details",
-    body: "Surfaces, preparation, products, colors, coats, and exclusions are discussed before work begins.",
+    body: "Layout, cabinets, counters, backsplash, flooring, lighting, trades, and exclusions are documented before work begins.",
   },
   {
-    Icon: Paintbrush,
-    label: "Preparation",
-    value: "Surface-specific",
-    body: "Cleaning, scraping, sanding, filling, caulking, and primer are selected for the substrate and condition.",
+    Icon: PanelsTopLeft,
+    label: "Installation",
+    value: "Precision fit",
+    body: "Cabinet runs, fillers, hardware, and countertop templating are sequenced for level, plumb, aligned finished kitchens.",
   },
   {
-    Icon: Palette,
-    label: "Finish plan",
-    value: "Color & sheen",
-    body: "We help organize the product, color, sheen, and sample decisions that shape the finished appearance.",
+    Icon: Gem,
+    label: "Selections",
+    value: "Materials & finishes",
+    body: "We help organize cabinet styles, counter materials, tile, flooring, and fixture choices that fit your budget and timeline.",
   },
   {
     Icon: Sparkles,
@@ -42,9 +42,9 @@ const APPROACH = [
 export default function AboutPage() {
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const inspiration = [
-    { slug: "interior-painting", label: "Interior painting project inspiration" },
-    { slug: "exterior-painting", label: "Exterior painting project inspiration" },
-    { slug: "cabinet-painting", label: "Cabinet painting project inspiration" },
+    { slug: "custom-kitchen-remodeling", label: "Custom kitchen remodeling inspiration" },
+    { slug: "cabinet-installation", label: "Cabinet installation inspiration" },
+    { slug: "countertop-replacement", label: "Countertop replacement inspiration" },
   ].map((item) => ({
     ...item,
     src: `${base}/photos/service-hero-${item.slug}.png`,
@@ -55,8 +55,8 @@ export default function AboutPage() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src={`${base}/photos/branding-generated--hero-painting-metro-detroit.png`}
-            alt="Painting project inspiration for a Metro Detroit property"
+            src={`${base}/photos/branding-generated--hero-kitchen-metro-detroit.png`}
+            alt="Kitchen remodeling project inspiration for a Metro Detroit home"
             fill
             sizes="100vw"
             className="object-cover"
@@ -67,11 +67,11 @@ export default function AboutPage() {
         <div className="relative mx-auto flex min-h-[60vh] max-w-4xl flex-col items-center justify-center px-4 py-20 text-center md:px-6">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">About {BIZ.name}</p>
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight drop-shadow-[0_4px_24px_rgba(0,0,0,0.6)] md:text-6xl">
-            Painting planned around <span className="text-brass-gradient">your property</span>.
+            Kitchen remodeling planned around <span className="text-brass-gradient">your home</span>.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
-            We serve Metro Detroit homes and businesses with interior, exterior, cabinet, commercial, trim, ceiling,
-            staining, turnover, wallpaper removal, and color consultation options.
+            We serve Metro Detroit homeowners with custom kitchen remodeling, cabinet installation, countertop replacement,
+            kitchen design, backsplash, flooring, islands, lighting, and partial refresh options.
           </p>
           <div className="mt-7">
             <ContactCTA size="lg" />
@@ -84,11 +84,11 @@ export default function AboutPage() {
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Our approach</p>
             <h2 className="mt-2 font-display text-3xl font-bold tracking-tight md:text-5xl">
-              Preparation and expectations come first.
+              Layout and expectations come first.
             </h2>
             <p className="mt-4 text-ink-300">
-              Paint performance begins before the first finish coat. We organize the scope around surface condition,
-              desired appearance, property use, access, and cleanup.
+              A successful kitchen remodel begins with a clear plan. We organize the scope around workflow, storage,
+              material lead times, trade coordination, and daily livability.
             </p>
           </div>
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -136,7 +136,7 @@ export default function AboutPage() {
       <section className="py-16">
         <div className="mx-auto max-w-4xl px-4 md:px-6">
           <div className="rounded-3xl border border-brass-500/30 bg-gradient-to-br from-brass-500/10 to-ink-900/40 p-8 text-center">
-            <h2 className="font-display text-2xl font-bold md:text-3xl">Discuss your project.</h2>
+            <h2 className="font-display text-2xl font-bold md:text-3xl">Discuss your kitchen project.</h2>
             <p className="mt-2 text-ink-300">
               Reach us during posted business hours or send a quote request whenever it is convenient.
             </p>
@@ -158,7 +158,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <LongFormFaq subject="Metro Detroit Painting" kind="service" />
+      <LongFormFaq subject="Metro Detroit Kitchen Remodeling" kind="service" />
       <FinalCTA />
     </>
   );

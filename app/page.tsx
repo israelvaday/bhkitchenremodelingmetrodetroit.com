@@ -13,12 +13,12 @@ import { Reveal } from "@/components/site/Reveal";
 import { LazyParallax, LazyFloatOnScroll } from "@/components/site/LazyScrollFx";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { BuyersGuide } from "@/components/site/BuyersGuide";
-import { PaintingGlossary } from "@/components/site/PaintingGlossary";
+import { KitchenGlossary } from "@/components/site/KitchenGlossary";
 
 export const metadata: Metadata = {
-  title: "Painting Company — Interior, Exterior & Commercial",
+  title: "Kitchen Remodeling Company — Cabinets, Counters & Design",
   description:
-    `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, and staining services across Metro Detroit. Request a free estimate.`,
+    `${BIZ.name} provides custom kitchen remodeling, cabinet installation, countertop replacement, and kitchen design across Metro Detroit. Request a free estimate.`,
   alternates: { canonical: "/" },
 };
 
@@ -67,9 +67,9 @@ export default function HomePage() {
       <Reveal variant="bounce">
         <CustomerExperience />
       </Reveal>
-      <LongFormFaq subject="Metro Detroit Painting" kind="service" />
+      <LongFormFaq subject="Metro Detroit Kitchen Remodeling" kind="service" />
       <BuyersGuide />
-      <PaintingGlossary />
+      <KitchenGlossary />
       <Reveal variant="zoom">
         <FinalCTA />
       </Reveal>

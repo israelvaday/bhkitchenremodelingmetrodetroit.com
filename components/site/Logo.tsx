@@ -3,7 +3,7 @@ import { cn } from "@/lib/cn";
 import { BIZ } from "@/lib/business";
 
 /**
- * BH Painting Metro Detroit brand mark.
+ * BH Kitchen Remodeling Metro Detroit brand mark.
  */
 export function LogoMark({
   className,

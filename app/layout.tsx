@@ -19,39 +19,39 @@ const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono", displ
 export const metadata: Metadata = {
   metadataBase: new URL(BIZ.url),
   title: {
-    default: `${BIZ.name} — Metro Detroit Painting Company`,
+    default: `${BIZ.name} — Metro Detroit Kitchen Remodeling`,
     template: `%s — ${BIZ.name}`,
   },
   description:
-    `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, and staining services across Metro Detroit. Free estimates — call ${BIZ.phone}.`,
+    `${BIZ.name} provides custom kitchen remodeling, cabinet installation, countertop replacement, and kitchen design across Metro Detroit. Free estimates — call ${BIZ.phone}.`,
   keywords: [
-    "painting company Detroit",
-    "interior painting Metro Detroit",
-    "exterior painting Michigan",
-    "cabinet painting Metro Detroit",
-    "commercial painting Wayne County",
+    "kitchen remodeling Detroit",
+    "kitchen remodel Metro Detroit",
+    "cabinet installation Michigan",
+    "countertop replacement Metro Detroit",
+    "kitchen design Wayne County",
   ],
   openGraph: {
     type: "website",
     siteName: BIZ.name,
     url: BIZ.url,
     locale: "en_US",
-    title: `${BIZ.name} — Metro Detroit Painting Company`,
+    title: `${BIZ.name} — Metro Detroit Kitchen Remodeling`,
     description:
-      "Interior, exterior, cabinet, commercial, trim, ceiling, and staining services across Wayne, Oakland & Macomb counties.",
+      "Custom kitchen remodeling, cabinet installation, countertop replacement, and kitchen design across Wayne, Oakland & Macomb counties.",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: `${BIZ.name} — Metro Detroit painting company`,
+        alt: `${BIZ.name} — Metro Detroit kitchen remodeling company`,
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: `${BIZ.name} — Metro Detroit painting company`,
-    description: "Painting for Metro Detroit homes, businesses, rentals, cabinets, trim, and exterior surfaces.",
+    title: `${BIZ.name} — Metro Detroit kitchen remodeling company`,
+    description: "Kitchen remodeling for Metro Detroit homes — cabinets, counters, backsplash, islands, lighting, and design.",
     images: ["/opengraph-image.png"],
   },
   alternates: { canonical: "/" },
@@ -71,7 +71,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           dangerouslySetInnerHTML={{
             __html:
-              'if(location.protocol==="http:"&&location.hostname==="bhpaintingmetrodetroit.com"){location.replace("https://"+location.host+location.pathname+location.search+location.hash)}',
+              'if(location.protocol==="http:"&&location.hostname==="bhkitchenremodelingmetrodetroit.com"){location.replace("https://"+location.host+location.pathname+location.search+location.hash)}',
           }}
         />
       </head>

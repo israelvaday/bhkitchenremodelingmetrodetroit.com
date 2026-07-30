@@ -14,7 +14,7 @@ export function Footer() {
         <div className="flex flex-col items-center text-center md:items-start md:text-left">
           <Logo size="md" />
           <p className="mt-4 max-w-xs text-sm text-ink-300">
-            Metro Detroit painting for interiors, exteriors, cabinets, trim, commercial spaces, and wood surfaces
+            Metro Detroit Kitchen Remodeling for interiors, exteriors, cabinets, trim, commercial spaces, and wood surfaces
             across Wayne, Oakland &amp; Macomb counties.
           </p>
           <div className="mt-3 flex flex-wrap justify-center gap-2 md:justify-start">
@@ -82,7 +82,7 @@ export function Footer() {
 
         {/* CTA column */}
         <div className="flex flex-col items-center text-center md:items-start md:text-left">
-          <h2 className="font-display text-sm font-semibold tracking-wide text-ink-100">Plan a painting project</h2>
+          <h2 className="font-display text-sm font-semibold tracking-wide text-ink-100">Plan a kitchen remodeling project</h2>
           <p className="mt-3 max-w-xs text-sm text-ink-300">
             Share your surfaces, property, colors, and timing for a project-specific follow-up.
           </p>

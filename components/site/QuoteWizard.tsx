@@ -5,39 +5,39 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   ArrowLeft, ArrowRight, Check, Send, Upload, X, Image as ImageIcon,
-  Zap, CalendarClock, Calendar, Phone, Paintbrush, FileText,
+  Zap, CalendarClock, Calendar, Phone, ChefHat, FileText,
 } from "lucide-react";
 import { toast } from "sonner";
 import { BIZ } from "@/lib/business";
 import { Button } from "@/components/ui/Button";
 
 type ServiceKey =
-  | "interior-painting"
-  | "exterior-painting"
-  | "cabinet-painting"
-  | "commercial-painting"
-  | "deck-fence-staining"
-  | "trim-door-painting"
-  | "ceiling-painting"
-  | "rental-turnover-painting"
-  | "wallpaper-removal"
-  | "color-consultation";
+  | "custom-kitchen-remodeling"
+  | "cabinet-installation"
+  | "countertop-replacement"
+  | "kitchen-design"
+  | "kitchen-backsplash-tile"
+  | "kitchen-lighting-upgrades"
+  | "kitchen-flooring"
+  | "kitchen-island-installation"
+  | "kitchen-appliance-layout"
+  | "partial-kitchen-refresh";
 
 type PropertyKey = "property-home" | "property-business" | "property-multifamily" | "property-other";
 
 type Urgency = "asap" | "one-two-weeks" | "this-month" | "planning";
 
 const SERVICES: { key: ServiceKey; label: string; sub: string }[] = [
-  { key: "interior-painting", label: "Interior painting", sub: "Walls, rooms, and living spaces" },
-  { key: "exterior-painting", label: "Exterior painting", sub: "Siding, masonry, and exterior details" },
-  { key: "cabinet-painting", label: "Cabinet painting", sub: "Kitchen and built-in cabinetry" },
-  { key: "commercial-painting", label: "Commercial painting", sub: "Offices, retail, and facilities" },
-  { key: "deck-fence-staining", label: "Deck & fence staining", sub: "Wood protection and color" },
-  { key: "trim-door-painting", label: "Trim & door painting", sub: "Baseboards, casing, and doors" },
-  { key: "ceiling-painting", label: "Ceiling painting", sub: "Flat, vaulted, and detailed ceilings" },
-  { key: "rental-turnover-painting", label: "Rental turnover painting", sub: "Apartments and move-ready refreshes" },
-  { key: "wallpaper-removal", label: "Wallpaper removal", sub: "Removal and paint-ready preparation" },
-  { key: "color-consultation", label: "Color consultation", sub: "Palette and sheen guidance" },
+  { key: "custom-kitchen-remodeling", label: "Custom kitchen remodeling", sub: "Full layout and finish transformation" },
+  { key: "cabinet-installation", label: "Cabinet installation", sub: "New wall and base cabinet runs" },
+  { key: "countertop-replacement", label: "Countertop replacement", sub: "Quartz, granite, and solid surface" },
+  { key: "kitchen-design", label: "Kitchen design", sub: "Layout, elevations, and selections" },
+  { key: "kitchen-backsplash-tile", label: "Backsplash & tile", sub: "Subway, mosaic, and slab backsplash" },
+  { key: "kitchen-lighting-upgrades", label: "Lighting upgrades", sub: "Recessed, pendant, and under-cabinet LED" },
+  { key: "kitchen-flooring", label: "Kitchen flooring", sub: "LVP, tile, and engineered options" },
+  { key: "kitchen-island-installation", label: "Kitchen island", sub: "Sizing, cabinets, and counters" },
+  { key: "kitchen-appliance-layout", label: "Appliance layout", sub: "Placement and panel-ready fit" },
+  { key: "partial-kitchen-refresh", label: "Partial refresh", sub: "Targeted updates without full gut" },
 ];
 
 const PROPERTIES: { key: PropertyKey; label: string; sub: string }[] = [
@@ -198,7 +198,7 @@ export function QuoteWizard() {
       {/* Header / progress */}
       <div className="relative flex flex-wrap items-center gap-3">
         <span className="inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-ink-950/70 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-brass-300">
-          <Paintbrush className="h-3 w-3" /> Painting project quote
+          <ChefHat className="h-3 w-3" /> Kitchen remodeling quote
         </span>
         <span className="text-[11px] font-bold uppercase tracking-wider text-ink-400">
           Step {step + 1} of {STEP_LABELS.length} — {STEP_LABELS[step]}

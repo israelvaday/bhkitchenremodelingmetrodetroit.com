@@ -26,7 +26,7 @@ export default function HoursPage() {
           <Clock className="h-4 w-4" /> Posted business hours
         </div>
         <h1 className="mt-6 font-display text-5xl font-extrabold tracking-tight md:text-7xl">
-          Painting project <span className="text-brass-gradient">hours</span>
+          kitchen remodeling project <span className="text-brass-gradient">hours</span>
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-ink-200">
           Contact {BIZ.name} during the schedule below. Quote requests received outside these hours can be reviewed

@@ -1,5 +1,5 @@
 /**
- * Generate BH Painting Metro Detroit image assets and local painting insights.
+ * Generate BH Kitchen Remodeling Metro Detroit image assets and local kitchen insights.
  *
  * Usage:
  *   node scripts/openrouter-generate-site.mjs --test [--force]
@@ -23,181 +23,181 @@ import {
 } from "./openrouter-lib.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
-const BUSINESS_NAME = "BH Painting Metro Detroit";
+const BUSINESS_NAME = "BH Kitchen Remodeling Metro Detroit";
 const PHONE = "(313) 236-4558";
 const PHOTO_STYLE =
-  "Photorealistic professional painting project photographed on a full-frame camera, authentic Metro Detroit property, realistic materials and tools, natural Michigan light, balanced editorial composition";
+  "Photorealistic professional kitchen remodeling project photographed on a full-frame camera, authentic Metro Detroit home, realistic materials and tools, natural Michigan light, balanced editorial composition";
 const NO_TEXT =
   "No visible words, letters, labels, signs, logos, watermarks, captions, UI, or artificial CGI styling";
 
 const SERVICE_HEROES = [
   {
-    slug: "interior-painting",
+    slug: "custom-kitchen-remodeling",
     prompt:
-      "Insured professional painter rolling a warm neutral finish in a bright occupied living room, floors and furniture carefully protected",
+      "Completed modern kitchen remodel with white shaker cabinets, quartz waterfall island, brass hardware, and warm natural light in a Metro Detroit home",
   },
   {
-    slug: "exterior-painting",
+    slug: "cabinet-installation",
     prompt:
-      "Professional painter applying an exterior coating to a well-kept Michigan colonial home, safe ladder setup and prepared siding",
+      "Professional contractor installing level kitchen wall cabinets with a laser level and shims, clean jobsite protection, navy and brass palette",
   },
   {
-    slug: "cabinet-painting",
+    slug: "countertop-replacement",
     prompt:
-      "Professional cabinet painter finishing labeled kitchen doors in a clean controlled work area, refined navy coating",
+      "Installer fitting a polished quartz kitchen countertop with precise seams at a sink cutout in a bright remodeled kitchen",
   },
   {
-    slug: "commercial-painting",
+    slug: "kitchen-design",
     prompt:
-      "Professional painting crew refreshing a modern occupied office after business hours, organized protected work zone",
+      "Kitchen designer and homeowner reviewing cabinet elevations and material samples on a large island in natural daylight",
   },
   {
-    slug: "deck-fence-staining",
+    slug: "kitchen-backsplash-tile",
     prompt:
-      "Professional painter staining clean dry deck boards behind a Michigan home, rich natural wood tone and careful application",
+      "Tile installer setting large-format subway backsplash tile with spacers behind a range in a modern kitchen",
   },
   {
-    slug: "trim-door-painting",
+    slug: "kitchen-lighting-upgrades",
     prompt:
-      "Close professional painting detail of crisp white trim and an interior paneled door, careful brushwork and floor protection",
+      "Electrician installing under-cabinet LED lighting and recessed cans in a freshly remodeled kitchen with warm glow",
   },
   {
-    slug: "ceiling-painting",
+    slug: "kitchen-flooring",
     prompt:
-      "Professional painter rolling a bright flat ceiling in a furnished Metro Detroit room with complete masking below",
+      "Installer laying luxury vinyl plank flooring in an open kitchen with cabinets protected and clean transitions",
   },
   {
-    slug: "rental-turnover-painting",
+    slug: "kitchen-island-installation",
     prompt:
-      "Professional painting crew refreshing a vacant Metro Detroit apartment between residents, clean efficient room setup",
+      "Contractors assembling a large kitchen island with base cabinets and preparing for countertop install in a spacious layout",
   },
   {
-    slug: "wallpaper-removal",
+    slug: "kitchen-appliance-layout",
     prompt:
-      "Professional painter carefully removing wallpaper in controlled sections and cleaning the exposed interior surface",
+      "Professional aligning a stainless panel-ready refrigerator and range in a newly finished custom kitchen",
   },
   {
-    slug: "color-consultation",
+    slug: "partial-kitchen-refresh",
     prompt:
-      "Professional painter and homeowner comparing unlabeled color swatches beside flooring and wood trim in natural daylight",
+      "Targeted kitchen refresh with new quartz counters, updated backsplash, and refreshed cabinet hardware in an occupied home",
   },
 ];
 
 const BLOG_IMAGES = [
   {
-    slug: "interior-paint-colors-metro-detroit",
+    slug: "kitchen-remodel-planning-metro-detroit",
     hero:
-      "Homeowner comparing several unlabeled warm neutral paint samples in a bright Metro Detroit living room",
+      "Homeowner and kitchen designer reviewing layout options at a kitchen island with unlabeled material samples",
     secondary:
-      "Professional painter applying a generous color sample beside stained wood trim under natural window light",
+      "Measured kitchen floor plan sketch beside cabinet samples and flooring swatches on a table",
   },
   {
-    slug: "exterior-paint-michigan-weather",
+    slug: "cabinet-installation-vs-refacing",
     hero:
-      "Professional painter coating prepared siding on a Michigan home during mild clear weather",
+      "Side-by-side comparison scene of new shaker cabinets being installed next to older cabinet boxes being refaced",
     secondary:
-      "Painter checking clean dry exterior wood before applying primer, authentic close job detail",
+      "Close detail of a contractor adjusting soft-close hinges on freshly installed cabinet doors",
   },
   {
-    slug: "cabinet-painting-vs-replacement",
+    slug: "countertop-materials-michigan-homes",
     hero:
-      "Finished Metro Detroit kitchen with professionally painted navy cabinets and subtle brass hardware",
+      "Beautiful quartz and granite countertop samples on a kitchen island with natural window light",
     secondary:
-      "Professional painter applying a smooth cabinet-grade finish to organized labeled cabinet doors",
+      "Installer polishing a quartz seam at a kitchen sink cutout with professional tools",
   },
   {
-    slug: "hire-painting-contractor-michigan",
+    slug: "hire-kitchen-remodeling-contractor-michigan",
     hero:
-      "Homeowner reviewing an unbranded written painting scope with an insured professional painter at a kitchen island",
+      "Homeowner reviewing an unbranded written kitchen remodel scope with an insured contractor at a dining table",
     secondary:
-      "Organized professional painters protecting floors and furnishings before an interior project",
+      "Organized kitchen jobsite with protected floors, labeled cabinets, and professional tools",
   },
   {
-    slug: "commercial-painting-minimal-downtime",
+    slug: "kitchen-design-layout-tips",
     hero:
-      "Professional painters refreshing a modern Metro Detroit office during quiet after-hours",
+      "Open kitchen layout showing work triangle between sink, range, and refrigerator with clear walkways",
     secondary:
-      "Commercial corridor divided into neat protected painting zones with clear open walking space",
+      "Designer marking cabinet heights and outlet locations on a kitchen wall before installation",
   },
   {
-    slug: "deck-staining-michigan-climate",
+    slug: "kitchen-remodel-timeline-budget",
     hero:
-      "Freshly stained wood deck behind a Metro Detroit home during mild summer weather",
+      "Phased kitchen remodel in progress with lower cabinets installed and upper boxes staged for installation",
     secondary:
-      "Professional painter checking clean dry deck boards before applying semi-transparent stain",
+      "Project calendar and material lead-time board on a protected kitchen jobsite wall without readable text",
   },
 ];
 
 const GALLERY_IMAGES = [
   {
-    file: "painting-gallery--interior-living-room.png",
+    file: "kitchen-gallery--modern-white-shaker.png",
     prompt:
-      "Professional painter rolling an even warm-white finish in a sunlit Metro Detroit living room with meticulous floor protection",
+      "Completed modern white shaker kitchen with quartz island, brass pulls, and pendant lights in a Metro Detroit home",
   },
   {
-    file: "painting-gallery--exterior-brick-home.png",
+    file: "kitchen-gallery--navy-gold-remodel.png",
     prompt:
-      "Professional painter coating prepared trim on a classic brick Michigan home with a safe organized setup",
+      "Sophisticated navy cabinet kitchen remodel with brass hardware, marble-look quartz counters, and warm wood flooring",
   },
   {
-    file: "painting-gallery--cabinet-finish.png",
+    file: "kitchen-gallery--cabinet-install-progress.png",
     prompt:
-      "Close view of a professional painter applying a smooth durable finish to kitchen cabinet doors in a controlled area",
+      "Professional contractors installing kitchen wall cabinets with laser level and floor protection",
   },
   {
-    file: "painting-gallery--commercial-office.png",
+    file: "kitchen-gallery--countertop-template.png",
     prompt:
-      "Painting crew refreshing a modern Metro Detroit office with protected carpet and organized work zones",
+      "Countertop templating professional measuring a kitchen island for quartz fabrication",
   },
   {
-    file: "painting-gallery--deck-staining.png",
+    file: "kitchen-gallery--subway-backsplash.png",
     prompt:
-      "Professional staining of clean dry deck boards with rich semi-transparent color at a Michigan home",
+      "Fresh white subway tile backsplash with dark grout behind a stainless range in a remodeled kitchen",
   },
   {
-    file: "painting-gallery--trim-detail.png",
+    file: "kitchen-gallery--open-concept.png",
     prompt:
-      "Detailed professional brush application on crisp interior baseboard and window trim",
+      "Open-concept kitchen remodel flowing into a living area with large island seating and recessed lighting",
   },
   {
-    file: "painting-gallery--ceiling-rolling.png",
+    file: "kitchen-gallery--butcher-block-island.png",
     prompt:
-      "Professional painter rolling a high ceiling above a fully protected furnished room",
+      "Kitchen island with butcher block top, white cabinets, and pendant lights over bar seating",
   },
   {
-    file: "painting-gallery--rental-turnover.png",
+    file: "kitchen-gallery--lighting-upgrade.png",
     prompt:
-      "Efficient professional repaint of a clean vacant apartment between residents in Metro Detroit",
+      "Remodeled kitchen showing layered lighting with under-cabinet LEDs, pendants, and recessed cans",
   },
   {
-    file: "painting-gallery--wallpaper-removal.png",
+    file: "kitchen-gallery--luxury-vinyl-floor.png",
     prompt:
-      "Careful wallpaper removal in controlled strips with protected floor and organized tools",
+      "New luxury vinyl plank flooring installed in a kitchen with clean transitions to adjacent rooms",
   },
   {
-    file: "painting-gallery--color-sampling.png",
+    file: "kitchen-gallery--compact-galley.png",
     prompt:
-      "Painter placing several generous unlabeled color samples beside permanent wood and stone finishes",
+      "Smart galley kitchen remodel maximizing storage with tall cabinets and bright finishes",
   },
   {
-    file: "painting-gallery--exterior-siding.png",
+    file: "kitchen-gallery--farmhouse-sink.png",
     prompt:
-      "Professional exterior painter applying a durable finish to prepared lap siding in mild Michigan weather",
+      "Farmhouse sink installation with quartz counters and bridge faucet in a classic Metro Detroit kitchen",
   },
   {
-    file: "painting-gallery--occupied-office.png",
+    file: "kitchen-gallery--pantry-wall.png",
     prompt:
-      "After-hours office painting with desks protected and a clean open path through the space",
+      "Floor-to-ceiling pantry wall with tall cabinet storage and integrated appliances",
   },
   {
-    file: "painting-gallery--front-door.png",
+    file: "kitchen-gallery--two-tone-cabinets.png",
     prompt:
-      "Professional painter finishing a deep navy front door on a well-kept Metro Detroit home",
+      "Two-tone kitchen with white perimeter cabinets and navy island, quartz counters, and brass fixtures",
   },
   {
-    file: "painting-gallery--multifamily-hallway.png",
+    file: "kitchen-gallery--before-after-staging.png",
     prompt:
-      "Professional crew repainting a bright apartment hallway in carefully phased sections",
+      "Freshly completed kitchen remodel staged with bowls and greenery, bright and inviting atmosphere",
   },
 ];
 
@@ -209,22 +209,22 @@ const QUOTE_IMAGES = [
   {
     file: "property-home.png",
     prompt:
-      "Square view of a welcoming Michigan home interior being professionally painted with furnishings protected",
+      "Square view of a welcoming Metro Detroit home kitchen being professionally remodeled with protected floors",
   },
   {
     file: "property-business.png",
     prompt:
-      "Square view of a Metro Detroit business interior receiving a professional organized repaint",
+      "Square view of a commercial break-room kitchen receiving a professional cabinet and counter upgrade",
   },
   {
     file: "property-multifamily.png",
     prompt:
-      "Square view of a clean apartment common area being professionally repainted in phases",
+      "Square view of a clean apartment kitchen being updated with new counters and backsplash",
   },
   {
     file: "property-other.png",
     prompt:
-      "Square view of a detached garage studio interior receiving a careful professional repaint",
+      "Square view of a basement wet bar kitchenette receiving custom cabinets and quartz counters",
   },
 ];
 
@@ -234,31 +234,31 @@ const BRAND_IMAGES = [
     logo: true,
     aspectRatio: "1:1",
     prompt:
-      "Professional navy and warm gold brand logo, centered BH monogram integrated with a clean paint roller silhouette, premium geometric vector mark, strong contrast, transparent or plain background, no words beyond the BH monogram, no watermark",
+      "Professional navy and warm gold brand logo, centered BH monogram integrated with a clean kitchen cabinet silhouette and subtle countertop line, premium geometric vector mark, strong contrast, transparent or plain background, no words beyond the BH monogram, no watermark",
   },
   {
-    path: "public/photos/branding-generated--hero-painting-metro-detroit.png",
+    path: "public/photos/branding-generated--hero-kitchen-metro-detroit.png",
     aspectRatio: "16:9",
     prompt:
-      "Wide cinematic website hero of a professional painter rolling a sophisticated navy accent wall in a bright Metro Detroit home, protected room, open composition for page overlay",
+      "Wide cinematic website hero of a stunning completed modern kitchen remodel with white cabinets, quartz island, brass hardware, and warm natural light, open composition for page overlay",
   },
   {
     path: "public/photos/branding-generated--metro-detroit-map.png",
     aspectRatio: "16:9",
     prompt:
-      "Photorealistic tabletop service-area map visual showing the recognizable tri-county Metro Detroit region through unlabeled navy and gold location markers, painting swatches and roller nearby",
+      "Photorealistic tabletop service-area map visual showing the recognizable tri-county Metro Detroit region through unlabeled navy and gold location markers, cabinet door sample and quartz chip nearby",
   },
   {
     path: "public/about/about-hero.png",
     aspectRatio: "16:9",
     prompt:
-      "Wide editorial portrait of an insured professional painting team preparing rollers and drop cloths inside a bright Metro Detroit home",
+      "Wide editorial portrait of an insured professional kitchen remodeling team reviewing cabinet layout inside a bright Metro Detroit home",
   },
   {
     path: "public/about/about-workshop.png",
     aspectRatio: "16:9",
     prompt:
-      "Professional painting team organizing clean brushes, rollers, sprayer equipment and sealed unbranded coating cans in a tidy workshop",
+      "Professional kitchen remodeling team organizing cabinet hardware, samples, and installation tools in a tidy workshop",
   },
 ];
 
@@ -272,7 +272,7 @@ function writeBuffer(outPath, buffer) {
   console.log("Wrote", outPath.replace(ROOT, ""));
 }
 
-function paintingPrompt(prompt) {
+function kitchenPrompt(prompt) {
   return `${prompt}. Brand context: ${BUSINESS_NAME}, serving Metro Detroit, Michigan. ${PHOTO_STYLE}. ${NO_TEXT}.`;
 }
 
@@ -283,7 +283,7 @@ async function generateAsset(key, imageModel, job, force) {
     return false;
   }
 
-  const prompt = job.logo ? job.prompt : paintingPrompt(job.prompt);
+  const prompt = job.logo ? job.prompt : kitchenPrompt(job.prompt);
   const buffer = await generateImage(key, prompt, {
     model: imageModel,
     aspect_ratio: job.aspectRatio ?? "16:9",
@@ -384,7 +384,7 @@ async function generateTestImage(key, imageModel, force) {
       {
         path: "public/photos/openrouter-test.png",
         prompt:
-          "Close professional painting detail of a clean navy paint roller applying one even stripe on a prepared interior surface",
+          "Close professional detail of a contractor installing a soft-close hinge on a white kitchen cabinet door",
         aspectRatio: "1:1",
       },
     ],
@@ -418,7 +418,7 @@ function normalizeAreaInsight(area, candidate, previous) {
   const exactName = area.name;
   const combined = `${tagline} ${neighborhoodNotes}`.toLocaleLowerCase();
   if (exactName && !combined.includes(exactName.toLocaleLowerCase())) {
-    neighborhoodNotes = `${exactName} painting projects benefit from preparation suited to the property's age, materials, and exposure. ${neighborhoodNotes}`.trim();
+    neighborhoodNotes = `${exactName} kitchen remodeling projects benefit from layouts suited to the property's age, room size, and daily use. ${neighborhoodNotes}`.trim();
   }
 
   return {
@@ -448,7 +448,7 @@ async function refreshAreaInsights(key, chatModel, force) {
     console.log("Started area insights from a clean output");
   }
 
-  const system = `Write original local SEO data for ${BUSINESS_NAME}, an insured professional painting business serving Metro Detroit, Michigan. Return only a JSON object keyed by the supplied slug. Each value must contain: tagline (14 words maximum), landmarks (exactly the supplied landmarks in the same order; only generate three accurate landmarks when none are supplied), common_calls (three concise painting requests), neighborhood_notes (two or three useful sentences about local property styles, surfaces, color, weather, or maintenance), and keywords (six or seven lowercase local painting search phrases). Keep every supplied place name exact. Do not claim ratings, awards, or licensing. Discuss painting only and do not mention unrelated construction trades.`;
+  const system = `Write original local SEO data for ${BUSINESS_NAME}, an insured professional kitchen remodeling business serving Metro Detroit, Michigan. Return only a JSON object keyed by the supplied slug. Each value must contain: tagline (14 words maximum), landmarks (exactly the supplied landmarks in the same order; only generate three accurate landmarks when none are supplied), common_calls (three concise kitchen remodeling requests), neighborhood_notes (two or three useful sentences about local home styles, kitchen layouts, storage needs, or remodeling considerations), and keywords (six or seven lowercase local kitchen remodeling search phrases). Keep every supplied place name exact. Do not claim ratings, awards, or licensing. Discuss kitchen remodeling only and do not mention unrelated trades.`;
   const batchSize = 8;
 
   for (let index = 0; index < areas.length; index += batchSize) {
@@ -467,7 +467,7 @@ async function refreshAreaInsights(key, chatModel, force) {
         key,
         chatModel,
         system,
-        `Create painting insights for this exact JSON input:\n${JSON.stringify(request, null, 2)}`,
+        `Create kitchen remodeling insights for this exact JSON input:\n${JSON.stringify(request, null, 2)}`,
         0.55
       );
 
@@ -564,7 +564,7 @@ async function main() {
   }
 
   if (productionImagesChanged) {
-    console.log("Rebuilding painting photo catalog");
+    console.log("Rebuilding kitchen photo catalog");
     execFileSync(
       process.execPath,
       [absolutePath("scripts/rebuild-photos-gallery.mjs")],

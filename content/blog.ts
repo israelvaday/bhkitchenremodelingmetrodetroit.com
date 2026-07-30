@@ -1,4 +1,4 @@
-// Original painting guidance written for Metro Detroit property owners.
+// Original kitchen remodeling guidance written for Metro Detroit property owners.
 // Bodies use a small markdown-like format: headings, list items, and paragraphs.
 
 export type BlogPost = {
@@ -6,7 +6,7 @@ export type BlogPost = {
   title: string;
   metaTitle?: string;
   excerpt: string;
-  category: "Interior" | "Exterior" | "Cabinets" | "Commercial" | "Planning";
+  category: "Planning" | "Cabinets" | "Countertops" | "Design" | "Budget";
   readMinutes: number;
   date: string;
   heroImage: string;
@@ -18,330 +18,265 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    slug: "interior-paint-colors-metro-detroit",
-    title: "How to Choose Interior Paint Colors for a Metro Detroit Home",
-    metaTitle: "Interior Paint Colors for Metro Detroit Homes",
+    slug: "kitchen-remodel-planning-metro-detroit",
+    title: "How to Plan a Kitchen Remodel in Metro Detroit",
+    metaTitle: "Kitchen Remodel Planning for Metro Detroit Homes",
     excerpt:
-      "Use daylight, undertones, fixed finishes, and real sample areas to build an interior palette that works through every Michigan season.",
-    category: "Interior",
-    readMinutes: 6,
-    date: "2026-01-16",
-    heroImage: "/blog/interior-paint-colors-metro-detroit-hero.png",
-    heroAlt:
-      "Homeowner comparing warm neutral paint samples in a bright Metro Detroit living room",
-    secondaryImage: "/blog/interior-paint-colors-metro-detroit-secondary.png",
-    secondaryAlt:
-      "Professional painter applying a sample color beside wood trim in a Michigan home",
-    body: `
-Choosing an interior paint color from a small card is difficult because color never appears by itself. It reacts to window direction, bulbs, flooring, counters, furniture, wood tones, and adjoining rooms. Metro Detroit homes add long gray winters, bright summer sun, mature shade trees, and housing styles that range from Detroit brick colonials to Royal Oak bungalows and newer Macomb County homes.
-
-The reliable approach is to narrow the palette in context, then test finalists on the actual surfaces. Sampling costs very little compared with repainting a room that turns unexpectedly cool, yellow, or dark.
-
-## Start with finishes that will remain
-
-List the elements you are not changing: flooring, stone, tile, countertops, cabinets, large furniture, and stained wood. These fixed finishes establish the undertone family. A warm floor may make a blue-based gray look colder than it appeared online, while cream stone can make a crisp white feel harsh.
-
-Carry samples next to each finish instead of judging them against white paper. In an open plan, check the color beside every visible adjoining room so transitions feel intentional.
-
-## Read the light throughout the day
-
-North-facing rooms usually receive cooler indirect light. South-facing rooms tend to stay brighter and warmer, while east- and west-facing rooms can change dramatically. Tree cover, porch roofs, and neighboring houses also matter.
-
-After sunset, bulb color affects the result. Warm bulbs can pull yellow from a neutral; cooler bulbs can flatten warm tones. Review samples under the lighting you use each evening.
-
-### Test larger sample areas
-
-- Place one sample near the main window and another on a shadowed side.
-- Compare it directly with trim, flooring, and permanent finishes.
-- Observe it in morning, afternoon, evening, and cloudy conditions.
-- Label every sample with its exact color and product reference.
-
-## Plan color flow and sheen
-
-A connected home does not need one color everywhere. Repeating an undertone, using related lightness levels, or carrying one trim color through shared areas can create continuity. Bedrooms and enclosed offices can support more individual choices because doors provide a visual break.
-
-Sheen changes perceived color. More reflective finishes can look richer and reveal more variation. Lower-sheen finishes soften light, while washable options are practical in kitchens, baths, entries, and children's rooms. Compare the coating line, cleanability, moisture exposure, and traffic instead of choosing by sheen name alone.
-
-Confirm color names, products, and finishes in writing before materials are ordered. BH Painting Metro Detroit helps homeowners across Wayne, Oakland, and Macomb counties plan colors and complete carefully prepared interior projects. Call or text (313) 236-4558 for a written estimate.
-`,
-  },
-  {
-    slug: "exterior-paint-michigan-weather",
-    title: "Exterior Paint and Michigan Weather: What Makes a Finish Last",
-    metaTitle: "Exterior Paint for Michigan Weather",
-    excerpt:
-      "A durable Michigan exterior depends on dry surfaces, thorough preparation, the right coating system, and a realistic weather window.",
-    category: "Exterior",
-    readMinutes: 7,
-    date: "2026-02-12",
-    heroImage: "/blog/exterior-paint-michigan-weather-hero.png",
-    heroAlt:
-      "Professional painter coating the exterior of a Metro Detroit home on a clear mild day",
-    secondaryImage: "/blog/exterior-paint-michigan-weather-secondary.png",
-    secondaryAlt:
-      "Painter checking prepared wood siding before exterior primer application in Michigan",
-    body: `
-Michigan exteriors experience freezing winters, humid summers, wind-driven rain, strong sun, and repeated temperature swings. A coating can look fresh when the crew leaves and still fail early if applied over moisture, loose material, contamination, or an incompatible prior finish. Product quality matters, but preparation and timing matter just as much.
-
-For Metro Detroit homes, the goal is not simply to find a warm afternoon. The surface, air, forecast, and cure period all need to fit the coating manufacturer's limits.
-
-## Inspect before choosing a product
-
-Walk every side of the property and note peeling, fading, chalking, open joints, mildew, rust, damaged wood, and areas where water collects. North sides may stay damp longer. South and west exposures often show more sun wear. Lower siding near landscaping can collect irrigation residue and soil.
-
-Correct recurring moisture before coating. Paint is not a substitute for sound gutters, flashing, drainage, or ventilation.
-
-## Preparation creates adhesion
-
-A professional scope may include cleaning, removal of loose finish, sanding rough transitions, treatment of compatible stains, paintable caulk at selected joints, and primer on exposed areas. Excessive washing pressure can damage softer wood or drive water behind siding, so cleaning should suit the material. Shaded sections also need enough time to dry.
-
-### Match the system to the surface
-
-Brick, masonry, wood, fiber cement, aluminum, vinyl, and previously coated surfaces do not all need the same system.
-
-- Bare or weathered wood may need primer that controls staining and improves adhesion.
-- Masonry must be clean, stable, and suitable for a breathable coating.
-- Metal needs oxidation removal and compatible corrosion control.
-- Vinyl color choices should follow heat and manufacturer guidance.
-
-The proposal should identify the intended primer and finish instead of listing generic exterior paint.
-
-## Respect the complete weather window
-
-Temperature guidance applies to the surface as well as the air. Dark siding in direct sun can be far hotter than the forecast, while shaded masonry can remain cold. Rain and evening dew matter because a fresh finish needs enough time to set. High humidity slows drying; wind can carry debris or create overspray risk.
-
-Coatings must also be applied at the recommended spread rate. Stretching material too far reduces protective film thickness. Edges, lower boards, trim profiles, and transitions deserve deliberate coverage because they often weather first.
-
-Inspect the property each spring and fall, keep plants away from coated surfaces, clean heavy dirt gently, and address local wear before it spreads. BH Painting Metro Detroit provides insured exterior painting across Wayne, Oakland, and Macomb counties with preparation and weather planning written into the scope. Call (313) 236-4558 for an estimate.
-`,
-  },
-  {
-    slug: "cabinet-painting-vs-replacement",
-    title: "Cabinet Painting vs. Replacement: How to Make the Right Investment",
-    metaTitle: "Cabinet Painting vs Replacement Guide",
-    excerpt:
-      "Sound cabinets can often gain a durable, updated finish, while damaged boxes or an unsuitable layout may justify replacement.",
-    category: "Cabinets",
-    readMinutes: 6,
-    date: "2026-03-10",
-    heroImage: "/blog/cabinet-painting-vs-replacement-hero.png",
-    heroAlt:
-      "Freshly painted navy kitchen cabinets with brass hardware in a Metro Detroit home",
-    secondaryImage: "/blog/cabinet-painting-vs-replacement-secondary.png",
-    secondaryAlt:
-      "Professional painter applying a cabinet-grade finish to labeled kitchen doors",
-    body: `
-Cabinet painting can transform a kitchen with less demolition, waste, and disruption than replacement, but it is not the right answer for every room. The decision should begin with cabinet condition and layout, not color inspiration alone.
-
-If the boxes are sturdy, doors operate correctly, and the storage plan works, a professional coating system can provide a major visual update. Replacement makes more sense when boxes are swollen, damaged, poorly secured, or arranged in a way that no finish can improve.
-
-## Good candidates for cabinet painting
-
-Paint is often practical for solid wood, medium-density fiberboard, and previously finished cabinets that remain stable and can accept the selected preparation system. Minor wear is expected. Widespread delamination, deep water damage, failing veneer, or loose structural parts require a closer evaluation.
-
-Consider the layout honestly. Painting will not add drawers, improve awkward corners, raise low counters, or create space for new appliances. If those are the real goals, invest in design changes rather than using color to postpone them.
-
-## The process is more than applying paint
-
-Cabinet surfaces collect cooking oils, hand residue, cleaners, and polish. Successful work requires a controlled sequence:
-
-- Record and label doors, drawers, hinges, and hardware.
-- Degrease all finish areas with suitable cleaners.
-- Sand or abrade consistently to promote adhesion.
-- Use a bonding primer compatible with the cabinet and prior finish.
-- Apply cabinet-grade finish coats within product requirements.
-- Allow adequate cure time before reassembly and normal use.
-
-Skipping cleaning or cure time is a common cause of peeling and marks around handles. A finish may feel dry before it reaches full hardness.
-
-## Compare total project scope
-
-Painting usually preserves counters, cabinet boxes, and the existing footprint. Replacement may trigger added work involving counters, plumbing, electrical items, flooring, backsplash, and appliance fit. Compare complete project costs and disruption, not only the cabinet proposal.
-
-For painting, ask whether doors and drawers are finished off-site or in a controlled area, how the room is isolated, which surfaces are included, and whether interiors are excluded. Confirm the product, color, sheen, hardware handling, and reassembly details in writing.
-
-## Set realistic finish expectations
-
-Paint does not erase wood grain, open seams, profile variation, or every sign of age. Some owners appreciate subtle grain through the new finish; others want an extremely uniform modern appearance. Review a sample and discuss expectations before the full project begins.
-
-Color should be judged beside counters, flooring, backsplash, appliances, and adjacent rooms. Warm whites, muted colors, deep blues, greens, and near-black shades can all work, but lighting and fixed finishes determine which undertones belong.
-
-BH Painting Metro Detroit offers cabinet painting and color guidance throughout Metro Detroit. Call (313) 236-4558 to schedule an assessment of cabinet condition, preparation needs, finish options, and project timing.
-`,
-  },
-  {
-    slug: "hire-painting-contractor-michigan",
-    title: "How to Hire a Painting Contractor in Michigan",
-    metaTitle: "How to Hire a Michigan Painting Contractor",
-    excerpt:
-      "Compare insurance, preparation, products, communication, and written scopes before choosing a painter for your Michigan property.",
+      "Start with layout, storage, and workflow before ordering cabinets so your Metro Detroit kitchen remodel stays on budget and on schedule.",
     category: "Planning",
     readMinutes: 7,
-    date: "2026-04-08",
-    heroImage: "/blog/hire-painting-contractor-michigan-hero.png",
+    date: "2026-01-16",
+    heroImage: "/blog/kitchen-remodel-planning-metro-detroit-hero.png",
     heroAlt:
-      "Homeowner reviewing a written painting proposal with an insured Metro Detroit painter",
-    secondaryImage: "/blog/hire-painting-contractor-michigan-secondary.png",
+      "Homeowner and kitchen designer reviewing layout options at a kitchen island",
+    secondaryImage: "/blog/kitchen-remodel-planning-metro-detroit-secondary.png",
     secondaryAlt:
-      "Organized professional painting crew protecting floors before an interior project",
+      "Kitchen floor plan sketch beside cabinet and flooring samples on a table",
     body: `
-A strong painting proposal should explain how the finish will be achieved, not only provide a total price. Metro Detroit property owners can compare contractors more fairly by reviewing insurance, preparation, products, access, schedule, and cleanup as one complete scope.
+A successful kitchen remodel starts long before demolition. Metro Detroit homes range from Detroit bungalows and brick colonials to Royal Oak ranches and newer Macomb County builds, and each layout presents different constraints for storage, lighting, and workflow.
 
-Begin with projects similar to yours. Cabinet finishing, a tall exterior, an occupied office, and a vacant rental require different equipment and planning. Ask for relevant examples and listen for a clear explanation of the process.
+The most expensive changes are usually structural: moving plumbing stacks, relocating gas lines, removing walls, or reworking vent paths. That is why the planning phase matters. A clear layout decision protects budget, lead times, and daily livability.
 
-## Verify the business and insurance
+## Define how you use the kitchen
 
-Confirm the business name, local contact information, and current liability insurance. Commercial owners and property managers may also require specific certificates and vendor documents. Verify any registration, permit, or municipal requirements that apply to the broader project directly with the appropriate authority.
+List the tasks that happen every week: meal prep, baking, homework, entertaining, coffee, pet feeding, and storage for small appliances. Note whether two people cook at once, whether kids need a landing zone, and whether you want seating at an island.
 
-Avoid relying on badges or review claims without documentation. A professional should be willing to state exactly what is and is not covered.
+Those habits should drive appliance placement, counter landing space, drawer versus door ratios, and pantry depth. A beautiful render is useless if the dishwasher door blocks the main walkway.
 
-## Demand a detailed written scope
+## Measure what exists today
 
-Every proposal should identify:
+Record ceiling height, window locations, soffits, floor transitions, and the distance between sink, range, and refrigerator. Photograph every wall, especially where plumbing and electrical enter.
 
-- Rooms, elevations, surfaces, doors, trim, or cabinets included.
-- Cleaning, sanding, caulking, minor repairs, and primer assumptions.
-- Product lines, colors, finishes, and expected coat count.
-- Furniture, floor, landscaping, fixture, and hardware protection.
-- Crew access, working hours, cleanup, and disposal.
-- Estimated timing, payment milestones, and change-order procedure.
+In older Wayne County homes, surprises often appear behind soffits or under vinyl flooring. In Oakland County updates, the challenge may be fitting modern storage into compact footprints. Macomb County homes sometimes offer more room for islands but still need thoughtful lighting and venting.
 
-One bid may look lower because it excludes preparation or materials included by another. Compare line by line before comparing totals.
+## Decide what must change versus what can wait
 
-## Ask how conditions change the plan
+Full remodels may include new cabinets, counters, backsplash, flooring, lighting, and appliances. Partial refreshes might focus on counters and backsplash while retaining sound cabinet boxes.
 
-A knowledgeable painter should explain how glossy surfaces, stains, prior coatings, moisture, weather, strong color changes, or occupied areas affect the system. Exterior work needs manufacturer-compliant temperature and moisture windows. Interior work needs ventilation and a plan for children, pets, employees, or customers.
+Write two lists: must-have changes and nice-to-have upgrades. That split helps you compare estimates fairly and phase work if needed.
 
-Specific answers are more useful than promises that one product works everywhere.
+## Build a realistic schedule
 
-## Review communication and project control
+Cabinet lead times, countertop templating, inspection windows, and trade sequencing all affect duration. Countertops cannot be fabricated accurately until base cabinets are installed and verified.
 
-Know who confirms colors, who provides daily updates, and who completes the final walkthrough. Color names and product references should be recorded before ordering. Added work should receive written approval before it affects the invoice or schedule.
+Confirm when you will lose access to the sink, stove, or refrigerator and plan a temporary kitchen setup if the project spans more than a few days.
 
-For businesses and multifamily properties, ask about phased zones, tenant notices, secure storage, and coordination with cleaners or maintenance staff.
+## Get a written scope before ordering materials
 
-## Watch for warning signs
+Your proposal should identify demolition, rough-in coordination, cabinet installation, countertop allowance, backsplash, flooring, fixture setting, protection, cleanup, and exclusions.
 
-- A vague verbal price with no included surfaces or preparation.
-- Pressure for a large payment without defined milestones.
-- No proof of insurance.
-- Unlabeled leftover containers or unclear product substitutions.
-- Promises to paint damp, dirty, or unstable surfaces immediately.
-- No plan for protection, ventilation, cleanup, or final review.
-
-The best choice is the contractor whose written process fits your property and risk, not automatically the highest or lowest bidder. BH Painting Metro Detroit provides free written estimates and insured professional painters across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 to discuss your project.
+BH Kitchen Remodeling Metro Detroit helps homeowners across Wayne, Oakland, and Macomb counties plan functional kitchens and execute carefully sequenced remodels. Call or text (313) 236-4558 for a written estimate.
 `,
   },
   {
-    slug: "commercial-painting-minimal-downtime",
-    title: "Commercial Painting With Minimal Downtime in Metro Detroit",
-    metaTitle: "Commercial Painting With Minimal Downtime",
+    slug: "cabinet-installation-vs-refacing",
+    title: "Cabinet Installation vs. Refacing: Which Is Right for Your Kitchen?",
+    metaTitle: "Cabinet Installation vs Refacing in Metro Detroit",
     excerpt:
-      "Phased work zones, off-hour scheduling, coating selection, and clear communication can keep a business operating during repainting.",
-    category: "Commercial",
+      "Compare new cabinet installation, refacing, and repainting when your boxes are sound but the kitchen looks dated.",
+    category: "Cabinets",
     readMinutes: 6,
-    date: "2026-05-07",
-    heroImage: "/blog/commercial-painting-minimal-downtime-hero.png",
+    date: "2026-02-03",
+    heroImage: "/blog/cabinet-installation-vs-refacing-hero.png",
     heroAlt:
-      "Professional painters refreshing a modern Metro Detroit office after business hours",
-    secondaryImage: "/blog/commercial-painting-minimal-downtime-secondary.png",
+      "Contractor installing new shaker cabinets beside older cabinet boxes being refaced",
+    secondaryImage: "/blog/cabinet-installation-vs-refacing-secondary.png",
     secondaryAlt:
-      "Protected commercial corridor divided into organized painting work zones",
+      "Close detail of soft-close hinge adjustment on freshly installed cabinet doors",
     body: `
-Commercial painting succeeds when the new finish improves the property without disrupting the people who use it. Offices, stores, restaurants, clinics, apartment common areas, and light-industrial spaces each have different traffic, access, ventilation, security, and cure-time needs.
+Not every dated kitchen needs a full cabinet tear-out. When boxes are structurally sound, refacing or repainting may deliver a dramatic visual change at lower cost and with less downtime. When layout, storage, or damage is the problem, new cabinet installation is usually the better long-term answer.
 
-The planning conversation should begin with operations. Identify when customers arrive, which rooms cannot close together, where materials can be stored, and who can authorize a completed zone.
+## When new cabinet installation makes sense
 
-## Build the schedule around critical spaces
+Choose new cabinets when you want a different layout, deeper drawers, taller pantry storage, improved accessibility, or when existing boxes are swollen from past leaks, poorly modified, or misaligned.
 
-Divide the project into practical phases rather than opening every area at once. A typical plan might complete private offices first, shared corridors in sections, and reception during a low-traffic period. Retail and hospitality work may be scheduled after closing, while multifamily common areas often need daytime access and resident notices.
+New installation also makes sense when you are changing appliance sizes, adding an island, or removing soffits that currently hide mechanicals. The project takes longer and costs more, but you solve function—not just appearance.
 
-The schedule should include preparation and cure time, not only application. A surface that feels dry may not be ready for heavy cleaning, door contact, shelving, or constant hand traffic.
+## When refacing or repainting can work
 
-## Select products for the actual environment
+Refacing replaces doors, drawer fronts, and visible surfaces while retaining cabinet boxes. Repainting updates color and sheen on existing doors and frames when the underlying material accepts a durable finish system.
 
-Low-odor and low-VOC options can help occupied spaces, but ventilation is still important. High-contact corridors may need greater washability. Kitchens, restrooms, loading areas, and exterior entrances have distinct moisture and wear conditions.
+These options work best when layout is already functional, boxes are level, and hardware upgrades will bring the room current.
 
-Color and sheen also affect maintenance. Very dark colors can show dust or scuffs in bright corridors, while high reflection reveals more variation. A product plan should balance brand standards, appearance, cleaning practices, and expected traffic.
+## Compare finish durability and maintenance
 
-### Control each work zone
+Painted MDF doors, thermofoil, wood, and laminate each behave differently around steam, grease, and daily cleaning. Hardware quality matters as much as door style: soft-close hinges and full-extension slides change daily use immediately.
 
-- Post or communicate closures before crews arrive.
-- Protect floors, furniture, displays, equipment, and adjacent finishes.
-- Maintain required exits and keep paths clearly usable.
-- Isolate preparation residue and manage ventilation.
-- Label approved colors and products by room or location.
-- Inspect and release one phase before opening the next.
+Ask how finishes are cleaned, whether edges are sealed properly, and how touch-ups are handled after installation.
 
-When several tenants share a property, designate one owner or manager contact to prevent conflicting instructions.
+## Look at total project context
 
-## Use off-hours strategically
+Even if cabinets stay, counters, backsplash, flooring, and lighting may still need updates to feel cohesive. A refacing quote should state whether toe kicks, end panels, fillers, and crown are included.
 
-Night and weekend work can reduce customer interruption, but it needs secure access, adequate lighting, alarm coordination, and a clear end-of-shift checklist. Quiet tasks may be possible during business hours while noisier preparation happens later. The right split can control cost better than moving every task to overtime periods.
-
-## Document progress and closeout
-
-Daily updates should identify completed areas, spaces still curing, access changes, and decisions needed from management. At closeout, record final colors and products for future maintenance. Clearly labeled touch-up material can help facility teams handle small wear without guessing.
-
-BH Painting Metro Detroit coordinates phased commercial painting across Wayne, Oakland, and Macomb counties. Call (313) 236-4558 to review operating hours, priority zones, coating needs, and a written schedule designed to limit downtime.
+BH Kitchen Remodeling Metro Detroit installs new cabinets and coordinates partial refreshes across Metro Detroit. We will recommend the approach that matches your layout goals—not just the lowest upfront number.
 `,
   },
   {
-    slug: "deck-staining-michigan-climate",
-    title: "Deck Staining for Michigan's Climate: Timing, Prep, and Maintenance",
-    metaTitle: "Deck Staining in Michigan's Climate",
+    slug: "countertop-materials-michigan-homes",
+    title: "Countertop Materials for Michigan Kitchens: Quartz, Granite, and More",
+    metaTitle: "Best Kitchen Countertops for Michigan Homes",
     excerpt:
-      "Protect outdoor wood through Michigan seasons by checking condition and moisture, cleaning correctly, and choosing the right stain.",
-    category: "Exterior",
-    readMinutes: 7,
-    date: "2026-06-11",
-    heroImage: "/blog/deck-staining-michigan-climate-hero.png",
+      "Compare quartz, granite, marble, butcher block, and solid surface for durability, maintenance, and daily cooking.",
+    category: "Countertops",
+    readMinutes: 6,
+    date: "2026-02-18",
+    heroImage: "/blog/countertop-materials-michigan-homes-hero.png",
     heroAlt:
-      "Freshly stained wood deck behind a Metro Detroit home in mild summer weather",
-    secondaryImage: "/blog/deck-staining-michigan-climate-secondary.png",
+      "Quartz and granite countertop samples on a kitchen island in natural light",
+    secondaryImage: "/blog/countertop-materials-michigan-homes-secondary.png",
     secondaryAlt:
-      "Professional painter checking clean dry deck boards before applying stain",
+      "Installer polishing a quartz seam at a kitchen sink cutout",
     body: `
-A Metro Detroit deck moves through snow, standing moisture, spring pollen, summer sun, and autumn leaves every year. Stain helps manage water and ultraviolet exposure, but only when the wood is ready to accept it. Applying a premium product over damp, dirty, or nonabsorbent boards can still produce blotchy color and early failure.
+Countertops define the visual tone of a kitchen and take the most daily abuse. Michigan homeowners often prioritize durability, easy cleanup, and resistance to wine, coffee, oils, and acidic foods—especially in busy family kitchens.
 
-The best plan begins with the wood species, age, prior finish, exposure, and current condition.
+## Quartz
 
-## Inspect before cleaning
+Engineered quartz is non-porous and low maintenance, which makes it popular for full-time kitchens. Seam placement and edge profile still matter for aesthetics. Use trivets for very hot pans; thermal shock can damage any stone-based surface.
 
-Look for soft boards, loose fasteners, splinters, raised grain, algae, heavy graying, peeling finish, and areas that stay shaded. Structural or drainage concerns should be corrected before cosmetic work. Note where planters, grills, rugs, or furniture have trapped moisture.
+## Granite
 
-New pressure-treated wood often needs time to dry before staining. Older wood may be dry enough but blocked by a prior coating. A small water-drop test can indicate absorption: water that beads for an extended period suggests the surface may not yet accept a penetrating product.
+Granite offers natural variation and strong heat tolerance when sealed properly. Lighter stones may need more attentive sealing in high-use areas. If you love movement and natural pattern, granite remains a strong choice.
 
-## Clean without damaging the wood
+## Marble and marble look-alikes
 
-Cleaning should remove dirt, organic growth, and incompatible loose finish while preserving sound fibers. Excessive pressure can carve softer boards and create visible lines. The appropriate cleaner, agitation, rinse method, and dry period depend on the deck.
+Marble is beautiful but etches and stains more easily. Many clients choose quartz with marble veining for the look without the maintenance profile of true marble.
 
-After cleaning, allow shaded joints and end grain to dry fully. A sunny top surface does not prove that moisture deeper in the boards is suitable for application.
+## Butcher block and solid surface
 
-## Choose a stain by appearance and maintenance
+Butcher block adds warmth and is excellent on islands, but it needs oiling and careful moisture management near sinks. Solid surface allows integrated sinks and inconspicuous seams, which can help contemporary designs.
 
-Transparent and lightly toned products show more grain but generally provide less visual masking. Semi-transparent stains add color while retaining character. Solid-color stains create a more uniform look and can suit previously coated surfaces when preparation and compatibility are correct.
+## Template and install quality
 
-No category is maintenance-free. Ask how the product weathers, how future maintenance is performed, and whether the prior finish limits the available choices.
+Even premium slabs look amateur if seams are poorly placed or sink cutouts are rough. Template after cabinets are installed, verify overhangs and supports for islands, and confirm backsplash height before fabrication.
 
-### Schedule for application and cure
+BH Kitchen Remodeling Metro Detroit coordinates countertop replacement with cabinet installation and backsplash work across Wayne, Oakland, and Macomb counties.
+`,
+  },
+  {
+    slug: "hire-kitchen-remodeling-contractor-michigan",
+    title: "How to Hire a Kitchen Remodeling Contractor in Michigan",
+    metaTitle: "Hire a Kitchen Remodeling Contractor in Michigan",
+    excerpt:
+      "Use written scopes, insurance verification, reference checks, and clear payment terms before signing a kitchen contract.",
+    category: "Planning",
+    readMinutes: 7,
+    date: "2026-03-02",
+    heroImage: "/blog/hire-kitchen-remodeling-contractor-michigan-hero.png",
+    heroAlt:
+      "Homeowner reviewing a written kitchen remodel scope with an insured contractor",
+    secondaryImage: "/blog/hire-kitchen-remodeling-contractor-michigan-secondary.png",
+    secondaryAlt:
+      "Organized kitchen jobsite with protected floors and labeled cabinet boxes",
+    body: `
+Kitchen remodeling is a sequence-sensitive project. The right contractor communicates scope, coordinates trades, protects your home, and documents changes instead of improvising under pressure.
 
-A useful weather window includes suitable air and surface temperatures, manageable humidity, no expected rain, and enough cure time before furniture returns. Direct midday sun may make sections dry too quickly, while evening dew can affect late application.
+## Verify insurance and trade coordination
 
-- Work in sections that maintain a wet edge.
-- Coat end grain and detailed areas as the system directs.
-- Avoid excess material that cannot penetrate or level correctly.
-- Keep people, pets, furniture, and rain off the finish during cure.
+Ask for proof of general liability insurance and workers compensation when applicable. Confirm who handles electrical, plumbing, gas, and vent work and whether those portions are permitted when required.
 
-## Maintain the deck between full applications
+## Compare written scopes, not lump sums
 
-Sweep leaves and debris, keep gaps open for drainage, move moisture-trapping items periodically, and clean gently when buildup appears. Inspect horizontal boards and stair treads each spring because they wear faster than vertical rails. Early maintenance can extend the service life of the overall finish.
+Two bids with the same total can include very different work. Compare demolition, cabinet tier, countertop allowance, backsplash square footage, flooring, fixture setting, protection, cleanup, and warranty terms.
 
-BH Painting Metro Detroit stains decks, fences, railings, and pergolas across Wayne, Oakland, and Macomb counties. Call (313) 236-4558 for an evaluation of wood condition, prior coating, color options, preparation, and weather-aware scheduling.
+## Check sequencing experience
+
+Cabinets before counters. Template after bases are set. Backsplash after counters when applicable. Lighting rough-in before close drywall or finish surfaces. Experienced remodelers plan these steps explicitly.
+
+## Review change-order policy
+
+Layout changes mid-project are common, but they should be documented with price and schedule impact before work proceeds. Avoid contractors who treat every discovery as an open-ended extra.
+
+## Define payment milestones
+
+Never pay the full contract upfront. Tie payments to measurable progress: demo complete, cabinets set, counters installed, substantial completion, and final punch list.
+
+BH Kitchen Remodeling Metro Detroit provides insured professional kitchen remodeling across Metro Detroit with written scopes and direct project communication. Call (313) 236-4558 to discuss your kitchen.
+`,
+  },
+  {
+    slug: "kitchen-design-layout-tips",
+    title: "Kitchen Design Layout Tips That Improve Daily Workflow",
+    metaTitle: "Kitchen Layout Design Tips for Metro Detroit Homes",
+    excerpt:
+      "Improve prep zones, storage, landing space, and traffic flow before you finalize cabinet plans.",
+    category: "Design",
+    readMinutes: 6,
+    date: "2026-03-20",
+    heroImage: "/blog/kitchen-design-layout-tips-hero.png",
+    heroAlt:
+      "Open kitchen layout showing clear work zones between sink, range, and refrigerator",
+    secondaryImage: "/blog/kitchen-design-layout-tips-secondary.png",
+    secondaryAlt:
+      "Designer marking cabinet heights and outlet locations on a kitchen wall",
+    body: `
+Layout is the part of kitchen design you feel every day. Finish selections matter, but poor circulation or missing landing space creates friction that no hardware upgrade fixes.
+
+## Protect the work triangle—but do not worship it
+
+The sink, range, and refrigerator should relate logically, yet modern kitchens also need space for coffee makers, mixers, and dual cooks. Add landing area beside the cooktop and refrigerator, and keep trash/recycling accessible without blocking drawers.
+
+## Plan island size carefully
+
+Islands need clearance on all sides for doors, drawers, dishwashers, and seated knees. Electrical outlets are often required on islands depending on code and design. Water and gas on islands are possible but add cost and coordination.
+
+## Prioritize storage by item, not just door count
+
+Deep drawers for pots, full-extension pullouts for spices, trash/recycling pullouts, and tall pantry units often improve function more than adding upper cabinets to the ceiling everywhere.
+
+## Layer lighting early
+
+Task lighting at the sink and range, ambient recessed light, and accent pendants should be planned with cabinet heights and soffit conditions in mind. Retrofit lighting after cabinets are built is harder and messier.
+
+## Align finishes with the rest of the home
+
+Open plans require the kitchen palette to cooperate with flooring, railings, and adjacent paint colors. Sample cabinets, counters, and backsplash together in the room's actual light.
+
+BH Kitchen Remodeling Metro Detroit provides kitchen design and remodeling services across Wayne, Oakland, and Macomb counties.
+`,
+  },
+  {
+    slug: "kitchen-remodel-timeline-budget",
+    title: "Kitchen Remodel Timelines and Budget Planning in Metro Detroit",
+    metaTitle: "Kitchen Remodel Timeline and Budget Guide",
+    excerpt:
+      "Understand lead times, phasing, allowances, and the schedule impact of layout changes before you commit.",
+    category: "Budget",
+    readMinutes: 7,
+    date: "2026-04-08",
+    heroImage: "/blog/kitchen-remodel-timeline-budget-hero.png",
+    heroAlt:
+      "Phased kitchen remodel with lower cabinets installed and upper boxes staged",
+    secondaryImage: "/blog/kitchen-remodel-timeline-budget-secondary.png",
+    secondaryAlt:
+      "Protected kitchen jobsite with project materials staged for installation",
+    body: `
+Budget overruns usually trace back to late layout decisions, unclear allowances, or unrealistic lead-time assumptions—not mysterious "construction surprises." A disciplined plan keeps Metro Detroit kitchen remodels predictable.
+
+## Build budget tiers
+
+Establish good-better-best allowances for cabinets, counters, tile, lighting, and fixtures. That lets you adjust selections without redesigning the entire scope when one material line is backordered or over budget.
+
+## Sequence lead times intentionally
+
+Order long-lead items early after layout approval. Schedule countertop templating only when base cabinets are installed and verified. Hold flooring installation until heavy trade traffic is complete when possible.
+
+## Plan for living without a full kitchen
+
+Even partial remodels disrupt cooking routines. Set up a temporary station with microwave, toaster oven, and dish storage. Discuss dust control, daily cleanup, and which utilities will be offline each week.
+
+## Keep a contingency
+
+A modest contingency for hidden conditions—roted subfloor, outdated wiring, or non-compliant venting—is prudent in older homes. The contingency is not a license to expand scope; it is protection against documented discoveries.
+
+## Track changes in writing
+
+Every layout or material change should update cost and schedule before crews proceed. Written change orders prevent disputes at final payment.
+
+BH Kitchen Remodeling Metro Detroit provides transparent kitchen remodeling estimates across Metro Detroit. Request a written scope to compare options with confidence.
 `,
   },
 ];
 
-export function findPost(slug: string): BlogPost | undefined {
+export function findPost(slug: string) {
   return BLOG_POSTS.find((post) => post.slug === slug);
 }

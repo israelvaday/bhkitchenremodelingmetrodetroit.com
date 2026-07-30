@@ -24,8 +24,8 @@ export async function generateMetadata({
   const area = AREAS_BY_SLUG[slug];
   if (!area) return {};
   return {
-    title: `Painting Company in ${area.name}, MI`,
-    description: `${BIZ.name} provides interior, exterior, cabinet, commercial, trim, ceiling, staining, and related painting services in ${area.name}, MI.`,
+    title: `kitchen remodeling company in ${area.name}, MI`,
+    description: `${BIZ.name} provides custom kitchen remodeling, cabinet installation, countertop replacement, and kitchen design in ${area.name}, MI.`,
     alternates: { canonical: `/service-areas/${area.slug}` },
   };
 }
@@ -37,14 +37,14 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
 
   const nearby = nearbyAreas(area, 6);
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-  const heroSrc = `${base}/photos/service-hero-interior-painting.png`;
+  const heroSrc = `${base}/photos/service-hero-custom-kitchen-remodeling.png`;
 
   return (
     <>
       <section className="relative overflow-hidden border-b border-ink-800 bg-ink-950">
         <Image
           src={heroSrc}
-          alt={`Painting project inspiration for ${area.name}, Michigan`}
+          alt={`kitchen remodeling project inspiration for ${area.name}, Michigan`}
           fill
           priority
           sizes="100vw"
@@ -56,7 +56,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             <div>
               <div className="flex flex-wrap items-center gap-2">
                 <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/40 bg-ink-950/70 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-brass-300 backdrop-blur">
-                  <Paintbrush className="h-3.5 w-3.5" /> Metro Detroit painting
+                  <Paintbrush className="h-3.5 w-3.5" /> Metro Detroit Kitchen Remodeling
                 </span>
                 <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300 backdrop-blur">
                   <Clock className="h-3.5 w-3.5" /> Mon–Fri 7–6 · Sat 8–2
@@ -66,10 +66,10 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
                 </span>
               </div>
               <h1 className="mt-5 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-                Painting services in <span className="text-brass-gradient">{area.name}</span>, MI
+                kitchen remodeling services in <span className="text-brass-gradient">{area.name}</span>, MI
               </h1>
               <p className="mt-4 max-w-2xl text-base text-ink-200 md:text-lg">
-                {BIZ.name} serves {area.name} with interior, exterior, cabinet, commercial, trim, ceiling, staining,
+                {BIZ.name} serves {area.name} with custom kitchen remodeling, cabinet installation, countertop replacement, commercial, trim, ceiling, staining,
                 rental turnover, wallpaper removal, and color consultation options.
               </p>
               <div className="mt-7">
@@ -105,7 +105,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
       <section className="border-t border-ink-800 py-16">
         <div className="mx-auto max-w-7xl px-4 md:px-6">
           <div className="mb-6">
-            <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Painting services</p>
+            <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">kitchen remodeling services</p>
             <h2 className="mt-2 font-display text-3xl font-bold tracking-tight md:text-4xl">
               Service options in {area.name}
             </h2>
@@ -191,7 +191,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
       <section className="border-t border-ink-800 bg-aurora py-16 text-center">
         <div className="mx-auto max-w-3xl px-4 md:px-6">
           <h2 className="font-display text-3xl font-extrabold md:text-4xl">
-            Have a painting project in {area.name}?
+            Have a kitchen remodeling project in {area.name}?
           </h2>
           <p className="mt-3 text-ink-200">Tell {BIZ.name} what you would like painted.</p>
           <div className="mt-6 flex justify-center">

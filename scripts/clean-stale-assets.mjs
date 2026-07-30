@@ -1,5 +1,5 @@
 /**
- * Remove obsolete generated assets after the complete painting image set has
+ * Remove obsolete generated assets after the complete kitchen image set has
  * been created. The script validates every required replacement first.
  */
 import {
@@ -13,40 +13,40 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const serviceSlugs = [
-  "interior-painting",
-  "exterior-painting",
-  "cabinet-painting",
-  "commercial-painting",
-  "deck-fence-staining",
-  "trim-door-painting",
-  "ceiling-painting",
-  "rental-turnover-painting",
-  "wallpaper-removal",
-  "color-consultation",
+  "custom-kitchen-remodeling",
+  "cabinet-installation",
+  "countertop-replacement",
+  "kitchen-design",
+  "kitchen-backsplash-tile",
+  "kitchen-lighting-upgrades",
+  "kitchen-flooring",
+  "kitchen-island-installation",
+  "kitchen-appliance-layout",
+  "partial-kitchen-refresh",
 ];
 const galleryFiles = [
-  "painting-gallery--interior-living-room.png",
-  "painting-gallery--exterior-brick-home.png",
-  "painting-gallery--cabinet-finish.png",
-  "painting-gallery--commercial-office.png",
-  "painting-gallery--deck-staining.png",
-  "painting-gallery--trim-detail.png",
-  "painting-gallery--ceiling-rolling.png",
-  "painting-gallery--rental-turnover.png",
-  "painting-gallery--wallpaper-removal.png",
-  "painting-gallery--color-sampling.png",
-  "painting-gallery--exterior-siding.png",
-  "painting-gallery--occupied-office.png",
-  "painting-gallery--front-door.png",
-  "painting-gallery--multifamily-hallway.png",
+  "kitchen-gallery--modern-white-shaker.png",
+  "kitchen-gallery--navy-gold-remodel.png",
+  "kitchen-gallery--cabinet-install-progress.png",
+  "kitchen-gallery--countertop-template.png",
+  "kitchen-gallery--subway-backsplash.png",
+  "kitchen-gallery--open-concept.png",
+  "kitchen-gallery--butcher-block-island.png",
+  "kitchen-gallery--lighting-upgrade.png",
+  "kitchen-gallery--luxury-vinyl-floor.png",
+  "kitchen-gallery--compact-galley.png",
+  "kitchen-gallery--farmhouse-sink.png",
+  "kitchen-gallery--pantry-wall.png",
+  "kitchen-gallery--two-tone-cabinets.png",
+  "kitchen-gallery--before-after-staging.png",
 ];
 const blogSlugs = [
-  "interior-paint-colors-metro-detroit",
-  "exterior-paint-michigan-weather",
-  "cabinet-painting-vs-replacement",
-  "hire-painting-contractor-michigan",
-  "commercial-painting-minimal-downtime",
-  "deck-staining-michigan-climate",
+  "kitchen-remodel-planning-metro-detroit",
+  "cabinet-installation-vs-refacing",
+  "countertop-materials-michigan-homes",
+  "hire-kitchen-remodeling-contractor-michigan",
+  "kitchen-design-layout-tips",
+  "kitchen-remodel-timeline-budget",
 ];
 const quoteFiles = [
   ...serviceSlugs.map((slug) => `${slug}.png`),
@@ -62,7 +62,7 @@ const keep = new Set([
   "public/logo-512.png",
   "public/about/about-hero.png",
   "public/about/about-workshop.png",
-  "public/photos/branding-generated--hero-painting-metro-detroit.png",
+  "public/photos/branding-generated--hero-kitchen-metro-detroit.png",
   "public/photos/branding-generated--metro-detroit-map.png",
   ...serviceSlugs.map((slug) => `public/photos/service-hero-${slug}.png`),
   ...galleryFiles.map((file) => `public/photos/${file}`),
@@ -78,7 +78,7 @@ const missing = [...keep].filter(
 );
 if (missing.length) {
   throw new Error(
-    `Refusing cleanup; ${missing.length} painting assets are missing:\n${missing.join("\n")}`
+    `Refusing cleanup; ${missing.length} kitchen assets are missing:\n${missing.join("\n")}`
   );
 }
 

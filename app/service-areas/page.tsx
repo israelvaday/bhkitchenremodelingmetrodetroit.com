@@ -7,7 +7,7 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { BuyersGuide } from "@/components/site/BuyersGuide";
 
 export const metadata: Metadata = {
-  title: "Service Areas — Metro Detroit Painting",
+  title: "Service Areas — Metro Detroit Kitchen Remodeling",
   description: `${BIZ.name} serves ${AREAS.length} Metro Detroit cities, communities, and neighborhoods. Search your area and request a painting quote.`,
   alternates: { canonical: `${BIZ.url}/service-areas` },
 };
@@ -32,7 +32,7 @@ export default function AreasPage() {
           <AreaSearch areas={AREAS} />
         </div>
       </section>
-      <LongFormFaq subject="Metro Detroit Painting" kind="service" />
+      <LongFormFaq subject="Metro Detroit Kitchen Remodeling" kind="service" />
       <BuyersGuide />
       <FinalCTA />
     </>

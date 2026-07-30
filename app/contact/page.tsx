@@ -6,9 +6,9 @@ import { ContactCTA } from "@/components/site/ContactCTA";
 import { ServiceMap } from "@/components/site/ServiceMap";
 
 export const metadata: Metadata = {
-  title: "Contact — Metro Detroit Painting",
+  title: "Contact — Metro Detroit Kitchen Remodeling",
   description:
-    `Contact ${BIZ.name} to discuss a painting project, text photos, or request a free quote across Metro Detroit.`,
+    `Contact ${BIZ.name} to discuss a kitchen remodeling project, text photos, or request a free quote across Metro Detroit.`,
   alternates: { canonical: "/contact" },
 };
 
@@ -22,7 +22,7 @@ export default function ContactPage() {
             <Clock className="h-3.5 w-3.5" /> Mon–Fri 7–6 · Sat 8–2
           </div>
           <h1 className="mt-5 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            Plan your <span className="text-brass-gradient">painting project</span>.
+            Plan your <span className="text-brass-gradient">kitchen remodeling project</span>.
           </h1>
           <p className="mt-4 text-ink-200">
             Call, email, text project photos, or send a quote request for a Metro Detroit home or business.
@@ -89,7 +89,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-4xl px-4 md:px-6">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">How to reach us</p>
           <h2 className="mt-2 font-display text-3xl font-bold tracking-tight md:text-4xl">
-            Three ways to discuss a Metro Detroit painting project.
+            Three ways to discuss a Metro Detroit Kitchen Remodeling project.
           </h2>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             <div className="rounded-2xl border border-ink-800 bg-ink-900/50 p-6">
@@ -115,7 +115,7 @@ export default function ContactPage() {
             <div className="rounded-2xl border border-ink-800 bg-ink-900/50 p-6">
               <h3 className="font-display text-xl font-bold text-white">Free written quote</h3>
               <p className="mt-2 text-sm text-ink-200">
-                Use the picture-driven quote tool to identify the painting service, property type, timing, and project
+                Use the picture-driven quote tool to identify the kitchen remodeling service, property type, timing, and project
                 details. You can upload photos or plans to support a project-specific follow-up.
               </p>
               <a href="/quote" className="mt-4 inline-block text-sm font-semibold text-brass-300 underline-offset-4 hover:underline">
@@ -126,7 +126,7 @@ export default function ContactPage() {
 
           <div className="mt-10 rounded-2xl border border-ink-800 bg-ink-900/40 p-6 text-sm text-ink-200">
             <p>
-              <strong className="text-white">What we cover.</strong> {BIZ.name} provides interior, exterior, cabinet,
+              <strong className="text-white">What we cover.</strong> {BIZ.name} provides custom kitchen remodeling, cabinet installation, countertop replacement,
               commercial, deck and fence staining, trim and door, ceiling, rental turnover, wallpaper removal, and
               color consultation services across Wayne, Oakland, and Macomb counties.
             </p>
@@ -138,7 +138,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <LongFormFaq subject="Metro Detroit Painting" kind="service" />
+      <LongFormFaq subject="Metro Detroit Kitchen Remodeling" kind="service" />
 
       <section className="border-t border-ink-800 bg-aurora py-16 text-center">
         <div className="mx-auto max-w-3xl px-4 md:px-6">
