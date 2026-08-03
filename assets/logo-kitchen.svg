@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none">
+  <rect x="48" y="48" width="928" height="928" rx="208" fill="#0B1F3A"/>
+  <rect x="72" y="72" width="880" height="880" rx="188" stroke="#D4A24C" stroke-width="24"/>
+  <!-- Cabinet run -->
+  <rect x="196" y="196" width="632" height="300" rx="20" fill="none" stroke="#D4A24C" stroke-width="22"/>
+  <line x1="407" y1="218" x2="407" y2="474" stroke="#D4A24C" stroke-width="16"/>
+  <line x1="617" y1="218" x2="617" y2="474" stroke="#D4A24C" stroke-width="16"/>
+  <rect x="228" y="228" width="148" height="56" rx="10" fill="#FFF6DF" opacity="0.22"/>
+  <rect x="438" y="228" width="148" height="56" rx="10" fill="#FFF6DF" opacity="0.22"/>
+  <rect x="648" y="228" width="148" height="56" rx="10" fill="#FFF6DF" opacity="0.22"/>
+  <!-- Countertop -->
+  <rect x="176" y="496" width="672" height="36" rx="10" fill="#D4A24C"/>
+  <!-- BH monogram -->
+  <text x="512" y="760" fill="#FFF6DF" font-family="Arial, Helvetica, sans-serif" font-size="248" font-weight="900" text-anchor="middle" letter-spacing="-18">BH</text>
+  <!-- Subtle kitchen accent: pendant light -->
+  <line x1="512" y1="132" x2="512" y2="176" stroke="#D4A24C" stroke-width="14" stroke-linecap="round"/>
+  <path d="M452 176 H572 Q592 176 592 206 V236 Q592 256 572 256 H452 Q432 256 432 236 V206 Q432 176 452 176 Z" fill="#D4A24C"/>
+</svg>

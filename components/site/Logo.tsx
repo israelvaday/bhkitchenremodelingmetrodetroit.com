@@ -19,12 +19,12 @@ export function LogoMark({
       )}
     >
       <Image
-        src={`${base}/icon.png`}
+        src={`${base}/logo-256.png`}
         alt={title}
         fill
         priority={priority}
         sizes="96px"
-        className="object-cover"
+        className="object-contain p-0.5"
       />
     </span>
   );

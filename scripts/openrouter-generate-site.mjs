@@ -234,7 +234,7 @@ const BRAND_IMAGES = [
     logo: true,
     aspectRatio: "1:1",
     prompt:
-      "Professional navy and warm gold brand logo, centered BH monogram integrated with a clean kitchen cabinet silhouette and subtle countertop line, premium geometric vector mark, strong contrast, transparent or plain background, no words beyond the BH monogram, no watermark",
+      "Professional navy and warm gold brand logo, centered BH monogram below a simplified kitchen cabinet run and countertop line, small pendant light accent, premium geometric vector mark, strong contrast, plain navy background, no words beyond the BH monogram, no paint roller, no watermark",
   },
   {
     path: "public/photos/branding-generated--hero-kitchen-metro-detroit.png",
