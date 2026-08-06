@@ -16,9 +16,11 @@ import { BuyersGuide } from "@/components/site/BuyersGuide";
 import { KitchenGlossary } from "@/components/site/KitchenGlossary";
 
 export const metadata: Metadata = {
-  title: "Kitchen Remodeling Company — Cabinets, Counters & Design",
+  // Geo-first: every tracked keyword for this client is location-modified, and the
+  // previous title ("Kitchen Remodeling Company — ...") carried no place name at all.
+  title: "Kitchen Remodeling Metro Detroit | Cabinets, Counters & Design",
   description:
-    `${BIZ.name} provides custom kitchen remodeling, cabinet installation, countertop replacement, and kitchen design across Metro Detroit. Request a free estimate.`,
+    `Kitchen remodeling across Wayne, Oakland and Macomb counties: full remodels, cabinets, countertops and design. Free estimates. Call ${BIZ.phone}.`,
   alternates: { canonical: "/" },
 };
 
