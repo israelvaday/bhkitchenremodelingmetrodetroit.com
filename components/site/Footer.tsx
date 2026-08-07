@@ -22,7 +22,7 @@ export function Footer() {
               <ChefHat className="h-3.5 w-3.5" /> Written scopes
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300">
-              <Clock className="h-3.5 w-3.5" /> Mon–Sat service
+              <Clock className="h-3.5 w-3.5" /> Sun–Thu 9–5 · Fri 9–12
             </span>
           </div>
           {BIZ.social.instagram ? (
