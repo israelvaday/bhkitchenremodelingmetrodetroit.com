@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { ArrowRight, Clock, MapPin, Paintbrush, Sparkles } from "lucide-react";
+import { ArrowRight, ChefHat, Clock, MapPin, Sparkles } from "lucide-react";
 import { AREAS, AREAS_BY_SLUG, nearbyAreas } from "@/lib/areas";
 import { SERVICES } from "@/content/services";
 import { BIZ } from "@/lib/business";
@@ -56,7 +56,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             <div>
               <div className="flex flex-wrap items-center gap-2">
                 <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/40 bg-ink-950/70 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-brass-300 backdrop-blur">
-                  <Paintbrush className="h-3.5 w-3.5" /> Metro Detroit Kitchen Remodeling
+                  <ChefHat className="h-3.5 w-3.5" /> Metro Detroit Kitchen Remodeling
                 </span>
                 <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300 backdrop-blur">
                   <Clock className="h-3.5 w-3.5" /> Sun–Thu 9–5 · Fri 9–12
@@ -69,8 +69,8 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
                 kitchen remodeling services in <span className="text-brass-gradient">{area.name}</span>, MI
               </h1>
               <p className="mt-4 max-w-2xl text-base text-ink-200 md:text-lg">
-                {BIZ.name} serves {area.name} with custom kitchen remodeling, cabinet installation, countertop replacement, commercial, trim, ceiling, staining,
-                rental turnover, wallpaper removal, and color consultation options.
+                {BIZ.name} serves {area.name} with custom kitchen remodeling, cabinet installation, countertop replacement, kitchen design,
+                backsplash and tile, lighting upgrades, kitchen flooring, island installation, appliance layout, and partial refresh options.
               </p>
               <div className="mt-7">
                 <ContactCTA size="lg" />
@@ -162,21 +162,22 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
       <section className="border-t border-ink-800 py-16">
         <div className="mx-auto max-w-3xl space-y-5 px-4 text-sm text-ink-200 md:px-6 md:text-base">
           <h2 className="font-display text-2xl font-bold text-white md:text-3xl">
-            Planning painting work in {area.name}
+            Planning a kitchen remodel in {area.name}
           </h2>
           <p>
-            A useful estimate starts with the surfaces and their current condition. Tell us whether the project
-            involves occupied rooms, an empty turnover, exterior elevations, cabinets, trim, ceilings, commercial
-            space, or outdoor wood.
+            A useful estimate starts with the room itself and how much of it changes. Tell us whether the project
+            keeps the existing layout, moves cabinets or plumbing, replaces countertops only, adds an island, or
+            opens the kitchen into an adjoining room.
           </p>
           <p>
-            Preparation may include cleaning, scraping, sanding, filling, caulking, spot priming, and protecting
-            adjacent finishes. The appropriate steps depend on the substrate and should be described in the written
-            scope rather than assumed.
+            Preparation may include measuring the existing cabinet run, checking wall and floor level, confirming
+            appliance clearances, and planning demolition and disposal. The appropriate steps depend on the existing
+            kitchen and should be described in the written scope rather than assumed.
           </p>
           <p>
-            Product, color, sheen, and coat decisions can affect appearance and schedule. Exterior timing also depends
-            on suitable weather and the selected coating&apos;s application requirements.
+            Cabinet, countertop, backsplash, and flooring selections affect both the finished look and the schedule.
+            Lead times on cabinetry and stone are usually the longest item in a kitchen timeline, so those decisions
+            are worth making early.
           </p>
           <p className="flex items-start gap-2">
             <Sparkles className="mt-1 h-4 w-4 shrink-0 text-brass-400" />
@@ -193,7 +194,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
           <h2 className="font-display text-3xl font-extrabold md:text-4xl">
             Have a kitchen remodeling project in {area.name}?
           </h2>
-          <p className="mt-3 text-ink-200">Tell {BIZ.name} what you would like painted.</p>
+          <p className="mt-3 text-ink-200">Tell {BIZ.name} what you have in mind for the kitchen.</p>
           <div className="mt-6 flex justify-center">
             <ContactCTA size="lg" />
           </div>

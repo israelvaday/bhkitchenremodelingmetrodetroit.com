@@ -8,7 +8,7 @@ import { BuyersGuide } from "@/components/site/BuyersGuide";
 
 export const metadata: Metadata = {
   title: "Service Areas — Metro Detroit Kitchen Remodeling",
-  description: `${BIZ.name} serves ${AREAS.length} Metro Detroit cities, communities, and neighborhoods. Search your area and request a painting quote.`,
+  description: `${BIZ.name} serves ${AREAS.length} Metro Detroit cities, communities, and neighborhoods. Search your area and request a kitchen remodeling quote.`,
   alternates: { canonical: `${BIZ.url}/service-areas` },
 };
 
