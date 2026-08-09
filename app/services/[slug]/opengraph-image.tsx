@@ -109,7 +109,7 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
               letterSpacing: 1,
             }}
           >
-            PREP · PAINT · CLEANUP
+            DESIGN · BUILD · CLEANUP
           </div>
         </div>
 

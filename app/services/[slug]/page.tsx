@@ -126,13 +126,13 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                 <span className="text-sm font-semibold uppercase tracking-wider">Scope &amp; protection</span>
               </div>
               <p className="mt-2 text-sm text-ink-200">
-                We discuss surface preparation, adjacent-area protection, products, colors, coats, access, and cleanup
-                before work begins. Insurance information is available on request.
+                We discuss demolition, adjacent-room protection, cabinet and counter selections, trade coordination,
+                access, and daily cleanup before work begins. Insurance information is available on request.
               </p>
             </div>
             <div className="rounded-3xl border border-ink-800 bg-ink-900/50 p-5">
               <h3 className="font-display text-lg font-bold">Request this service</h3>
-              <p className="mt-1 text-sm text-ink-300">Share your property, surfaces, and preferred timing.</p>
+              <p className="mt-1 text-sm text-ink-300">Share your kitchen layout, selections, and preferred timing.</p>
               <div className="mt-4">
                 <ContactCTA size="md" />
               </div>
@@ -158,7 +158,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                   {s.shortName} service across Metro Detroit
                 </h2>
                 <p className="mt-2 max-w-2xl text-ink-300">
-                  Painting service across Wayne, Oakland &amp; Macomb counties during posted business hours.
+                  Kitchen remodeling across Wayne, Oakland &amp; Macomb counties during posted business hours.
                 </p>
               </div>
               <Link href="/service-areas" className="hidden text-sm font-semibold text-brass-400 hover:text-brass-300 md:inline-flex">
@@ -184,8 +184,9 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             More about {s.shortName.toLowerCase()} in Metro Detroit
           </h2>
           <p>
-            {s.description} For each {s.shortName.toLowerCase()} request, {BIZ.name} considers the substrate,
-            preparation, property use, desired appearance, access, and cleanup requirements before finalizing scope.
+            {s.description} For each {s.shortName.toLowerCase()} request, {BIZ.name} reviews the existing layout,
+            cabinet and counter condition, how the household uses the room, appliance and utility positions, access,
+            and cleanup requirements before finalizing scope.
           </p>
           <p>
             We serve all of Metro Detroit for {s.shortName.toLowerCase()} — Detroit, Dearborn, Warren, Sterling Heights, Troy, Livonia, Royal Oak, Farmington Hills, Pontiac, Southfield, Westland, Taylor, and every city in our{" "}
@@ -193,13 +194,14 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             Project dates are discussed after we understand the scope and current schedule.
           </p>
           <p>
-            Pricing for {s.shortName.toLowerCase()} depends on the included surfaces, preparation, product selection,
-            access, protection, and timing. The estimate should identify assumptions and exclusions; proposed scope
-            changes should be discussed and documented before added work proceeds.
+            Pricing for {s.shortName.toLowerCase()} depends on the included scope, cabinet and countertop tier,
+            material selections, trade coordination, access, protection, and timing. The estimate should identify
+            assumptions and exclusions; proposed scope changes should be discussed and documented before added work
+            proceeds.
           </p>
           <p>
-            We document the agreed preparation, primer where needed, paint products, colors, sheen, surfaces, and
-            closeout expectations so everyone is working from the same finish plan.
+            We document the agreed demolition, cabinet and countertop selections, backsplash and flooring materials,
+            appliance and lighting coordination, and closeout expectations so everyone is working from the same plan.
           </p>
         </div>
       </section>
@@ -212,7 +214,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <h2 className="font-display text-3xl font-extrabold md:text-4xl">
               Planning a {s.shortName.toLowerCase()} project?
             </h2>
-            <p className="mt-3 text-ink-200">Tell {BIZ.name} about the surfaces and finish you have in mind.</p>
+            <p className="mt-3 text-ink-200">Tell {BIZ.name} about the layout and finishes you have in mind.</p>
             <div className="mt-6 flex justify-center">
               <ContactCTA size="lg" />
             </div>
