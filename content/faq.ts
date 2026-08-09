@@ -57,7 +57,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: "Who will perform the work?",
-        a: "BH Kitchen Remodeling Metro Detroit provides insured professional remodeling crews and direct project communication. Licensed trade partners handle electrical, plumbing, and gas work when required, and you can raise questions with our team throughout the project.",
+        a: "BH Kitchen Remodeling Metro Detroit provides professional remodeling crews and direct project communication. Electrical, plumbing, and gas work is coordinated with trade partners when required, and you can raise questions with our team throughout the project.",
       },
     ],
   },
@@ -105,7 +105,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: "Do you handle appliance installation?",
-        a: "We plan appliance openings, panels, and clearances as part of the remodel. Hookup of gas, dedicated circuits, or complex built-in units may involve licensed partners or the appliance retailer depending on the scope.",
+        a: "We plan appliance openings, panels, and clearances as part of the remodel. Hookup of gas, dedicated circuits, or complex built-in units may involve trade partners or the appliance retailer depending on the scope.",
       },
     ],
   },
@@ -130,6 +130,10 @@ export const FAQ_SECTIONS: FAQSection[] = [
       {
         q: "How do I schedule a consultation?",
         a: `Call or text ${"(313) 236-4558"} or request an estimate through our website. We will review your goals, timeline, and kitchen photos, then schedule a walkthrough when appropriate.`,
+      },
+      {
+        q: "What are your business hours?",
+        a: "Sunday through Thursday hours are 9:00 AM to 5:00 PM, Friday is 9:00 AM to 12:00 PM, and Saturday is closed.",
       },
     ],
   },

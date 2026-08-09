@@ -4,99 +4,13 @@ import { BIZ } from "@/lib/business";
 import { FAQAccordion } from "@/components/site/FAQAccordion";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
-
-const FAQ_SECTIONS = [
-  {
-    id: "scope",
-    emoji: "📋",
-    title: "Estimates & scope",
-    description: "How kitchen remodeling projects are defined before work begins.",
-    items: [
-      {
-        q: "What information helps you prepare an estimate?",
-        a: "The property address, surfaces, approximate dimensions, current condition, desired colors, access, occupancy, and preferred timing are useful. Photos can help clarify the request, but some projects still require an on-site review.",
-      },
-      {
-        q: "What should a painting scope include?",
-        a: "It should identify included and excluded surfaces, preparation, primer where needed, paint products, colors, sheen, planned coats or finished-appearance expectations, protection, access, cleanup, and change-order handling.",
-      },
-      {
-        q: "Do you work on homes, businesses, and rentals?",
-        a: "Yes. The service menu includes residential interiors and exteriors, cabinets, trim, ceilings, commercial spaces, rental turnovers, decks and fences, wallpaper removal, and color consultation.",
-      },
-    ],
-  },
-  {
-    id: "finish",
-    emoji: "🎨",
-    title: "Paint & finish",
-    description: "Primer, colors, sheen, coats, and samples.",
-    items: [
-      {
-        q: "Does every surface need primer?",
-        a: "No. Primer is selected for the substrate and condition. Bare areas, repairs, stains, adhesion concerns, and major color changes are common reasons to use it, while sound previously painted surfaces may only need spot primer.",
-      },
-      {
-        q: "How many coats will I need?",
-        a: "Coverage depends on the existing color, new color, product, surface porosity, and application method. The coating system should be defined for your project instead of relying on a universal coat count.",
-      },
-      {
-        q: "How do I choose a sheen?",
-        a: "Consider washability, reflected light, surface condition, and room use. Flat and matte reduce reflection; eggshell and satin add washability; semi-gloss is often considered for trim, doors, and selected moisture-prone areas.",
-      },
-      {
-        q: "How should I approve a color?",
-        a: "Review a physical sample in the actual space or exterior area at different times of day. Record the manufacturer, color name and number, product, and sheen before materials are ordered.",
-      },
-    ],
-  },
-  {
-    id: "process",
-    emoji: "🖌️",
-    title: "Preparation & process",
-    description: "What happens before and during painting.",
-    items: [
-      {
-        q: "What surface preparation may be needed?",
-        a: "Depending on condition, preparation may include washing, scraping loose coating, sanding glossy areas, filling minor defects, caulking selected gaps, and spot priming. Repairs outside painting should be identified separately.",
-      },
-      {
-        q: "How are floors, furniture, and landscaping protected?",
-        a: "The protection plan depends on the project. It may include moving or covering furnishings, masking fixtures, protecting flooring, and planning for nearby landscaping and hardscape.",
-      },
-      {
-        q: "Can exterior dates change because of weather?",
-        a: "Yes. Temperature, moisture, rain, wind, direct sun, and the selected product's application requirements can affect exterior scheduling.",
-      },
-    ],
-  },
-  {
-    id: "closeout",
-    emoji: "✨",
-    title: "Cleanup & closeout",
-    description: "How the completed scope is reviewed.",
-    items: [
-      {
-        q: "What happens during the final walkthrough?",
-        a: "The completed work is reviewed against the agreed scope. Any agreed touch-ups or punch-list items should be documented before closeout.",
-      },
-      {
-        q: "What happens to leftover paint?",
-        a: "If usable touch-up paint remains, confirm whether it will be labeled and left at the property. Storage and disposal should follow the product label and local requirements.",
-      },
-      {
-        q: "What are your business hours?",
-        a: "Sunday through Thursday hours are 9:00 AM to 5:00 PM, Friday is 9:00 AM to 12:00 PM, and Saturday is closed.",
-      },
-    ],
-  },
-];
+import { FAQ_SECTIONS, FAQ_HERO_IMAGE, FAQ_HERO_ALT } from "@/content/faq";
 
 const ALL_FAQ_ITEMS = FAQ_SECTIONS.flatMap((section) => section.items);
 
 export const metadata: Metadata = {
-  title: "Painting FAQ — Metro Detroit",
-  description: `Answers from ${BIZ.name} about kitchen remodeling estimates, surface preparation, primer, sheen, coats, color, exterior weather, and cleanup.`,
+  title: "Kitchen Remodeling FAQ",
+  description: `Kitchen remodel cost, cabinets, countertops, permits, timelines, and living at home during a remodel. Answers from ${BIZ.name}.`,
   alternates: { canonical: `${BIZ.url}/faq` },
 };
 
@@ -124,16 +38,16 @@ export default function FAQPage() {
           <div className="text-center md:text-left">
             <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">FAQ</p>
             <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-              Practical answers about <span className="text-brass-gradient">painting</span>.
+              Practical answers about <span className="text-brass-gradient">kitchen remodeling</span>.
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-ink-200 md:mx-0">
-              Scope, preparation, primer, products, color, sheen, coats, weather, protection, and cleanup.
+              Cost, scope, cabinets, countertops, permits, timelines, materials, and living at home while the work happens.
             </p>
           </div>
           <div className="relative aspect-[5/4] overflow-hidden rounded-3xl border border-brass-500/30">
             <Image
-              src={`${base}/photos/branding-generated--hero-kitchen-metro-detroit.png`}
-              alt="Metro Detroit Kitchen Remodeling project inspiration"
+              src={`${base}${FAQ_HERO_IMAGE}`}
+              alt={FAQ_HERO_ALT}
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover"
