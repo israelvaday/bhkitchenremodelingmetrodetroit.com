@@ -308,7 +308,7 @@ Anything under roughly 36 inches stops being a walkway and becomes a squeeze. Th
 
 ## Do the arithmetic before you fall in love with a layout
 
-The minimum room width follows directly from the clearance number. A modest island 24 inches deep, with 42 inches of clearance on both sides, needs 108 inches — 9 feet — of open floor between the opposing runs of cabinets.
+The minimum room width follows directly from the clearance number. A modest island 24 inches deep, with 42 inches of clearance on both sides, needs 108 inches, or 9 feet, of open floor between the opposing runs of cabinets.
 
 Add the cabinets themselves. Base cabinets are 24 inches deep, so with counters on both sides you need roughly **13 feet wall to wall** before an island is realistic. With counter on one side only, about 11 feet.
 
@@ -318,7 +318,7 @@ Length is more forgiving than width. A useful island starts at about 4 feet long
 
 The housing stock decides this more than the budget does. Much of Wayne County is pre-1960 bungalows and colonials with closed galley kitchens, often 8 to 10 feet wide, where an island cannot clear 42 inches on both sides no matter how small it is. In those homes the honest answer is that the wall between the kitchen and the dining room, not the island, is the actual project.
 
-Post-war ranches across Oakland County frequently sit right at the boundary — wide enough for a compact island once a peninsula or a bank of lower cabinets comes out. Newer Macomb County builds usually have the width already and the real questions become seating, venting, and where the outlets land.
+Post-war ranches across Oakland County frequently sit right at the boundary, wide enough for a compact island once a peninsula or a bank of lower cabinets comes out. Newer Macomb County builds usually have the width already and the real questions become seating, venting, and where the outlets land.
 
 Measure your own room before applying any of it. Soffits, a chimney chase, a bulkhead hiding ductwork, or a floor register in the middle of the room all change what is possible.
 
@@ -328,7 +328,7 @@ The clearance test is about the room. This one is about scope, and it is where i
 
 - **Counter and storage only.** The contained version. Cabinets, top, and usually a receptacle. No plumbing, no venting.
 - **Island sink.** Supply lines, a drain, and a vent have to reach the middle of the room, which means opening the floor and coordinating inspection.
-- **Cooktop in the island.** The most involved option. Add gas or a dedicated circuit, plus ventilation — a downdraft or a ceiling hood, each with its own structural and ducting consequences.
+- **Cooktop in the island.** The most involved option. Add gas or a dedicated circuit, plus ventilation: a downdraft or a ceiling hood, each with its own structural and ducting consequences.
 
 There is no wrong answer, but the three are not the same project. Deciding early keeps the estimate honest and stops a "simple island" from turning into a floor-opening mid-build.
 
@@ -355,7 +355,7 @@ Kitchen work picks up sharply in September and October, and island projects are 
 
 If the goal is a finished kitchen before the holidays, the measuring and layout decisions belong in late summer, not in October. Deciding the island question now is what makes the rest of the schedule possible.
 
-Bring your measurements — room width, cabinet runs, appliance locations, and ceiling height — and the answer takes one conversation. BH Kitchen Remodeling Metro Detroit handles [kitchen island installation](/services/kitchen-island-installation) across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 for a written scope.
+Bring your measurements, meaning room width, cabinet runs, appliance locations, and ceiling height, and the answer takes one conversation. BH Kitchen Remodeling Metro Detroit handles [kitchen island installation](/services/kitchen-island-installation) across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 for a written scope.
 `,
   },
 ];
