@@ -275,6 +275,89 @@ Every layout or material change should update cost and schedule before crews pro
 BH Kitchen Remodeling Metro Detroit provides transparent kitchen remodeling estimates across Metro Detroit. Request a written scope to compare options with confidence.
 `,
   },
+  {
+    slug: "kitchen-island-clearance-sizing-metro-detroit",
+    title: "Will a Kitchen Island Fit? Sizing and Clearances for Metro Detroit Kitchens",
+    metaTitle: "Kitchen Island Sizing and Clearances for Metro Detroit Homes",
+    excerpt:
+      "Measure the walkways before you shop for an island. The clearance standard, not the island, decides whether your kitchen has room for one.",
+    category: "Design",
+    readMinutes: 8,
+    date: "2026-08-08",
+    heroImage: "/blog/kitchen-island-clearance-sizing-metro-detroit-hero.jpg",
+    heroAlt:
+      "Kitchen island with clear walkways on all sides in a bright Metro Detroit kitchen",
+    secondaryImage: "/blog/kitchen-island-clearance-sizing-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "Tape measure stretched across a kitchen floor beside a paper island layout sketch",
+    body: `
+An island is the most requested addition in a kitchen remodel and the one most often ruled out after the tape measure comes out. The island itself is rarely the problem. The space that has to stay **empty around it** is what decides the answer, and that number is fixed long before you choose a countertop.
+
+Work through the clearances first. If the room passes, the rest of the island decisions are a matter of preference. If it fails, you will save yourself a design round and a disappointment.
+
+## Start with the walkway, not the island
+
+Kitchen designers size aisles to the guidelines published by the National Kitchen & Bath Association, and the two numbers that matter are these:
+
+- **42 inches** of clear walkway around a work aisle when one person cooks
+- **48 inches** when two people work in the kitchen at once, or when a walkway also serves as a through-route to another room
+
+Clear means clear: measured from the island's finished edge to the face of the opposing cabinet, appliance, or wall, with the dishwasher and oven doors in mind. A 42-inch aisle that drops to 20 inches with the dishwasher open is not a 42-inch aisle. Check every appliance door and the refrigerator swing before you accept a layout.
+
+Anything under roughly 36 inches stops being a walkway and becomes a squeeze. That is the point at which most homeowners stop using the island as prep space and start using it as a place to put things down.
+
+## Do the arithmetic before you fall in love with a layout
+
+The minimum room width follows directly from the clearance number. A modest island 24 inches deep, with 42 inches of clearance on both sides, needs 108 inches — 9 feet — of open floor between the opposing runs of cabinets.
+
+Add the cabinets themselves. Base cabinets are 24 inches deep, so with counters on both sides you need roughly **13 feet wall to wall** before an island is realistic. With counter on one side only, about 11 feet.
+
+Length is more forgiving than width. A useful island starts at about 4 feet long by 2 feet deep; below that it holds a bowl and little else. If seating matters, allow about 24 inches of width per stool and plan the countertop overhang: roughly 15 inches of knee space at standard 36-inch counter height, or about 12 inches at a raised 42-inch bar. An overhang beyond 12 inches of unsupported stone needs brackets or corbels underneath.
+
+## What Metro Detroit floor plans do to the math
+
+The housing stock decides this more than the budget does. Much of Wayne County is pre-1960 bungalows and colonials with closed galley kitchens, often 8 to 10 feet wide, where an island cannot clear 42 inches on both sides no matter how small it is. In those homes the honest answer is that the wall between the kitchen and the dining room, not the island, is the actual project.
+
+Post-war ranches across Oakland County frequently sit right at the boundary — wide enough for a compact island once a peninsula or a bank of lower cabinets comes out. Newer Macomb County builds usually have the width already and the real questions become seating, venting, and where the outlets land.
+
+Measure your own room before applying any of it. Soffits, a chimney chase, a bulkhead hiding ductwork, or a floor register in the middle of the room all change what is possible.
+
+## Decide what the island has to do
+
+The clearance test is about the room. This one is about scope, and it is where island projects quietly get bigger.
+
+- **Counter and storage only.** The contained version. Cabinets, top, and usually a receptacle. No plumbing, no venting.
+- **Island sink.** Supply lines, a drain, and a vent have to reach the middle of the room, which means opening the floor and coordinating inspection.
+- **Cooktop in the island.** The most involved option. Add gas or a dedicated circuit, plus ventilation — a downdraft or a ceiling hood, each with its own structural and ducting consequences.
+
+There is no wrong answer, but the three are not the same project. Deciding early keeps the estimate honest and stops a "simple island" from turning into a floor-opening mid-build.
+
+## Check what is under the floor
+
+A stone island top is heavy, and the load sits in the middle of a joist span rather than over a wall. In older homes with long spans or previously modified framing, that is worth a look from below before the cabinets are set. Blocking or added support is a small job when it is planned and an expensive one when it is discovered after templating.
+
+While the floor is open, it is also the moment to confirm the subfloor is sound and level. Cabinets set on an out-of-level floor telegraph into every countertop seam.
+
+## When the answer is no
+
+A kitchen that fails the clearance test is not out of options, and each of these keeps the walkway intact:
+
+- A **peninsula** attached at one end, which needs clearance on fewer sides
+- A **rolling cart or butcher block** that moves out of the aisle when it is not in use
+- **Deeper perimeter counters** or a widened run, which buy prep space without eating floor
+- Removing a **non-structural wall** to create the width, then revisiting the island
+
+Forcing an island into a room that cannot hold one produces a kitchen that is harder to cook in than the one you started with. That is the outcome worth avoiding.
+
+## Planning for a fall install
+
+Kitchen work picks up sharply in September and October, and island projects are the ones most affected by that. Cabinet lead times stretch, countertop templating cannot begin until base cabinets are installed and verified, and anything involving plumbing or gas sits behind an inspection window that does not compress for anyone.
+
+If the goal is a finished kitchen before the holidays, the measuring and layout decisions belong in late summer, not in October. Deciding the island question now is what makes the rest of the schedule possible.
+
+Bring your measurements — room width, cabinet runs, appliance locations, and ceiling height — and the answer takes one conversation. BH Kitchen Remodeling Metro Detroit handles [kitchen island installation](/services/kitchen-island-installation) across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 for a written scope.
+`,
+  },
 ];
 
 export function findPost(slug: string) {

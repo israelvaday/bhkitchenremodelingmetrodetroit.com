@@ -21,6 +21,8 @@ export type Service = {
   bullets: string[];
   intent: "emergency" | "service" | "trust";
   keywords: string[];
+  /** Optional in-depth guide on /blog that covers this service's main decision. */
+  guide?: { href: string; anchor: string };
 };
 
 export const SERVICES: Service[] = [
@@ -215,6 +217,10 @@ export const SERVICES: Service[] = [
       "island cabinets wayne county",
       "kitchen island remodel macomb county",
     ],
+    guide: {
+      href: "/blog/kitchen-island-clearance-sizing-metro-detroit",
+      anchor: "kitchen island sizing and clearances",
+    },
   },
   {
     slug: "kitchen-appliance-layout",

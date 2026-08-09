@@ -97,6 +97,15 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           <Reveal className="md:col-span-2">
             <h2 className="font-display text-2xl font-bold md:text-3xl">What&apos;s included</h2>
             <p className="mt-4 text-ink-200">{s.description}</p>
+            {s.guide && (
+              <p className="mt-3 text-ink-200">
+                Planning this yourself first? Read our guide to{" "}
+                <Link href={s.guide.href} className="text-brass-300 underline-offset-4 hover:underline">
+                  {s.guide.anchor}
+                </Link>
+                .
+              </p>
+            )}
             <RevealStagger className="mt-6 grid gap-3 sm:grid-cols-2" stagger={0.06}>
               {s.bullets.map((b) => (
                 <RevealItem key={b}>

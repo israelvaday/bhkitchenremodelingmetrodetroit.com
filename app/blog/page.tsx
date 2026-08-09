@@ -8,9 +8,9 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
-  title: { absolute: `Painting Guides — ${BIZ.name}` },
+  title: { absolute: `Kitchen Remodeling Guides — ${BIZ.name}` },
   description:
-    `Painting guides from ${BIZ.name} covering preparation, primer, products, color, sheen, coats, weather, and cleanup in Metro Detroit.`,
+    `Kitchen remodeling guides from ${BIZ.name} covering layout, cabinets, countertops, islands, backsplash, lighting, and project planning in Metro Detroit.`,
   alternates: { canonical: `${BIZ.url}/blog` },
 };
 
@@ -30,10 +30,10 @@ export default function BlogIndex() {
         <div className="relative mx-auto max-w-4xl px-4 text-center md:px-6">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">{BIZ.name} guides</p>
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            <span className="text-brass-gradient">Painting</span> guides for Metro Detroit.
+            <span className="text-brass-gradient">Kitchen remodeling</span> guides for Metro Detroit.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
-            Surface preparation, primer, color, sheen, coats, exterior conditions, and project planning.
+            Layout, cabinets, countertops, islands, backsplash, lighting, and project planning.
           </p>
           <p className="mx-auto mt-2 max-w-2xl text-sm text-ink-400">
             Article imagery is project inspiration, not a gallery of completed customer work.
