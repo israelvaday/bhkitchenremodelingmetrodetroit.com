@@ -23,6 +23,11 @@ export type Service = {
   keywords: string[];
   /** Optional in-depth guide on /blog that covers this service's main decision. */
   guide?: { href: string; anchor: string };
+  /**
+   * Optional service-specific depth, rendered on that service's page only.
+   * Services without it keep the shared template copy unchanged.
+   */
+  deepDive?: { heading: string; body: string }[];
 };
 
 export const SERVICES: Service[] = [
@@ -96,6 +101,42 @@ export const SERVICES: Service[] = [
       "granite countertops oakland county",
       "kitchen counters wayne county",
       "countertop installation macomb county",
+    ],
+    guide: {
+      href: "/blog/countertop-materials-michigan-homes",
+      anchor: "countertop materials for Michigan kitchens",
+    },
+    deepDive: [
+      {
+        heading: "Replacing counters is a different job from installing them new",
+        body:
+          "On a replacement the old tops have to come off before anything else happens, and that is where most of the risk sits. Laminate is usually screwed up through the cabinet corner blocks; stone is often run in a bed of adhesive that grips the cabinet tops and, where a tile backsplash was set on top of the counter, the bottom course of tile as well. We plan the removal around what has to survive it: cabinet boxes, the wall surface behind, and any backsplash you intend to keep. We also say up front when a backsplash cannot come through intact and will need a repair or a new run.",
+      },
+      {
+        heading: "Sink, faucet, and appliance disconnects",
+        body:
+          "Countertop replacement always means disconnecting and resetting the sink, faucet, supply lines, drain, and a disposal or filter if you have one. A drop-in sink can often be reused; an undermount is bonded to the old top and generally does not survive removal, so plan on a new sink where the current one is undermounted. If the cooktop drops into the counter, it comes out with the old top and goes back after the new one is set.",
+      },
+      {
+        heading: "Templating, and how long your kitchen is without counters",
+        body:
+          "Fabricators template against the actual installed condition, which on a replacement means after the old tops are off and the cabinet runs have been checked for level. That is the point most people underestimate: between template day and install day the counters and sink are out of service while the slab is cut, so the gap between those two dates is the part of the schedule worth asking about before you commit. We confirm the fabrication window in writing and set a temporary work surface where it helps.",
+      },
+      {
+        heading: "Seams, cutouts, and support",
+        body:
+          "Seam placement is decided by slab dimensions, the length of the run, and where the sink and cooktop cutouts land, not by preference alone, though preference decides between the options that are genuinely available. Cutouts for the sink, cooktop, faucet, soap dispenser, and air gap are made at the shop from the template, so late changes to a faucet or sink model are expensive to accommodate. Overhangs on islands and peninsulas need bracket or corbel support past the span the material can carry unsupported; we work that out before fabrication rather than on install day.",
+      },
+      {
+        heading: "Edge profiles and finish details",
+        body:
+          "Edge profile changes the look and the feel of the counter and is chosen at template. Eased and beveled edges read contemporary and are easy to wipe down; ogee and bullnose profiles read traditional. Where the counter meets a wall that is out of plumb, which is common in older Metro Detroit homes, the scribe and caulk line is what makes the fit look intentional, and it is worth agreeing how that junction will be finished.",
+      },
+      {
+        heading: "What the estimate is actually built from",
+        body:
+          "A countertop replacement estimate is driven by square footage, the material tier you select, the edge profile, how many cutouts are needed, how many seams the layout forces, whether the existing tops require careful removal and disposal, and whether backsplash work is included. We put those line items and the exclusions in the written scope so you can compare quotes on the same basis, and we discuss and document any change before added work proceeds.",
+      },
     ],
   },
   {

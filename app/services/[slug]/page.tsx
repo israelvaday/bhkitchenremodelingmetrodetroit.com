@@ -203,6 +203,12 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             We document the agreed demolition, cabinet and countertop selections, backsplash and flooring materials,
             appliance and lighting coordination, and closeout expectations so everyone is working from the same plan.
           </p>
+          {s.deepDive?.map((d) => (
+            <div key={d.heading} className="space-y-2 pt-2">
+              <h3 className="font-display text-lg font-bold text-white md:text-xl">{d.heading}</h3>
+              <p>{d.body}</p>
+            </div>
+          ))}
         </div>
       </section>
 
