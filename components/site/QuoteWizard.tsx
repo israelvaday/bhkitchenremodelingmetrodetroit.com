@@ -175,7 +175,7 @@ export function QuoteWizard() {
         ]
           .filter(Boolean)
           .join("\n");
-        window.location.href = `mailto:${BIZ.email}?subject=${encodeURIComponent("Painting quote request — " + location)}&body=${encodeURIComponent(body)}`;
+        window.location.href = `mailto:${BIZ.email}?subject=${encodeURIComponent("Kitchen remodeling quote request — " + location)}&body=${encodeURIComponent(body)}`;
         return;
       }
 

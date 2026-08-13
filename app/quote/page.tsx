@@ -5,8 +5,8 @@ import { ContactCTA } from "@/components/site/ContactCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
-  title: `Free Quote`,
-  description: `Request a painting quote from ${BIZ.name}. Choose a service and property type, describe the project, and optionally upload photos or documents.`,
+  title: `Free Kitchen Remodeling Quote`,
+  description: `Request a free kitchen remodeling quote in Metro Detroit. Pick your service and property type, describe the project, and add photos or plans.`,
   alternates: { canonical: "/quote" },
 };
 
@@ -44,27 +44,28 @@ export default function QuotePage() {
               request. There is no account to create and no obligation to proceed.
             </p>
             <p className="mt-3">
-              You can attach wide photos and close-ups of walls, ceilings, trim, cabinets, exterior surfaces, wood,
-              wallpaper, damage, or plans. Photos can clarify condition and scope, though some projects still need an
-              on-site review.
+              You can attach wide shots of the room and close-ups of cabinets, countertops, the backsplash, flooring,
+              the sink and appliance run, or existing plans and elevations. Photos can clarify condition and scope,
+              though some projects still need an on-site review.
             </p>
           </div>
 
           <div>
             <h2 className="font-display text-2xl font-bold text-white md:text-3xl">What we quote</h2>
             <p className="mt-3">
-              Choose interior painting, exterior painting, cabinet painting, commercial painting, deck and fence
-              staining, trim and door painting, ceiling painting, rental turnover painting, wallpaper removal, or
-              color consultation.
+              Choose custom kitchen remodeling, cabinet installation, countertop replacement, kitchen design,
+              backsplash and tile, lighting upgrades, kitchen flooring, a kitchen island, appliance layout, or a
+              partial kitchen refresh.
             </p>
           </div>
 
           <div>
             <h2 className="font-display text-2xl font-bold text-white md:text-3xl">Pricing & expectations</h2>
             <p className="mt-3">
-              A useful estimate identifies surfaces, preparation, products, colors, sheen, coating expectations,
-              protection, exclusions, and timing. If scope changes, confirm the added work and price in writing. You
-              can also text project photos to {BIZ.phone}.
+              A useful estimate identifies the layout, cabinet and countertop selections, backsplash and flooring,
+              lighting and electrical coordination, appliance fit, demolition and disposal, exclusions, and timing.
+              If scope changes, confirm the added work and price in writing. You can also text project photos to{" "}
+              {BIZ.phone}.
             </p>
           </div>
         </div>
