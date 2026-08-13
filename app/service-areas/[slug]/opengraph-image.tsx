@@ -5,17 +5,7 @@ import { AREAS_BY_SLUG, AREAS } from "@/lib/areas";
 export const dynamic = "force-static";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-
-export async function generateImageMetadata({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const a = AREAS_BY_SLUG[slug];
-  return [{
-    id: slug,
-    alt: a ? `${a.name} kitchen remodeling services — ${BIZ.name}` : `${BIZ.name} Service Area`,
-    size,
-    contentType,
-  }];
-}
+export const alt = `Kitchen remodeling services across Metro Detroit from ${BIZ.name}`;
 
 export function generateStaticParams() {
   return AREAS.map((a) => ({ slug: a.slug }));
@@ -72,7 +62,7 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
               fontSize: 36,
             }}
           >
-            🎨
+            🍽️
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ fontSize: 26, fontWeight: 800, letterSpacing: -0.5, lineHeight: 1 }}>
@@ -95,7 +85,7 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
             style={{
               fontSize: 102,
               fontWeight: 900,
-              lineHeight: 1.0,
+              lineHeight: 1.12,
               letterSpacing: -2.5,
               backgroundImage: "linear-gradient(135deg, #F4E3B1 0%, #C9A24A 55%, #8A6A1F 100%)",
               backgroundClip: "text",
@@ -106,16 +96,16 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
             {name}
           </div>
           <div style={{ fontSize: 28, color: "#C8C4BB", display: "flex" }}>
-            custom kitchen remodeling, cabinet installation, countertop replacement, and commercial painting serving {sub}
+            custom kitchen remodeling, cabinet installation, countertop replacement, and kitchen design serving {sub}
           </div>
         </div>
 
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16 }}>
           <div style={{ display: "flex", gap: 12 }}>
-            <Chip>INTERIOR</Chip>
-            <Chip>EXTERIOR</Chip>
-            <Chip>COMMERCIAL</Chip>
             <Chip>CABINETS</Chip>
+            <Chip>COUNTERTOPS</Chip>
+            <Chip>BACKSPLASH</Chip>
+            <Chip>FLOORING</Chip>
           </div>
           <div
             style={{

@@ -5,12 +5,7 @@ import { SERVICES } from "@/content/services";
 export const dynamic = "force-static";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-
-export async function generateImageMetadata({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const s = SERVICES.find((x) => x.slug === slug);
-  return [{ id: slug, alt: s ? `${s.name} — ${BIZ.name}` : BIZ.name, size, contentType }];
-}
+export const alt = `Kitchen remodeling services from ${BIZ.name}`;
 
 export function generateStaticParams() {
   return SERVICES.map((s) => ({ slug: s.slug }));
@@ -83,7 +78,7 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
                 fontSize: 36,
               }}
             >
-              🎨
+              🍽️
             </div>
             <div style={{ display: "flex", flexDirection: "column" }}>
               <div style={{ fontSize: 26, fontWeight: 800, letterSpacing: -0.5, lineHeight: 1 }}>
@@ -136,7 +131,7 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
               style={{
                 fontSize: 72,
                 fontWeight: 900,
-                lineHeight: 1.0,
+                lineHeight: 1.12,
                 letterSpacing: -1.5,
                 backgroundImage: "linear-gradient(135deg, #F4E3B1 0%, #C9A24A 55%, #8A6A1F 100%)",
                 backgroundClip: "text",
@@ -161,6 +156,7 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
                 style={{
                   display: "flex",
                   alignItems: "center",
+                  gap: 10,
                   padding: "10px 18px",
                   borderRadius: 12,
                   background: "rgba(255,255,255,0.04)",
@@ -170,7 +166,17 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
                   fontWeight: 600,
                 }}
               >
-                ✓ {b}
+                <div
+                  style={{
+                    width: 8,
+                    height: 8,
+                    borderRadius: 999,
+                    background: "#C9A24A",
+                    display: "flex",
+                    flexShrink: 0,
+                  }}
+                />
+                {b}
               </div>
             ))}
           </div>
