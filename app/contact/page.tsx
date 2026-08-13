@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { MapPin, Clock, Paintbrush } from "lucide-react";
+import { MapPin, Clock, ClipboardList } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { ContactCTA } from "@/components/site/ContactCTA";
@@ -37,11 +37,12 @@ export default function ContactPage() {
         <div className="mx-auto grid max-w-7xl gap-8 px-4 md:grid-cols-3 md:px-6">
           <div className="rounded-3xl border border-brass-500/30 bg-brass-500/5 p-6">
             <div className="flex items-center gap-2 text-brass-300">
-              <Paintbrush className="h-5 w-5" />
+              <ClipboardList className="h-5 w-5" />
               <span className="text-sm font-semibold uppercase tracking-wider">Written scope</span>
             </div>
             <p className="mt-3 text-sm text-ink-200">
-              Surfaces, preparation, products, colors, coats, protection, and exclusions are discussed before work.
+              Layout, cabinet and countertop selections, materials, demolition and disposal, protection, and exclusions
+              are discussed before work.
             </p>
           </div>
           <div className="rounded-3xl border border-emerald-500/30 bg-emerald-500/5 p-6">
@@ -95,8 +96,8 @@ export default function ContactPage() {
             <div className="rounded-2xl border border-ink-800 bg-ink-900/50 p-6">
               <h3 className="font-display text-xl font-bold text-white">Call</h3>
               <p className="mt-2 text-sm text-ink-200">
-                Call {BIZ.name} at {BIZ.phone}. Share the project city, surfaces, approximate size, color ideas, and
-                timing so we can discuss the next appropriate step.
+                Call {BIZ.name} at {BIZ.phone}. Share the project city, the kitchen size, the scope you have in mind,
+                material preferences, and timing so we can discuss the next appropriate step.
               </p>
               <a href={BIZ.phoneHref} className="mt-4 inline-block font-mono text-brass-300 underline-offset-4 hover:underline">
                 {BIZ.phone}
@@ -105,8 +106,8 @@ export default function ContactPage() {
             <div className="rounded-2xl border border-ink-800 bg-ink-900/50 p-6">
               <h3 className="font-display text-xl font-bold text-white">Text photos</h3>
               <p className="mt-2 text-sm text-ink-200">
-                Text wide shots and close-ups of the surfaces to {BIZ.phone}. Photos can help clarify condition,
-                access, trim details, cabinets, exterior materials, or wallpaper before a site visit.
+                Text wide shots and close-ups of the kitchen to {BIZ.phone}. Photos can help clarify condition,
+                access, cabinet layout, countertop edges, appliance placement, or flooring before a site visit.
               </p>
               <a href={BIZ.smsHref} className="mt-4 inline-block text-sm font-semibold text-brass-300 underline-offset-4 hover:underline">
                 Text {BIZ.phone} →
@@ -127,8 +128,8 @@ export default function ContactPage() {
           <div className="mt-10 rounded-2xl border border-ink-800 bg-ink-900/40 p-6 text-sm text-ink-200">
             <p>
               <strong className="text-white">What we cover.</strong> {BIZ.name} provides custom kitchen remodeling, cabinet installation, countertop replacement,
-              commercial, deck and fence staining, trim and door, ceiling, rental turnover, wallpaper removal, and
-              color consultation services across Wayne, Oakland, and Macomb counties.
+              kitchen design, backsplash and tile, lighting upgrades, kitchen flooring, kitchen island installation,
+              appliance layout, and partial kitchen refresh services across Wayne, Oakland, and Macomb counties.
             </p>
             <p className="mt-3">
               <strong className="text-white">Where we go.</strong> Detroit, Dearborn, Warren, Sterling Heights, Troy, Livonia, Royal Oak, Farmington Hills, Pontiac, Southfield, Clinton Township, and 90+ cities and neighborhoods — see our{" "}
@@ -145,7 +146,7 @@ export default function ContactPage() {
           <h2 className="font-display text-3xl font-extrabold md:text-4xl">
             Ready when you are.
           </h2>
-          <p className="mt-3 text-ink-200">Tell us what you would like painted.</p>
+          <p className="mt-3 text-ink-200">Tell us what you would like changed.</p>
           <div className="mt-6 flex justify-center">
             <ContactCTA size="lg" showEmail />
           </div>

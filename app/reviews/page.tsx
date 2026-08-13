@@ -22,7 +22,7 @@ export default function CustomerExperiencePage() {
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
             We are not publishing customer testimonials or a verified rating here. Instead, this page lists the
-            commitments that shape our painting process.
+            commitments that shape our kitchen remodeling process.
           </p>
         </div>
       </section>

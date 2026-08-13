@@ -6,7 +6,7 @@ import { LogoMark } from "@/components/site/Logo";
 
 export const metadata: Metadata = {
   title: "Business & Insurance Information",
-  description: `Request current business and insurance information for ${BIZ.name} painting work in Metro Detroit.`,
+  description: `Request current business and insurance information for ${BIZ.name} kitchen remodeling work in Metro Detroit.`,
   alternates: { canonical: `${BIZ.url}/license` },
 };
 
@@ -21,7 +21,7 @@ export default function CredentialsPage() {
             Business &amp; insurance information
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-ink-200">
-            This page does not claim or publish a specific contractor license. Painting requirements can vary by work
+            This page does not claim or publish a specific contractor license. Remodeling requirements can vary by work
             type and jurisdiction. Ask {BIZ.name} for current business and insurance information relevant to your
             project before approval.
           </p>
