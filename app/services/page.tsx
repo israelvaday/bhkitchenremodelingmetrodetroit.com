@@ -8,7 +8,7 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 export const metadata: Metadata = {
   title: "kitchen remodeling services in Metro Detroit",
   description:
-    `${BIZ.name} offers custom kitchen remodeling, cabinet installation, countertop replacement, commercial, trim, ceiling, staining, rental turnover, wallpaper removal, and color consultation services.`,
+    `Custom kitchen remodeling, cabinet installation, countertop replacement, and kitchen design across Wayne, Oakland, and Macomb counties in Metro Detroit.`,
   alternates: { canonical: `${BIZ.url}/services` },
 };
 
