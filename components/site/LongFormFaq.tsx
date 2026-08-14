@@ -32,10 +32,51 @@ function CollapsibleQ({ q, children }: { q: string; children: ReactNode }) {
   );
 }
 
-export function LongFormFaq({ subject, kind }: { subject: string; kind: "area" | "service" }) {
+export function LongFormFaq({
+  subject,
+  kind,
+  items,
+}: {
+  subject: string;
+  kind: "area" | "service";
+  /**
+   * Optional page-specific question set. When supplied it replaces the shared
+   * questions below, so a page carries its own answers rather than the block
+   * every other page renders. Pages without it are unchanged.
+   */
+  items?: { q: string; a: string }[];
+}) {
   const place = kind === "area" ? subject : "Metro Detroit";
   const topic =
     kind === "area" ? `kitchen remodeling in ${subject}` : `${subject.toLowerCase()} across Metro Detroit`;
+
+  if (items && items.length > 0) {
+    return (
+      <section className="border-t border-ink-800 py-16">
+        <div className="mx-auto max-w-3xl space-y-4 px-4 md:px-6">
+          <header className="mb-6">
+            <p className="text-xs font-semibold uppercase tracking-wider text-brass-400">In depth</p>
+            <h2 className="mt-2 font-display text-2xl font-bold text-white md:text-3xl">
+              Questions about {topic}
+            </h2>
+            <p className="mt-3 text-sm text-ink-200 md:text-base">
+              Practical answers from {BIZ.name} about this part of the job. Tap a question to expand.
+            </p>
+          </header>
+
+          {items.map((item) => (
+            <CollapsibleQ key={item.q} q={item.q}>
+              <p>{item.a}</p>
+            </CollapsibleQ>
+          ))}
+
+          <p className="pt-3 text-sm text-ink-300">
+            Question not covered here? Call {BIZ.phone} to talk through your kitchen project in {place}.
+          </p>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section className="border-t border-ink-800 py-16">

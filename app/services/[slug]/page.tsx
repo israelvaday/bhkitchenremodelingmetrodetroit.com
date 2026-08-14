@@ -212,7 +212,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         </div>
       </section>
 
-      <LongFormFaq subject={s.shortName} kind="service" />
+      <LongFormFaq subject={s.shortName} kind="service" items={s.faq} />
 
       <section className="border-t border-ink-800 bg-aurora py-16 text-center">
         <div className="mx-auto max-w-3xl px-4 md:px-6">
