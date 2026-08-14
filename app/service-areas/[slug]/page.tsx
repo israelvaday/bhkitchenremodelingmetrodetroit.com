@@ -6,6 +6,7 @@ import { ArrowRight, ChefHat, Clock, MapPin, Sparkles } from "lucide-react";
 import { AREAS, AREAS_BY_SLUG, nearbyAreas } from "@/lib/areas";
 import { SERVICES } from "@/content/services";
 import { BIZ } from "@/lib/business";
+import { areaDescription, insightFor } from "@/lib/area-insights";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { ServiceMap } from "@/components/site/ServiceMap";
 import { AreaAvailabilityChecker } from "@/components/site/DispatchTracker";
@@ -25,7 +26,7 @@ export async function generateMetadata({
   if (!area) return {};
   return {
     title: `kitchen remodeling company in ${area.name}, MI`,
-    description: `${BIZ.name} provides custom kitchen remodeling, cabinet installation, countertop replacement, and kitchen design in ${area.name}, MI.`,
+    description: areaDescription(area.name, insightFor(area.slug)),
     alternates: { canonical: `/service-areas/${area.slug}` },
   };
 }
@@ -36,6 +37,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
   if (!area) return notFound();
 
   const nearby = nearbyAreas(area, 6);
+  const insight = insightFor(area.slug);
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const heroSrc = `${base}/photos/service-hero-custom-kitchen-remodeling.png`;
 
@@ -155,6 +157,39 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
                 </Link>
               ))}
             </div>
+          </div>
+        </section>
+      )}
+
+      {insight && (
+        <section className="border-t border-ink-800 py-16">
+          <div className="mx-auto max-w-3xl space-y-5 px-4 text-sm text-ink-200 md:px-6 md:text-base">
+            <h2 className="font-display text-2xl font-bold text-white md:text-3xl">
+              Kitchens in {area.name}
+            </h2>
+            <p>{insight.neighborhood_notes}</p>
+
+            <div className="space-y-3 pt-2">
+              <h3 className="font-display text-lg font-bold text-white md:text-xl">
+                Project types this page covers
+              </h3>
+              <ul className="grid gap-2 sm:grid-cols-2">
+                {insight.common_calls.map((call) => (
+                  <li
+                    key={call}
+                    className="flex items-start gap-3 rounded-xl border border-ink-800 bg-ink-900/40 px-4 py-3"
+                  >
+                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-brass-400" />
+                    <span className="first-letter:uppercase">{call}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <p className="text-ink-300">
+              We cover {area.name} and the surrounding streets, including the area around{" "}
+              {insight.landmarks.join(", ")}.
+            </p>
           </div>
         </section>
       )}
