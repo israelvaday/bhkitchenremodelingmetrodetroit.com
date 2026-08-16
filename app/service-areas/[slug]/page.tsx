@@ -70,6 +70,17 @@ export async function generateMetadata({
       title: areaTitle(area),
       description,
     },
+    // X reads twitter:title in preference to og:title, so the per-page social
+    // title above did not reach that surface while this block was inherited
+    // whole from the root layout. twitter is replaced wholesale too, so card
+    // is restated. images is deliberately omitted: there is no twitter-image
+    // file convention in this route, and dropping the root's explicit
+    // twitter.images lets the per-area opengraph-image route supply the card.
+    twitter: {
+      card: "summary_large_image",
+      title: areaTitle(area),
+      description,
+    },
   };
 }
 
