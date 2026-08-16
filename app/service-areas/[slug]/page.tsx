@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowRight, ChefHat, Clock, MapPin, Sparkles } from "lucide-react";
-import { AREAS, AREAS_BY_SLUG, nearbyAreas } from "@/lib/areas";
+import { AREAS, AREAS_BY_SLUG, nearbyAreas, type Area } from "@/lib/areas";
 import { SERVICES } from "@/content/services";
 import { BIZ } from "@/lib/business";
 import { areaDescription, insightFor } from "@/lib/area-insights";
@@ -16,6 +16,30 @@ export function generateStaticParams() {
   return AREAS.map((area) => ({ slug: area.slug }));
 }
 
+// A sub-area name on its own is not a place: 50 of these pages are neighborhoods,
+// and 35 of them carry a name that never mentions its city, so the old title read
+// "Downtown, MI" or "East Side, MI". The slug already knows the parent
+// (detroit-downtown), the title did not. Append the parent city unless the name
+// already contains it, so "Sterling Heights Utica corridor" is left alone.
+function areaPlace(area: Area): string {
+  const parent = area.parent ? AREAS_BY_SLUG[area.parent] : undefined;
+  const parentLead = parent?.name.split(" ")[0].toLowerCase();
+  return parent && parentLead && !area.name.toLowerCase().includes(parentLead)
+    ? `${area.name}, ${parent.name}, MI`
+    : `${area.name}, MI`;
+}
+
+// Titles are built with `absolute` rather than going through the root layout's
+// "%s — <brand>" template. That template put all 101 area titles at 76-103 chars,
+// so Google cut them mid-brand and the 38-char suffix bought nothing a title
+// already saying "Kitchen Remodeling" and "MI" did not. The service terms are
+// only appended when they still fit inside the ~60-char SERP budget.
+function areaTitle(area: Area): string {
+  const base = `Kitchen Remodeling in ${areaPlace(area)}`;
+  const withServices = `${base} | Cabinets & Countertops`;
+  return withServices.length <= 60 ? withServices : base;
+}
+
 export async function generateMetadata({
   params,
 }: {
@@ -25,7 +49,7 @@ export async function generateMetadata({
   const area = AREAS_BY_SLUG[slug];
   if (!area) return {};
   return {
-    title: `kitchen remodeling company in ${area.name}, MI`,
+    title: { absolute: areaTitle(area) },
     description: areaDescription(area.name, insightFor(area.slug)),
     alternates: { canonical: `/service-areas/${area.slug}` },
   };
