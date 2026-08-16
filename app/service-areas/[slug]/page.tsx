@@ -21,12 +21,16 @@ export function generateStaticParams() {
 // "Downtown, MI" or "East Side, MI". The slug already knows the parent
 // (detroit-downtown), the title did not. Append the parent city unless the name
 // already contains it, so "Sterling Heights Utica corridor" is left alone.
-function areaPlace(area: Area): string {
+function areaPlaceName(area: Area): string {
   const parent = area.parent ? AREAS_BY_SLUG[area.parent] : undefined;
   const parentLead = parent?.name.split(" ")[0].toLowerCase();
   return parent && parentLead && !area.name.toLowerCase().includes(parentLead)
-    ? `${area.name}, ${parent.name}, MI`
-    : `${area.name}, MI`;
+    ? `${area.name}, ${parent.name}`
+    : area.name;
+}
+
+function areaPlace(area: Area): string {
+  return `${areaPlaceName(area)}, MI`;
 }
 
 // Titles are built with `absolute` rather than going through the root layout's
@@ -48,10 +52,24 @@ export async function generateMetadata({
   const { slug } = await params;
   const area = AREAS_BY_SLUG[slug];
   if (!area) return {};
+  const description = areaDescription(area.name, insightFor(area.slug));
   return {
     title: { absolute: areaTitle(area) },
-    description: areaDescription(area.name, insightFor(area.slug)),
+    description,
     alternates: { canonical: `/service-areas/${area.slug}` },
+    // Without this block all 101 area pages inherited one shared social title
+    // from the root layout — "BH Kitchen Remodeling Metro Detroit — Metro
+    // Detroit Kitchen Remodeling" — with no city in it at all. openGraph is
+    // replaced wholesale rather than merged, so type/siteName/locale are
+    // restated here; og:image still comes from the opengraph-image file route.
+    openGraph: {
+      type: "website",
+      siteName: BIZ.name,
+      locale: "en_US",
+      url: `${BIZ.url}/service-areas/${area.slug}`,
+      title: areaTitle(area),
+      description,
+    },
   };
 }
 
@@ -88,11 +106,12 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
                   <Clock className="h-3.5 w-3.5" /> Sun–Thu 9–5 · Fri 9–12
                 </span>
                 <span className="inline-flex items-center gap-2 rounded-full border border-ink-700 bg-ink-950/60 px-3 py-1.5 text-xs font-semibold text-ink-200 backdrop-blur">
-                  <MapPin className="h-3.5 w-3.5 text-brass-400" /> {area.name}, MI
+                  <MapPin className="h-3.5 w-3.5 text-brass-400" /> {areaPlace(area)}
                 </span>
               </div>
               <h1 className="mt-5 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-                kitchen remodeling services in <span className="text-brass-gradient">{area.name}</span>, MI
+                Kitchen remodeling services in{" "}
+                <span className="text-brass-gradient">{areaPlaceName(area)}</span>, MI
               </h1>
               <p className="mt-4 max-w-2xl text-base text-ink-200 md:text-lg">
                 {BIZ.name} serves {area.name} with custom kitchen remodeling, cabinet installation, countertop replacement, kitchen design,
@@ -122,7 +141,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             lat={area.lat}
             lng={area.lng}
             zoom={area.kind === "city" ? 13 : 14}
-            title={`${area.name}, MI`}
+            title={areaPlace(area)}
             height={460}
           />
         </div>
