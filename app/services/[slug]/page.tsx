@@ -21,7 +21,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const s = SERVICES.find((x) => x.slug === slug);
   if (!s) return {};
   return {
-    title: s.name,
+    // absolute opts out of the root layout's "%s — <brand>" template, which was
+    // spending 38 chars on a brand suffix and pushing six of these ten titles
+    // past 60: appliance-layout and island-installation to 65, backsplash,
+    // lighting and custom-remodeling to 63, partial-refresh to 61.
+    //
+    // The geo term is restated deliberately. It used to reach the page ONLY
+    // inside that suffix ("BH Kitchen Remodeling Metro Detroit"), so dropping
+    // the suffix without this would strip the geo from ten pages that six
+    // geo-modified tracked keywords land on. Now it leads the tail instead of
+    // trailing a brand name, and every title fits in 34-47 chars.
+    title: { absolute: `${s.name} | Metro Detroit, MI` },
     description: s.description.slice(0, 160),
     alternates: { canonical: `/services/${s.slug}` },
   };
