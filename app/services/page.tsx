@@ -6,7 +6,7 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
-  title: "kitchen remodeling services in Metro Detroit",
+  title: { absolute: "Kitchen Remodeling Services | Metro Detroit, MI" },
   description:
     `Custom kitchen remodeling, cabinet installation, countertop replacement, and kitchen design across Wayne, Oakland, and Macomb counties in Metro Detroit.`,
   alternates: { canonical: `${BIZ.url}/services` },

@@ -7,7 +7,11 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
-  title: `About ${BIZ.name}`,
+  // absolute opts out of the root layout's "%s — <brand>" template, which was
+  // appending the brand a second time: "About BH Kitchen Remodeling Metro
+  // Detroit — BH Kitchen Remodeling Metro Detroit", 79 chars with the name
+  // literally twice and Google cutting it mid-brand.
+  title: { absolute: `About ${BIZ.name}` },
   description: `Learn how ${BIZ.name} approaches kitchen design, cabinet installation, countertop replacement, jobsite protection, and remodeling service across Metro Detroit.`,
   alternates: { canonical: `${BIZ.url}/about` },
 };

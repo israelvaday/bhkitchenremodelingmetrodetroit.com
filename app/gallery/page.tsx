@@ -8,7 +8,7 @@ import { KitchenGlossary } from "@/components/site/KitchenGlossary";
 import { GalleryClient } from "./gallery-client";
 
 export const metadata: Metadata = {
-  title: "Kitchen Remodeling Project Inspiration",
+  title: { absolute: "Kitchen Remodeling Gallery | Metro Detroit, MI" },
   description: `Explore kitchen remodeling project inspiration from ${BIZ.name} for full remodels, cabinets, counters, backsplash, islands, lighting, and flooring.`,
   alternates: { canonical: "/gallery" },
 };

@@ -6,7 +6,7 @@ import { ContactCTA } from "@/components/site/ContactCTA";
 import { ServiceMap } from "@/components/site/ServiceMap";
 
 export const metadata: Metadata = {
-  title: "Contact — Metro Detroit Kitchen Remodeling",
+  title: { absolute: "Contact Us | Metro Detroit Kitchen Remodeling" },
   description:
     `Contact ${BIZ.name} to discuss a kitchen remodeling project, text photos, or request a free quote across Metro Detroit.`,
   alternates: { canonical: "/contact" },
