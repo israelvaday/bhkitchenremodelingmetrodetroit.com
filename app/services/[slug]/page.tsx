@@ -16,10 +16,42 @@ export function generateStaticParams() {
   return SERVICES.map((s) => ({ slug: s.slug }));
 }
 
+// Meta descriptions were a hard slice(0, 160), which cut all ten of these mid-word:
+// countertop-replacement served "...We coordinate templating, seam placement, " with
+// a dangling comma. Prefer whole sentences. Seven of the ten fill the budget that
+// way; the other three open with a short sentence whose successor cannot fit, so
+// those fall through to a WORD boundary marked with an ellipsis, which reads as a
+// deliberate cut where a severed comma read as a bug.
+const DESCRIPTION_LIMIT = 158;
+const DESCRIPTION_FLOOR = 110;
+
+function serviceDescription(description: string): string {
+  const sentences = description.split(/(?<=[.!?])\s+/);
+  let whole = "";
+  for (const sentence of sentences) {
+    const candidate = whole ? `${whole} ${sentence}` : sentence;
+    if (candidate.length > DESCRIPTION_LIMIT) break;
+    whole = candidate;
+  }
+  if (whole.length >= DESCRIPTION_FLOOR) return whole;
+
+  const rest = description.slice(whole.length).trim();
+  if (!rest) return whole || description.slice(0, DESCRIPTION_LIMIT);
+  let filled = whole;
+  for (const word of rest.split(/\s+/)) {
+    const candidate = filled ? `${filled} ${word}` : word;
+    if (candidate.length + 1 > DESCRIPTION_LIMIT) break;
+    filled = candidate;
+  }
+  return `${filled.replace(/[\s,;:.\u2014-]+$/, "")}\u2026`;
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   const s = SERVICES.find((x) => x.slug === slug);
   if (!s) return {};
+  const title = `${s.name} | Metro Detroit, MI`;
+  const description = serviceDescription(s.description);
   return {
     // absolute opts out of the root layout's "%s — <brand>" template, which was
     // spending 38 chars on a brand suffix and pushing six of these ten titles
@@ -31,9 +63,33 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     // the suffix without this would strip the geo from ten pages that six
     // geo-modified tracked keywords land on. Now it leads the tail instead of
     // trailing a brand name, and every title fits in 34-47 chars.
-    title: { absolute: `${s.name} | Metro Detroit, MI` },
-    description: s.description.slice(0, 160),
+    title: { absolute: title },
+    description,
     alternates: { canonical: `/services/${s.slug}` },
+    // Without this block all ten service pages inherited one shared social title
+    // from the root layout - "BH Kitchen Remodeling Metro Detroit - Metro Detroit
+    // Kitchen Remodeling" - with no service term in it at all, and og:url pointed
+    // every one of them at the homepage. openGraph is replaced wholesale rather
+    // than merged, so type/siteName/locale are restated here; og:image still comes
+    // from the per-service opengraph-image file route.
+    openGraph: {
+      type: "website",
+      siteName: BIZ.name,
+      locale: "en_US",
+      url: `${BIZ.url}/services/${s.slug}`,
+      title,
+      description,
+    },
+    // X reads twitter:title in preference to og:title, so the per-page social title
+    // above would not reach that surface while this block stayed inherited. images
+    // is deliberately omitted: the root sets twitter.images to the generic homepage
+    // PNG, and dropping it lets the per-service opengraph-image route supply the
+    // card on X too, the same outcome a560797 measured on the area pages.
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+    },
   };
 }
 
