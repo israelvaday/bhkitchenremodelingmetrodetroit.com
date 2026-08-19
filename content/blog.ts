@@ -358,6 +358,104 @@ If the goal is a finished kitchen before the holidays, the measuring and layout 
 Bring your measurements, meaning room width, cabinet runs, appliance locations, and ceiling height, and the answer takes one conversation. BH Kitchen Remodeling Metro Detroit handles [kitchen island installation](/services/kitchen-island-installation) across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 for a written scope.
 `,
   },
+  {
+    slug: "small-kitchen-remodel-metro-detroit",
+    title: "Small Kitchen Remodeling in Metro Detroit: What Works in a Galley",
+    metaTitle: "Small Kitchen Remodel Ideas for Metro Detroit Homes",
+    excerpt:
+      "A compact kitchen is not a scaled-down version of a large one. The constraints change which decisions come first, and which upgrades are worth paying for.",
+    category: "Design",
+    readMinutes: 9,
+    date: "2026-08-18",
+    heroImage: "/blog/small-kitchen-remodel-metro-detroit-hero.jpg",
+    heroAlt:
+      "Narrow galley kitchen in a Metro Detroit home with cabinets running to the ceiling",
+    secondaryImage: "/blog/small-kitchen-remodel-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "Pull-out pantry and deep drawers inside the base cabinets of a compact kitchen",
+    body: `
+Much of Metro Detroit's housing stock was built with a closed kitchen at the back of the house, and a good share of those rooms are still the size they were in 1948. A remodel in that room is not a smaller version of an open-plan project. The order of the decisions changes, and so does the list of upgrades worth paying for.
+
+The mistake worth avoiding is treating limited space as a budget problem. It is a geometry problem first. Solve the geometry and the rest of the project gets easier; skip it and you end up with expensive cabinets in a room that still does not work.
+
+## Measure three numbers before anything else
+
+Everything downstream depends on these, and all three take ten minutes with a tape:
+
+- **Clear width** between the opposing runs, measured cabinet face to cabinet face, not wall to wall
+- **Total run length**, meaning the linear feet of base cabinet you actually have
+- **Ceiling height**, which decides how much storage you can recover overhead
+
+Under about 7 feet of clear width, a two-sided galley is tight but workable for one cook. The National Kitchen & Bath Association puts the comfortable working aisle at 42 inches for one person and 48 inches when two people are in the room at once. Below roughly 36 inches, two people stop being able to pass, and no amount of cabinetry fixes that.
+
+Write the three numbers down before you look at a single photo of a finished kitchen. They rule things in and out faster than any other step.
+
+## The wall is the biggest lever, and the first decision
+
+In a pre-1960 bungalow or colonial, the single change that most alters what is possible is removing or opening the wall between the kitchen and the dining room. It is also the only decision that is genuinely difficult to revisit later, so it belongs at the front of the project rather than the middle.
+
+Two questions decide it. Is the wall load bearing, which determines whether a beam and posts are needed and where the load lands below? And what is inside it, since older walls in this housing stock routinely carry a plumbing stack, a heating duct, or the only run of wiring feeding the back half of the house. Rerouting any of those is ordinary work, but it is work, and it belongs in the estimate rather than in a surprise.
+
+If the wall opens, the kitchen stops being a galley and most of the advice below becomes optional. If it stays, the footprint is fixed and the project becomes an optimization problem inside the space you already have. Either answer is fine. Not deciding is what causes a redesign halfway through.
+
+## Buy back counter space before you buy cabinets
+
+Usable counter is the thing small kitchens are actually short of, and it is recoverable without moving a wall.
+
+- **Reduce the depth on one run.** Base cabinets are 24 inches deep by default. Dropping the second run to 15 or 18 inches gives back six to nine inches of aisle while keeping real storage. In a narrow galley that difference is the difference between passable and not.
+- **Keep a landing zone on both sides of the range and the sink.** A continuous 15 inches beside each is worth more than a wider stretch somewhere else in the room.
+- **Do not count the sink or the cooktop as counter.** A layout that looks like it has plenty of surface often has almost none once those are subtracted.
+- **Reclaim the dead corner.** A blind corner cabinet in a small kitchen is usually the least useful cubic footage in the house. A corner pull-out or a lazy Susan converts it into storage you will actually reach.
+
+## Storage: go vertical, and go specific
+
+Once the floor plan is fixed, the remaining capacity is overhead and inside the boxes.
+
+- **Run wall cabinets to the ceiling.** Many kitchens in this housing stock stop the uppers at 30 or 36 inches and cap them with a soffit. Removing the soffit and extending to the ceiling adds a full shelf across the entire run. The top shelf holds what you use twice a year, which is exactly what should be up there.
+- **Choose drawers over doors below the counter.** A deep drawer presents its whole contents at once. A base cabinet with a door and a fixed shelf hides most of what is in it, and in a small kitchen nothing can afford to be invisible.
+- **Use the toe kick.** Toe-kick drawers recover several inches of height that is otherwise structural dead space, and they suit flat items such as trays and sheet pans.
+- **Specify the inserts up front.** Tray dividers, a pull-out pantry, a knife block, a vertical slot for cutting boards. These cost far less when the cabinets are ordered with them than when they are retrofitted afterwards.
+
+## Size the appliances to the room
+
+Appliances are where a compact kitchen is most often defeated, because standard sizes are set for standard rooms.
+
+- **Refrigerator depth.** A standard-depth refrigerator can project well past the counter. A counter-depth model sits roughly flush with the cabinet run and gives the aisle back several inches for the whole length of the room. It holds less. In a galley that trade is usually worth making.
+- **Dishwasher width.** The standard is 24 inches; 18-inch models exist and free up a base cabinet. For one or two people, the narrower unit is often the better use of the run.
+- **Range width.** 30 inches is standard and 24-inch ranges are available. Going narrower is only worth it if the recovered space becomes usable counter rather than a filler panel.
+- **Check every door swing against the aisle.** This is the detail that most often goes wrong. A layout that measures fine on paper can become unusable the moment the refrigerator, oven, and dishwasher doors are opened. Walk the swings before the order is placed, not after.
+
+Venting deserves a separate thought. An over-the-range microwave saves a cabinet but vents poorly in a closed room. A proper hood ducted to the outside handles moisture and grease far better, and in a small kitchen with no other air path that matters more than it would in an open plan. If the microwave has to stay, a drawer unit in the base cabinets keeps the wall free.
+
+## Light and sightlines do the rest
+
+- **Under-cabinet lighting** puts light on the counter rather than on your back, and it is the single most noticeable upgrade per dollar in a narrow room.
+- **Fewer visual breaks** make the space read longer: one countertop material rather than two, a continuous backsplash, and cabinet fronts in one finish.
+- **Run the flooring the long way.** Boards or planks laid along the length of a galley stretch it. Laid across, they cut it into segments.
+- **Glass or open uppers on one short run** relieve the boxed-in feeling without giving up the storage on the long walls.
+
+## What actually drives the cost
+
+No dollar figures here, because the honest answer depends on your room and the scope you choose. But the drivers are predictable, and knowing them lets you steer the estimate:
+
+- **Moving water, gas, or drain lines** costs more than moving cabinets. Keeping the sink and range near their existing rough-ins is the largest single saving available in a small kitchen.
+- **Structural work** on a load-bearing wall brings in a beam, posts, and an inspection, and its cost has little to do with the size of the room.
+- **Odd cabinet widths.** Stock cabinets come in fixed increments. A run that does not divide neatly gets filler strips or custom boxes, and custom is where small kitchens quietly become expensive.
+- **Small does not mean cheap per square foot.** The same trades, the same inspections, and the same appliances are involved as in a large kitchen. What shrinks is the linear feet of cabinet and counter, not the coordination.
+
+## Where an island fits in
+
+Usually it does not, and forcing one produces a room that is harder to cook in than before. A true galley at 8 to 10 feet wide cannot hold an island and keep a proper walkway on both sides. If you are close to the boundary and want the arithmetic, we worked it through in [kitchen island sizing and clearances](/blog/kitchen-island-clearance-sizing-metro-detroit). A peninsula at one end, which needs clearance on fewer sides, is the version that fits far more often.
+
+## Sequencing a fall start
+
+Kitchen work in Metro Detroit picks up through September and October, and small kitchens are affected by that more than large ones, for a reason that surprises people: in a compact room the trades cannot overlap. There is no second half of the kitchen for the electrician to work in while the cabinets go into the first. Work runs single file, so the schedule per square foot is longer than the square footage suggests, not shorter.
+
+That makes the ordering decisions the critical path. Cabinets carry the longest lead time and everything after them waits, since countertops cannot be templated until the base cabinets are set and verified level. Appliances have to be selected before the cabinets are ordered, because the openings are built to the models chosen. If a finished kitchen before the holidays is the goal, the measuring, the wall decision, and the appliance selections belong in late summer.
+
+Bring the three measurements and a sense of whether the wall is on the table, and most of this resolves in one conversation. BH Kitchen Remodeling Metro Detroit handles [custom kitchen remodeling](/services/custom-kitchen-remodeling) and [kitchen design](/services/kitchen-design) across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 for a written scope.
+`,
+  },
 ];
 
 export function findPost(slug: string) {
