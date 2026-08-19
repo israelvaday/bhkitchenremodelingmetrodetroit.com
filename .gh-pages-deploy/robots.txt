@@ -1,7 +1,0 @@
-User-Agent: *
-Allow: /
-Disallow: /api/
-Disallow: /thank-you
-
-Host: https://bhkitchenremodelingmetrodetroit.com
-Sitemap: https://bhkitchenremodelingmetrodetroit.com/sitemap.xml
