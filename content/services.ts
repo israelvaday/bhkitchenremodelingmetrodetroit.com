@@ -148,6 +148,42 @@ export const SERVICES: Service[] = [
           "Removal, debris handling, and disposal should be stated in the scope. If you intend to donate a set or reuse boxes in a garage or basement, say so before demolition is scheduled, because cabinets taken out intact come out differently and more slowly than cabinets that are only going to a dumpster.",
       },
     ],
+    guide: {
+      href: "/blog/cabinet-installation-vs-refacing",
+      anchor: "cabinet installation vs refacing",
+    },
+    deepDive: [
+      {
+        heading: "What a cabinet installation quote is actually built from",
+        body:
+          "Cabinet installation is priced off the cabinets, not the room. The count of boxes drives it, and wall, base, and tall units are not equivalent work: a pantry or an oven cabinet takes far longer to set and secure than a two-door base. Beyond the count, the line items that move an estimate are modifications to make a run fit a real wall, fillers and finished end panels, crown and light rail, toe-kick and scribe work, whether removal and disposal of the existing set is included, and whether appliance panels, a hood surround, or open shelving are part of the scope. We put those items and the exclusions in the written scope so competing quotes can be compared on the same basis rather than on a single number.",
+      },
+      {
+        heading: "Assembled boxes, flat-pack, and who does the assembly",
+        body:
+          "A large share of the cabinetry sold in this market ships ready-to-assemble, and assembly is real labour that sits on its own line. It is worth settling before you compare quotes: are the boxes arriving assembled, is assembly included in the installation, or is it excluded and expected from you. Assembly done off site keeps the mess and the staging out of the house but needs somewhere to put finished boxes; assembly done in the room means the kitchen is a workshop for part of the schedule. Neither is wrong, but a quote that assumes one and a quote that assumes the other are not the same quote.",
+      },
+      {
+        heading: "Delivery, count, and checking the order before install day",
+        body:
+          "The order should be checked against the layout and the door and drawer schedule when it lands, before demolition is scheduled. Damaged doors, a cracked frame, the wrong finish on one run, or missing hardware are all normally replaceable, but on the cabinet manufacturer's lead time rather than the installer's, and a single missing filler can stall a whole run at the wall. Storage matters too while boxes wait: an unheated garage through a Michigan winter is a poor place for wood and MDF, which move with humidity and temperature.",
+      },
+      {
+        heading: "Fastening into older Metro Detroit walls",
+        body:
+          "Wall cabinets carry their load through the mounting rail into whatever is behind the drywall or plaster, so what is back there decides the fastening. Plaster and lath, stud spacing that does not follow a modern layout, and furred-out masonry are all common in the older housing stock here, and any of them can mean the run needs blocking or a ledger before a box goes up. Loaded upper cabinets are heavy and a run of them is heavier, so this is checked at layout rather than discovered on install day. Base runs carrying stone tops need the floor under them to be sound for the same reason.",
+      },
+      {
+        heading: "Flooring, appliances, and the order the trades work in",
+        body:
+          "Two sequencing decisions on a cabinet job are worth making deliberately. Whether the finished floor runs under the cabinets or stops at the toe kick affects the height of the dishwasher opening and how a future floor replacement will go, and it is far cheaper to decide than to revisit. Appliances set their own constraints: a dishwasher needs its opening and its finished height, a slide-in range needs the counter cut to its specification, and panel-ready refrigerators and dishwashers need their panels ordered with the cabinets and built to the appliance maker's dimensions, not approximated afterwards.",
+      },
+      {
+        heading: "The final adjustment pass, and what moves after the first winter",
+        body:
+          "The last stage of an installation is an alignment pass across every door and drawer: reveals made even, doors brought flush, drawer fronts levelled, and soft-close mechanisms checked. It is worth knowing that this is not permanent. Solid wood doors and face frames move with humidity, and a Michigan heating season is a large swing from a humid August, so a door that sat perfectly at installation can want a small adjustment months later. European soft-close hinges adjust in three directions with a screwdriver, which makes seasonal movement a maintenance detail rather than a defect.",
+      },
+    ],
   },
   {
     slug: "countertop-replacement",
