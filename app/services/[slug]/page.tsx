@@ -149,7 +149,11 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               service={{
                 slug: s.slug,
                 name: s.name,
-                shortName: s.shortName,
+                // AvailabilityChecker wraps this in "Is your {x} project in our
+                // service area?" and its own fallback is the prose "kitchen
+                // remodeling", so it wants the prose name, not the nav chip:
+                // shortName gave "Is your islands project ...".
+                shortName: s.proseName,
                 tagline: s.tagline,
                 bullets: s.bullets,
               }}
@@ -221,7 +225,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               <div>
                 <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Service area</p>
                 <h2 className="mt-2 font-display text-2xl font-bold md:text-3xl">
-                  {s.shortName} service across Metro Detroit
+                  {s.name} service across Metro Detroit
                 </h2>
                 <p className="mt-2 max-w-2xl text-ink-300">
                   Kitchen remodeling across Wayne, Oakland &amp; Macomb counties during posted business hours.
@@ -247,20 +251,20 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
       <section className="border-t border-ink-800 py-16">
         <div className="mx-auto max-w-3xl space-y-5 px-4 text-sm text-ink-200 md:px-6 md:text-base">
           <h2 className="font-display text-2xl font-bold text-white md:text-3xl">
-            More about {s.shortName.toLowerCase()} in Metro Detroit
+            More about {s.proseName} in Metro Detroit
           </h2>
           <p>
-            {s.description} For each {s.shortName.toLowerCase()} request, {BIZ.name} reviews the existing layout,
+            {s.description} On every {s.proseName} job, {BIZ.name} reviews the existing layout,
             cabinet and counter condition, how the household uses the room, appliance and utility positions, access,
             and cleanup requirements before finalizing scope.
           </p>
           <p>
-            We serve all of Metro Detroit for {s.shortName.toLowerCase()} — Detroit, Dearborn, Warren, Sterling Heights, Troy, Livonia, Royal Oak, Farmington Hills, Pontiac, Southfield, Westland, Taylor, and every city in our{" "}
+            We serve all of Metro Detroit for {s.proseName} — Detroit, Dearborn, Warren, Sterling Heights, Troy, Livonia, Royal Oak, Farmington Hills, Pontiac, Southfield, Westland, Taylor, and every city in our{" "}
             <a href="/service-areas" className="text-brass-300 underline-offset-2 hover:underline">coverage map</a>.
             Project dates are discussed after we understand the scope and current schedule.
           </p>
           <p>
-            Pricing for {s.shortName.toLowerCase()} depends on the included scope, cabinet and countertop tier,
+            Pricing for {s.proseName} depends on the included scope, cabinet and countertop tier,
             material selections, trade coordination, access, protection, and timing. The estimate should identify
             assumptions and exclusions; proposed scope changes should be discussed and documented before added work
             proceeds.
@@ -278,13 +282,13 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         </div>
       </section>
 
-      <LongFormFaq subject={s.shortName} kind="service" items={s.faq} />
+      <LongFormFaq subject={s.proseName} kind="service" items={s.faq} />
 
       <section className="border-t border-ink-800 bg-aurora py-16 text-center">
         <div className="mx-auto max-w-3xl px-4 md:px-6">
           <Reveal>
             <h2 className="font-display text-3xl font-extrabold md:text-4xl">
-              Planning a {s.shortName.toLowerCase()} project?
+              Planning {s.proseName} work in Metro Detroit?
             </h2>
             <p className="mt-3 text-ink-200">Tell {BIZ.name} about the layout and finishes you have in mind.</p>
             <div className="mt-6 flex justify-center">

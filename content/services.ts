@@ -15,6 +15,15 @@ export type Service = {
   slug: string;
   name: string;
   shortName: string;
+  /**
+   * The service as a NOUN PHRASE for running prose, lowercase and without an
+   * article, e.g. "kitchen island installation". shortName is a nav-chip label
+   * ("Islands", "Appliances") and reads as broken English the moment a sentence
+   * wraps it: the live SERP snippet for the site's only page-1 result carried
+   * "Planning a islands project?" on 2026-08-21. Keep this article-free so the
+   * template can frame it freely.
+   */
+  proseName: string;
   icon: typeof ChefHat;
   tagline: string;
   description: string;
@@ -41,6 +50,7 @@ export const SERVICES: Service[] = [
     slug: "custom-kitchen-remodeling",
     name: "Custom Kitchen Remodeling",
     shortName: "Full Remodel",
+    proseName: "custom kitchen remodeling",
     icon: ChefHat,
     tagline: "Complete kitchen transformations planned around layout, storage, finishes, and how your family actually cooks.",
     description:
@@ -97,6 +107,7 @@ export const SERVICES: Service[] = [
     slug: "cabinet-installation",
     name: "Cabinet Installation",
     shortName: "Cabinets",
+    proseName: "cabinet installation",
     icon: PanelsTopLeft,
     tagline: "Level, plumb, and aligned cabinet runs with durable hardware and clean filler details.",
     description:
@@ -189,6 +200,7 @@ export const SERVICES: Service[] = [
     slug: "countertop-replacement",
     name: "Countertop Replacement",
     shortName: "Countertops",
+    proseName: "countertop replacement",
     icon: Gem,
     tagline: "Template-accurate countertops in quartz, granite, butcher block, and solid surface.",
     description:
@@ -281,6 +293,7 @@ export const SERVICES: Service[] = [
     slug: "kitchen-design",
     name: "Kitchen Design",
     shortName: "Design",
+    proseName: "kitchen design",
     icon: PencilRuler,
     tagline: "Functional layouts, material selections, and elevations before construction begins.",
     description:
@@ -337,6 +350,7 @@ export const SERVICES: Service[] = [
     slug: "kitchen-backsplash-tile",
     name: "Kitchen Backsplash & Tile",
     shortName: "Backsplash",
+    proseName: "backsplash and tile",
     icon: Grid3X3,
     tagline: "Subway, slab, mosaic, and large-format backsplash installation with clean terminations.",
     description:
@@ -393,6 +407,7 @@ export const SERVICES: Service[] = [
     slug: "kitchen-lighting-upgrades",
     name: "Kitchen Lighting Upgrades",
     shortName: "Lighting",
+    proseName: "kitchen lighting",
     icon: Lightbulb,
     tagline: "Task, ambient, and accent lighting planned with your layout and finish palette.",
     description:
@@ -449,6 +464,7 @@ export const SERVICES: Service[] = [
     slug: "kitchen-flooring",
     name: "Kitchen Flooring",
     shortName: "Flooring",
+    proseName: "kitchen flooring",
     icon: SquareStack,
     tagline: "Durable flooring transitions that survive spills, pets, and daily traffic.",
     description:
@@ -505,6 +521,7 @@ export const SERVICES: Service[] = [
     slug: "kitchen-island-installation",
     name: "Kitchen Island Installation",
     shortName: "Islands",
+    proseName: "kitchen island installation",
     icon: LayoutGrid,
     tagline: "Islands sized for prep, seating, storage, and appliance clearances.",
     description:
@@ -565,6 +582,7 @@ export const SERVICES: Service[] = [
     slug: "kitchen-appliance-layout",
     name: "Appliance Layout & Upgrades",
     shortName: "Appliances",
+    proseName: "appliance layout",
     icon: Plug,
     tagline: "Refrigerator, range, hood, and dishwasher placement that supports daily workflow.",
     description:
@@ -621,6 +639,7 @@ export const SERVICES: Service[] = [
     slug: "partial-kitchen-refresh",
     name: "Partial Kitchen Refresh",
     shortName: "Refresh",
+    proseName: "partial kitchen refresh",
     icon: RefreshCw,
     tagline: "Targeted updates when a full gut remodel is more than you need right now.",
     description:
