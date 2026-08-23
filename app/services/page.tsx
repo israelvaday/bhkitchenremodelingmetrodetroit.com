@@ -21,11 +21,11 @@ export default function ServicesPage() {
         <div className="relative mx-auto max-w-5xl px-4 text-center md:px-6">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Services</p>
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            kitchen remodeling services across <span className="text-brass-gradient">Metro Detroit</span>.
+            Kitchen remodeling services across <span className="text-brass-gradient">Metro Detroit</span>.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
-            Explore ten service lines with preparation, finish, and planning details for homes, businesses, rentals,
-            cabinets, and exterior wood.
+            Explore ten service lines with the layout, material, and sequencing details behind each, from cabinets,
+            countertops, and islands to backsplash, flooring, lighting, and full kitchen remodels.
           </p>
         </div>
       </section>
