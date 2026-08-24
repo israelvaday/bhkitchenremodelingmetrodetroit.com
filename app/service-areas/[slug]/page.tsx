@@ -11,6 +11,7 @@ import { ContactCTA } from "@/components/site/ContactCTA";
 import { ServiceMap } from "@/components/site/ServiceMap";
 import { AreaAvailabilityChecker } from "@/components/site/DispatchTracker";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
+import { Breadcrumbs, type Crumb } from "@/components/site/Breadcrumbs";
 
 export function generateStaticParams() {
   return AREAS.map((area) => ({ slug: area.slug }));
@@ -31,6 +32,22 @@ function areaPlaceName(area: Area): string {
 
 function areaPlace(area: Area): string {
   return `${areaPlaceName(area)}, MI`;
+}
+
+// 50 of the 101 areas are neighborhoods with a real parent city that has its own
+// page, so those get a four-level trail (Home > Service Areas > Detroit >
+// Corktown). That parent/child relationship is the site's actual geography and
+// until now it was declared nowhere: to a crawler these read as one flat list of
+// 101 near-identical pages. The last crumb uses the bare `name`, not
+// `areaPlaceName`, because the parent crumb already supplies the city.
+function areaTrail(area: Area): Crumb[] {
+  const parent = area.parent ? AREAS_BY_SLUG[area.parent] : undefined;
+  return [
+    { name: "Home", href: "/" },
+    { name: "Service Areas", href: "/service-areas" },
+    ...(parent ? [{ name: parent.name, href: `/service-areas/${parent.slug}` }] : []),
+    { name: parent ? area.name : areaPlaceName(area), href: `/service-areas/${area.slug}` },
+  ];
 }
 
 // Titles are built with `absolute` rather than going through the root layout's
@@ -109,6 +126,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
         <div className="relative z-10 mx-auto max-w-7xl px-4 py-16 md:px-6 md:py-20">
           <div className="grid items-start gap-10 lg:grid-cols-[1fr_minmax(360px,440px)]">
             <div>
+              <Breadcrumbs className="mb-5" trail={areaTrail(area)} />
               <div className="flex flex-wrap items-center gap-2">
                 <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/40 bg-ink-950/70 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-brass-300 backdrop-blur">
                   <ChefHat className="h-3.5 w-3.5" /> Metro Detroit Kitchen Remodeling

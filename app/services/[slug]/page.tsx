@@ -10,6 +10,7 @@ import { LogoMark } from "@/components/site/Logo";
 import { ServiceMap } from "@/components/site/ServiceMap";
 import { AvailabilityChecker } from "@/components/site/HomeDispatchTracker";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
+import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { Reveal, RevealItem, RevealStagger } from "@/components/site/Reveal";
 
 export function generateStaticParams() {
@@ -114,6 +115,14 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         />
         <div className="absolute inset-0 z-0 bg-gradient-to-t from-ink-950 via-ink-950/80 to-ink-950/40" />
         <div className="relative z-10 mx-auto max-w-7xl px-4 py-20 md:px-6 md:py-28">
+          <Breadcrumbs
+            className="mb-5"
+            trail={[
+              { name: "Home", href: "/" },
+              { name: "Services", href: "/services" },
+              { name: s.name, href: `/services/${s.slug}` },
+            ]}
+          />
           <div className="flex flex-wrap items-center gap-2">
             <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/40 bg-ink-950/70 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-brass-300 backdrop-blur">
               <LogoMark className="h-4 w-4" />

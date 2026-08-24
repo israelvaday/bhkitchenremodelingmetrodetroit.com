@@ -2,12 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Calendar, Clock, ChefHat } from "lucide-react";
+import { Calendar, Clock, ChefHat } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { BLOG_POSTS, findPost } from "@/content/blog";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
+import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 
 export const dynamic = "force-static";
 
@@ -200,12 +201,15 @@ export default async function BlogPostPage(
           </div>
           <div className="relative z-10 -mt-32 md:-mt-44">
             <div className="mx-auto max-w-3xl px-4 md:px-6">
-              <Link
-                href="/blog"
-                className="inline-flex items-center gap-1.5 text-sm font-semibold text-brass-300 hover:text-brass-200"
-              >
-                <ArrowLeft className="h-4 w-4" /> All articles
-              </Link>
+              {/* Replaces the old bare "All articles" back-link: same affordance,
+                  plus the trail Google needs. Two back-links would be redundant. */}
+              <Breadcrumbs
+                trail={[
+                  { name: "Home", href: "/" },
+                  { name: "Blog", href: "/blog" },
+                  { name: post.title, href: `/blog/${post.slug}` },
+                ]}
+              />
               <span className="mt-4 inline-flex w-fit items-center gap-1.5 rounded-full border border-brass-500/40 bg-brass-500/10 px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-brass-300">
                 {post.category}
               </span>
