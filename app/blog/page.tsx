@@ -9,8 +9,11 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
   title: { absolute: `Kitchen Remodeling Guides — ${BIZ.name}` },
+  // 176 chars before this, cut by Google at ~155. The brand is already the
+  // title's own suffix, so interpolating it here bought nothing and cost 35
+  // chars; "in Metro Detroit" then repeated the geo term the brand had. 137 now.
   description:
-    `Kitchen remodeling guides from ${BIZ.name} covering layout, cabinets, countertops, islands, backsplash, lighting, and project planning in Metro Detroit.`,
+    "Kitchen remodeling guides covering layout, cabinets, countertops, islands, backsplash, lighting, and project planning across Metro Detroit.",
   alternates: { canonical: `${BIZ.url}/blog` },
 };
 

@@ -9,7 +9,11 @@ import { GalleryClient } from "./gallery-client";
 
 export const metadata: Metadata = {
   title: { absolute: "Kitchen Remodeling Gallery | Metro Detroit, MI" },
-  description: `Explore kitchen remodeling project inspiration from ${BIZ.name} for full remodels, cabinets, counters, backsplash, islands, lighting, and flooring.`,
+  // 171 chars before this, cut by Google at ~155. Same two costs as /about/ and
+  // /blog/: the interpolated 35-char brand, and a geo term stated twice. The
+  // colon puts the service list where the snippet is guaranteed to show it. 144.
+  description:
+    "Kitchen remodeling project inspiration from across Metro Detroit: full remodels, cabinets, counters, backsplash, islands, lighting, and flooring.",
   alternates: { canonical: "/gallery" },
 };
 

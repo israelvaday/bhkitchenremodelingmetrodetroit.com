@@ -12,7 +12,11 @@ export const metadata: Metadata = {
   // Detroit — BH Kitchen Remodeling Metro Detroit", 79 chars with the name
   // literally twice and Google cutting it mid-brand.
   title: { absolute: `About ${BIZ.name}` },
-  description: `Learn how ${BIZ.name} approaches kitchen design, cabinet installation, countertop replacement, jobsite protection, and remodeling service across Metro Detroit.`,
+  // 183 chars before this, cut by Google at ~155. Interpolating BIZ.name spent
+  // 35 of them on the full brand and then said "Metro Detroit" a second time at
+  // the end. The short brand plus the single trailing geo term says the same
+  // thing in 148.
+  description: `Learn how BH Kitchen Remodeling approaches kitchen design, cabinet installation, countertop replacement, and jobsite protection across Metro Detroit.`,
   alternates: { canonical: `${BIZ.url}/about` },
 };
 
