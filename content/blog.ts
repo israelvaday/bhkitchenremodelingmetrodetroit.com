@@ -456,6 +456,86 @@ That makes the ordering decisions the critical path. Cabinets carry the longest 
 Bring the three measurements and a sense of whether the wall is on the table, and most of this resolves in one conversation. BH Kitchen Remodeling Metro Detroit handles [custom kitchen remodeling](/services/custom-kitchen-remodeling) and [kitchen design](/services/kitchen-design) across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 for a written scope.
 `,
   },
+  {
+    slug: "kitchen-flooring-under-cabinets-metro-detroit",
+    title: "Kitchen Flooring in Metro Detroit: Under the Cabinets or Around Them?",
+    metaTitle: "Kitchen Flooring Metro Detroit: Under or Around the Cabinets?",
+    excerpt:
+      "The floor can run under the cabinets or stop at them, and the flooring material often decides which. Getting it backwards is what traps a dishwasher.",
+    category: "Planning",
+    readMinutes: 9,
+    date: "2026-08-26",
+    heroImage: "/blog/kitchen-flooring-under-cabinets-metro-detroit-hero.jpg",
+    heroAlt:
+      "Luxury vinyl plank kitchen floor meeting a cabinet toe kick in a Metro Detroit kitchen",
+    secondaryImage: "/blog/kitchen-flooring-under-cabinets-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "Flooring planks stacked in a kitchen to acclimate before installation",
+    body: `
+Most kitchen remodels answer this question by accident. The floor goes down before the cabinets or after them depending on which trade is free that week, and nobody writes the decision down. It is worth deciding on purpose, because the two sequences produce different kitchens, and one of them can trap your dishwasher under the counter.
+
+## The two sequences
+
+**Floor first.** The finished floor is installed across the whole room and the cabinets are set on top of it. The room reads as one continuous surface, and a future layout change, moving a run or pulling out a peninsula, does not expose a bare patch of subfloor.
+
+**Cabinets first.** The boxes are set on the subfloor and the finished floor is installed around the footprint, butting to the toe kick. Less material, and the cabinet and counter heights land exactly where the drawings put them.
+
+Neither is wrong. But the choice is not always yours to make.
+
+## The flooring material usually decides it
+
+This is the part that gets skipped. Kitchen floors fall into two groups, and only one of them belongs under a cabinet.
+
+- **Floating floors.** Click-lock luxury vinyl plank, most laminate, and some engineered wood. These are not fastened down. They are one connected sheet that has to be free to expand and contract with temperature and humidity, which is why they need a gap at every wall.
+- **Fixed floors.** Glue-down vinyl, nail-down or glue-down hardwood, and tile set in mortar. These are bonded to the substrate and do not move as a unit.
+
+A cabinet run is heavy and it is screwed to the wall. Set it on a floating floor and you have pinned that floor in the middle of the room. It can no longer move where it needs to, so it moves where it can: joints open along the walkway, or planks peak up in the middle of the span. The failure usually appears a season later, once the house has dried out, which is long after anyone connects it to the install.
+
+So the working rule is straightforward. **Floating floors go around the cabinets. Fixed floors can go under.** Every floating-floor manufacturer addresses this directly in its installation instructions, and those instructions are worth reading before agreeing to a plan that ignores them.
+
+## The dishwasher is the part people regret
+
+A dishwasher does not sit inside a cabinet. It sits in an opening between two of them, levelled up to the underside of the counter. Where the finished floor stops at the toe kick, the floor of that opening is still bare subfloor, and the machine was set to fit the height it found.
+
+Eight years later it fails. The replacement is a slightly different height, or the same height with no room to tilt it out, and it will not clear the counter on the way. The remaining options are cutting the floor, pulling a countertop, or living with the old machine.
+
+The prevention costs almost nothing and fits in one line of the scope: **run the finished floor through the dishwasher bay** and the range opening even when the rest of the floor stops at the cabinets. The same applies to a slide-in range, which is meant to sit flush with the countertop and cannot do that from a lower plane.
+
+## Cabinet height, counter height, and the toe kick
+
+Base cabinets are 34.5 inches and a standard countertop brings the working surface to 36. Put three quarters of an inch of floor underneath and the counter lands near 36.75 unless somebody planned for it.
+
+On its own that is livable. The problem is that it moves everything with it. The backsplash gets shorter, the clearance under an existing window changes, and any appliance sized to a 36-inch opening now has to fit a taller one. Toe-kick height drops by the same amount, which is cosmetic right up until it is the difference between a drawer clearing the floor and scraping it.
+
+If the floor is going under the cabinets, the floor thickness belongs on the drawings before the cabinets are ordered, not after they arrive.
+
+## Michigan's heating season is the real deadline
+
+Flooring acclimates. Wood and vinyl both arrive at whatever the warehouse temperature and humidity happened to be, and they need time in the actual room, at the conditions that room will actually be kept at, before they go down.
+
+That matters more here than it does in a stable climate. A Metro Detroit house in August is humid. The same house in January, with forced air running, is dry enough to shrink almost everything in it. A wood floor laid tight at summer moisture content, with no time to adjust, is a floor with visible gaps between the boards by February. Laid too dry, it cups the following July instead.
+
+For a fall install the consequence is practical: get the material into the house early, and where the schedule allows, have the heat on before the floor goes down rather than after. That is a few days of storage, not a delay, and it is far easier to arrange in September than to explain in December.
+
+## Look underneath before choosing anything
+
+The subfloor decides what is possible, and in this housing stock it changes within a few miles.
+
+- **Pre-1960 Wayne County homes** often sit over an unconditioned basement or crawlspace, with plank subfloor and some deflection. Tile is the least forgiving of movement and telegraphs a bouncing floor straight into cracked grout, so it usually needs an added layer or a decoupling membrane rather than optimism.
+- **Post-war ranches** across Oakland County are generally flatter, but decades of layered vinyl and underlayment can leave the kitchen sitting half an inch above the rooms beside it. That gets resolved at the doorway, and it is better resolved on paper than on install day.
+- **Slab-on-grade additions and converted porches** need a moisture reading before wood or laminate is considered at all. Concrete releases moisture for a long time, and a vapor barrier is not optional under a floor that reacts to it.
+
+Flatness is the other check worth making early. Click-together floors carry a stated flatness tolerance, and a floor installed outside it works its joints loose over the first year of normal use.
+
+## What this means for a fall remodel
+
+Kitchen work in Metro Detroit picks up through September and October, and flooring is one of the few decisions that has to be settled before demolition rather than during it. The material determines the sequence, the sequence determines when the cabinets can be set, and the cabinet date determines when the countertops can be templated.
+
+Deciding the floor early is what stops the rest of the schedule from moving.
+
+Bring the room measurements, whatever you know about what is under the existing floor, and what the adjoining rooms are finished in. BH Kitchen Remodeling Metro Detroit handles [kitchen flooring installation](/services/kitchen-flooring) across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 for a written scope.
+`,
+  },
 ];
 
 export function findPost(slug: string) {

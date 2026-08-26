@@ -516,6 +516,10 @@ export const SERVICES: Service[] = [
           "After demolition and any subfloor repair, and its position relative to cabinets depends on the under-or-around decision above. Whichever order applies, the finished floor is protected through cabinet, counter, and backsplash work, because those stages involve heavy boxes, stone, and wet materials moving across it.",
       },
     ],
+    guide: {
+      href: "/blog/kitchen-flooring-under-cabinets-metro-detroit",
+      anchor: "kitchen flooring installation",
+    },
   },
   {
     slug: "kitchen-island-installation",
