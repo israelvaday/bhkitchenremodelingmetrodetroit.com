@@ -12,6 +12,7 @@ import { AvailabilityChecker } from "@/components/site/HomeDispatchTracker";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { Reveal, RevealItem, RevealStagger } from "@/components/site/Reveal";
+import { serviceJsonLd } from "@/lib/schema";
 
 export function generateStaticParams() {
   return SERVICES.map((s) => ({ slug: s.slug }));
@@ -101,9 +102,23 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const heroSrc = `${base}/photos/service-hero-${s.slug}.png`;
   const Icon = s.icon;
+  // serviceJsonLd() was written at onboarding and nothing ever imported it - the
+  // last dead export in lib/schema.ts, after breadcrumbJsonLd() was wired on
+  // 2026-08-23. Until now these ten pages described a service to readers and told
+  // Google only that a business exists somewhere on the site: the LocalBusiness
+  // node in app/layout.tsx is site-wide and identical on all 135 pages, so nothing
+  // in the markup said WHICH service this page is about. This names it, and hangs
+  // it off the business node by @id rather than repeating the NAP a second time.
+  const serviceLd = serviceJsonLd(s.slug);
 
   return (
     <>
+      {serviceLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceLd) }}
+        />
+      )}
       <section className="relative overflow-hidden border-b border-ink-800 bg-ink-950">
         <Image
           src={heroSrc}

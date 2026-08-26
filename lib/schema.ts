@@ -43,11 +43,23 @@ export function serviceJsonLd(slug: string) {
   return {
     "@context": "https://schema.org",
     "@type": "Service",
+    name: s.name,
     serviceType: s.name,
+    // The SAME string the page prints under "What's included" and again in the
+    // depth block, verbatim: Google asks that structured data describe what the
+    // reader sees, and a shortened variant would describe neither the visible
+    // copy nor the meta description.
     description: s.description,
+    // Resolves to the site-wide HomeAndConstructionBusiness node emitted by
+    // app/layout.tsx, so the ten services attach to the business entity instead
+    // of standing as ten unowned Service nodes.
     provider: { "@id": `${BIZ.url}/#business` },
     areaServed: { "@type": "AdministrativeArea", name: "Metro Detroit, MI" },
-    url: `${BIZ.url}/services/${s.slug}`,
+    // Trailing slash: next.config.ts sets trailingSlash on the export, so
+    // /services/<slug>/ is the url actually served and the one the canonical,
+    // the sitemap and the breadcrumb item all use. Without it this node would
+    // claim a url that 301s.
+    url: `${BIZ.url}/services/${s.slug}/`,
   };
 }
 
