@@ -47,8 +47,14 @@ export function Footer() {
           <ul className="grid grid-cols-2 gap-x-3 gap-y-1.5 pb-4 text-sm text-ink-300 md:mt-3 md:grid-cols-1 md:pb-0">
             {SERVICES.slice(0, 8).map((s) => (
               <li key={s.slug}>
+                {/* s.name, not s.shortName: this is the whole anchor text of the
+                    site's only site-wide link to each service page, and shortName
+                    is a nav-chip label. "Countertops" and "Islands" say nothing a
+                    search engine can attach to a page, while the page's own name
+                    is already its h1 and title. Same defect family as f93f4c4,
+                    which fixed the prose slots and left the anchors. */}
                 <Link href={`/services/${s.slug}`} className="inline-block py-1.5 hover:text-brass-300">
-                  {s.shortName}
+                  {s.name}
                 </Link>
               </li>
             ))}

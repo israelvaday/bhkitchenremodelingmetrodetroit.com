@@ -197,8 +197,13 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
                     <Icon className="h-5 w-5" />
                   </span>
                   <div className="flex-1">
+                    {/* service.name, not service.shortName: this h3 is the anchor
+                        text of the link, so the chip label was spending the one
+                        slot that carries service + geo together on "Design in
+                        Warren" and "Refresh in Warren" — phrases that name no
+                        trade. The full name makes it "Kitchen Design in Warren". */}
                     <h3 className="font-semibold text-ink-100">
-                      {service.shortName} in {area.name}
+                      {service.name} in {area.name}
                     </h3>
                     <p className="mt-1 line-clamp-2 text-sm text-ink-300">{service.tagline}</p>
                   </div>
