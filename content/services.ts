@@ -581,6 +581,38 @@ export const SERVICES: Service[] = [
       href: "/blog/kitchen-island-clearance-sizing-metro-detroit",
       anchor: "kitchen island sizing and clearances",
     },
+    deepDive: [
+      {
+        heading: "Three different builds all get called an island",
+        body:
+          "Base cabinets ganged together, a box built in place, and a furniture-style piece are three different jobs that all end up being called an island. Standard base cabinets set in a row or back to back are the common route and the easiest to live with later, because every part of it can be ordered again from the same line as the rest of the kitchen. A box built in place is framed and panelled on site, which suits an odd footprint or a curved end but is carpentry rather than a cabinet order, so it is priced and scheduled differently. A furniture piece, meaning a work surface on legs or a repurposed cabinet, reads as a separate object in the room and is a real answer in a kitchen that cannot give up the floor area a full run of base cabinets needs. Which of the three you want is worth settling before anything is ordered, because the storage, the top, and the electrical all follow from it.",
+      },
+      {
+        heading: "The dry layout on the floor, before anything is ordered",
+        body:
+          "The footprint gets taped or blocked out on the floor and lived with for a few days before the order goes in. What that catches is not the arithmetic, which can be done on paper, but the things a plan view hides: which way the dishwasher door swings into the aisle, whether the refrigerator opens fully with someone standing at the island, where the light from the window lands, and how the walk from the sink to the back door actually feels. It is also when the island gets squared to something real. Kitchens in the older Metro Detroit housing stock rarely have four square walls, so an island set parallel to one wall can visibly diverge from the opposite one, and choosing which line to hold is a decision better made on the floor than discovered after the countertop is templated.",
+      },
+      {
+        heading: "Levelling a base on a floor that is not flat",
+        body:
+          "Once the position is fixed the base has to be brought to a level plane, and in this housing stock that is rarely a formality. Floors in older homes settle, and an island standing in the middle of a room can sit across more variation than a cabinet run against a wall ever sees. Shimming the base flat, then scribing the toe kick and the finished panels to the floor as it actually is, is what keeps the counter level and the doors and drawers hanging true. It matters more on an island than on a perimeter run for a simple reason: there is no wall and no backsplash to hide a gap, so a base that quietly follows a sloping floor is visible from across the room.",
+      },
+      {
+        heading: "Where the island sits in the sequence",
+        body:
+          "Three steps have to happen in the right order. Any rough-in for a sink, a dishwasher, a cooktop, or a dedicated circuit is run and signed off before the box closes up, because opening a finished island to add a line later is a demolition job rather than a repair. The flooring decision comes next, since whether the finished floor runs under the island or stops at its footprint changes how a future floor replacement will go and is far cheaper to decide than to revisit. And the island is set, fastened, and levelled before the countertop is templated, never after: the template is taken off the installed base, so anything that moves the base afterwards moves the top out of fit with it.",
+      },
+      {
+        heading: "Ends, panels, and the toe kick decide how finished it looks",
+        body:
+          "An island is the one run of cabinetry seen from every side, so the parts that stay hidden on a perimeter run are on display here. Backs and exposed ends need finished panels rather than the unfinished sides a stock cabinet ships with, and a deeper applied panel, bead board, or a shiplap face are all ways to make the back read as furniture rather than as the reverse of a cabinet. The toe kick is the other tell: a recessed kick makes the island read as cabinetry, while a base brought down to the floor on a plinth or on legs makes it read as a separate piece of furniture. Corner treatment, a waterfall end, and which side the seating faces are settled at the same time, because each of them changes the panel and the countertop order.",
+      },
+      {
+        heading: "Where a do-it-yourself island stops",
+        body:
+          "Plenty of islands in this market start as a homeowner project, and the first part of that is genuinely within reach: base cabinets can be assembled, ganged, and fastened down by someone comfortable with a level and a drill. The line tends to fall in three places. A stone top with a seating overhang has to be templated, fabricated, and supported for the material it is cut from, and it is not a piece anyone wants to handle twice. Water, gas, and dedicated circuits run out to the middle of a room are trade work with an inspection attached. And getting a base level, square, and properly scribed is harder in the middle of an old floor than it is against a wall. Deciding which parts you want to keep for yourself is a reasonable way to scope the job, and it is a conversation worth having before the cabinets are ordered rather than after.",
+      },
+    ],
   },
   {
     slug: "kitchen-appliance-layout",
