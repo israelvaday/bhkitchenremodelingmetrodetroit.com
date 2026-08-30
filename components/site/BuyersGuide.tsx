@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BIZ } from "@/lib/business";
 
 export function BuyersGuide() {
@@ -17,7 +18,14 @@ export function BuyersGuide() {
 
         <p>
           <strong className="text-white">1. Compare the same scope.</strong> Confirm whether demolition, cabinets,
-          counters, backsplash, flooring, lighting, and fixture setting are included or excluded.
+          counters, backsplash, flooring, lighting, and fixture setting are included or excluded. Our guide to{" "}
+          <Link
+            href="/blog/hire-kitchen-remodeling-contractor-michigan"
+            className="text-brass-300 underline-offset-4 hover:underline"
+          >
+            hiring a kitchen remodeling contractor in Michigan
+          </Link>{" "}
+          works through the same comparison line by line.
         </p>
         <p>
           <strong className="text-white">2. Define layout decisions.</strong> Appliance locations, island size, pantry
@@ -29,7 +37,15 @@ export function BuyersGuide() {
         </p>
         <p>
           <strong className="text-white">4. Clarify allowances.</strong> Ask what happens if tile, fixtures, or stone
-          selections exceed the allowance and how change orders are handled.
+          selections exceed the allowance and how change orders are handled. For the schedule side of the same
+          decision, read our guide to{" "}
+          <Link
+            href="/blog/kitchen-remodel-timeline-budget"
+            className="text-brass-300 underline-offset-4 hover:underline"
+          >
+            kitchen remodel timelines and budget planning
+          </Link>
+          .
         </p>
         <p>
           <strong className="text-white">5. Review trade coordination.</strong> Electrical, plumbing, gas, and vent work
