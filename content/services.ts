@@ -102,6 +102,10 @@ export const SERVICES: Service[] = [
           "A useful proposal is explicit about what is not in it. Common exclusions are appliance purchase, window and door replacement, floor structure repair found after demolition, asbestos or lead handling, drywall work beyond the kitchen opening, and any allowance overage on cabinets or counters. Naming the exclusions is what keeps a change order a conversation instead of a surprise.",
       },
     ],
+    guide: {
+      href: "/blog/kitchen-remodel-planning-metro-detroit",
+      anchor: "planning a kitchen remodel in Metro Detroit",
+    },
   },
   {
     slug: "cabinet-installation",
@@ -345,6 +349,10 @@ export const SERVICES: Service[] = [
           "Mostly through cabinet construction and finish, counter material, and how much of the mechanical layout moves. A plan can often be designed so the expensive decisions are isolated and can be phased, for example keeping the current plumbing wall now while sizing the layout for a future change. Naming the tier early avoids designing a kitchen that has to be redrawn once numbers arrive.",
       },
     ],
+    guide: {
+      href: "/blog/kitchen-design-layout-tips",
+      anchor: "kitchen design and layout planning",
+    },
   },
   {
     slug: "kitchen-backsplash-tile",
@@ -727,6 +735,10 @@ export const SERVICES: Service[] = [
           "When the thing that frustrates you is the layout. New doors and counters on a plan that has no landing space beside the range, a blocked walkway, or a dead corner will look better and work exactly the same. In that case the money is better spent on design first, even if the build itself is then phased over time.",
       },
     ],
+    guide: {
+      href: "/blog/small-kitchen-remodel-metro-detroit",
+      anchor: "small kitchen remodeling in Metro Detroit",
+    },
   },
 ];
 
