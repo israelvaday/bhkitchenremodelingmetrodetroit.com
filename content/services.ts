@@ -410,6 +410,38 @@ export const SERVICES: Service[] = [
           "The tile itself usually does not if it is glazed ceramic or porcelain. Natural stone tile and cement-based grout are porous and are commonly sealed, particularly behind a range and around the sink. Epoxy grout is an alternative where staining is the main worry. Which of these applies follows entirely from the material you select.",
       },
     ],
+    deepDive: [
+      {
+        heading: "The old backsplash, and the wall behind it",
+        body:
+          "Taking out what is already there is the part most people underestimate. A four-inch counter splash glued to the drywall usually brings the paper face off with it, and pulling a full tile field can leave the wall needing a skim coat or new board before anything new goes on. Flatness matters more here than on a floor: a wall that is out by a quarter inch across a run shows in every joint, and it shows at eye level under an under-cabinet light rather than underfoot. The condition of that wall is worth establishing before tile is ordered, because the answer can change both the schedule and what material is sensible.",
+      },
+      {
+        heading: "Full height, or a band above the counter",
+        body:
+          "The two common choices are a field that runs from the countertop to the underside of the wall cabinets and a shorter band that stops a set distance above the counter. Full height is the more common request now and it reads cleaner, but it is more tile, more cuts, and more outlets to work around. A band is less material and leaves the painted wall doing part of the work, which suits some kitchens. Either way the same three questions follow: where the field stops at an open end, whether it wraps a return wall, and what happens behind the range where a hood or an open wall breaks the cabinet line. Settle that before ordering, because quantity, edge trim, and the outlet count all follow from it.",
+      },
+      {
+        heading: "Tile size and pattern set the labour, not just the material",
+        body:
+          "A sheet-mounted mosaic, a subway tile laid in running bond, that same subway in herringbone, and a large-format panel are four different amounts of work on the same wall. Mosaic sheets cover ground fast, but every sheet edge has to be kept from telegraphing and cut sheets need individual tiles reset by hand. Running bond is quick. Herringbone or a diagonal roughly doubles the cut count and raises the waste factor. Large format and slab mean far fewer joints and a very clean result, but the pieces are heavy, the cuts are unforgiving, and the layout has to be right the first time. Two tiles that look equally simple in a showroom can be very different installations.",
+      },
+      {
+        heading: "Ordering: overage, dye lots, and lead time",
+        body:
+          "Tile is ordered above the measured square footage, and how far above depends on the pattern: a straight run needs the least, a diagonal or herringbone needs more, and a directional or veined tile needs more again. That surplus is not waste in the ordinary sense. Cuts consume most of it, breakage takes some, and whatever is left is the only matching stock that will exist if a section is damaged later. Colour also shifts between production runs, so the whole job should come from one batch and a partial reorder months later may not match. Stocked tile can be on site in days; a special order or an imported stone can run weeks, and that lead time, not the installation, is usually what sets the start date.",
+      },
+      {
+        heading: "The window, the open end, and the outside corner",
+        body:
+          "The middle of a run is the straightforward part. The edges are where a backsplash is judged. Where the field meets an open wall it needs a deliberate termination: a metal or ceramic edge trim, a mitred tile edge, or the tile carried around the corner far enough that it reads as intentional rather than as a stopping point. Where a window sits inside the field, the jamb and the sill are their own decision, since the tile can be returned into the reveal or the field can die into the casing. An outside corner takes either a mitre or a trim piece, and both are legitimate but they do not look the same. These details are a real share of the labour, and they are why two kitchens with identical tile can look nothing alike.",
+      },
+      {
+        heading: "Where a do-it-yourself backsplash usually stops",
+        body:
+          "A straight run of ceramic subway on a sound, flat wall between two cabinets is a genuinely achievable weekend project, and it is worth saying so plainly. The jobs that go wrong are the ones with a condition in them: a wall that needs repair first, a glass or natural stone tile that chips at every cut, a slab section behind the range, a herringbone that has to stay square across a long wall, or a field that has to land on an existing counter line without leaving a gap. Tooling is the other half of it, since a saw that cuts porcelain cleanly is not the same machine as one that will get through soft ceramic. Working out which of those two jobs is on your wall is worth doing before the first box is opened.",
+      },
+    ],
   },
   {
     slug: "kitchen-lighting-upgrades",
