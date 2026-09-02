@@ -7,14 +7,41 @@ import { BuyersGuide } from "@/components/site/BuyersGuide";
 import { KitchenGlossary } from "@/components/site/KitchenGlossary";
 import { GalleryClient } from "./gallery-client";
 
+const title = "Kitchen Remodeling Gallery | Metro Detroit, MI";
+// 171 chars before this, cut by Google at ~155. Same two costs as /about/ and
+// /blog/: the interpolated 35-char brand, and a geo term stated twice. The
+// colon puts the service list where the snippet is guaranteed to show it. 144.
+const description =
+  "Kitchen remodeling project inspiration from across Metro Detroit: full remodels, cabinets, counters, backsplash, islands, lighting, and flooring.";
+
 export const metadata: Metadata = {
-  title: { absolute: "Kitchen Remodeling Gallery | Metro Detroit, MI" },
-  // 171 chars before this, cut by Google at ~155. Same two costs as /about/ and
-  // /blog/: the interpolated 35-char brand, and a geo term stated twice. The
-  // colon puts the service list where the snippet is guaranteed to show it. 144.
-  description:
-    "Kitchen remodeling project inspiration from across Metro Detroit: full remodels, cabinets, counters, backsplash, islands, lighting, and flooring.",
+  title: { absolute: title },
+  description,
   alternates: { canonical: "/gallery" },
+  // Per-page social identity. Without this block og:url names the homepage
+  // and both og:title and twitter:title are the root layout's one shared
+  // string. openGraph replaces rather than merges, so type/siteName/locale
+  // AND the card image are restated here. The image is not optional: the
+  // first build of this change dropped og:image from all eleven pages,
+  // because the root's images do not survive the replacement and the root
+  // opengraph-image route does not cascade into a segment that declares an
+  // openGraph of its own - only services/[slug] and service-areas/[slug]
+  // get away with omitting it, and only because each has its own route file.
+  openGraph: {
+    type: "website",
+    siteName: BIZ.name,
+    locale: "en_US",
+    url: `${BIZ.url}/gallery`,
+    title: title,
+    description,
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: `${BIZ.name} — Metro Detroit kitchen remodeling company` }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: title,
+    description,
+    images: ["/opengraph-image.png"],
+  },
 };
 
 export default function GalleryPage() {

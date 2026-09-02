@@ -3,10 +3,40 @@ import { Clock } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { ContactCTA } from "@/components/site/ContactCTA";
 
+const title = "Business Hours";
+const description = `${BIZ.name} hours: Sunday–Thursday 9:00 AM–5:00 PM, Friday 9:00 AM–12:00 PM, and Saturday closed.`;
+// The root layout's "%s — <brand>" template lengthens the rendered <title>,
+// so the social title is spelled out to mirror what the page actually serves.
+const socialTitle = `${title} — ${BIZ.name}`;
+
 export const metadata: Metadata = {
-  title: "Business Hours",
-  description: `${BIZ.name} hours: Sunday–Thursday 9:00 AM–5:00 PM, Friday 9:00 AM–12:00 PM, and Saturday closed.`,
+  title,
+  description,
   alternates: { canonical: "/hours" },
+  // Per-page social identity. Without this block og:url names the homepage
+  // and both og:title and twitter:title are the root layout's one shared
+  // string. openGraph replaces rather than merges, so type/siteName/locale
+  // AND the card image are restated here. The image is not optional: the
+  // first build of this change dropped og:image from all eleven pages,
+  // because the root's images do not survive the replacement and the root
+  // opengraph-image route does not cascade into a segment that declares an
+  // openGraph of its own - only services/[slug] and service-areas/[slug]
+  // get away with omitting it, and only because each has its own route file.
+  openGraph: {
+    type: "website",
+    siteName: BIZ.name,
+    locale: "en_US",
+    url: `${BIZ.url}/hours`,
+    title: socialTitle,
+    description,
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: `${BIZ.name} — Metro Detroit kitchen remodeling company` }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: socialTitle,
+    description,
+    images: ["/opengraph-image.png"],
+  },
 };
 
 function displayTime(value: string) {

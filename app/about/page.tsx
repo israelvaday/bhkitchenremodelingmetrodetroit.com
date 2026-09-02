@@ -6,18 +6,45 @@ import { ContactCTA } from "@/components/site/ContactCTA";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
+// absolute opts out of the root layout's "%s — <brand>" template, which was
+// appending the brand a second time: "About BH Kitchen Remodeling Metro
+// Detroit — BH Kitchen Remodeling Metro Detroit", 79 chars with the name
+// literally twice and Google cutting it mid-brand.
+const title = `About ${BIZ.name}`;
+// 183 chars before this, cut by Google at ~155. Interpolating BIZ.name spent
+// 35 of them on the full brand and then said "Metro Detroit" a second time at
+// the end. The short brand plus the single trailing geo term says the same
+// thing in 148.
+const description = `Learn how BH Kitchen Remodeling approaches kitchen design, cabinet installation, countertop replacement, and jobsite protection across Metro Detroit.`;
+
 export const metadata: Metadata = {
-  // absolute opts out of the root layout's "%s — <brand>" template, which was
-  // appending the brand a second time: "About BH Kitchen Remodeling Metro
-  // Detroit — BH Kitchen Remodeling Metro Detroit", 79 chars with the name
-  // literally twice and Google cutting it mid-brand.
-  title: { absolute: `About ${BIZ.name}` },
-  // 183 chars before this, cut by Google at ~155. Interpolating BIZ.name spent
-  // 35 of them on the full brand and then said "Metro Detroit" a second time at
-  // the end. The short brand plus the single trailing geo term says the same
-  // thing in 148.
-  description: `Learn how BH Kitchen Remodeling approaches kitchen design, cabinet installation, countertop replacement, and jobsite protection across Metro Detroit.`,
+  title: { absolute: title },
+  description,
   alternates: { canonical: `${BIZ.url}/about` },
+  // Per-page social identity. Without this block og:url names the homepage
+  // and both og:title and twitter:title are the root layout's one shared
+  // string. openGraph replaces rather than merges, so type/siteName/locale
+  // AND the card image are restated here. The image is not optional: the
+  // first build of this change dropped og:image from all eleven pages,
+  // because the root's images do not survive the replacement and the root
+  // opengraph-image route does not cascade into a segment that declares an
+  // openGraph of its own - only services/[slug] and service-areas/[slug]
+  // get away with omitting it, and only because each has its own route file.
+  openGraph: {
+    type: "website",
+    siteName: BIZ.name,
+    locale: "en_US",
+    url: `${BIZ.url}/about`,
+    title: title,
+    description,
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: `${BIZ.name} — Metro Detroit kitchen remodeling company` }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: title,
+    description,
+    images: ["/opengraph-image.png"],
+  },
 };
 
 const APPROACH = [

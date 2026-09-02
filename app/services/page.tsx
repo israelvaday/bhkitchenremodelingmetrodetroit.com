@@ -5,11 +5,38 @@ import { ServiceCard } from "@/components/site/ServiceCard";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
+const title = "Kitchen Remodeling Services | Metro Detroit, MI";
+const description =
+  "Custom kitchen remodeling, cabinet installation, countertop replacement, and kitchen design across Wayne, Oakland, and Macomb counties in Metro Detroit.";
+
 export const metadata: Metadata = {
-  title: { absolute: "Kitchen Remodeling Services | Metro Detroit, MI" },
-  description:
-    `Custom kitchen remodeling, cabinet installation, countertop replacement, and kitchen design across Wayne, Oakland, and Macomb counties in Metro Detroit.`,
+  title: { absolute: title },
+  description,
   alternates: { canonical: `${BIZ.url}/services` },
+  // Per-page social identity. Without this block og:url names the homepage
+  // and both og:title and twitter:title are the root layout's one shared
+  // string. openGraph replaces rather than merges, so type/siteName/locale
+  // AND the card image are restated here. The image is not optional: the
+  // first build of this change dropped og:image from all eleven pages,
+  // because the root's images do not survive the replacement and the root
+  // opengraph-image route does not cascade into a segment that declares an
+  // openGraph of its own - only services/[slug] and service-areas/[slug]
+  // get away with omitting it, and only because each has its own route file.
+  openGraph: {
+    type: "website",
+    siteName: BIZ.name,
+    locale: "en_US",
+    url: `${BIZ.url}/services`,
+    title: title,
+    description,
+    images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: `${BIZ.name} — Metro Detroit kitchen remodeling company` }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: title,
+    description,
+    images: ["/opengraph-image.png"],
+  },
 };
 
 export default function ServicesPage() {
