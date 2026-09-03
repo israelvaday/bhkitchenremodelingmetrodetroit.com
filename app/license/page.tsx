@@ -4,14 +4,22 @@ import { BIZ } from "@/lib/business";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LogoMark } from "@/components/site/Logo";
 
-const title = "Business & Insurance Information";
+// Rendered <title> was 70 chars: the root layout's "%s — <brand>" template
+// appended the full 35-char brand and Google cuts the SERP title at ~60.
+// Since 2026-09-02 this same string is also the og:title and twitter:title,
+// so the overflow costs three surfaces rather than one. Absolute below.
+// Nothing is duplicated inside this string, so the trim comes off the brand's
+// "Metro Detroit" tail rather than the page part; a reader who lands on a
+// credentials page needs the company name more than the geo term, and the
+// page copy carries the geo anyway. 55 chars.
+const title = "Business & Insurance Information — BH Kitchen Remodeling";
 const description = `Request current business and insurance information for ${BIZ.name} kitchen remodeling work in Metro Detroit.`;
-// The root layout's "%s — <brand>" template lengthens the rendered <title>,
-// so the social title is spelled out to mirror what the page actually serves.
-const socialTitle = `${title} — ${BIZ.name}`;
+// The title is absolute now, so the social title is the same string rather
+// than a spelled-out copy of what the template used to append.
+const socialTitle = title;
 
 export const metadata: Metadata = {
-  title,
+  title: { absolute: title },
   description,
   alternates: { canonical: `${BIZ.url}/license` },
   // Per-page social identity. Without this block og:url names the homepage

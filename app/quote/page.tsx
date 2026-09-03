@@ -4,14 +4,20 @@ import { QuoteWizard } from "@/components/site/QuoteWizard";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
-const title = "Free Kitchen Remodeling Quote";
+// Rendered <title> was 67 chars, and the overflow was pure repetition: the
+// template appended "BH Kitchen Remodeling Metro Detroit" directly after
+// "Kitchen Remodeling Quote", so "Kitchen Remodeling" was paid for twice and
+// Google cut the tail at ~60. Since 2026-09-02 the same string is also the
+// og:title and twitter:title. Keep the exact money phrase and the geo term,
+// drop the brand, which is the half that was duplicated. 45 chars.
+const title = "Free Kitchen Remodeling Quote — Metro Detroit";
 const description = "Request a free kitchen remodeling quote in Metro Detroit. Pick your service and property type, describe the project, and add photos or plans.";
-// The root layout's "%s — <brand>" template lengthens the rendered <title>,
-// so the social title is spelled out to mirror what the page actually serves.
-const socialTitle = `${title} — ${BIZ.name}`;
+// The title is absolute now, so the social title is the same string rather
+// than a spelled-out copy of what the template used to append.
+const socialTitle = title;
 
 export const metadata: Metadata = {
-  title,
+  title: { absolute: title },
   description,
   alternates: { canonical: "/quote" },
   // Per-page social identity. Without this block og:url names the homepage

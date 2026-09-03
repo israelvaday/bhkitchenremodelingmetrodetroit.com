@@ -7,7 +7,12 @@ import { BLOG_POSTS } from "@/content/blog";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
-const title = `Kitchen Remodeling Guides — ${BIZ.name}`;
+// 63 chars before this, cut by Google at ~60, and the overflow was the same
+// repetition the description already paid for: interpolating BIZ.name put
+// "Kitchen Remodeling" in the string twice. Since 2026-09-02 this string is
+// also the og:title and twitter:title, so one edit moves three surfaces.
+// Money phrase and geo kept, duplicated brand dropped. 41 now.
+const title = "Kitchen Remodeling Guides — Metro Detroit";
 // 176 chars before this, cut by Google at ~155. The brand is already the
 // title's own suffix, so interpolating it here bought nothing and cost 35
 // chars; "in Metro Detroit" then repeated the geo term the brand had. 137 now.
