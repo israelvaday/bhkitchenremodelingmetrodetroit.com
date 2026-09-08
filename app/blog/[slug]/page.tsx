@@ -26,11 +26,22 @@ export async function generateMetadata(
     title: { absolute: post.metaTitle ?? post.title },
     description: post.excerpt,
     alternates: { canonical: `${BIZ.url}/blog/${post.slug}` },
+    // openGraph replaces the root layout's block rather than merging into it, so
+    // url/siteName/locale have to be restated here or all nine posts publish a
+    // card with no og:url at all — the same wholesale-replacement defect already
+    // fixed for the 101 area pages (f50d993) and the eleven single-route pages
+    // (b1fae18a); this route was in neither pass. images stays exactly as it was:
+    // there is no opengraph-image route under app/blog/[slug], so the hero is the
+    // only card image these posts have and trimming it would repeat the b1fae18a
+    // first-build mistake.
     openGraph: {
       title: post.title,
       description: post.excerpt,
       images: [{ url: post.heroImage, width: 1536, height: 1024, alt: post.heroAlt }],
       type: "article",
+      siteName: BIZ.name,
+      locale: "en_US",
+      url: `${BIZ.url}/blog/${post.slug}`,
       publishedTime: post.date,
     },
     twitter: {
