@@ -4,7 +4,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { Calendar, Clock, ChefHat } from "lucide-react";
 import { BIZ } from "@/lib/business";
-import { BLOG_POSTS, findPost } from "@/content/blog";
+import { BLOG_POSTS, findPost, type BlogPost } from "@/content/blog";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
@@ -183,6 +183,66 @@ function boldify(text: string, keyBase: number): React.ReactNode {
   return parts;
 }
 
+/**
+ * The three posts each post links to, decided once for the whole set.
+ *
+ * WHY THIS IS NOT A SLICE OF BLOG_POSTS. The leftover slots used to be filled by
+ * `BLOG_POSTS.filter((p) => p.slug !== post.slug).slice(0, 3 - related.length)`:
+ * array position, from the top of the file every time, screened only against the
+ * post being rendered. Measured on the nine served pages 2026-09-09, that had two
+ * defects.
+ *
+ * (1) It never screened out the posts already chosen as same-category `related`,
+ * so a post whose sibling also sat near the top of the file listed that sibling
+ * TWICE among its three cards, on a duplicate React key. Live on
+ * /blog/hire-kitchen-remodeling-contractor-michigan/ and
+ * /blog/kitchen-flooring-under-cabinets-metro-detroit/, both repeating
+ * kitchen-remodel-planning-metro-detroit.
+ *
+ * (2) Always starting from the top concentrated the links. Of the 27 this module
+ * emits, kitchen-remodel-planning-metro-detroit took 10,
+ * kitchen-remodel-timeline-budget took NONE, and
+ * small-kitchen-remodel-metro-detroit -- the only blog page this domain has ever
+ * held page 1 with -- took 2. The blog is reachable from neither the footer nor
+ * the navbar, so this module and the /blog hub are the entire internal link
+ * surface these nine urls have.
+ *
+ * Same-category pairing still decides first, because that is the reader-facing
+ * reason the module exists. Only the leftover slots are assigned here, and each
+ * goes to whichever post is currently the least linked-to. On the present nine
+ * that puts every one of them on exactly 3, and it re-levels itself as the
+ * article rotation adds posts -- which is the part array position could not do,
+ * and the reason this drifted unnoticed through nine publishes.
+ */
+const SUGGESTIONS: Record<string, BlogPost[]> = (() => {
+  const sameCategory = BLOG_POSTS.map((post) =>
+    BLOG_POSTS.filter((p) => p.slug !== post.slug && p.category === post.category).slice(0, 2),
+  );
+  const inbound = new Map(BLOG_POSTS.map((p) => [p.slug, 0]));
+  const count = (slug: string) => inbound.get(slug) ?? 0;
+  const bump = (slug: string) => inbound.set(slug, count(slug) + 1);
+  sameCategory.forEach((picks) => picks.forEach((p) => bump(p.slug)));
+
+  const decided: Record<string, BlogPost[]> = {};
+  BLOG_POSTS.forEach((post, i) => {
+    const picked = [...sameCategory[i]];
+    const taken = new Set(picked.map((p) => p.slug));
+    while (picked.length < 3) {
+      // Array.prototype.sort is stable, so equal counts keep file position and
+      // the whole assignment stays deterministic across the nine generated pages.
+      const next = BLOG_POSTS
+        .filter((p) => p.slug !== post.slug && !taken.has(p.slug))
+        .sort((a, b) => count(a.slug) - count(b.slug))[0];
+      if (!next) break;
+      taken.add(next.slug);
+      picked.push(next);
+      bump(next.slug);
+    }
+    decided[post.slug] = picked;
+  });
+  return decided;
+})();
+
 export default async function BlogPostPage(
   { params }: { params: Promise<{ slug: string }> }
 ) {
@@ -190,9 +250,7 @@ export default async function BlogPostPage(
   const post = findPost(slug);
   if (!post) return notFound();
 
-  const related = BLOG_POSTS.filter((p) => p.slug !== post.slug && p.category === post.category).slice(0, 2);
-  const fallback = BLOG_POSTS.filter((p) => p.slug !== post.slug).slice(0, 3 - related.length);
-  const suggestions = [...related, ...fallback].slice(0, 3);
+  const suggestions = SUGGESTIONS[post.slug] ?? [];
 
   return (
     <>

@@ -20,6 +20,15 @@ const GLOBAL = ["app/layout.tsx", "lib/business.ts"];
 const SERVICE_SOURCES = [...GLOBAL, ...renderGraph("app/services/[slug]/page.tsx")];
 const AREA_SOURCES = [...GLOBAL, ...renderGraph("app/service-areas/[slug]/page.tsx")];
 
+// The blog template's own commit date, deliberately NOT its renderGraph. Measured
+// 2026-09-09: that walk reaches content/services.ts and lib/areas.ts through
+// FinalCTA and LongFormFaq, and content/blog.ts on top, so one service copy edit
+// or one newly published article would redate all nine posts that did not change.
+// Over-reporting is the expensive direction -- Google discounts a lastmod it finds
+// inaccurate across the whole site -- so this stays the two shell files plus the
+// single template that renders all nine urls.
+const BLOG_TEMPLATE = lastChanged(...GLOBAL, "app/blog/[slug]/page.tsx");
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = BIZ.url;
   // next.config.ts sets trailingSlash: true on export, so every page is served at
@@ -52,8 +61,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...BLOG_POSTS.map((p) => ({
       url: loc(`/blog/${p.slug}`),
-      // Already a real content date, not a build stamp. Left alone.
-      lastModified: new Date(p.date),
+      // The post's own date is a real content date, not a build stamp, and it stays
+      // the floor. But one template renders all nine of these urls, so an edit to it
+      // changes all nine pages, and until 2026-09-09 that moved no lastmod at all:
+      // e23f1e19 rewrote every post's social card and this sitemap reported nothing.
+      // On a domain with no Search Console property the sitemap is the only refetch
+      // signal there is, so a template fix that cannot ask for a recrawl is inert.
+      lastModified: new Date(Math.max(new Date(p.date).getTime(), BLOG_TEMPLATE.getTime())),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),
