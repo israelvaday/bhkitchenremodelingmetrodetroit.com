@@ -3,6 +3,9 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Search, MapPin, Crosshair, Loader2, AlertTriangle, CheckCircle2, Phone } from "lucide-react";
 import type { Area } from "@/lib/areas";
+// Value import, but area-place.ts holds only two pure functions and a type-only
+// import, so nothing of the 101-area dataset follows it into the client bundle.
+import { areaPlace } from "@/lib/area-place";
 import { BIZ } from "@/lib/business";
 
 const METRO_BOUNDS = BIZ.metroBounds;
@@ -163,15 +166,16 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
               <MapPin className="h-4 w-4 text-brass-400" />
               <div>
                 <div className="text-sm font-semibold">{a.name}</div>
-                <div className="text-xs capitalize text-ink-400">
-                  {a.kind === "city"
-                    ? "City"
-                    : a.kind === "neighborhood"
-                    ? `${a.city} neighborhood`
-                    : a.kind === "community"
-                    ? "Community"
-                    : `ZIP ${a.zip?.[0] ?? ""}`}
-                </div>
+                {/* This grid is the only page on the site that links all 101
+                    service areas, and every one of its anchors used to end in a
+                    bare taxonomy word: "Detroit City", "Garden City City",
+                    "Downtown Detroit neighborhood". Measured 2026-09-10 on the
+                    served page: 113 of 113 area anchors carried no trade term at
+                    all. The second line now states the target page's own subject
+                    instead, so the anchor matches the title it points at
+                    ("Kitchen Remodeling in Novi, MI") and carries the city for
+                    the 35 neighborhoods whose name never names their city. */}
+                <div className="text-xs text-ink-400">Kitchen remodeling in {areaPlace(a)}</div>
               </div>
             </div>
           </Link>

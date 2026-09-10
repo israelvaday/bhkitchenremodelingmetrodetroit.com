@@ -4,6 +4,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { ArrowRight, ChefHat, Clock, MapPin, Sparkles } from "lucide-react";
 import { AREAS, AREAS_BY_SLUG, nearbyAreas, type Area } from "@/lib/areas";
+import { areaPlace, areaPlaceName } from "@/lib/area-place";
 import { SERVICES } from "@/content/services";
 import { BIZ } from "@/lib/business";
 import { areaDescription, insightFor } from "@/lib/area-insights";
@@ -15,23 +16,6 @@ import { Breadcrumbs, type Crumb } from "@/components/site/Breadcrumbs";
 
 export function generateStaticParams() {
   return AREAS.map((area) => ({ slug: area.slug }));
-}
-
-// A sub-area name on its own is not a place: 50 of these pages are neighborhoods,
-// and 35 of them carry a name that never mentions its city, so the old title read
-// "Downtown, MI" or "East Side, MI". The slug already knows the parent
-// (detroit-downtown), the title did not. Append the parent city unless the name
-// already contains it, so "Sterling Heights Utica corridor" is left alone.
-function areaPlaceName(area: Area): string {
-  const parent = area.parent ? AREAS_BY_SLUG[area.parent] : undefined;
-  const parentLead = parent?.name.split(" ")[0].toLowerCase();
-  return parent && parentLead && !area.name.toLowerCase().includes(parentLead)
-    ? `${area.name}, ${parent.name}`
-    : area.name;
-}
-
-function areaPlace(area: Area): string {
-  return `${areaPlaceName(area)}, MI`;
 }
 
 // 50 of the 101 areas are neighborhoods with a real parent city that has its own
@@ -228,7 +212,14 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
                 >
                   <div className="flex items-center gap-3">
                     <MapPin className="h-4 w-4 text-brass-400" />
-                    <span className="font-semibold">{neighbor.name}</span>
+                    {/* areaPlaceName, not the bare name: 35 of the 50 neighborhood
+                        names never mention their city, so these anchors read
+                        "Downtown", "East Side" and "North End", which name
+                        nowhere on their own. This module is the whole lateral link graph
+                        for the 101 area pages (they get no footer link), so the
+                        anchor is the one place-carrying slot each of those 606
+                        links has. */}
+                    <span className="font-semibold">{areaPlaceName(neighbor)}</span>
                   </div>
                   <ArrowRight className="h-4 w-4 text-ink-500 group-hover:text-brass-400" />
                 </Link>
