@@ -14,6 +14,8 @@ import { LazyParallax, LazyFloatOnScroll } from "@/components/site/LazyScrollFx"
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { BuyersGuide } from "@/components/site/BuyersGuide";
 import { KitchenGlossary } from "@/components/site/KitchenGlossary";
+// HOLIDAY-NOTICE:IMPORT rosh-hashanah-2026 (delete with the START/END lines below)
+import { HolidayNoticeRoshHashanah2026 } from "@/components/site/HolidayNoticeRoshHashanah2026";
 
 export const metadata: Metadata = {
   // Geo-first: every tracked keyword for this client is location-modified, and the
@@ -27,6 +29,9 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
+      {/* HOLIDAY-NOTICE:START rosh-hashanah-2026 */}
+      <HolidayNoticeRoshHashanah2026 />
+      {/* HOLIDAY-NOTICE:END */}
       <Hero />
       <section className="border-y border-ink-800 bg-ink-950/60 py-12 md:py-16">
         <div className="mx-auto max-w-7xl px-4 md:px-6">
