@@ -544,7 +544,7 @@ Bring the room measurements, whatever you know about what is under the existing 
       "Shana Tova! Closed Saturday, September 12 and Sunday, September 13 for Rosh Hashanah, back Monday, September 14 at 9:00 AM, plus a kitchen checklist.",
     category: "Planning",
     readMinutes: 5,
-    date: "2026-09-11",
+    date: "2026-09-11T12:00:00-04:00",
     heroImage: "/blog/happy-rosh-hashanah-2026-hero.jpg",
     heroAlt:
       "A round challah, a jar of honey and sliced apples on a white quartz kitchen island in a bright kitchen",
