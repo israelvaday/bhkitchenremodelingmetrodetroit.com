@@ -536,6 +536,67 @@ Deciding the floor early is what stops the rest of the schedule from moving.
 Bring the room measurements, whatever you know about what is under the existing floor, and what the adjoining rooms are finished in. BH Kitchen Remodeling Metro Detroit handles [kitchen flooring installation](/services/kitchen-flooring) across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 for a written scope.
 `,
   },
+  {
+    slug: "happy-rosh-hashanah-2026",
+    title: "Rosh Hashanah 2026: Holiday Hours and a Kitchen Checklist",
+    metaTitle: "Rosh Hashanah 2026 Holiday Hours | BH Kitchen Remodeling",
+    excerpt:
+      "Shana Tova! Closed Saturday, September 12 and Sunday, September 13 for Rosh Hashanah, back Monday, September 14 at 9:00 AM, plus a kitchen checklist.",
+    category: "Planning",
+    readMinutes: 5,
+    date: "2026-09-11",
+    heroImage: "/blog/happy-rosh-hashanah-2026-hero.jpg",
+    heroAlt:
+      "A round challah, a jar of honey and sliced apples on a white quartz kitchen island in a bright kitchen",
+    secondaryImage: "/blog/happy-rosh-hashanah-2026-secondary.jpg",
+    secondaryAlt:
+      "A bright kitchen with light wood cabinets, a stainless range and a white quartz island near a large window",
+    body: `
+Shana Tova from all of us at BH Kitchen Remodeling Metro Detroit. Rosh Hashanah, the Jewish New Year, begins at sundown tonight, Friday, September 11, and our team is taking the holiday off. Here is when we are closed, a little about the holiday, and a short kitchen checklist for anyone cooking a holiday meal this weekend.
+
+## Rosh Hashanah holiday hours
+
+We are closed Saturday, September 12 and Sunday, September 13 for Rosh Hashanah, and back Monday, September 14 at 9:00 AM.
+
+- **Saturday, September 12:** closed for the first day of Rosh Hashanah, which this year is also Shabbat.
+- **Sunday, September 13:** closed for the second day of Rosh Hashanah. Sunday is normally one of our working days, so please note the change this week.
+- **Monday, September 14:** back at 9:00 AM on our regular schedule.
+
+Our regular schedule is always listed on our [hours page](/hours). If you are planning a project, the holiday is a good moment to jot down what you would like to change in your kitchen, and we will be glad to hear about it when we are back.
+
+## What is Rosh Hashanah?
+
+Rosh Hashanah means "head of the year". It is the Jewish New Year, observed on the first and second days of Tishrei, and this year it welcomes the year 5787. The first day is Saturday, September 12, which is also Shabbat, and the second day is Sunday, September 13.
+
+The holiday begins at sundown. For Metro Detroit, Hebcal lists candle lighting at 7:31 PM on Friday, September 11, and the end of the holiday at 8:28 PM on Sunday, September 13 (times for Oak Park, MI).
+
+A few of the traditions you may notice this weekend:
+
+- **The shofar.** Because the first day of Rosh Hashanah falls on Shabbat this year, the shofar is sounded on the second day, Sunday.
+- **Apples dipped in honey.** A wish for a sweet year.
+- **A round challah.** Its round shape stands for the cycle of the year.
+- **The greeting.** "Shana Tova" means "a good year", and "Shana Tova u'Metukah" means "a good and sweet year".
+
+Yom Kippur follows soon after, beginning at sundown on Sunday, September 20.
+
+## A new-year kitchen checklist for the holiday meal
+
+A holiday meal asks more of a kitchen than an ordinary weeknight does: more dishes, more people and more hours at the stove. A few minutes of checking before the cooking starts can save a scramble later.
+
+- **Clear and wipe the counters.** Put away the mail, the chargers and any small appliances you will not use this weekend, then wipe down every surface you plan to cook, carve or serve on. When everything comes off the stove at once, open counter space is what you will want most.
+- **Check cabinet hinges and drawer slides.** A year of daily use can work hinge screws loose, and a door that sags or rubs is easy to spot once you look for it. Open each drawer all the way out. A slide that sticks or drops at the end of its travel is better found now than with a full drawer of serving pieces.
+- **Look at the caulk around the sink and backsplash.** Cracked, peeling or darkened caulk can let water get behind the counter and the wall. A holiday sink sees a lot of water, so it is worth a close look beforehand.
+- **Test the range hood fan and light.** Run the fan on each speed and switch the light on before the big cooking day. If something is not working, it is better to find out on a quiet afternoon than with every burner going.
+
+If the checklist turns up more than a quick fix, write it down and set it aside until after the holiday.
+
+## See you Monday
+
+From our team to yours, Shana Tova u'Metukah: a good and sweet year to everyone celebrating, and a happy new season to all of our neighbors across Metro Detroit.
+
+We are back Monday, September 14 at 9:00 AM. When you are ready to plan your next kitchen, BH Kitchen Remodeling Metro Detroit handles [custom kitchen remodeling](/services/custom-kitchen-remodeling) across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 for a written scope.
+`,
+  },
 ];
 
 export function findPost(slug: string) {
