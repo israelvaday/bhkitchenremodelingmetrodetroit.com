@@ -410,6 +410,10 @@ export const SERVICES: Service[] = [
           "The tile itself usually does not if it is glazed ceramic or porcelain. Natural stone tile and cement-based grout are porous and are commonly sealed, particularly behind a range and around the sink. Epoxy grout is an alternative where staining is the main worry. Which of these applies follows entirely from the material you select.",
       },
     ],
+    guide: {
+      href: "/blog/kitchen-backsplash-ideas-metro-detroit",
+      anchor: "kitchen backsplash ideas",
+    },
     deepDive: [
       {
         heading: "The old backsplash, and the wall behind it",

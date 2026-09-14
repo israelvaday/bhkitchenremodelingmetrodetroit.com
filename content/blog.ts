@@ -597,6 +597,103 @@ From our team to yours, Shana Tova u'Metukah: a good and sweet year to everyone 
 We are back Monday, September 14 at 9:00 AM. When you are ready to plan your next kitchen, BH Kitchen Remodeling Metro Detroit handles [custom kitchen remodeling](/services/custom-kitchen-remodeling) across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 for a written scope.
 `,
   },
+  {
+    slug: "kitchen-backsplash-ideas-metro-detroit",
+    title: "Kitchen Backsplash Ideas for Metro Detroit Homes: Start With the Countertop",
+    metaTitle: "Kitchen Backsplash Ideas for Metro Detroit Homes",
+    excerpt:
+      "Good backsplash ideas start with the countertop, the grout, and the light the wall is seen under. Choosing tile and color for a Metro Detroit kitchen.",
+    category: "Design",
+    readMinutes: 8,
+    date: "2026-09-13",
+    heroImage: "/blog/kitchen-backsplash-ideas-metro-detroit-hero.jpg",
+    heroAlt:
+      "White subway tile backsplash with gray grout above a quartz countertop, lit by warm under-cabinet lighting at dusk",
+    secondaryImage: "/blog/kitchen-backsplash-ideas-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "Backsplash samples in white subway, gray porcelain, green glass, and marble beside an oak cabinet door and grout color sticks",
+    body: `
+Most backsplash ideas are shown as a photograph of a finished wall, and most backsplash regrets start the same way: a tile chosen from a picture, on its own, in a showroom. On the wall it has to share a sightline with a countertop, a cabinet finish, a grout line, and a strip of under-cabinet light. Those four things decide whether it looks right far more than the tile does.
+
+The backsplash is usually the last surface chosen, which makes it the easiest to rush. It is also the one people look at from closest, for the most hours, every day.
+
+## Let the countertop go first
+
+The countertop is the largest, most expensive, and least changeable surface near the backsplash, so it sets the rules.
+
+- **A busy counter wants a quiet wall.** Granite with heavy movement, or a quartz with strong veining, already carries the pattern. A plain tile in a color pulled from the slab lets the counter lead. A patterned tile on top of it makes both look busier.
+- **A quiet counter can take a pattern.** Solid quartz, butcher block, and plain laminate leave room for a herringbone, a stacked vertical subway, a handmade-look tile, or a color.
+- **One statement per sightline.** If the island has a waterfall edge in a bold slab, or the range has a hood that draws the eye, the backsplash usually works best in a supporting role.
+
+Choose the slab first, then bring an actual sample or remnant of it to every tile decision. The companion guide to [countertop materials for Michigan kitchens](/blog/countertop-materials-michigan-homes) covers that choice.
+
+## Materials, and what each asks of you
+
+**Glazed ceramic** is the most common backsplash tile, including classic subway. It is easy to cut, easy to clean, and forgiving. It is a strong default for a wall that should look clean and stay that way.
+
+**Porcelain** is denser and harder than ceramic. It resists staining and wear well, and it comes in large formats and stone-look finishes. It is also harder to cut cleanly around outlets and window returns, which shows up in the labor.
+
+**Glass tile** reflects light and reads bright in a small or dark kitchen. It is also translucent. Uneven adhesive or a patched wall can show through it, and it chips if cut carelessly. Glass needs a flat wall and a careful installer more than any other option.
+
+**Natural stone** such as marble, travertine, or slate brings real variation. It is porous and usually needs sealing. Marble also etches, which means acids like lemon juice, tomato, and vinegar can leave dull marks that sealing does not prevent. Behind a busy cooktop, that is a trade-off to accept knowingly.
+
+**A slab backsplash** carries the countertop material up the wall. There are few or no grout lines, it cleans easily, and it looks deliberate. It is heavy, it must be templated after the counters are installed, and every outlet has to be cut into the stone.
+
+**Peel-and-stick panels** are a short-term cosmetic fix, not a remodel material. Check the product's heat rating before putting anything like it near a range.
+
+## Grout color changes the whole wall
+
+The same white subway tile can look like three different kitchens depending on the grout.
+
+- **Matching grout** (white on white) makes the wall read as one calm surface. It is also the most likely to discolor behind the range and around the sink.
+- **Mid-tone grout** (light or warm gray on white) hides everyday cooking splatter and still looks soft.
+- **Contrasting grout** (charcoal on white) turns the layout into the pattern. It looks graphic and intentional, and it also shows every uneven joint and every cut.
+
+Joint width matters as well. Narrow joints look more refined and suit rectified porcelain. Handmade-look tile with irregular edges needs wider joints to absorb the variation. Cement grout is porous and is commonly sealed. Epoxy grout resists stains better and suits a cook's kitchen, at the cost of a more demanding installation.
+
+## Look at samples under the light you will actually use
+
+A Metro Detroit kitchen spends much of the year lit by its own fixtures. By December the sun is down around five in the afternoon, so for a large share of the months when the room is used most, the backsplash is seen under under-cabinet lighting, not daylight.
+
+Under-cabinet lights graze the wall from above at a sharp angle. That makes glossy and handmade tile sparkle, and it also exaggerates every high tile edge, every wavy surface, and every uneven grout line. A zellige-style tile that looks charming in a showroom can look unfinished under a raking strip light if the installation is not planned for it.
+
+The color temperature of that light changes the tile color too. Warm 2700K strips push white tile toward cream. Cooler light pushes gray toward blue. Test samples on the wall at night, under the lighting you have or plan to install, before ordering.
+
+### Build a sample board before deciding
+
+- A piece of the chosen countertop or a remnant of the same slab.
+- A cabinet door or finish sample.
+- Two or three tile candidates, at least a few pieces of each.
+- Grout color samples for each candidate.
+- A photo of the wall at night under the kitchen's lighting.
+
+## Behind the range, and at the ends
+
+Two parts of the backsplash deserve their own decision.
+
+**Behind the range** the wall takes heat, steam, and grease. This is where a feature panel, a slab, or a different pattern usually goes, centered on the cooktop and the hood. Pick materials here for cleaning first and looks second, and follow the range and hood manufacturers' clearance requirements.
+
+**At the ends** the tile has to stop somewhere. Where the backsplash meets an open wall, a window, or a doorway, the termination is visible from across the room. How that edge is finished, and whether the field runs full height or stops in a band, is covered in detail on our [kitchen backsplash installation](/services/kitchen-backsplash-tile) page. Settle those questions before tile is ordered, because they change the quantity and the trim pieces.
+
+## Ideas that hold up in real Metro Detroit kitchens
+
+Styles change, but a few approaches keep working across the colonials, bungalows, ranches, and newer builds in Wayne, Oakland, and Macomb counties.
+
+- **White or off-white subway in a new orientation.** Stacked vertically, laid in a herringbone behind the range only, or set in a longer format, it looks current without committing to a trend.
+- **Tile that picks up the counter.** A soft gray or warm white pulled from the veining in the slab ties the room together.
+- **Full-height tile to the ceiling on a wall with no upper cabinets.** Where open shelving has replaced wall cabinets, running the tile up makes the wall feel finished.
+- **Wood cabinets with a quiet, warm tile.** Oak and walnut cabinets, common in Metro Detroit kitchens being refreshed now, pair better with warm whites and creams than with stark white.
+- **Color in one place.** A green or blue tile behind the range, with plain tile elsewhere, is easier to live with and to change than a whole wall of it.
+
+## Decide in the fall, install after the counters
+
+In a kitchen remodel the backsplash is installed after the countertops, because the tile sits on the finished counter line. Special-order tile and natural stone can take weeks to arrive, and that lead time often sets the schedule more than the installation itself does.
+
+For a remodel planned this fall, the practical order is simple: choose the counter, build the sample board, order the tile early enough that it is on site before the counters go in, and keep a few spare pieces from the same batch after the job is done.
+
+BH Kitchen Remodeling Metro Detroit handles [kitchen backsplash installation](/services/kitchen-backsplash-tile) across Wayne, Oakland, and Macomb counties, including tile layout, material selection with your countertop and cabinets, and clean finishing at every edge. Call or text (313) 236-4558 for a written scope.
+`,
+  },
 ];
 
 export function findPost(slug: string) {
