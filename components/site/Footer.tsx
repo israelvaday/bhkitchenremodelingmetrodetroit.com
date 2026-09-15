@@ -90,7 +90,7 @@ export function Footer() {
         <div className="flex flex-col items-center text-center md:items-start md:text-left">
           <h2 className="font-display text-sm font-semibold tracking-wide text-ink-100">Plan a kitchen remodeling project</h2>
           <p className="mt-3 max-w-xs text-sm text-ink-300">
-            Share your surfaces, property, colors, and timing for a project-specific follow-up.
+            Share your kitchen layout, cabinet and countertop plans, and timing for a project-specific follow-up.
           </p>
           <div className="mt-4">
             <ContactCTA size="sm" showLabels />

@@ -11,7 +11,25 @@ export const dynamic = "force-static";
 // The shared shell. Deliberately NOT walked: the footer imports content/services.ts
 // to render SERVICES.slice(0, 8), so walking it would put that one file in all 132
 // graphs and redate the whole site on any service-copy edit. See lib/source-graph.ts.
-const GLOBAL = ["app/layout.tsx", "lib/business.ts"];
+//
+// The three components the layout renders are listed here as LITERAL paths, the
+// same shallow treatment app/layout.tsx already gets, because lib/source-graph.ts
+// states the cost of its own boundary outright: "an edit to the navbar, footer or
+// layout subtree still moves no lastmod". That hole is not theoretical. The footer
+// CTA paragraph renders on all 132 urls, and rewriting it moved zero lastmods
+// until this line existed, so the edit shipped with no refetch signal on a domain
+// whose sitemap is its only freshness signal. Listing them is not walking them:
+// content/services.ts and lib/areas.ts stay out of every graph, so the failure the
+// comment above describes cannot come back. Still uncovered by design, and a
+// cheaper problem than over-reporting: the shell's grandchildren (Logo,
+// ContactCTA, the Navbar's own children).
+const GLOBAL = [
+  "app/layout.tsx",
+  "lib/business.ts",
+  "components/site/Navbar.tsx",
+  "components/site/Footer.tsx",
+  "components/site/MobileDock.tsx",
+];
 
 // Hoisted out of the maps below: one template renders 10 service pages and
 // another renders 101 area pages, so the walk happens once per group, not once
