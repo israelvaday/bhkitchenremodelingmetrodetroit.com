@@ -315,8 +315,8 @@ export default async function BlogPostPage(
               Planning a kitchen remodeling project in Metro Detroit?
             </h3>
             <p className="mx-auto mt-2 max-w-xl text-sm text-ink-200 md:text-base">
-              Share the property, surfaces, colors, condition, and timing with {BIZ.name} for a project-specific
-              follow-up across Wayne, Oakland &amp; Macomb counties.
+              Share your kitchen layout, cabinet and countertop plans, and timing with {BIZ.name} for a
+              project-specific follow-up across Wayne, Oakland &amp; Macomb counties.
             </p>
             <div className="mt-5 flex justify-center">
               <ContactCTA size="lg" />
