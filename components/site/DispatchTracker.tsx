@@ -27,7 +27,7 @@ export function AreaAvailabilityChecker({
       </h2>
       <p className="relative mt-2 text-sm leading-relaxed text-ink-300 md:text-base">
         {BIZ.name} serves {areaName} as part of our Metro Detroit coverage area. Dates depend on project scope,
-        weather, material selections, and the current schedule, so an instant checker cannot promise availability or
+        material selections, and the current schedule, so an instant checker cannot promise availability or
         arrival times.
       </p>
       <div className="relative mt-5 rounded-2xl border border-ink-800 bg-ink-950/60 p-4">
@@ -35,7 +35,7 @@ export function AreaAvailabilityChecker({
           <CalendarDays className="h-4 w-4" /> Get a real scheduling answer
         </div>
         <p className="mt-2 text-xs leading-relaxed text-ink-300">
-          Share the address, surfaces, approximate size, desired colors, and timing. We will confirm coverage and
+          Share the address, your kitchen layout, cabinet and countertop plans, and timing. We will confirm coverage and
           discuss the next appropriate step.
         </p>
       </div>
