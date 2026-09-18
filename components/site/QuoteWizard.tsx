@@ -331,13 +331,13 @@ export function QuoteWizard() {
             {step === 3 && (
               <>
                 <h2 className="font-display text-2xl font-extrabold md:text-3xl">Anything we should know?</h2>
-                <p className="mt-1 text-sm text-ink-300">Surfaces, approximate size, colors, condition, and access notes are helpful.</p>
+                <p className="mt-1 text-sm text-ink-300">Layout, approximate size, cabinet and countertop plans, condition, and access notes are helpful.</p>
                 <textarea
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   rows={6}
                   className="mt-5 w-full rounded-xl border border-ink-800 bg-ink-950 p-4 outline-none focus:border-brass-500"
-                  placeholder="e.g. Paint walls and trim in three occupied rooms, light neutral over a darker color, in Livonia."
+                  placeholder="e.g. Replace the laminate countertops with quartz and add a backsplash, keeping the existing cabinets, in Livonia."
                 />
               </>
             )}
@@ -346,7 +346,7 @@ export function QuoteWizard() {
               <>
                 <h2 className="font-display text-2xl font-extrabold md:text-3xl">Got a picture or document?</h2>
                 <p className="mt-1 text-sm text-ink-300">
-                  Upload wide shots and close-ups of surfaces, existing damage, colors, or plans. Optional (max {MAX_FILES} files, 8 MB each).
+                  Upload wide shots and close-ups of cabinets, counters, existing damage, or plans. Optional (max {MAX_FILES} files, 8 MB each).
                 </p>
                 <label className="mt-5 flex cursor-pointer flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-brass-500/40 bg-ink-950/50 p-8 text-center hover:border-brass-400">
                   <Upload className="h-7 w-7 text-brass-300" />
