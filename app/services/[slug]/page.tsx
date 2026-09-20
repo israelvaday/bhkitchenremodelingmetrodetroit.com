@@ -255,7 +255,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                   Kitchen remodeling across Wayne, Oakland &amp; Macomb counties during posted business hours.
                 </p>
               </div>
-              <Link href="/service-areas" className="hidden text-sm font-semibold text-brass-400 hover:text-brass-300 md:inline-flex">
+              <Link href="/service-areas/" className="hidden text-sm font-semibold text-brass-400 hover:text-brass-300 md:inline-flex">
                 All service areas →
               </Link>
             </div>
@@ -284,7 +284,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           </p>
           <p>
             We serve all of Metro Detroit for {s.proseName} — Detroit, Dearborn, Warren, Sterling Heights, Troy, Livonia, Royal Oak, Farmington Hills, Pontiac, Southfield, Westland, Taylor, and every city in our{" "}
-            <a href="/service-areas" className="text-brass-300 underline-offset-2 hover:underline">coverage map</a>.
+            <a href="/service-areas/" className="text-brass-300 underline-offset-2 hover:underline">coverage map</a>.
             Project dates are discussed after we understand the scope and current schedule.
           </p>
           <p>

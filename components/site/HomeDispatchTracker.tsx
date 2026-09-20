@@ -131,7 +131,7 @@ function AvailabilityLinks() {
   return (
     <div className="mt-4 flex flex-wrap gap-3">
       <Link
-        href="/quote"
+        href="/quote/"
         className="inline-flex items-center rounded-full bg-brass-500 px-5 py-2.5 text-sm font-bold text-ink-950 transition hover:bg-brass-400"
       >
         Request a project quote

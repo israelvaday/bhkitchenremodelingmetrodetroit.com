@@ -142,7 +142,7 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
             Request a quote with your project address so we can confirm coverage and discuss scheduling.
           </p>
           <div className="mt-4 flex flex-wrap gap-3">
-            <Link href="/quote" className="rounded-full bg-brass-500 px-4 py-2 text-sm font-bold text-ink-950">
+            <Link href="/quote/" className="rounded-full bg-brass-500 px-4 py-2 text-sm font-bold text-ink-950">
               Request a quote
             </Link>
             <a href={BIZ.phoneHref} className="inline-flex items-center gap-2 rounded-full border border-brass-500/50 px-4 py-2 text-sm font-bold text-brass-300">

@@ -34,7 +34,7 @@ export function AreaTeaser() {
         </div>
         <div className="mt-8">
           <Link
-            href="/service-areas"
+            href="/service-areas/"
             className="inline-flex items-center gap-2 rounded-full border border-brass-500/40 bg-brass-500/10 px-5 py-2.5 text-sm font-semibold text-brass-300 transition-all hover:bg-brass-500/20"
           >
             Explore all {AREAS.length} service areas <ArrowRight className="h-4 w-4" />

@@ -78,7 +78,7 @@ export function Footer() {
               ))}
             </ul>
             <Link
-              href="/service-areas"
+              href="/service-areas/"
               className="mt-3 inline-block text-sm font-semibold text-brass-400 hover:text-brass-300"
             >
               All service areas →

@@ -17,7 +17,7 @@ export function ServiceGrid({ city }: { city?: string }) {
             Ten kitchen remodeling services across Metro Detroit. Explore cabinets, counters, design, backsplash, islands,
             and quote details.
           </p>
-          <Link href="/services" className="mt-4 text-sm font-semibold text-brass-400 hover:text-brass-300">
+          <Link href="/services/" className="mt-4 text-sm font-semibold text-brass-400 hover:text-brass-300">
             View all services →
           </Link>
         </div>
