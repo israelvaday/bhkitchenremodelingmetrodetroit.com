@@ -694,6 +694,69 @@ For a remodel planned this fall, the practical order is simple: choose the count
 BH Kitchen Remodeling Metro Detroit handles [kitchen backsplash installation](/services/kitchen-backsplash-tile) across Wayne, Oakland, and Macomb counties, including tile layout, material selection with your countertop and cabinets, and clean finishing at every edge. Call or text (313) 236-4558 for a written scope.
 `,
   },
+  {
+    slug: "yom-kippur-2026",
+    title: "Yom Kippur 2026: Holiday Hours and a Quiet Kitchen Checklist",
+    metaTitle: "Yom Kippur 2026 Holiday Hours | BH Kitchen Remodeling",
+    excerpt:
+      "Closed Sunday, September 20 and Monday, September 21 for Yom Kippur, back Tuesday, September 22 at 9:00 AM, plus a checklist for the fast and the break-fast.",
+    category: "Planning",
+    readMinutes: 5,
+    date: "2026-09-20T09:00:00-04:00",
+    heroImage: "/blog/yom-kippur-2026-hero.jpg",
+    heroAlt:
+      "A quiet kitchen with tall oak pantry cabinets, a wall oven and late summer light coming through the window",
+    secondaryImage: "/blog/yom-kippur-2026-secondary.jpg",
+    secondaryAlt:
+      "A farmhouse sink set beside a dark quartz countertop and white subway backsplash during a kitchen installation",
+    body: `
+Yom Kippur 5787 begins at sundown on Sunday, September 20, 2026, and ends at nightfall on Monday, September 21. BH Kitchen Remodeling Metro Detroit is closed for both days, and our team is back on Tuesday, September 22. Here is our holiday schedule, a short note on what the day is, and a checklist for getting a kitchen ready before a fast day.
+
+## Yom Kippur 2026 holiday hours
+
+We are closed Sunday, September 20 and Monday, September 21 for Yom Kippur, and back Tuesday, September 22 at 9:00 AM.
+
+- **Sunday, September 20:** closed. Yom Kippur begins at sundown. Sunday is normally one of our working days, so please note the change this week.
+- **Monday, September 21:** closed for Yom Kippur. Monday is also normally a working day.
+- **Tuesday, September 22:** back at 9:00 AM on our regular schedule.
+
+Our regular schedule is always listed on our [hours page](/hours). Quote requests and messages that arrive over the holiday are read when we are back on Tuesday morning, in the order they came in.
+
+## What is Yom Kippur?
+
+Yom Kippur is the Day of Atonement, the most solemn day of the Jewish year. It falls on the tenth day of Tishrei and closes the ten days that begin with Rosh Hashanah, which this year fell on September 12 and 13. Our [Rosh Hashanah post](/blog/happy-rosh-hashanah-2026) covered that holiday and its hours.
+
+The day is marked by a fast of about twenty five hours, from before sundown until nightfall the next evening, and by a long day of prayer. For Metro Detroit, Hebcal lists candle lighting at 7:15 PM on Sunday, September 20, and havdalah, the end of the holiday, at 8:13 PM on Monday, September 21.
+
+A few things you may notice:
+
+- **Kol Nidre.** The evening service that opens the holiday, sung just before sundown.
+- **The fast.** No food and no drink for the full day, which is why the meal before it and the meal after it both matter so much.
+- **White.** Many people wear white on Yom Kippur as a sign of purity and of a fresh start.
+- **Neilah and the shofar.** The closing service ends with a single long blast of the shofar, and then the fast is broken.
+- **The greeting.** "G'mar chatima tova" means "may you be sealed for good" in the year ahead. In English, wishing someone an easy and meaningful fast is the common thing to say.
+
+## Getting the kitchen ready before a fast day
+
+A fast day asks something unusual of a kitchen. It sits unused for a full day, and then a tired household walks in and wants to eat immediately. Everything that makes that easy has to be done beforehand, because on the day itself nobody is cooking.
+
+- **Cook and stage the break-fast before the holiday starts.** Kugel, quiche, bagels and spreads, a salad that keeps: whatever your table looks like, it is easier when it is already made and only has to come out of the refrigerator or a low oven. Decide before sundown which dish goes where, so nobody is opening cabinets at nine at night.
+- **Clear the counters and empty the sink.** Run the dishwasher before the holiday begins and put the dishes away. Coming back to open counter space and an empty sink is worth the twenty minutes it takes.
+- **Make room in the refrigerator.** Staged platters need more shelf space than an ordinary week, and they need it in the shape of a tray. Moving the tall bottles out of the way beforehand is a small thing that saves a rearrangement while people are waiting.
+- **Set out what the first ten minutes need.** The kettle filled, the coffee ready to start, glasses and pitchers on the counter, a knife and board out for the bread. Breaking a fast starts with a drink and something simple, not with the main dish.
+- **Look at the sink and the faucet.** The sink does the most work on a day like this, before and after. A slow drain, a dripping faucet or cracked caulk at the backsplash is better found on a quiet afternoon than with a full counter of dishes.
+
+None of that is remodeling work. It is just the order of operations that keeps a busy kitchen calm on a day when the household is running on empty.
+
+## After the holiday
+
+If the checklist turned up something the kitchen has been needing for a while, a sink that drains slowly, a cabinet door that has never closed right, counters that are past their useful life, write it down and call us when the holiday is over.
+
+We are back Tuesday, September 22 at 9:00 AM. BH Kitchen Remodeling Metro Detroit handles [custom kitchen remodeling](/services/custom-kitchen-remodeling) across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 for a written scope.
+
+G'mar chatima tova, and an easy and meaningful fast to everyone observing across Metro Detroit.
+`,
+  },
 ];
 
 export function findPost(slug: string) {
