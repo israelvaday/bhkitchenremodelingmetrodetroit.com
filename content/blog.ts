@@ -757,6 +757,120 @@ We are back Tuesday, September 22 at 9:00 AM. BH Kitchen Remodeling Metro Detroi
 G'mar chatima tova, and an easy and meaningful fast to everyone observing across Metro Detroit.
 `,
   },
+  {
+    slug: "kitchen-cabinet-door-styles-metro-detroit",
+    title:
+      "Kitchen Cabinet Doors and Finishes: Style, Wood, and a Michigan Winter",
+    metaTitle: "Kitchen Cabinet Door Styles for Metro Detroit Homes",
+    excerpt:
+      "Shaker, slab, or raised panel, and what maple, oak, MDF and a Michigan heating season do to each. Choosing cabinet doors and finishes in Metro Detroit.",
+    category: "Cabinets",
+    readMinutes: 10,
+    date: "2026-09-20T08:00:00-04:00",
+    heroImage: "/blog/kitchen-cabinet-door-styles-metro-detroit-hero.jpg",
+    heroAlt:
+      "Three kitchen cabinet door styles side by side: white painted shaker, flat slab walnut, and raised panel oak",
+    secondaryImage: "/blog/kitchen-cabinet-door-styles-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "Cabinet door samples in white painted MDF, maple, oak, cherry and walnut beside brushed brass and matte black pulls, knobs and a soft-close hinge",
+    body: `
+Cabinet doors are the surface you actually see. In a finished kitchen the boxes are hidden behind them, and what reads as "the cabinets" is really a door style, a material, a finish, and a piece of hardware. That is also the order in which the decisions get harder to reverse: a knob can change in an afternoon, a door style is fixed once the order is placed, and the material decides how the whole run behaves years later.
+
+Cabinets usually carry the longest lead time in a kitchen remodel, so this is the decision that has to be made first and the one most often made last, from a showroom display under lighting that looks nothing like the room it is going into.
+
+## Start with the door style
+
+Three styles cover most of what gets installed in Metro Detroit kitchens, and each one carries consequences beyond how it looks.
+
+- **Shaker.** A flat centre panel inside a square frame. It suits almost every house here, from a Ferndale bungalow to a newer Macomb County build, and it is the safest choice when the rest of the kitchen is still undecided. The inside corners of the frame collect dust and cooking film, which is a cleaning detail rather than a fault.
+- **Slab, or flat panel.** One uninterrupted face, no frame, no profile. It reads modern, it is the easiest door in the kitchen to wipe down, and it puts all the visual interest into the material. In a veneer it shows grain beautifully. In a solid wood it is the style most likely to cup or telegraph a seam, so it is usually built as an engineered panel for a reason.
+- **Raised panel.** A centre panel with a profiled edge, standing proud of the frame. It is the traditional look in a lot of the older housing stock in Wayne and Oakland counties, and in oak it is the style most associated with kitchens installed in the eighties and nineties. Done in a painted finish with a shallower profile it reads as current rather than dated.
+
+Beyond those, beaded and mullion doors are detail options rather than whole-kitchen decisions, usually used on a single run or a glass-front cabinet.
+
+One practical filter: look at the trim and interior doors in the rest of your house. A kitchen that argues with the millwork around it tends to feel like a room that was added rather than remodelled.
+
+## Overlay or inset, and why the boxes decide
+
+This is the decision that changes the most and gets discussed the least.
+
+- **Full overlay** doors cover nearly the whole face frame, leaving narrow, even reveals between doors. It is the most common specification now, and it maximises usable opening size.
+- **Partial overlay** leaves a wider band of frame visible between doors. It is the most forgiving of a run that is not perfectly square, and it is the least expensive of the three to build.
+- **Inset** doors sit flush inside the frame, like a well-fitted drawer. It is the most exacting look and the most expensive, because the opening and the door have to agree to a tight tolerance and stay that way.
+
+Inset is where a Michigan heating season shows up most directly. A solid wood door that fits its opening perfectly in a humid August has less room to expand into than an overlay door does, and the gap around it will visibly change between summer and February. That is the nature of the material rather than a defect, but it is worth choosing knowingly rather than discovering.
+
+Whichever you choose, the opening has to be square for the reveals to look right, which is why the layout and shimming stage matters more on inset than on anything else.
+
+## Wood, MDF, and a Michigan heating season
+
+Every solid wood door moves with humidity. A house here goes from a humid summer to a dry forced-air heating season, and that swing is what separates the materials in practice.
+
+- **Maple** is close-grained, hard, and pale. It is the usual choice under a painted finish because there is almost no grain to telegraph through the paint. Stained, it can blotch unless it is properly conditioned first, which is worth asking about.
+- **Oak** has open, prominent grain. Red oak reads pink-brown and is everywhere in the older stock here; white oak reads cooler and is the one currently in favour. Oak is hard and forgiving, and its grain is a feature you either want or do not.
+- **Birch** sits between maple and oak on price and appearance and takes stain reasonably well.
+- **Cherry** is smooth and warm, and it darkens with light exposure over the first year or two. A cabinet that has been covered by a small appliance will be lighter than the door beside it. Plan for that rather than being surprised by it.
+- **Walnut** is dark, expensive, and increasingly used as a single accent run or island rather than a whole kitchen.
+- **Hickory** has dramatic colour variation board to board. It is very hard, and it is a commitment.
+
+For painted doors, **MDF** is usually the better material, not the compromise. It is dimensionally stable, it has no grain to raise, and it gives a flatter painted surface than solid wood does. Its weakness is water at an unsealed edge, particularly at the sink base and the dishwasher, so edge sealing is the thing to ask about. Many painted doors are built as an MDF centre panel inside a solid wood frame for exactly this reason.
+
+**Thermofoil** is a vinyl film heat-formed over an MDF core. It is seamless, easy to clean, and inexpensive. It is also sensitive to heat, and the doors immediately beside and above a range or a wall oven are where it fails first, so check the appliance clearances before specifying it there.
+
+**Laminate and melamine** fronts are durable and flat, and in a slab door they are a reasonable modern specification rather than a downgrade.
+
+## Painted, stained, and factory-applied finishes
+
+The finish matters at least as much as the material, and where it is applied matters more than most people expect.
+
+A **factory-applied** finish is sprayed and cured in controlled conditions, and it is harder and more uniform than anything that can be achieved in an occupied house. It is also effectively impossible to match exactly later, which is why ordering a touch-up kit and a spare door front with the original order is worth doing.
+
+A **site-applied** finish on existing doors is a different proposition. It can look very good, it is the route when the boxes are staying, and it depends heavily on preparation: degreasing, deglossing, a bonding primer, and enough cure time before the doors go back on. Cabinet finishes cure for weeks after they stop feeling dry, and stacking or taping too early is what causes the print marks that show up later. Whether that route makes sense at all is the subject of our guide to [cabinet installation vs refacing](/blog/cabinet-installation-vs-refacing).
+
+On **sheen**, a satin or semi-gloss is the practical range for kitchen doors. Flatter finishes look soft and show hand marks and cleaning; glossier finishes clean easily and show every imperfection in the substrate underneath.
+
+Two questions worth asking whoever supplies the doors: what the finish system actually is, and how a chip or a scratch is repaired in five years.
+
+## Colour that still looks right in five years
+
+White and off-white remain the most-specified cabinet colour, and the reason is not fashion. They keep a small kitchen feeling open, they do not date as sharply as a strong colour, and they are the easiest to build a countertop and backsplash around later.
+
+The things that move the decision:
+
+- **Warm versus cool white.** Oak floors, brass hardware, and the warm light most kitchens are lit by all push toward a creamy white. A stark bright white beside warm oak can read cold and slightly blue.
+- **Wood tone is back, and it is not the eighties.** White oak and walnut in a slab or shallow shaker door look nothing like a raised-panel red oak kitchen, even though both are wood.
+- **Two-tone.** Darker base cabinets with lighter uppers, or a contrasting island, breaks up a long run and hides wear where it actually happens, which is low down.
+- **Strong colour in one place.** A deep green or navy island with quiet perimeter cabinets is far easier to live with, and to change, than a whole kitchen in that colour.
+
+Test colour samples in the actual room, on the wall, at night, under the lighting you have. A Metro Detroit kitchen is lit by its own fixtures for a large share of the year, and colour temperature shifts cabinet colour noticeably. The same point applies to the wall behind them, which is covered in our guide to [kitchen backsplash ideas](/blog/kitchen-backsplash-ideas-metro-detroit).
+
+## Hinges, slides, and the hardware you touch every day
+
+Hardware is the smallest line in the specification and the part your hands are on several times a day.
+
+- **Soft-close hinges** are close to standard now. European concealed hinges adjust in three directions with a screwdriver, which is what makes seasonal movement a maintenance detail instead of a service call.
+- **Full-extension drawer slides** let the back of the drawer come out where you can see it. On deep pot drawers the difference between full-extension and three-quarter is the difference between using the space and losing it.
+- **Drawers instead of doors** in the base cabinets is the single upgrade people mention most afterwards. Reaching into the back of a base cabinet on your knees is the thing that makes a kitchen feel old.
+- **Pulls versus knobs.** Pulls are easier on drawers and for anyone with limited grip. Sizing them to the drawer width, rather than using one size everywhere, is what makes a run look designed.
+- **Finish mixing.** Hardware does not have to match the faucet, but it should look deliberate. Picking up the faucet finish on the cabinet hardware, or the lighting finish, is an easy way to make the choice read as intentional.
+
+Order a single pull and a single knob before committing to thirty of them, and hold them against an actual door sample.
+
+## Decide in the fall, order before the install
+
+Cabinet doors and fronts are made to order, and the lead time is usually the longest single item in the schedule. A specialty finish, an inset build, or a custom colour extends it further. That makes autumn the right time to settle this for a winter installation, which is the season most Metro Detroit kitchens are actually remodelled in, since the work is entirely indoors.
+
+A workable order of operations:
+
+- Settle the door style and the overlay first, because they drive the cabinet order.
+- Choose the material and finish next, with samples seen in the room at night.
+- Confirm appliance model numbers before the order is placed, since panel-ready units and specified openings are built into the cabinetry rather than added later.
+- Choose hardware last, against a real door sample.
+- Check the order against the layout the day it arrives, and store the boxes somewhere heated. Wood and MDF sitting in an unheated garage through a Michigan winter is a problem that surfaces after installation, not before.
+
+BH Kitchen Remodeling Metro Detroit handles [cabinet installation](/services/cabinet-installation) across Wayne, Oakland, and Macomb counties, including layout verification, door and drawer alignment, filler and end panel detailing, and coordination with countertop templating. Call or text (313) 236-4558 for a written scope.
+`,
+  },
 ];
 
 export function findPost(slug: string) {

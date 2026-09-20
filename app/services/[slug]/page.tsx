@@ -102,6 +102,11 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const heroSrc = `${base}/photos/service-hero-${s.slug}.png`;
   const Icon = s.icon;
+  // guide holds one article on most services and two on cabinet-installation,
+  // where "replace or reface the boxes" and "which door style and finish" are
+  // separate decisions with separate articles. Normalised so the template has
+  // one shape to render.
+  const guides = s.guide ? (Array.isArray(s.guide) ? s.guide : [s.guide]) : [];
   // serviceJsonLd() was written at onboarding and nothing ever imported it - the
   // last dead export in lib/schema.ts, after breadcrumbJsonLd() was wired on
   // 2026-08-23. Until now these ten pages described a service to readers and told
@@ -191,15 +196,15 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           <Reveal className="md:col-span-2">
             <h2 className="font-display text-2xl font-bold md:text-3xl">What&apos;s included</h2>
             <p className="mt-4 text-ink-200">{s.description}</p>
-            {s.guide && (
-              <p className="mt-3 text-ink-200">
+            {guides.map((g) => (
+              <p key={g.href} className="mt-3 text-ink-200">
                 Planning this yourself first? Read our guide to{" "}
-                <Link href={s.guide.href} className="text-brass-300 underline-offset-4 hover:underline">
-                  {s.guide.anchor}
+                <Link href={g.href} className="text-brass-300 underline-offset-4 hover:underline">
+                  {g.anchor}
                 </Link>
                 .
               </p>
-            )}
+            ))}
             <RevealStagger className="mt-6 grid gap-3 sm:grid-cols-2" stagger={0.06}>
               {s.bullets.map((b) => (
                 <RevealItem key={b}>

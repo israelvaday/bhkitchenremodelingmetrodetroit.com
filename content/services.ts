@@ -30,8 +30,12 @@ export type Service = {
   bullets: string[];
   intent: "emergency" | "service" | "trust";
   keywords: string[];
-  /** Optional in-depth guide on /blog that covers this service's main decision. */
-  guide?: { href: string; anchor: string };
+  /**
+   * Optional in-depth guide on /blog that covers this service's main decision.
+   * A service whose decisions split into two separate articles may list both;
+   * the template renders one sentence per entry.
+   */
+  guide?: { href: string; anchor: string } | { href: string; anchor: string }[];
   /**
    * Optional service-specific depth, rendered on that service's page only.
    * Services without it keep the shared template copy unchanged.
@@ -163,10 +167,16 @@ export const SERVICES: Service[] = [
           "Removal, debris handling, and disposal should be stated in the scope. If you intend to donate a set or reuse boxes in a garage or basement, say so before demolition is scheduled, because cabinets taken out intact come out differently and more slowly than cabinets that are only going to a dumpster.",
       },
     ],
-    guide: {
-      href: "/blog/cabinet-installation-vs-refacing",
-      anchor: "cabinet installation vs refacing",
-    },
+    guide: [
+      {
+        href: "/blog/cabinet-installation-vs-refacing",
+        anchor: "cabinet installation vs refacing",
+      },
+      {
+        href: "/blog/kitchen-cabinet-door-styles-metro-detroit",
+        anchor: "kitchen cabinet door styles",
+      },
+    ],
     deepDive: [
       {
         heading: "What a cabinet installation quote is actually built from",
