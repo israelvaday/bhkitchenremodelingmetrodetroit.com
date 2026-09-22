@@ -163,7 +163,7 @@ BH Kitchen Remodeling Metro Detroit coordinates countertop replacement with cabi
     date: "2026-03-02",
     heroImage: "/blog/hire-kitchen-remodeling-contractor-michigan-hero.png",
     heroAlt:
-      "Homeowner reviewing a written kitchen remodel scope with an insured contractor",
+      "Homeowner reviewing a written kitchen remodel scope with a contractor",
     secondaryImage: "/blog/hire-kitchen-remodeling-contractor-michigan-secondary.png",
     secondaryAlt:
       "Organized kitchen jobsite with protected floors and labeled cabinet boxes",
@@ -190,7 +190,7 @@ Layout changes mid-project are common, but they should be documented with price 
 
 Never pay the full contract upfront. Tie payments to measurable progress: demo complete, cabinets set, counters installed, substantial completion, and final punch list.
 
-BH Kitchen Remodeling Metro Detroit provides insured professional kitchen remodeling across Metro Detroit with written scopes and direct project communication. Call (313) 236-4558 to discuss your kitchen.
+BH Kitchen Remodeling Metro Detroit provides professional kitchen remodeling across Metro Detroit with written scopes and direct project communication. Call (313) 236-4558 to discuss your kitchen.
 `,
   },
   {
