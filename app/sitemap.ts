@@ -85,7 +85,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       // e23f1e19 rewrote every post's social card and this sitemap reported nothing.
       // On a domain with no Search Console property the sitemap is the only refetch
       // signal there is, so a template fix that cannot ask for a recrawl is inert.
-      lastModified: new Date(Math.max(new Date(p.date).getTime(), BLOG_TEMPLATE.getTime())),
+      // `updated` is the per-post half the template date cannot see: a copy edit to
+      // one post lives in content/blog.ts, which BLOG_TEMPLATE leaves out on purpose.
+      lastModified: new Date(Math.max(
+        new Date(p.date).getTime(),
+        new Date(p.updated ?? p.date).getTime(),
+        BLOG_TEMPLATE.getTime(),
+      )),
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),

@@ -9,6 +9,10 @@ export type BlogPost = {
   category: "Planning" | "Cabinets" | "Countertops" | "Design" | "Budget";
   readMinutes: number;
   date: string;
+  // Last substantive edit to THIS post, read only by app/sitemap.ts. All posts share
+  // this file, so git can date the file but not the post: de823ed1 rewrote one post
+  // and its own url moved no lastmod. Set it whenever a post's body or copy changes.
+  updated?: string;
   heroImage: string;
   heroAlt: string;
   secondaryImage: string;
@@ -161,6 +165,7 @@ BH Kitchen Remodeling Metro Detroit coordinates countertop replacement with cabi
     category: "Planning",
     readMinutes: 7,
     date: "2026-03-02",
+    updated: "2026-09-21T22:36:09-04:00",
     heroImage: "/blog/hire-kitchen-remodeling-contractor-michigan-hero.png",
     heroAlt:
       "Homeowner reviewing a written kitchen remodel scope with a contractor",
