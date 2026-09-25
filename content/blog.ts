@@ -876,6 +876,61 @@ A workable order of operations:
 BH Kitchen Remodeling Metro Detroit handles [cabinet installation](/services/cabinet-installation) across Wayne, Oakland, and Macomb counties, including layout verification, door and drawer alignment, filler and end panel detailing, and coordination with countertop templating. Call or text (313) 236-4558 for a written scope.
 `,
   },
+  {
+    slug: "sukkot-2026",
+    title: "Sukkot 2026: Holiday Hours and a Kitchen Checklist for Meals Outside",
+    metaTitle: "Sukkot 2026 Holiday Hours | BH Kitchen Remodeling",
+    excerpt:
+      "Chag Sameach! Closed Saturday, September 26 and Sunday, September 27 for Sukkot, back Monday, September 28 at 9:00 AM, plus a checklist for serving meals in the sukkah.",
+    category: "Planning",
+    readMinutes: 4,
+    date: "2026-09-25T12:00:00-04:00",
+    heroImage: "/blog/sukkot-2026-hero.jpg",
+    heroAlt:
+      "A backyard sukkah with canvas walls and a roof of green branches, a table set with apples, pears, pomegranates and small gourds, and autumn maples outside",
+    secondaryImage: "/blog/sukkot-2026-secondary.jpg",
+    secondaryAlt:
+      "A butcher block kitchen island with a bowl of apples under three brushed nickel pendant lights, between white shaker cabinets",
+    body: `
+Chag Sameach from all of us at BH Kitchen Remodeling Metro Detroit. Sukkot 5787 begins at sundown on Friday, September 25, 2026, and our team is taking the first two days of the festival off. Here is when we are closed, a little about the holiday, and a short checklist for a kitchen that spends the week sending meals out to a table in the backyard.
+
+## Sukkot 2026 holiday hours
+
+We are closed Saturday, September 26 and Sunday, September 27 for Sukkot, and back Monday, September 28 at 9:00 AM.
+
+- **Saturday, September 26:** closed for the first day of Sukkot, which this year is also Shabbat.
+- **Sunday, September 27:** closed for the second day of Sukkot. Sunday is normally one of our working days, so please note the change this week.
+- **Monday, September 28:** back at 9:00 AM on our regular schedule.
+
+Our regular schedule is always listed on our [hours page](/hours). Quote requests and messages that arrive over the holiday are read when we are back on Monday morning, in the order they came in.
+
+## What is Sukkot?
+
+Sukkot is the Jewish harvest festival. It begins five days after Yom Kippur, which our [Yom Kippur post](/blog/yom-kippur-2026) covered, and it lasts seven days. Many families build a sukkah for the week, a small temporary hut in the backyard or on a porch with a roof of branches and leaves you can see the sky through, and they eat their meals in it, autumn weather permitting.
+
+For Metro Detroit, Hebcal lists candle lighting at 7:06 PM on Friday, September 25, and havdalah, the end of the first two festival days, at 8:03 PM on Sunday, September 27 (times for Oak Park, MI). The greeting is "Chag Sameach", which means "happy holiday".
+
+## A kitchen checklist for meals in the sukkah
+
+For one week a year, the kitchen stops being where the family eats and becomes the place that feeds a table outside. Every plate, pot and pitcher makes the trip out the back door and back again, often after dark on a cool September evening. A few things make that much easier.
+
+- **Clear a landing zone by the back door.** The stretch of counter closest to the door does the most work this week. Keep it empty, with a couple of trays ready, so food goes out in one trip and dishes come back to one spot instead of every surface in the room.
+- **Carry in trays and covered dishes.** Food cools quickly outside once the sun goes down. Lidded pots, covered casseroles and a sheet pan used as a carrying tray keep the food warm on the way out and keep the spills in the kitchen.
+- **Cook ahead and make room for it.** With the first day of Sukkot falling on Shabbat this year, many households cook most of the weekend's meals before Friday evening. That takes refrigerator shelf space in the shape of a tray, and a plan for what stays warm and what is served cold.
+- **Keep the path clear and lit.** The route from the stove to the sukkah crosses a doorway, a step or a deck, and the last trip of the night is usually in the dark. A clear floor and a working light at the back door matter more than usual this week.
+- **Check the sink and the dishwasher before the holiday.** A week of meals for family and guests means more dishes than an ordinary week. A slow drain or a dishwasher that leaves a film on the glasses is better found before the holiday than in the middle of it.
+
+None of that is remodeling work. It is just the order of operations that keeps a busy kitchen calm during a week when it is feeding people somewhere else.
+
+## After the holiday
+
+If the week of carrying dishes back and forth showed you what your kitchen is missing, counter space near the door, a sink that keeps up, a place for the serving pieces you only use a few times a year, write it down and call us when the holiday is over.
+
+We are back Monday, September 28 at 9:00 AM. BH Kitchen Remodeling Metro Detroit handles [custom kitchen remodeling](/services/custom-kitchen-remodeling) across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 for a written scope.
+
+Chag Sameach, and a happy Sukkot to everyone celebrating across Metro Detroit.
+`,
+  },
 ];
 
 export function findPost(slug: string) {
