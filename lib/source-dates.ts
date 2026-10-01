@@ -27,11 +27,24 @@ const cache = new Map<string, Date>();
 /** Build time. The fallback whenever git cannot answer — never worse than the old behaviour. */
 const BUILD_TIME = new Date();
 
+/**
+ * A commit whose message carries the trailer line `Lastmod: chrome-only` is
+ * skipped when dating. Use it ONLY for a commit that changes no page's main
+ * content: header, footer, mobile dock, CTA buttons and bands, metadata,
+ * JSON-LD or social images. Those files sit in GLOBAL or in nearly every
+ * render graph, so without the trailer one button label redates all ~136 urls
+ * and tells Google every page changed when none of their content did. A
+ * commit that rewrites what a page says must NOT carry it. Added 2026-09-30
+ * for the owner's no-prices / contact-forms-only pass, which split the
+ * chrome relabel from the body rewrites for exactly this reason.
+ */
+const CHROME_ONLY_TRAILER = "^Lastmod: chrome-only$";
+
 function gitDate(paths: string[]): Date | null {
   try {
     const out = execFileSync(
       "git",
-      ["log", "-1", "--format=%cI", "--", ...paths.map((p) => `:(literal)${p}`)],
+      ["log", "-1", "--format=%cI", "--invert-grep", `--grep=${CHROME_ONLY_TRAILER}`, "--", ...paths.map((p) => `:(literal)${p}`)],
       { cwd: process.cwd(), encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] },
     ).trim();
     if (!out) return null;

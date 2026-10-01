@@ -50,6 +50,13 @@ try {
       NEXT_PUBLIC_SITE_URL:
         process.env.NEXT_PUBLIC_SITE_URL ||
         "https://bhkitchenremodelingmetrodetroit.com",
+      // The contact form on /quote/ POSTs here. Without it the static build has
+      // no server route (app/api is stashed above) and the form fell back to a
+      // mailto: link, so a visitor without a mail app sent nothing. This is the
+      // live Cloudflare route that emails the owner.
+      NEXT_PUBLIC_QUOTE_API_URL:
+        process.env.NEXT_PUBLIC_QUOTE_API_URL ||
+        "https://bhkitchenremodelingmetrodetroit.com/api/quote",
     },
     stdio: "inherit",
     shell: false,
