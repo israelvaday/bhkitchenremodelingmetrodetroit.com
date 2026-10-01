@@ -53,7 +53,7 @@ export function Hero() {
         className="absolute bottom-6 right-4 z-10 inline-flex items-center gap-1.5 rounded-full border border-emerald-500/40 bg-emerald-500/15 px-3 py-1.5 text-xs font-semibold text-emerald-200 backdrop-blur md:right-6"
       >
         <ChefHat className="h-3.5 w-3.5" />
-        Kitchen quotes · Metro Detroit
+        Kitchen remodeling · Metro Detroit
       </div>
 
       <div className="relative mx-auto flex min-h-[92vh] max-w-5xl flex-col items-center justify-center px-4 pb-20 pt-24 text-center md:min-h-[88vh] md:px-6 md:pt-32">
@@ -124,7 +124,7 @@ export function Hero() {
           </li>
           <li className="flex items-center gap-1.5">
             <Sparkles className="h-4 w-4 text-brass-400" />
-            Written estimates
+            Trade coordination
           </li>
           <li className="flex items-center gap-1.5">
             <CheckCircle2 className="h-4 w-4 text-brass-400" />

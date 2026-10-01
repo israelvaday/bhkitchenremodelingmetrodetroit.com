@@ -157,7 +157,7 @@ export function QuoteWizard() {
       if (quoteApi) {
         const res = await fetch(quoteApi, { method: "POST", body: fd });
         if (!res.ok) throw new Error("Server error");
-        toast.success("Quote request sent — we will be in touch shortly.");
+        toast.success("Message sent. We will be in touch shortly.");
         window.location.href = "/thank-you";
         return;
       }
@@ -175,13 +175,13 @@ export function QuoteWizard() {
         ]
           .filter(Boolean)
           .join("\n");
-        window.location.href = `mailto:${BIZ.email}?subject=${encodeURIComponent("Kitchen remodeling quote request — " + location)}&body=${encodeURIComponent(body)}`;
+        window.location.href = `mailto:${BIZ.email}?subject=${encodeURIComponent("Kitchen remodeling message: " + location)}&body=${encodeURIComponent(body)}`;
         return;
       }
 
       const res = await fetch("/api/quote", { method: "POST", body: fd });
       if (!res.ok) throw new Error("Server error");
-      toast.success("Quote request sent — we will be in touch shortly.");
+      toast.success("Message sent. We will be in touch shortly.");
       window.location.href = "/thank-you";
     } catch {
       toast.error("Could not send. Please tap Call to reach us.");
@@ -198,7 +198,7 @@ export function QuoteWizard() {
       {/* Header / progress */}
       <div className="relative flex flex-wrap items-center gap-3">
         <span className="inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-ink-950/70 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-brass-300">
-          <ChefHat className="h-3 w-3" /> Kitchen remodeling quote
+          <ChefHat className="h-3 w-3" /> Kitchen remodeling contact form
         </span>
         <span className="text-[11px] font-bold uppercase tracking-wider text-ink-400">
           Step {step + 1} of {STEP_LABELS.length} — {STEP_LABELS[step]}
@@ -384,7 +384,7 @@ export function QuoteWizard() {
 
             {step === 5 && (
               <>
-                <h2 className="font-display text-2xl font-extrabold md:text-3xl">Where do we send the quote?</h2>
+                <h2 className="font-display text-2xl font-extrabold md:text-3xl">How do we reach you?</h2>
                 <p className="mt-1 text-sm text-ink-300">We&apos;ll use these details to follow up about your project.</p>
                 <div className="mt-5 grid gap-4 sm:grid-cols-2">
                   <Field label="Name" value={name} onChange={setName} required />
@@ -441,7 +441,7 @@ export function QuoteWizard() {
             className="ml-auto"
           >
             <Send className="h-5 w-5" />
-            {submitting ? "Sending…" : "Send quote request"}
+            {submitting ? "Sending…" : "Send message"}
           </Button>
         )}
         <a

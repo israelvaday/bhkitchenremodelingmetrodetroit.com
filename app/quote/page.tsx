@@ -4,14 +4,13 @@ import { QuoteWizard } from "@/components/site/QuoteWizard";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
-// Rendered <title> was 67 chars, and the overflow was pure repetition: the
-// template appended "BH Kitchen Remodeling Metro Detroit" directly after
-// "Kitchen Remodeling Quote", so "Kitchen Remodeling" was paid for twice and
-// Google cut the tail at ~60. Since 2026-09-02 the same string is also the
-// og:title and twitter:title. Keep the exact money phrase and the geo term,
-// drop the brand, which is the half that was duplicated. 45 chars.
-const title = "Free Kitchen Remodeling Quote — Metro Detroit";
-const description = "Request a free kitchen remodeling quote in Metro Detroit. Pick your service and property type, describe the project, and add photos or plans.";
+// 2026-09-30, owner decision: BH brand sites carry contact forms only and no
+// prices, so this url (kept, it is linked from every page) is the contact form
+// page. Its title stays distinct from /contact/ ("Contact Us | ..."), absolute,
+// and under 60 chars (51). Since 2026-09-02 the same string is also the
+// og:title and twitter:title. Never put quote, estimate or price wording back.
+const title = "Send Us a Message | Kitchen Remodeling Metro Detroit";
+const description = `Send ${BIZ.name} a message about your kitchen. Pick your service and property type, describe the project, and add photos or plans.`;
 // The title is absolute now, so the social title is the same string rather
 // than a spelled-out copy of what the template used to append.
 const socialTitle = title;
@@ -52,12 +51,12 @@ export default function QuotePage() {
       <section className="relative bg-aurora py-14 md:py-20">
         <div className="absolute inset-0 bg-grid opacity-30" />
         <div className="relative mx-auto max-w-3xl px-4 text-center md:px-6">
-          <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Free Quote</p>
+          <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Contact form</p>
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            One question at a <span className="text-brass-gradient">time</span>.
+            Send us a <span className="text-brass-gradient">message</span>.
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-ink-200">
-            Choose the kitchen remodeling service and property type, then share your layout goals, materials, condition, and timing.
+            One question at a time: choose the kitchen remodeling service and property type, then share your layout goals, materials, condition, and timing.
           </p>
           <div className="mt-6 flex justify-center">
             <ContactCTA size="md" />
@@ -74,7 +73,7 @@ export default function QuotePage() {
       <section className="border-t border-ink-800 py-16">
         <div className="mx-auto max-w-3xl space-y-6 px-4 text-sm text-ink-200 md:px-6">
           <div>
-            <h2 className="font-display text-2xl font-bold text-white md:text-3xl">How the quote works</h2>
+            <h2 className="font-display text-2xl font-bold text-white md:text-3xl">How the form works</h2>
             <p className="mt-3">
               The picture-driven wizard collects the basic information needed to understand a Metro Detroit Kitchen Remodeling
               request. There is no account to create and no obligation to proceed.
@@ -87,7 +86,7 @@ export default function QuotePage() {
           </div>
 
           <div>
-            <h2 className="font-display text-2xl font-bold text-white md:text-3xl">What we quote</h2>
+            <h2 className="font-display text-2xl font-bold text-white md:text-3xl">What you can ask us about</h2>
             <p className="mt-3">
               Choose custom kitchen remodeling, cabinet installation, countertop replacement, kitchen design,
               backsplash and tile, lighting upgrades, kitchen flooring, a kitchen island, appliance layout, or a
@@ -96,12 +95,12 @@ export default function QuotePage() {
           </div>
 
           <div>
-            <h2 className="font-display text-2xl font-bold text-white md:text-3xl">Pricing & expectations</h2>
+            <h2 className="font-display text-2xl font-bold text-white md:text-3xl">What drives the cost</h2>
             <p className="mt-3">
-              A useful estimate identifies the layout, cabinet and countertop selections, backsplash and flooring,
-              lighting and electrical coordination, appliance fit, demolition and disposal, exclusions, and timing.
-              If scope changes, confirm the added work and price in writing. You can also text project photos to{" "}
-              {BIZ.phone}.
+              The cost of a kitchen project is driven by the layout, cabinet and countertop selections, backsplash and
+              flooring, lighting and electrical coordination, appliance fit, demolition and disposal, exclusions, and
+              timing. Call {BIZ.phone} for a price on your job. If scope changes, confirm the added work in writing.
+              You can also text project photos to {BIZ.phone}.
             </p>
           </div>
         </div>

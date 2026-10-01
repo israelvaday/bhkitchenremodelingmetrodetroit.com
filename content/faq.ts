@@ -15,25 +15,25 @@ export const FAQ_HERO_ALT =
 export const FAQ_SECTIONS: FAQSection[] = [
   {
     id: "pricing",
-    title: "Pricing & estimates",
-    emoji: "💰",
-    description: "How kitchen remodeling scopes, materials, and written estimates are prepared.",
+    title: "Cost & scope",
+    emoji: "📐",
+    description: "What drives the cost of a kitchen remodel, and how the written scope is prepared.",
     items: [
       {
         q: "How much does a kitchen remodel cost in Metro Detroit?",
-        a: "Pricing depends on layout changes, cabinet quality, countertop material, electrical and plumbing adjustments, flooring, backsplash, and the amount of demolition required. We provide a written estimate after reviewing your kitchen so the scope reflects your actual space rather than a generic square-foot rate.",
+        a: "The cost depends on layout changes, cabinet quality, countertop material, electrical and plumbing adjustments, flooring, backsplash, and the amount of demolition required. Every kitchen is different, so we do not publish prices. Call (313) 236-4558 for a price on your job, based on your actual space rather than a generic square-foot rate.",
       },
       {
-        q: "Do you provide free kitchen remodeling estimates?",
-        a: "Yes. We provide free estimates for kitchen remodeling across Wayne, Oakland, and Macomb counties. Photos and rough measurements help us start the conversation, but most full remodels benefit from an on-site walkthrough before final pricing.",
+        q: "How do I get a price for my kitchen?",
+        a: "Call (313) 236-4558 for a price on your job. Photos and rough measurements help us start the conversation, but most full remodels benefit from an on-site walkthrough before the scope is settled.",
       },
       {
-        q: "Are cabinets, counters, and fixtures included in the estimate?",
+        q: "Are cabinets, counters, and fixtures included in the scope?",
         a: "The proposal identifies whether cabinets, countertops, backsplash, hardware, lighting, and standard installation labor are included, along with allowance levels for fixtures and appliances. Allowances and exclusions are listed clearly so you can compare bids meaningfully.",
       },
       {
         q: "How are changes handled after work begins?",
-        a: "If you request a layout change, upgraded material, or added scope, we document the price and schedule impact before proceeding. We do not rely on surprise extras at the end of a project.",
+        a: "If you request a layout change, upgraded material, or added scope, we document the cost and schedule impact before proceeding. We do not rely on surprise extras at the end of a project.",
       },
     ],
   },
@@ -49,7 +49,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: "How long will my kitchen remodel take?",
-        a: "A partial refresh may take a few weeks, while a full gut remodel commonly requires several weeks depending on lead times, inspections, and trade scheduling. We provide an estimated start window and duration after seeing the scope, then communicate if discoveries or material delays affect the schedule.",
+        a: "A partial refresh may take a few weeks, while a full gut remodel commonly requires several weeks depending on lead times, inspections, and trade scheduling. We give you an expected start window and duration after seeing the scope, then communicate if discoveries or material delays affect the schedule.",
       },
       {
         q: "Can you remodel while we live in the home?",
@@ -129,7 +129,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: "How do I schedule a consultation?",
-        a: `Call or text ${"(313) 236-4558"} or request an estimate through our website. We will review your goals, timeline, and kitchen photos, then schedule a walkthrough when appropriate.`,
+        a: `Call or text ${"(313) 236-4558"} or send us a message through the contact form on our website. We will review your goals, timeline, and kitchen photos, then schedule a walkthrough when appropriate.`,
       },
       {
         q: "What are your business hours?",

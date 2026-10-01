@@ -1,36 +1,26 @@
 import type { Metadata } from "next";
-import { ShieldCheck } from "lucide-react";
+import { Building2 } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LogoMark } from "@/components/site/Logo";
 
-// Rendered <title> was 70 chars: the root layout's "%s — <brand>" template
-// appended the full 35-char brand and Google cuts the SERP title at ~60.
-// Since 2026-09-02 this same string is also the og:title and twitter:title,
-// so the overflow costs three surfaces rather than one. Absolute below.
-// Nothing is duplicated inside this string, so the trim comes off the brand's
-// "Metro Detroit" tail rather than the page part; a reader who lands on a
-// credentials page needs the company name more than the geo term, and the
-// page copy carries the geo anyway. 55 chars.
-const title = "Business & Insurance Information — BH Kitchen Remodeling";
-const description = `Request current business and insurance information for ${BIZ.name} kitchen remodeling work in Metro Detroit.`;
-// The title is absolute now, so the social title is the same string rather
-// than a spelled-out copy of what the template used to append.
+// 2026-09-30, owner decision: there is no licence, so this page claims none.
+// It used to be "Business & Insurance Information"; it now only invites the
+// reader to ask for business details. The url keeps answering 200 so old
+// links still land somewhere, but the page is noindex, is out of the sitemap
+// (app/sitemap.ts) and is not linked from the nav or footer. Do not add a
+// licence, insurance or bonding statement here, and do not re-index it.
+const title = "Business Details | BH Kitchen Remodeling";
+const description = `Ask ${BIZ.name} for the business details you need before a kitchen remodeling project in Metro Detroit.`;
 const socialTitle = title;
 
 export const metadata: Metadata = {
   title: { absolute: title },
   description,
+  robots: { index: false, follow: true },
   alternates: { canonical: `${BIZ.url}/license` },
-  // Per-page social identity. Without this block og:url names the homepage
-  // and both og:title and twitter:title are the root layout's one shared
-  // string. openGraph replaces rather than merges, so type/siteName/locale
-  // AND the card image are restated here. The image is not optional: the
-  // first build of this change dropped og:image from all eleven pages,
-  // because the root's images do not survive the replacement and the root
-  // opengraph-image route does not cascade into a segment that declares an
-  // openGraph of its own - only services/[slug] and service-areas/[slug]
-  // get away with omitting it, and only because each has its own route file.
+  // Per-page social identity. openGraph replaces rather than merges, so
+  // type/siteName/locale AND the card image are restated here.
   openGraph: {
     type: "website",
     siteName: BIZ.name,
@@ -48,20 +38,19 @@ export const metadata: Metadata = {
   },
 };
 
-export default function CredentialsPage() {
+export default function BusinessDetailsPage() {
   return (
     <>
       <section className="relative bg-aurora py-20">
         <div className="absolute inset-0 bg-grid opacity-30" />
         <div className="relative mx-auto max-w-3xl px-4 text-center md:px-6">
-          <ShieldCheck className="mx-auto h-10 w-10 text-brass-400" />
+          <Building2 className="mx-auto h-10 w-10 text-brass-400" />
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            Business &amp; insurance information
+            Business details
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-ink-200">
-            This page does not claim or publish a specific contractor license. Remodeling requirements can vary by work
-            type and jurisdiction. Ask {BIZ.name} for current business and insurance information relevant to your
-            project before approval.
+            Have a question about {BIZ.name} before you start a kitchen project? Ask us for the business details you
+            need and we will answer them directly.
           </p>
         </div>
       </section>
@@ -70,7 +59,7 @@ export default function CredentialsPage() {
           <div className="overflow-hidden rounded-2xl border border-brass-500/30 bg-ink-900/50 p-6 text-center">
             <LogoMark className="mx-auto h-24 w-24 text-2xl" />
             <p className="mt-4 text-sm text-ink-300">
-              Need documentation for a property or commercial project? Call {BIZ.phone} or email {BIZ.email}.
+              Call {BIZ.phone} or email {BIZ.email} with your question.
             </p>
           </div>
         </div>

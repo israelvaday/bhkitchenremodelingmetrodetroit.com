@@ -179,14 +179,14 @@ export const SERVICES: Service[] = [
     ],
     deepDive: [
       {
-        heading: "What a cabinet installation quote is actually built from",
+        heading: "What drives the cost of a cabinet installation",
         body:
-          "Cabinet installation is priced off the cabinets, not the room. The count of boxes drives it, and wall, base, and tall units are not equivalent work: a pantry or an oven cabinet takes far longer to set and secure than a two-door base. Beyond the count, the line items that move an estimate are modifications to make a run fit a real wall, fillers and finished end panels, crown and light rail, toe-kick and scribe work, whether removal and disposal of the existing set is included, and whether appliance panels, a hood surround, or open shelving are part of the scope. We put those items and the exclusions in the written scope so competing quotes can be compared on the same basis rather than on a single number.",
+          "The cost of cabinet installation follows the cabinets, not the room. The count of boxes drives it, and wall, base, and tall units are not equivalent work: a pantry or an oven cabinet takes far longer to set and secure than a two-door base. Beyond the count, the line items that move the cost are modifications to make a run fit a real wall, fillers and finished end panels, crown and light rail, toe-kick and scribe work, whether removal and disposal of the existing set is included, and whether appliance panels, a hood surround, or open shelving are part of the scope. We put those items and the exclusions in the written scope so competing bids can be compared on the same basis rather than on a single number. Call (313) 236-4558 for a price on your job.",
       },
       {
         heading: "Assembled boxes, flat-pack, and who does the assembly",
         body:
-          "A large share of the cabinetry sold in this market ships ready-to-assemble, and assembly is real labour that sits on its own line. It is worth settling before you compare quotes: are the boxes arriving assembled, is assembly included in the installation, or is it excluded and expected from you. Assembly done off site keeps the mess and the staging out of the house but needs somewhere to put finished boxes; assembly done in the room means the kitchen is a workshop for part of the schedule. Neither is wrong, but a quote that assumes one and a quote that assumes the other are not the same quote.",
+          "A large share of the cabinetry sold in this market ships ready-to-assemble, and assembly is real labour that sits on its own line. It is worth settling before you compare bids: are the boxes arriving assembled, is assembly included in the installation, or is it excluded and expected from you. Assembly done off site keeps the mess and the staging out of the house but needs somewhere to put finished boxes; assembly done in the room means the kitchen is a workshop for part of the schedule. Neither is wrong, but a bid that assumes one and a bid that assumes the other are not the same bid.",
       },
       {
         heading: "Delivery, count, and checking the order before install day",
@@ -284,7 +284,7 @@ export const SERVICES: Service[] = [
       {
         heading: "Templating, and how long your kitchen is without counters",
         body:
-          "Fabricators template against the actual installed condition, which on a replacement means after the old tops are off and the cabinet runs have been checked for level. That is the point most people underestimate: between template day and install day the counters and sink are out of service while the slab is cut, so the gap between those two dates is the part of the schedule worth asking about before you commit. We confirm the fabrication window in writing and set a temporary work surface where it helps.",
+          "Fabricators template against the actual installed condition, which on a replacement means after the old tops are off and the cabinet runs have been checked for level. That is the point most people overlook: between template day and install day the counters and sink are out of service while the slab is cut, so the gap between those two dates is the part of the schedule worth asking about before you commit. We confirm the fabrication window in writing and set a temporary work surface where it helps.",
       },
       {
         heading: "Seams, cutouts, and support",
@@ -297,9 +297,9 @@ export const SERVICES: Service[] = [
           "Edge profile changes the look and the feel of the counter and is chosen at template. Eased and beveled edges read contemporary and are easy to wipe down; ogee and bullnose profiles read traditional. Where the counter meets a wall that is out of plumb, which is common in older Metro Detroit homes, the scribe and caulk line is what makes the fit look intentional, and it is worth agreeing how that junction will be finished.",
       },
       {
-        heading: "What the estimate is actually built from",
+        heading: "What drives the cost of a countertop replacement",
         body:
-          "A countertop replacement estimate is driven by square footage, the material tier you select, the edge profile, how many cutouts are needed, how many seams the layout forces, whether the existing tops require careful removal and disposal, and whether backsplash work is included. We put those line items and the exclusions in the written scope so you can compare quotes on the same basis, and we discuss and document any change before added work proceeds.",
+          "The cost of a countertop replacement is driven by square footage, the material tier you select, the edge profile, how many cutouts are needed, how many seams the layout forces, whether the existing tops require careful removal and disposal, and whether backsplash work is included. We put those line items and the exclusions in the written scope so you can compare bids on the same basis, and we discuss and document any change before added work proceeds. Call (313) 236-4558 for a price on your job.",
       },
     ],
   },
@@ -428,7 +428,7 @@ export const SERVICES: Service[] = [
       {
         heading: "The old backsplash, and the wall behind it",
         body:
-          "Taking out what is already there is the part most people underestimate. A four-inch counter splash glued to the drywall usually brings the paper face off with it, and pulling a full tile field can leave the wall needing a skim coat or new board before anything new goes on. Flatness matters more here than on a floor: a wall that is out by a quarter inch across a run shows in every joint, and it shows at eye level under an under-cabinet light rather than underfoot. The condition of that wall is worth establishing before tile is ordered, because the answer can change both the schedule and what material is sensible.",
+          "Taking out what is already there is the part most people overlook. A four-inch counter splash glued to the drywall usually brings the paper face off with it, and pulling a full tile field can leave the wall needing a skim coat or new board before anything new goes on. Flatness matters more here than on a floor: a wall that is out by a quarter inch across a run shows in every joint, and it shows at eye level under an under-cabinet light rather than underfoot. The condition of that wall is worth establishing before tile is ordered, because the answer can change both the schedule and what material is sensible.",
       },
       {
         heading: "Full height, or a band above the counter",
@@ -465,13 +465,13 @@ export const SERVICES: Service[] = [
     icon: Lightbulb,
     tagline: "Task, ambient, and accent lighting planned with your layout and finish palette.",
     description:
-      "Lighting changes how cabinets, counters, and flooring read in a finished kitchen. We help plan recessed cans, under-cabinet LED, pendants, and switched zones so work areas stay bright and the room feels balanced. Electrical rough-in is coordinated with licensed trade partners when required.",
+      "Lighting changes how cabinets, counters, and flooring read in a finished kitchen. We help plan recessed cans, under-cabinet LED, pendants, and switched zones so work areas stay bright and the room feels balanced. Electrical rough-in is coordinated with an electrician when the work requires one.",
     bullets: [
       "Recessed, pendant, and under-cabinet lighting plans",
       "Dimming, switching, and circuit zoning",
       "Coordination with cabinet and ceiling layouts",
       "Bright task areas at sink, range, and prep zones",
-      "Licensed electrical partner coordination when needed",
+      "Electrician coordination when needed",
     ],
     intent: "service",
     keywords: [

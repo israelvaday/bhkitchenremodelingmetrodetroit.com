@@ -59,7 +59,7 @@ export default function HoursPage() {
           kitchen remodeling project <span className="text-brass-gradient">hours</span>
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-lg text-ink-200">
-          Contact {BIZ.name} during the schedule below. Quote requests received outside these hours can be reviewed
+          Contact {BIZ.name} during the schedule below. Messages received outside these hours can be reviewed
           during business hours.
         </p>
 

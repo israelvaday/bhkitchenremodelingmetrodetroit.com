@@ -293,10 +293,10 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             Project dates are discussed after we understand the scope and current schedule.
           </p>
           <p>
-            Pricing for {s.proseName} depends on the included scope, cabinet and countertop tier,
-            material selections, trade coordination, access, protection, and timing. The estimate should identify
-            assumptions and exclusions; proposed scope changes should be discussed and documented before added work
-            proceeds.
+            The cost of {s.proseName} depends on the included scope, cabinet and countertop tier,
+            material selections, trade coordination, access, protection, and timing. Call {BIZ.phone} for a price
+            on your job. The written scope should identify assumptions and exclusions; proposed scope changes should
+            be discussed and documented before added work proceeds.
           </p>
           <p>
             We document the agreed demolition, cabinet and countertop selections, backsplash and flooring materials,

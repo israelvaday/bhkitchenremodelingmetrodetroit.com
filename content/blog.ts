@@ -30,6 +30,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Planning",
     readMinutes: 7,
     date: "2026-01-16",
+    updated: "2026-09-30T20:02:22-04:00",
     heroImage: "/blog/kitchen-remodel-planning-metro-detroit-hero.png",
     heroAlt:
       "Homeowner and kitchen designer reviewing layout options at a kitchen island",
@@ -69,7 +70,7 @@ Confirm when you will lose access to the sink, stove, or refrigerator and plan a
 
 Your proposal should identify demolition, rough-in coordination, cabinet installation, countertop allowance, backsplash, flooring, fixture setting, protection, cleanup, and exclusions.
 
-BH Kitchen Remodeling Metro Detroit helps homeowners across Wayne, Oakland, and Macomb counties plan functional kitchens and execute carefully sequenced remodels. Call or text (313) 236-4558 for a written estimate.
+BH Kitchen Remodeling Metro Detroit helps homeowners across Wayne, Oakland, and Macomb counties plan functional kitchens and execute carefully sequenced remodels. Call or text (313) 236-4558 to talk through your project.
 `,
   },
   {
@@ -248,6 +249,7 @@ BH Kitchen Remodeling Metro Detroit provides kitchen design and remodeling servi
     category: "Budget",
     readMinutes: 7,
     date: "2026-04-08",
+    updated: "2026-09-30T20:02:22-04:00",
     heroImage: "/blog/kitchen-remodel-timeline-budget-hero.png",
     heroAlt:
       "Phased kitchen remodel with lower cabinets installed and upper boxes staged",
@@ -271,13 +273,13 @@ Even partial remodels disrupt cooking routines. Set up a temporary station with 
 
 ## Keep a contingency
 
-A modest contingency for hidden conditions—roted subfloor, outdated wiring, or non-compliant venting—is prudent in older homes. The contingency is not a license to expand scope; it is protection against documented discoveries.
+A modest contingency for hidden conditions—roted subfloor, outdated wiring, or non-compliant venting—is prudent in older homes. The contingency is not permission to expand scope; it is protection against documented discoveries.
 
 ## Track changes in writing
 
 Every layout or material change should update cost and schedule before crews proceed. Written change orders prevent disputes at final payment.
 
-BH Kitchen Remodeling Metro Detroit provides transparent kitchen remodeling estimates across Metro Detroit. Request a written scope to compare options with confidence.
+BH Kitchen Remodeling Metro Detroit plans and builds kitchen remodels across Metro Detroit. Call (313) 236-4558 for a price on your job, and ask for a written scope so you can compare options with confidence.
 `,
   },
   {
@@ -708,6 +710,7 @@ BH Kitchen Remodeling Metro Detroit handles [kitchen backsplash installation](/s
     category: "Planning",
     readMinutes: 5,
     date: "2026-09-20T09:00:00-04:00",
+    updated: "2026-09-30T20:02:22-04:00",
     heroImage: "/blog/yom-kippur-2026-hero.jpg",
     heroAlt:
       "A quiet kitchen with tall oak pantry cabinets, a wall oven and late summer light coming through the window",
@@ -725,7 +728,7 @@ We are closed Sunday, September 20 and Monday, September 21 for Yom Kippur, and 
 - **Monday, September 21:** closed for Yom Kippur. Monday is also normally a working day.
 - **Tuesday, September 22:** back at 9:00 AM on our regular schedule.
 
-Our regular schedule is always listed on our [hours page](/hours). Quote requests and messages that arrive over the holiday are read when we are back on Tuesday morning, in the order they came in.
+Our regular schedule is always listed on our [hours page](/hours). Messages that arrive over the holiday are read when we are back on Tuesday morning, in the order they came in.
 
 ## What is Yom Kippur?
 
@@ -885,6 +888,7 @@ BH Kitchen Remodeling Metro Detroit handles [cabinet installation](/services/cab
     category: "Planning",
     readMinutes: 4,
     date: "2026-09-25T12:00:00-04:00",
+    updated: "2026-09-30T20:02:22-04:00",
     heroImage: "/blog/sukkot-2026-hero.jpg",
     heroAlt:
       "A backyard sukkah with canvas walls and a roof of green branches, a table set with apples, pears, pomegranates and small gourds, and autumn maples outside",
@@ -902,7 +906,7 @@ We are closed Saturday, September 26 and Sunday, September 27 for Sukkot, and ba
 - **Sunday, September 27:** closed for the second day of Sukkot. Sunday is normally one of our working days, so please note the change this week.
 - **Monday, September 28:** back at 9:00 AM on our regular schedule.
 
-Our regular schedule is always listed on our [hours page](/hours). Quote requests and messages that arrive over the holiday are read when we are back on Monday morning, in the order they came in.
+Our regular schedule is always listed on our [hours page](/hours). Messages that arrive over the holiday are read when we are back on Monday morning, in the order they came in.
 
 ## What is Sukkot?
 

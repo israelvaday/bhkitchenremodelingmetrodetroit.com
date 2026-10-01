@@ -268,7 +268,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             Planning a kitchen remodel in {area.name}
           </h2>
           <p>
-            A useful estimate starts with the room itself and how much of it changes. Tell us whether the project
+            A useful first conversation starts with the room itself and how much of it changes. Tell us whether the project
             keeps the existing layout, moves cabinets or plumbing, replaces countertops only, adds an island, or
             opens the kitchen into an adjoining room.
           </p>
@@ -284,7 +284,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
           </p>
           <p className="flex items-start gap-2">
             <Sparkles className="mt-1 h-4 w-4 shrink-0 text-brass-400" />
-            Share the project address and preferred timing through the quote form so we can confirm coverage in
+            Share the project address and preferred timing through our contact form so we can confirm coverage in
             {` ${area.name}`} and discuss next steps.
           </p>
         </div>
