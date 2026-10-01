@@ -11,8 +11,8 @@ export const BIZ = {
   smsHref: "sms:+13132364558",
   email: "info@bhkitchenremodelingmetrodetroit.com",
   emailHref: "mailto:info@bhkitchenremodelingmetrodetroit.com",
-  /** Quote form notifications (Railway + Resend). Override with QUOTE_TO_EMAIL env (comma-separated). */
-  quoteNotifyEmails: ["israelvaday97@gmail.com", "oren.siyonov@gmail.com"],
+  // The contact form's recipient list lives in lib/quote-recipients.ts, which
+  // only the server route imports: everything on BIZ ships in the client chunks.
   url: "https://bhkitchenremodelingmetrodetroit.com",
   address: {
     street: "Metro Detroit Service Area",

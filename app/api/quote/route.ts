@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { BIZ } from "@/lib/business";
+import { QUOTE_NOTIFY_EMAILS } from "@/lib/quote-recipients";
 
 export const runtime = "nodejs";
 
@@ -159,7 +160,7 @@ function quoteRecipients(): string[] {
   const raw = process.env.QUOTE_TO_EMAIL;
   const list = raw
     ? raw.split(/[,;]/).map((s) => s.trim()).filter(Boolean)
-    : [...BIZ.quoteNotifyEmails];
+    : [...QUOTE_NOTIFY_EMAILS];
   return [...new Set(list)];
 }
 
