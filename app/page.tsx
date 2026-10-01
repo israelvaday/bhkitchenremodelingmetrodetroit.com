@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { BIZ } from "@/lib/business";
 import { Hero } from "@/components/sections/Hero";
 import { ServiceGrid } from "@/components/sections/ServiceGrid";
@@ -80,6 +81,8 @@ export default function HomePage() {
       <Reveal variant="zoom">
         <FinalCTA />
       </Reveal>
+      {/* Local corner (owner request 2026-10-01): built by gotham-ops/local-corner, injects its block before the FAQ after hydration. */}
+      <Script src="/local-corner.js" strategy="afterInteractive" />
     </>
   );
 }
