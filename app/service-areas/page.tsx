@@ -7,7 +7,7 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { BuyersGuide } from "@/components/site/BuyersGuide";
 
 const title = "Kitchen Remodeling Service Areas | Metro Detroit";
-const description = `${BIZ.name} serves ${AREAS.length} Metro Detroit cities, communities, and neighborhoods. Search your area and request a kitchen remodeling quote.`;
+const description = `${BIZ.name} serves ${AREAS.length} Metro Detroit cities, communities, and neighborhoods. Search your area and contact us about your kitchen remodel.`;
 
 export const metadata: Metadata = {
   title: { absolute: title },

@@ -80,7 +80,7 @@ export default async function OgImage() {
             Cabinets · Countertops · Islands · Full Remodels
           </div>
           <div style={{ fontSize: 28, color: "#C8C4BB", maxWidth: 980, display: "flex" }}>
-            kitchen remodeling for homes, condos, and townhomes across Metro Detroit. Free estimates.
+            kitchen remodeling for homes, condos, and townhomes across Metro Detroit.
           </div>
         </div>
 

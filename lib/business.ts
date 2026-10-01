@@ -1,22 +1,18 @@
-// Single source of truth for NAP, hours, insurance wording, and links.
+// Single source of truth for NAP, hours, and links. No licence, insurance or
+// price wording lives here: the owner confirmed on 2026-09-30 that there is no
+// licence and that BH brand sites show no prices.
 export const BIZ = {
   name: "BH Kitchen Remodeling Metro Detroit",
   legalName: "BH Kitchen Remodeling Metro Detroit",
-  tagline: "Insured Kitchen Remodeling Contractors — Free Estimates Across Metro Detroit",
+  tagline: "Kitchen Remodeling Across Metro Detroit",
   phone: "(313) 236-4558",
   phoneE164: "+13132364558",
   phoneHref: "tel:+13132364558",
   smsHref: "sms:+13132364558",
   email: "info@bhkitchenremodelingmetrodetroit.com",
   emailHref: "mailto:info@bhkitchenremodelingmetrodetroit.com",
-  /** Routed via Cloudflare Email Routing → your personal inbox (see Cloudflare dashboard). */
-  quotesEmail: "quotes@bhkitchenremodelingmetrodetroit.com",
   /** Quote form notifications (Railway + Resend). Override with QUOTE_TO_EMAIL env (comma-separated). */
   quoteNotifyEmails: ["israelvaday97@gmail.com", "oren.siyonov@gmail.com"],
-  /** Compatibility field for existing trust components; no license is asserted. */
-  licenseId: "Insured",
-  /** Legacy compatibility field used by existing templates. */
-  bsis: "Insured",
   url: "https://bhkitchenremodelingmetrodetroit.com",
   address: {
     street: "Metro Detroit Service Area",

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   // previous title ("Kitchen Remodeling Company — ...") carried no place name at all.
   title: "Kitchen Remodeling Metro Detroit | Cabinets, Counters & Design",
   description:
-    `Kitchen remodeling across Wayne, Oakland and Macomb counties: full remodels, cabinets, countertops and design. Free estimates. Call ${BIZ.phone}.`,
+    `Kitchen remodeling across Wayne, Oakland and Macomb counties: full remodels, cabinets, countertops and design. Call ${BIZ.phone} to talk through your project.`,
   alternates: { canonical: "/" },
 };
 

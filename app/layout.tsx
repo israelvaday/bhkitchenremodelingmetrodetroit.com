@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: `%s — ${BIZ.name}`,
   },
   description:
-    `${BIZ.name} provides custom kitchen remodeling, cabinet installation, countertop replacement, and kitchen design across Metro Detroit. Free estimates — call ${BIZ.phone}.`,
+    `${BIZ.name} provides custom kitchen remodeling, cabinet installation, countertop replacement, and kitchen design across Metro Detroit. Call ${BIZ.phone} to talk through your project.`,
   keywords: [
     "kitchen remodeling Detroit",
     "kitchen remodel Metro Detroit",
