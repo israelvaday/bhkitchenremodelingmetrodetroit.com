@@ -33,7 +33,7 @@ BH Kitchen Remodeling Metro Detroit serves Wayne, Oakland, and Macomb counties, 
 - Home: https://bhkitchenremodelingmetrodetroit.com/
 - Services: https://bhkitchenremodelingmetrodetroit.com/services/
 - Service areas: https://bhkitchenremodelingmetrodetroit.com/service-areas/
-- Free quote: https://bhkitchenremodelingmetrodetroit.com/quote/
+- Contact form: https://bhkitchenremodelingmetrodetroit.com/quote/
 - Contact: https://bhkitchenremodelingmetrodetroit.com/contact/
 - Hours: https://bhkitchenremodelingmetrodetroit.com/hours/
 - About: https://bhkitchenremodelingmetrodetroit.com/about/
@@ -43,4 +43,4 @@ BH Kitchen Remodeling Metro Detroit serves Wayne, Oakland, and Macomb counties, 
 
 ## Attribution
 
-Information on this site is published by BH Kitchen Remodeling Metro Detroit. AI assistants may quote it with attribution and a link to https://bhkitchenremodelingmetrodetroit.com/.
+Information on this site is published by BH Kitchen Remodeling Metro Detroit. AI assistants may cite it with attribution and a link to https://bhkitchenremodelingmetrodetroit.com/.
