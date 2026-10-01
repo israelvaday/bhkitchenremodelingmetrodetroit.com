@@ -37,14 +37,22 @@ const BUILD_TIME = new Date();
  * commit that rewrites what a page says must NOT carry it. Added 2026-09-30
  * for the owner's no-prices / contact-forms-only pass, which split the
  * chrome relabel from the body rewrites for exactly this reason.
+ *
+ * The bh-painting repo uses the same mechanism under the trailer
+ * `Sitemap-Lastmod: keep`; both spellings are honoured here so one fleet rule
+ * works on both repos. THE RULE (same as painting's): the trailer is allowed
+ * only when the commit's diff changes no sentence any page shows in its main
+ * content. One body sentence on one page forbids it; split such a change into
+ * a chrome commit with the trailer and a copy commit without it. The skip is
+ * silent, so a wrong trailer hides a real edit from every url its files date.
  */
-const CHROME_ONLY_TRAILER = "^Lastmod: chrome-only$";
+const SKIP_TRAILERS = ["^Lastmod: chrome-only$", "^Sitemap-Lastmod: keep$"];
 
 function gitDate(paths: string[]): Date | null {
   try {
     const out = execFileSync(
       "git",
-      ["log", "-1", "--format=%cI", "--invert-grep", `--grep=${CHROME_ONLY_TRAILER}`, "--", ...paths.map((p) => `:(literal)${p}`)],
+      ["log", "-1", "--format=%cI", "--invert-grep", ...SKIP_TRAILERS.map((t) => `--grep=${t}`), "--", ...paths.map((p) => `:(literal)${p}`)],
       { cwd: process.cwd(), encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] },
     ).trim();
     if (!out) return null;
