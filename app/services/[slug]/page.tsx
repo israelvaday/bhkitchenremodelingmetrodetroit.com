@@ -115,6 +115,10 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   // in the markup said WHICH service this page is about. This names it, and hangs
   // it off the business node by @id rather than repeating the NAP a second time.
   const serviceLd = serviceJsonLd(s.slug);
+  // Two services (cabinet-installation, countertop-replacement) close their own
+  // "What drives the cost" section with the call-for-a-price line. The cost
+  // paragraph below drops its copy on those pages so the line appears once.
+  const ownPriceLine = s.deepDive?.some((d) => d.body.includes("for a price on your job")) ?? false;
 
   return (
     <>
@@ -226,7 +230,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               </div>
               <p className="mt-2 text-sm text-ink-200">
                 We discuss demolition, adjacent-room protection, cabinet and counter selections, trade coordination,
-                access, and daily cleanup before work begins. Insurance information is available on request.
+                access, and daily cleanup before work begins.
               </p>
             </div>
             <div className="rounded-3xl border border-ink-800 bg-ink-900/50 p-5">
@@ -294,8 +298,9 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           </p>
           <p>
             The cost of {s.proseName} depends on the included scope, cabinet and countertop tier,
-            material selections, trade coordination, access, protection, and timing. Call {BIZ.phone} for a price
-            on your job. The written scope should identify assumptions and exclusions; proposed scope changes should
+            material selections, trade coordination, access, protection, and timing.{" "}
+            {ownPriceLine ? "" : `Call ${BIZ.phone} for a price on your job. `}
+            The written scope should identify assumptions and exclusions; proposed scope changes should
             be discussed and documented before added work proceeds.
           </p>
           <p>

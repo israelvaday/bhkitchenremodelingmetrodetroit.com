@@ -143,7 +143,7 @@ export default function ContactPage() {
               <h3 className="font-display text-xl font-bold text-white">Send us a message</h3>
               <p className="mt-2 text-sm text-ink-200">
                 Use the picture-driven contact form to tell us the kitchen remodeling service, property type, timing, and
-                project details. You can upload photos or plans so our follow-up fits your project.
+                project details. After you send it, text photos or plans to {BIZ.phone} so our follow-up fits your project.
               </p>
               <a href="/quote/" className="mt-4 inline-block text-sm font-semibold text-brass-300 underline-offset-4 hover:underline">
                 Open the contact form →

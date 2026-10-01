@@ -21,7 +21,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
     items: [
       {
         q: "How much does a kitchen remodel cost in Metro Detroit?",
-        a: "The cost depends on layout changes, cabinet quality, countertop material, electrical and plumbing adjustments, flooring, backsplash, and the amount of demolition required. Every kitchen is different, so we do not publish prices. Call (313) 236-4558 for a price on your job, based on your actual space rather than a generic square-foot rate.",
+        a: "The cost depends on layout changes, cabinet quality, countertop material, electrical and plumbing adjustments, flooring, backsplash, and the amount of demolition required. Every kitchen is different, so we do not publish prices. A price is based on your actual space rather than a generic square-foot rate.",
       },
       {
         q: "How do I get a price for my kitchen?",

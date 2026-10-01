@@ -10,7 +10,7 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 // and under 60 chars (51). Since 2026-09-02 the same string is also the
 // og:title and twitter:title. Never put quote, estimate or price wording back.
 const title = "Send Us a Message | Kitchen Remodeling Metro Detroit";
-const description = `Send ${BIZ.name} a message about your kitchen. Pick your service and property type, describe the project, and add photos or plans.`;
+const description = `Message ${BIZ.name} about your kitchen. Describe the project in the form, then text photos or plans to ${BIZ.phone}.`;
 // The title is absolute now, so the social title is the same string rather
 // than a spelled-out copy of what the template used to append.
 const socialTitle = title;
@@ -79,9 +79,10 @@ export default function QuotePage() {
               request. There is no account to create and no obligation to proceed.
             </p>
             <p className="mt-3">
-              You can attach wide shots of the room and close-ups of cabinets, countertops, the backsplash, flooring,
-              the sink and appliance run, or existing plans and elevations. Photos can clarify condition and scope,
-              though some projects still need an on-site review.
+              The form sends your details only. After you send it, text wide shots of the room and close-ups of
+              cabinets, countertops, the backsplash, flooring, the sink and appliance run, or existing plans and
+              elevations to {BIZ.phone}. Photos can clarify condition and scope, though some projects still need an
+              on-site review.
             </p>
           </div>
 
