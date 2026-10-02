@@ -106,10 +106,16 @@ export const SERVICES: Service[] = [
           "A useful proposal is explicit about what is not in it. Common exclusions are appliance purchase, window and door replacement, floor structure repair found after demolition, asbestos or lead handling, drywall work beyond the kitchen opening, and any allowance overage on cabinets or counters. Naming the exclusions is what keeps a change order a conversation instead of a surprise.",
       },
     ],
-    guide: {
-      href: "/blog/kitchen-remodel-planning-metro-detroit",
-      anchor: "planning a kitchen remodel in Metro Detroit",
-    },
+    guide: [
+      {
+        href: "/blog/kitchen-remodel-planning-metro-detroit",
+        anchor: "planning a kitchen remodel in Metro Detroit",
+      },
+      {
+        href: "/blog/living-without-a-kitchen-during-remodel-metro-detroit",
+        anchor: "living without a kitchen during a remodel",
+      },
+    ],
   },
   {
     slug: "cabinet-installation",

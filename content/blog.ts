@@ -935,6 +935,90 @@ We are back Monday, September 28 at 9:00 AM. BH Kitchen Remodeling Metro Detroit
 Chag Sameach, and a happy Sukkot to everyone celebrating across Metro Detroit.
 `,
   },
+  {
+    slug: "living-without-a-kitchen-during-remodel-metro-detroit",
+    title: "How to Live Without a Kitchen During a Remodel: A Metro Detroit Guide",
+    metaTitle: "Living Without a Kitchen During a Remodel | Metro Detroit",
+    excerpt:
+      "Set up a temporary kitchen before demolition, keep the fridge and a water source close, and plan meals around a microwave and a slow cooker. How Metro Detroit households get through a kitchen remodel in the fall and winter.",
+    category: "Planning",
+    readMinutes: 7,
+    date: "2026-10-01T12:00:00-04:00",
+    heroImage: "/blog/living-without-a-kitchen-during-remodel-metro-detroit-hero.jpg",
+    heroAlt:
+      "A temporary kitchen in a Michigan brick bungalow basement: a folding table with a microwave, toaster oven, kettle and slow cooker, a laundry tub with a dish rack, and labeled bins of dishes",
+    secondaryImage: "/blog/living-without-a-kitchen-during-remodel-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "A kitchen mid-remodel with the cabinets removed, new electrical boxes on the studs, paper floor protection, and a plastic dust wall with a zipper door at the dining room opening",
+    body: `
+You live without a kitchen during a remodel by building a small one somewhere else before demolition starts. Pick a room with an outlet circuit that can carry a microwave, a spot for the refrigerator, and a water source close by. Then plan meals around what that station can actually cook, and agree with your contractor on which days you lose water, power, and gas.
+
+That is the whole answer. The rest of this guide is how to do it well in a Metro Detroit house, where the season, the basement, and the age of the home all change the plan.
+
+## Why the season matters here
+
+Plenty of advice about living through a kitchen remodel assumes you can grill on the patio every night and rinse dishes with a garden hose. That works in a Michigan summer. It stops working once the fall cold fronts arrive, and from late October through March it is not a plan at all.
+
+A remodel that starts this fall should be planned as an indoor project from day one: cooking, dishwashing, and food storage all inside, with the grill as a bonus on mild days rather than the main stove.
+
+## Choose the room for the temporary kitchen
+
+Most Metro Detroit homes give you three realistic options.
+
+- **The basement.** In many bungalows, colonials, and ranches across Wayne, Oakland, and Macomb counties, the basement already has the best thing a temporary kitchen can have: a laundry tub with hot and cold water. A folding table beside it becomes your counter, and the tub becomes your sink. The tradeoff is the stairs, so keep the daily items there and the bulk storage upstairs.
+- **The dining room.** It is next to the work, which makes it the easiest place to eat, but it is also next to the dust. It works best when the opening between it and the kitchen is sealed with a plastic dust wall and a zipper door.
+- **The garage or a mudroom.** Useful for the refrigerator and bulk storage. Less useful for cooking once the weather turns, unless the space is heated.
+
+Whichever room you choose, check the outlets before you commit. A microwave, a toaster oven, a kettle, and a refrigerator on one ordinary circuit will trip the breaker. Spread them across at least two circuits, and never run the refrigerator from a light-duty extension cord.
+
+## What goes in the temporary kitchen
+
+Keep it small. A station with too much in it becomes a cluttered room you avoid.
+
+- **Refrigerator.** Ask whether the existing one can be moved to the temporary room and back. If it cannot, a small spare refrigerator or a second-hand unit in the garage covers the weeks in between.
+- **Microwave and toaster oven.** Between them they reheat, roast, and toast most of what a family eats on a weeknight.
+- **Slow cooker or electric pressure cooker.** The single most useful appliance in a temporary kitchen. One pot, one outlet, a real dinner.
+- **Electric kettle and coffee maker.** Morning routines matter more than they sound when everything else is disrupted.
+- **An induction or electric single burner,** if you want to cook eggs or pasta. Use it on a stable, heat-safe surface and keep it clear of the dust wall.
+- **Clear, labeled bins** for plates, cups, utensils, a few pots, dry goods, and cleaning supplies. Pack the rest of the kitchen in boxes you will not open until the job is done.
+
+## Plan dishes and water
+
+Water is usually the hardest part. A remodel takes the sink out of service for a stretch, and during plumbing rough-in the water to the kitchen may be shut off.
+
+- If you have a basement laundry tub, that is your dish sink. Add a dish rack, a drying mat, and a bin to carry clean dishes upstairs.
+- If you do not, a bathroom sink and a wash basin will do for small loads. Never wash greasy pans in a bathroom sink without scraping them first; the drain was not built for it.
+- Disposable plates and cutlery for the hardest weeks are not a failure. They are a practical choice for the days when the water is off.
+
+## Plan meals for the weeks without a stove
+
+The households that come through a remodel calmly decide how they will eat before demolition, not after.
+
+- **Cook ahead.** In the week or two before the start date, cook double and freeze single-meal portions that reheat in a microwave.
+- **Lean on the slow cooker.** Chili, soups, stews, and braises need one appliance and no stovetop.
+- **Plan takeout, do not default to it.** Pick the nights you will eat out and keep the rest simple at home. It is easier on the budget and the routine.
+- **Keep breakfast and lunch boring.** Cereal, yogurt, sandwiches, and fruit need nothing but the refrigerator.
+
+## Agree on the shutoff days with your contractor
+
+The temporary kitchen only works if you know when the real one goes dark and when it comes back. Before work begins, ask for:
+
+- **The demolition date**, so the temporary station is set up and tested the weekend before.
+- **When water, power, and gas to the kitchen will be off**, and for how long. A range or cooktop on gas has to be disconnected and capped safely before demolition.
+- **How dust will be contained.** A sealed opening, floor protection on the path in and out, and daily cleanup. In homes built before 1978, painted surfaces can contain lead, and the EPA's renovation rule calls for lead-safe work practices when they are disturbed. Ask how the crew will handle it.
+- **When the sink and refrigerator come back.** These two usually return before the last trim and finish work, and that is the day daily life gets easier.
+
+How long the whole project runs depends on its scope and on when cabinets and countertops arrive. Our guide to the [kitchen remodel timeline](/blog/kitchen-remodel-timeline-budget) walks through what sets the calendar.
+
+## Thinking about the holidays
+
+Fall is one of the busiest times to start a remodel in Metro Detroit, and many families hope to have a working kitchen back before Thanksgiving. Whether that is realistic depends on the scope and on material lead times, not on how hard anyone works. If a holiday date matters to you, say so at the start, and plan a backup: a host for the holiday meal, or a temporary station ready to carry it.
+
+## Where to start
+
+A well-planned [custom kitchen remodeling](/services/custom-kitchen-remodeling) project includes the temporary kitchen in the plan: which room, which circuits, which days you lose water and gas, and how the dust stays out of the rest of the house. BH Kitchen Remodeling Metro Detroit works with households across Wayne, Oakland, and Macomb counties on exactly that. Call or text (313) 236-4558, or send us a message through the [contact form](/contact), to talk through your project.
+`,
+  },
 ];
 
 export function findPost(slug: string) {
