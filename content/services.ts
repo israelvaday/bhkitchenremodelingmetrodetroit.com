@@ -182,6 +182,10 @@ export const SERVICES: Service[] = [
         href: "/blog/kitchen-cabinet-door-styles-metro-detroit",
         anchor: "kitchen cabinet door styles",
       },
+      {
+        href: "/blog/kitchen-cabinet-tariffs-metro-detroit",
+        anchor: "how tariffs affect kitchen cabinets",
+      },
     ],
     deepDive: [
       {

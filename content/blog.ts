@@ -1019,6 +1019,73 @@ Fall is one of the busiest times to start a remodel in Metro Detroit, and many f
 A well-planned [custom kitchen remodeling](/services/custom-kitchen-remodeling) project includes the temporary kitchen in the plan: which room, which circuits, which days you lose water and gas, and how the dust stays out of the rest of the house. BH Kitchen Remodeling Metro Detroit works with households across Wayne, Oakland, and Macomb counties on exactly that. Call or text (313) 236-4558, or send us a message through the [contact form](/contact), to talk through your project.
 `,
   },
+  {
+    slug: "kitchen-cabinet-tariffs-metro-detroit",
+    title: "How Do Tariffs Affect Kitchen Cabinets? What Metro Detroit Homeowners Should Know",
+    metaTitle: "How Tariffs Affect Kitchen Cabinets | Metro Detroit",
+    excerpt:
+      "Imported kitchen cabinets carry a federal import tariff, and new duties on Canadian plywood took effect in August 2026. What that changes for a Metro Detroit kitchen remodel, and what it does not.",
+    category: "Cabinets",
+    readMinutes: 6,
+    date: "2026-10-05T12:00:00-04:00",
+    heroImage: "/blog/kitchen-cabinet-tariffs-metro-detroit-hero.jpg",
+    heroAlt:
+      "A homeowner couple and a kitchen remodeler comparing two cabinet door samples and a cabinet order sheet on a kitchen island in a Michigan brick colonial kitchen mid-remodel",
+    secondaryImage: "/blog/kitchen-cabinet-tariffs-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "Boxed and assembled plywood kitchen cabinet boxes staged in a Metro Detroit garage before installation, with a tape measure and a delivery checklist on top",
+    body: `
+Tariffs affect kitchen cabinets in two ways: through the finished cabinet, and through the materials it is built from. Since October 14, 2025, imported kitchen cabinets and bathroom vanities have carried a federal import tariff. In August 2026 a separate set of duties on Canadian hardwood plywood and veneer took effect, which reaches cabinets built in the United States from Canadian panels. Cabinet lines made in the U.S. from U.S. materials are the least exposed.
+
+So the honest answer for a homeowner is: it depends on where your cabinets are made, and what they are made of. The rest of this guide explains what to ask, and why it matters more in Metro Detroit than in most places.
+
+## What has changed, and when
+
+The rules have moved several times in a year, which is why so many people are searching for an update.
+
+- **October 14, 2025.** A federal tariff on imported kitchen cabinets and vanities took effect under Section 232 of the trade law. A higher rate was announced for January 2026 and then postponed, and later schedules have pointed to January 1, 2027. Treat that date as a plan that can change again, not a deadline.
+- **August 19, 2026.** New duties under Section 338 took effect on Canadian hardwood plywood and softwood veneer. The Kitchen Cabinet Manufacturers Association noted that these duties do not apply to finished cabinets imported from Canada, but they do apply to the panels many cabinet shops build boxes from.
+- **September 15, 2026.** The scope of the Canadian duties was widened again, adding products such as furniture, and the amended duties now apply on top of Section 232 tariffs rather than instead of them. Whether a specific cabinet product is covered depends on its customs classification, which is a question for the manufacturer, not the homeowner.
+
+## Why Metro Detroit feels this more than most
+
+Detroit is the busiest commercial crossing on the U.S.-Canada border, and a lot of the cabinetry, plywood, and hardware sold across Wayne, Oakland, and Macomb counties has a Canadian link somewhere in its supply chain. A cabinet can be assembled in Michigan or Ohio from Canadian plywood, or built in Ontario and trucked across the bridge. Both paths are touched by trade rules, in different ways, so two cabinet lines that look alike in a showroom can be affected very differently.
+
+## Which cabinets are most and least affected
+
+Every line is different, but the pattern is consistent.
+
+- **Imported ready-to-assemble and stock cabinets.** The most exposed. Many budget lines are made overseas, and the import tariff applies to the finished box.
+- **Domestic stock and semi-custom lines.** Not subject to the import tariff on finished cabinets, but the plywood, veneer, and hardware inside them may be imported. Ask what the boxes are made from.
+- **Local custom shops.** Built here, but often from imported sheet goods. A shop that sources domestic plywood is less exposed than one that does not.
+- **Cabinet refacing.** Keeps your existing boxes and replaces doors, drawer fronts, and veneer. Because it uses far less new material, it is less sensitive to tariffs on cabinet boxes. Our guide to [cabinet installation vs refacing](/blog/cabinet-installation-vs-refacing) explains when refacing is the right call and when the boxes need to go.
+
+One practical effect: because domestic lines are not paying the import tariff on finished cabinets, the gap between imported budget cabinets and domestic semi-custom cabinets has narrowed. A line you ruled out a year ago may be worth a second look.
+
+## What to ask before you order
+
+You do not need to read customs codes. You need four answers from whoever is supplying your cabinets.
+
+- **Where are the cabinets assembled, and where do the boxes and doors come from?** Country of assembly and country of the materials are two different questions.
+- **Is the price held from the day I sign, or set on the day the order ships?** Some suppliers hold pricing for a set period, and some pass trade changes through until delivery.
+- **What is the lead time today?** When a rule changes, orders tend to bunch up ahead of it, and lead times stretch.
+- **Is there a comparable domestic line?** Ask to see one side by side. Door style, finish, and box construction matter more to how a kitchen lives than the label.
+
+## Should you order now or wait?
+
+Nobody can promise which way trade policy will move next. What you can control is the timing of your own decision. If you have already settled on a layout and a cabinet line, ordering once the design is final takes the guesswork out of it and locks in the materials. If you are still choosing a layout, rushing an order to beat a rumored change usually costs more in mistakes than it saves.
+
+Fall is one of the busiest times to start a kitchen remodel in Metro Detroit, and cabinets are almost always the item that sets the schedule. Our [kitchen remodel timeline](/blog/kitchen-remodel-timeline-budget) guide walks through how cabinet lead times shape the calendar.
+
+## What this means for the price of your kitchen
+
+We do not publish prices, because a kitchen's price depends on its layout, the cabinet line, the countertop, and what is behind the walls. Tariffs are one more input on the cabinet line, not the whole story. For a price on your job, call (313) 236-4558.
+
+## Where to start
+
+Good [cabinet installation](/services/cabinet-installation) starts with the right cabinet line for your kitchen and your timeline, and that now includes knowing where the cabinets come from. BH Kitchen Remodeling Metro Detroit works with homeowners across Wayne, Oakland, and Macomb counties to compare lines, check lead times, and plan the install. Call or text (313) 236-4558, or send us a message through the [contact form](/contact), to talk through your project.
+`,
+  },
 ];
 
 export function findPost(slug: string) {
