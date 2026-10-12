@@ -276,10 +276,16 @@ export const SERVICES: Service[] = [
           "There is a working gap between the day the old tops come off and the day the fabricated ones are installed, because templating happens against the installed cabinets and fabrication follows it. The sink and any dropped-in cooktop are out of service for that window, so a temporary washing and prep setup is worth arranging before removal day rather than after.",
       },
     ],
-    guide: {
-      href: "/blog/countertop-materials-michigan-homes",
-      anchor: "countertop materials for Michigan kitchens",
-    },
+    guide: [
+      {
+        href: "/blog/countertop-materials-michigan-homes",
+        anchor: "countertop materials for Michigan kitchens",
+      },
+      {
+        href: "/blog/can-you-resurface-countertops-metro-detroit",
+        anchor: "resurfacing countertops instead of replacing them",
+      },
+    ],
     deepDive: [
       {
         heading: "Replacing counters is a different job from installing them new",

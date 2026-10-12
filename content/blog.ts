@@ -1086,6 +1086,88 @@ We do not publish prices, because a kitchen's price depends on its layout, the c
 Good [cabinet installation](/services/cabinet-installation) starts with the right cabinet line for your kitchen and your timeline, and that now includes knowing where the cabinets come from. BH Kitchen Remodeling Metro Detroit works with homeowners across Wayne, Oakland, and Macomb counties to compare lines, check lead times, and plan the install. Call or text (313) 236-4558, or send us a message through the [contact form](/contact), to talk through your project.
 `,
   },
+  {
+    slug: "can-you-resurface-countertops-metro-detroit",
+    title: "Can You Resurface Countertops Instead of Replacing Them?",
+    metaTitle: "Can You Resurface Countertops? | Metro Detroit",
+    excerpt:
+      "Yes, some of them. Laminate, tile, and solid surface can be resurfaced; quartz and granite are polished or repaired instead. How to tell which side your Metro Detroit kitchen counters fall on.",
+    category: "Countertops",
+    readMinutes: 6,
+    date: "2026-10-12T12:00:00-04:00",
+    heroImage: "/blog/can-you-resurface-countertops-metro-detroit-hero.jpg",
+    heroAlt:
+      "A homeowner and a kitchen remodeler leaning over a worn laminate countertop beside the sink, with countertop sample chips and a checklist laid out, in an older Metro Detroit kitchen",
+    secondaryImage: "/blog/can-you-resurface-countertops-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "Close-up of a laminate countertop lifting and swollen at the front edge beside a stainless sink, with a hand pressing on it and a tape measure and level on the counter",
+    body: `
+Yes, you can resurface some countertops, and no, not all of them. Laminate, ceramic tile, and solid surface can be resurfaced when the counter underneath is still flat, dry, and firmly attached. Quartz and granite are not resurfaced in the same sense: they are polished, repaired, or resealed. And any countertop that is swollen, cracked through, or loose from the cabinets needs to be replaced, because a new surface only hides the problem for a while.
+
+So the real question is not "can it be done" but "is my counter a good candidate". This guide shows how to check, and what resurfacing will and will not give you.
+
+## Why so many homeowners are asking this now
+
+Since August 15, 2026, imported quartz slabs, the material behind most new kitchen countertops, carry a federal import tariff that phases in over four years. Stone was already one of the bigger line items in a kitchen, so it is natural to ask whether the counters you already have can be saved. Fall is also when many Metro Detroit homeowners want the kitchen in shape before the holidays, without starting a full remodel.
+
+Resurfacing is a fair option to look at. It is just not the right answer for every counter.
+
+## What "resurfacing" actually means
+
+The word covers several different jobs, and contractors do not always mean the same one.
+
+- **Refinishing with a coating.** A bonded coating is sprayed or rolled over the existing surface, most often on laminate or tile. It changes the color and look, and the counter stays in place.
+- **Laminate over laminate.** A new sheet of laminate is glued over the old one. It works only when the old sheet is flat and fully bonded.
+- **Sanding and renewing solid surface.** Solid surface is the same material all the way through, so scratches, dull spots, and light burns can be sanded out and the finish renewed.
+- **Polishing and sealing stone.** Granite can be re-polished and resealed, and chips can be filled. Quartz can be cleaned up and chips repaired. Neither one gets a new color or pattern this way.
+
+## Which countertops can be resurfaced
+
+- **Laminate.** The best candidate, and the most common old counter in the brick ranches and colonials across Livonia, Royal Oak, Troy, and Farmington Hills. It can be coated or re-laminated if the particleboard core underneath is dry and solid.
+- **Ceramic tile.** Can be coated when the tile is tight and the grout lines are sound. The grout lines will still show through as texture.
+- **Solid surface.** Usually the easiest to renew, because the damage can be sanded out instead of covered.
+- **Butcher block.** Sanded and re-oiled or refinished. This is ordinary upkeep for wood, and it brings most tops back.
+- **Cultured marble.** Can be refinished with a coating, with the same limits as laminate.
+- **Granite and marble.** Polished, honed, and sealed, not coated. Deep cracks are repaired, not hidden.
+- **Quartz.** The least suited to resurfacing. Its finish is made at the factory and cannot be fully reproduced in a kitchen. Chips can be filled, but a burned or heavily discolored area usually stays visible.
+
+## Five checks before you decide
+
+You can do all five yourself in a few minutes.
+
+- **Press along the front edge and around the sink.** A soft, swollen, or crumbling spot means water has reached the core. A coating will not fix that.
+- **Look at the seams.** A seam that has lifted or opened will show through any new surface, and it will keep moving.
+- **Lay a level or a straight board across the counter.** Sagging or a hump usually points to the cabinets or the core, not the surface.
+- **Check under the sink rim and at the faucet.** Stains or dampness there mean a leak that has to be fixed first.
+- **Ask whether the layout works.** Resurfacing keeps the same shape, the same sink position, and the same height. If you want a bigger sink, an island overhang, or a different layout, a new surface does not get you there.
+
+## When replacement is the better call
+
+- The core is water damaged, or the counter is loose from the cabinets.
+- You are changing the sink, the cooktop, or the layout.
+- The counter is stone that has cracked through at a cutout.
+- You want a surface you can cut near, set hot pans near, and scrub for many years without thinking about it. A coating is a finish, and it wears like one.
+- The cabinets are being replaced anyway. New cabinets almost always mean new counters, because the old tops rarely survive removal or fit the new run.
+
+## What resurfacing will not change
+
+A resurfaced counter is still the same counter. A coating is thinner and softer than laminate or stone, so it calls for cutting boards, trivets, and gentle cleaners. Seams and edge shapes stay where they are. And a refinished surface generally has a shorter life than a new countertop, so it is best thought of as buying time, not as a permanent fix.
+
+That can still be the right choice. If the counters are sound and you plan a full remodel in a few years, resurfacing can bridge the gap. If you plan to stay and cook hard in the kitchen, replacement usually serves you better.
+
+## A middle path: replace the counters, keep the cabinets
+
+Many Metro Detroit kitchens have solid cabinet boxes and tired counters. In that case you can replace only the countertops and the backsplash and leave the cabinets in place. Our guide to [countertop materials for Michigan kitchens](/blog/countertop-materials-michigan-homes) compares quartz, granite, butcher block, and solid surface, including choices that are less exposed to the new import rules.
+
+## What this means for the price
+
+We do not publish prices, because the price of a countertop job depends on the material, the size and shape of the runs, the cutouts, and what the old tops reveal when they come off. For a price on your job, call (313) 236-4558.
+
+## Where to start
+
+Run the five checks above, then decide. If your counters fail them, or you want a different sink or layout, [countertop replacement](/services/countertop-replacement) is the next step. BH Kitchen Remodeling Metro Detroit works with homeowners across Wayne, Oakland, and Macomb counties to look at the existing counters, compare materials, and plan the install. Call or text (313) 236-4558 Sunday through Thursday 9:00 to 5:00 or Friday 9:00 to 12:00, or send us a message through the [contact form](/contact).
+`,
+  },
 ];
 
 export function findPost(slug: string) {
