@@ -529,6 +529,10 @@ export const SERVICES: Service[] = [
           "New circuits, panel work, moving or adding boxes, and anything requiring inspection are handled by an electrical partner rather than as carpentry. Swapping a fixture in an existing box is a different matter. The scope should say which category your project falls into and who is scheduling any inspection.",
       },
     ],
+    guide: {
+      href: "/blog/under-cabinet-lighting-hardwired-or-plug-in-metro-detroit",
+      anchor: "hardwired or plug-in under-cabinet lighting",
+    },
   },
   {
     slug: "kitchen-flooring",

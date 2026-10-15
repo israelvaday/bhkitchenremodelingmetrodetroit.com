@@ -1168,6 +1168,88 @@ We do not publish prices, because the price of a countertop job depends on the m
 Run the five checks above, then decide. If your counters fail them, or you want a different sink or layout, [countertop replacement](/services/countertop-replacement) is the next step. BH Kitchen Remodeling Metro Detroit works with homeowners across Wayne, Oakland, and Macomb counties to look at the existing counters, compare materials, and plan the install. Call or text (313) 236-4558 Sunday through Thursday 9:00 to 5:00 or Friday 9:00 to 12:00, or send us a message through the [contact form](/contact).
 `,
   },
+  {
+    slug: "under-cabinet-lighting-hardwired-or-plug-in-metro-detroit",
+    title: "Under-Cabinet Lighting: Hardwired or Plug-In?",
+    metaTitle: "Under-Cabinet Lighting: Hardwired or Plug-In? | Metro Detroit",
+    excerpt:
+      "Plug-in is the quick fix for a finished kitchen; hardwired is the right call when walls are open or the cabinets are new. How to choose for a Metro Detroit kitchen before the early dark arrives.",
+    category: "Design",
+    readMinutes: 6,
+    date: "2026-10-15T12:00:00-04:00",
+    heroImage: "/blog/under-cabinet-lighting-hardwired-or-plug-in-metro-detroit-hero.jpg",
+    heroAlt:
+      "Warm under-cabinet LED lighting on a granite countertop and white tile backsplash in a Metro Detroit kitchen at dusk",
+    secondaryImage: "/blog/under-cabinet-lighting-hardwired-or-plug-in-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "Underside of a kitchen wall cabinet with an LED channel, a junction box, and clipped wiring being fitted above a tile backsplash",
+    body: `
+Hardwired under-cabinet lighting is the better choice when the walls are open, the cabinets are new, or you want the lights on a wall switch with no cords in sight. Plug-in lighting is the better choice when the kitchen is finished and staying that way: it goes up in an afternoon, needs no wall work, and can come down again. Most kitchens that are not being remodeled are well served by plug-in fixtures or low-voltage strips fed from an existing outlet; most kitchens that are being remodeled should be hardwired.
+
+The rest of this guide is how to tell which one fits your kitchen, and what each choice involves in an older Metro Detroit house.
+
+## Why this comes up every fall
+
+Clocks fall back on Sunday, November 1, and from then on a Detroit kitchen is dark well before dinner. For the next four months most cooking, homework, and cleanup happens under the kitchen's own lights, and that is when a single ceiling fixture shows its weakness: you stand between it and the counter, so you work in your own shadow.
+
+Under-cabinet lighting fixes that, because it puts light on the counter from in front of you rather than behind you. It is also one of the few kitchen upgrades that can be done without a remodel, which is why the hardwired-or-plug-in question is usually asked in October.
+
+## What "hardwired" and "plug-in" actually mean
+
+- **Plug-in.** The fixtures or LED strip mount under the cabinets and connect to a cord that plugs into a counter outlet. Many have a switch on the fixture or a small inline switch. Some link together so one plug runs several fixtures.
+- **Hardwired.** The lights are fed from the house wiring through a junction box or a driver hidden in or above the cabinets, and they are controlled by a wall switch. Nothing plugs in, and there is no cord on the backsplash.
+- **Low-voltage LED strip.** Strips run on a small power supply, called a driver. The driver itself can be plugged in or hardwired, so a strip system can go either way. The strip is the part you see; the driver decides which category you are in.
+- **Battery.** Puck lights and motion strips that run on batteries. Useful in a pantry or a dark corner cabinet, but not a substitute for real task lighting over a work counter.
+
+## When plug-in is the right call
+
+- **The kitchen is finished and you are not opening walls.** Plug-in needs no new wiring, no drywall or plaster repair, and no backsplash work.
+- **You rent, or you plan a full remodel in a few years.** Plug-in fixtures come down with a few screws and leave nothing behind.
+- **There is an outlet where the cord can reach without crossing the work area.** A cord that runs down the middle of the backsplash and across the counter is untidy and a snag hazard. A cord that drops behind an appliance garage or into the end cabinet is barely noticed.
+- **The run is short.** One or two cabinets over a coffee station or a sink is ideal plug-in territory.
+
+The trade-off is that the light occupies a counter outlet, the switch is on the fixture instead of by the door, and the cord is visible unless it can be routed out of sight.
+
+## When hardwired is the right call
+
+- **The cabinets are being replaced.** With the old cabinets off, wiring can be run inside the wall and the boxes placed exactly where the new cabinets need them. This is the moment it takes the least effort and leaves the cleanest result.
+- **The backsplash is coming off.** A new backsplash means the wall below the cabinets is open anyway. Our guide to [kitchen backsplash ideas for Metro Detroit homes](/blog/kitchen-backsplash-ideas-metro-detroit) covers how under-cabinet light changes the way tile looks after dark.
+- **You want one wall switch for the whole run,** or a dimmer, or the under-cabinet lights on their own switch next to the ceiling lights.
+- **The run is long or wraps a corner.** Several plug-in fixtures across an L-shaped kitchen means several cords. One hardwired feed serves the whole run.
+
+## What hardwiring involves in an older Metro Detroit house
+
+Many kitchens in Detroit, Royal Oak, Ferndale, and the older parts of Livonia and Farmington Hills have plaster walls, kitchen circuits that were added to over the decades, and very few spare outlets on the counter. That changes the job:
+
+- **Getting power to the cabinets.** The feed usually comes from an existing switch box or a nearby circuit. In plaster, fishing a wire down to the right spot can mean opening the wall and patching it afterward, which is why it pairs so naturally with a backsplash or cabinet project.
+- **Where the driver goes.** LED drivers need to stay accessible, usually inside the cabinet above or in a ventilated spot over the cabinets. A driver should never be buried behind finished tile.
+- **The kitchen circuits themselves.** A kitchen that already trips a breaker when the toaster and microwave run together is a sign the circuits are loaded. Lighting draws very little, but it is worth knowing which circuit you are adding to before you add to it.
+- **Permits and inspection.** Adding new wiring, a new box, or a new switch is electrical work, and in Michigan cities and townships that generally means an electrical permit and an inspection through the local building department. Plugging a fixture into an existing outlet does not. If your project includes new wiring, ask who is pulling the permit and scheduling the inspection.
+
+For electrical work of this kind we coordinate with an electrical partner rather than treating it as carpentry, so the cabinet layout, the box locations, and the inspection all line up.
+
+## Choosing the light itself
+
+Whichever way it is powered, a few choices decide whether the light is pleasant to work under:
+
+- **Mount it toward the front of the cabinet,** not against the wall. Light from the front edge lands on the counter where you cut and read, and it glares less on a glossy backsplash.
+- **Put LED strip in a channel with a diffuser.** Bare strip shows as a row of dots on a polished counter. A shallow aluminum channel with a frosted cover reads as one smooth line.
+- **Match the color temperature to the rest of the room.** A warm neutral is the usual choice for kitchens, and it matters more that the under-cabinet light matches the ceiling and pendant lights than which exact number you pick.
+- **Hide the fixture behind the cabinet's bottom rail** where the cabinets have one, so you see the light and not the fixture from the table or the island.
+
+## A middle path
+
+If you are not remodeling but want the clean look, there are two in-between options. Some plug-in fixtures can later be connected to a junction box and a wall switch, so you can start with a plug and hardwire it when the backsplash is replaced. And a low-voltage strip system can have its driver plugged into an outlet hidden inside an upper cabinet, so only a thin wire passes to the strip and no cord shows on the backsplash at all.
+
+## What this means for the price
+
+We do not publish prices. The price of under-cabinet lighting depends on whether the walls are open, how far power has to travel, how many runs and corners there are, and whether the work is part of a larger cabinet or backsplash project. For a price on your job, call (313) 236-4558.
+
+## Where to start
+
+Count your counter outlets, look at where a cord could drop out of sight, and decide whether a backsplash or cabinet project is coming in the next year or two. If it is, wait and hardwire it then. If not, plug-in will light your counters before the clocks change. For layered lighting planned around your cabinets, see our [kitchen lighting upgrades](/services/kitchen-lighting-upgrades). BH Kitchen Remodeling Metro Detroit works with homeowners across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 Sunday through Thursday 9:00 to 5:00 or Friday 9:00 to 12:00, or send us a message through the [contact form](/contact).
+`,
+  },
 ];
 
 export function findPost(slug: string) {
