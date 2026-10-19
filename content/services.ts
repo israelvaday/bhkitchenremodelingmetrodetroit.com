@@ -744,6 +744,10 @@ export const SERVICES: Service[] = [
           "Counter-depth sits closer to flush with the cabinet run and looks built in, at the cost of interior volume. Standard depth holds more but projects into the room, which matters in a narrow galley or opposite an island. Either way the specified depth including the door and hinge clearance is what the surround is built to, not the nominal figure.",
       },
     ],
+    guide: {
+      href: "/blog/gas-stove-to-induction-metro-detroit",
+      anchor: "switching from a gas stove to induction",
+    },
   },
   {
     slug: "partial-kitchen-refresh",

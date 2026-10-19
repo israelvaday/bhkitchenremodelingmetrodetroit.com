@@ -1250,6 +1250,75 @@ We do not publish prices. The price of under-cabinet lighting depends on whether
 Count your counter outlets, look at where a cord could drop out of sight, and decide whether a backsplash or cabinet project is coming in the next year or two. If it is, wait and hardwire it then. If not, plug-in will light your counters before the clocks change. For layered lighting planned around your cabinets, see our [kitchen lighting upgrades](/services/kitchen-lighting-upgrades). BH Kitchen Remodeling Metro Detroit works with homeowners across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 Sunday through Thursday 9:00 to 5:00 or Friday 9:00 to 12:00, or send us a message through the [contact form](/contact).
 `,
   },
+  {
+    slug: "gas-stove-to-induction-metro-detroit",
+    title: "Should You Switch From a Gas Stove to Induction?",
+    metaTitle: "Gas Stove to Induction: Should You Switch? | Metro Detroit",
+    excerpt:
+      "Switching makes sense when the kitchen is being remodeled and the panel has room for a dedicated range circuit. What the change involves in an older Metro Detroit house, and what DTE gas rates do and do not change.",
+    category: "Planning",
+    readMinutes: 7,
+    date: "2026-10-19T12:00:00-04:00",
+    heroImage: "/blog/gas-stove-to-induction-metro-detroit-hero.jpg",
+    heroAlt:
+      "Induction cooktop with a simmering steel pot set into a quartz countertop in a renovated older Metro Detroit kitchen",
+    secondaryImage: "/blog/gas-stove-to-induction-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "Basement electrical panel with a new double-pole breaker and a heavy cable run up through the joists toward the kitchen",
+    body: `
+Switching from a gas stove to induction is worth it when you are already remodeling the kitchen, your electrical panel has room for a dedicated range circuit, and you want faster heat, an easier cooktop to clean, and no open flame in the house. It is usually not worth it as a stand-alone swap in a finished kitchen if the panel is full, the range sits far from the panel, or you are switching only to lower the gas bill, because the stove is a small part of most homes' gas use.
+
+The rest of this guide covers how to decide, and what the change actually involves in an older Metro Detroit house.
+
+## Why so many Detroit homeowners are asking now
+
+On September 10, 2026 the Michigan Public Service Commission approved a DTE Gas rate increase, and DTE said the same day that it plans to file another gas rate case in November. For most Metro Detroit households that means the gas bill is on the kitchen table this fall, right as heating season starts, and the gas stove is the appliance people can see.
+
+It is worth being clear about what that means for the stove. In a typical Michigan house the furnace and the water heater use most of the gas. The range uses a small share. Moving the cooktop to electric changes how you cook far more than it changes the gas bill, and you keep a gas account as long as the furnace and water heater stay on gas. If the bill is the only reason, the furnace and the water heater are where the gas goes.
+
+The better reasons to switch are about the kitchen itself.
+
+## What induction does better, and what it does not
+
+- **Speed and control.** Induction heats the pan directly, so water boils fast and the heat changes the moment you turn the dial. Low simmers are steady.
+- **A cooler kitchen.** No flame and little wasted heat around the pan, which matters in a small galley kitchen.
+- **Cleanup.** A flat glass top with no grates or burner caps. Spills do not bake on, because the glass only gets hot where the pan was.
+- **No combustion indoors.** A gas burner releases combustion byproducts into the room, which is why a gas range needs a hood that actually vents outside. In a tight older kitchen with a weak or recirculating hood, that is a real reason people switch.
+- **Cookware.** Induction needs pans a magnet sticks to: cast iron, enameled cast iron, and most stainless steel. Aluminum, copper, and glass do not work on their own. Test your pans with a fridge magnet before you decide.
+- **Power outages.** A gas cooktop can often still be lit with a match when the power is out. An induction cooktop cannot. If your street loses power in summer storms or winter ice, that is part of the decision.
+
+## What the switch involves in an older Metro Detroit house
+
+Most of the work is behind the wall, and it is the part that decides whether the switch is simple or not.
+
+- **A dedicated 240-volt circuit.** A full-size induction range or cooktop needs its own 240-volt circuit sized to the appliance's specification sheet. A gas range only needs an ordinary outlet for its clock and igniter, so in a kitchen that has always been gas, that circuit usually does not exist yet.
+- **Room in the panel.** The new circuit needs space in the panel and enough capacity left in the service. Many bungalows and colonials in Detroit, Ferndale, Royal Oak, and older parts of Livonia and Dearborn still have smaller services, and some have panels that are already full or carry older equipment that an electrician will want to look at first. This is the single biggest variable in the project, and an electrician's look at the panel is the first step, before you buy the appliance.
+- **The run from the panel to the kitchen.** In a house with a basement, the cable usually runs along the joists and up through the floor to the range location, which is often straightforward. A kitchen on an upper floor, a finished basement ceiling, or plaster walls along the route make it more involved.
+- **Capping the gas line.** The gas supply to the range has to be shut off and capped safely by a qualified gas fitter or plumber. In most Michigan cities and townships, new circuits and gas line work each need a permit and an inspection through the local building department, so ask who is pulling them and scheduling the inspections.
+- **The hood.** You still want a vented hood over induction for steam, grease, and cooking odor. If the old hood was sized around a gas range, check that it still fits the new cooktop width.
+
+## Cooktop, range, or a plug-in induction burner
+
+- **Freestanding induction range.** The most direct swap into the same opening as a gas range. Check the depth and the anti-tip bracket, because the opening and the outlet location will both change.
+- **Induction cooktop with a separate wall oven.** Common in a full remodel. The cooktop drops into the counter, which means the countertop cutout and the cabinet below have to be planned for it, and the wall oven needs its own space and circuit.
+- **A portable induction burner.** A single plug-in burner on the counter is an inexpensive way to find out whether you like cooking on induction before you change the kitchen. Many people try one for a season first.
+- **Lower-power ranges that plug into a standard outlet.** A few newer induction ranges are designed to run on an ordinary household circuit by using a built-in battery. They avoid the panel work, but there are only a few models, and they are worth comparing carefully against a standard range on a new circuit.
+
+## When to make the switch
+
+The best time is during a remodel. With the cabinets and counters coming out, the new circuit, the capped gas line, the countertop cutout, and the hood can all be planned together and inspected once. That is also when the [kitchen appliance layout](/services/kitchen-appliance-layout) gets settled: landing space on both sides of the cooktop, the hood clearance, and where the oven goes if it is no longer under the cooktop.
+
+If the kitchen is not being remodeled, the switch can still be done on its own when the panel has room and the range sits close to it. If the panel is full or far away, the electrical work can be larger than the appliance, and it may make more sense to wait for the remodel and use a portable induction burner in the meantime. Our guide to [planning a kitchen remodel in Metro Detroit](/blog/kitchen-remodel-planning-metro-detroit) covers how to sequence appliances, cabinets, and trades.
+
+## What this means for the price
+
+We do not publish prices. The price of switching from gas to induction depends on whether the panel has room, how far the new circuit has to run, whether the gas line is in an open or finished space, the permits involved, and whether it is part of a larger remodel. For a price on your job, call (313) 236-4558.
+
+## Where to start
+
+Test your pans with a magnet, look at your electrical panel and note whether there are empty spaces, and decide whether a kitchen remodel is coming in the next year or two. If it is, plan the switch into the remodel. BH Kitchen Remodeling Metro Detroit works with homeowners across Wayne, Oakland, and Macomb counties on appliance layout and full kitchen remodels, and coordinates the electrical and gas work with trade partners. Call or text (313) 236-4558 Sunday through Thursday 9:00 to 5:00 or Friday 9:00 to 12:00, or send us a message through the [contact form](/contact).
+`,
+  },
 ];
 
 export function findPost(slug: string) {
