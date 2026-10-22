@@ -285,6 +285,10 @@ export const SERVICES: Service[] = [
         href: "/blog/can-you-resurface-countertops-metro-detroit",
         anchor: "resurfacing countertops instead of replacing them",
       },
+      {
+        href: "/blog/are-quartz-countertops-safe-metro-detroit",
+        anchor: "whether quartz countertops are safe once installed",
+      },
     ],
     deepDive: [
       {

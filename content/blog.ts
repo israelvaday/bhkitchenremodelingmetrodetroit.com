@@ -1319,6 +1319,76 @@ We do not publish prices. The price of switching from gas to induction depends o
 Test your pans with a magnet, look at your electrical panel and note whether there are empty spaces, and decide whether a kitchen remodel is coming in the next year or two. If it is, plan the switch into the remodel. BH Kitchen Remodeling Metro Detroit works with homeowners across Wayne, Oakland, and Macomb counties on appliance layout and full kitchen remodels, and coordinates the electrical and gas work with trade partners. Call or text (313) 236-4558 Sunday through Thursday 9:00 to 5:00 or Friday 9:00 to 12:00, or send us a message through the [contact form](/contact).
 `,
   },
+  {
+    slug: "are-quartz-countertops-safe-metro-detroit",
+    title: "Are Quartz Countertops Safe Once Installed?",
+    metaTitle: "Are Quartz Countertops Safe Once Installed? | Metro Detroit",
+    excerpt:
+      "Yes. A finished, installed quartz countertop does not give off silica dust in everyday use. The risk is the dust made when the slab is cut or ground, which is why the questions to ask are about where and how your countertop gets cut.",
+    category: "Countertops",
+    readMinutes: 6,
+    date: "2026-10-22T12:00:00-04:00",
+    heroImage: "/blog/are-quartz-countertops-safe-metro-detroit-hero.jpg",
+    heroAlt:
+      "White quartz countertop with soft grey veining and an undermount sink in a sunlit, renovated older Metro Detroit kitchen",
+    secondaryImage: "/blog/are-quartz-countertops-safe-metro-detroit-secondary.jpg",
+    secondaryAlt:
+      "Stone fabrication shop saw cutting a quartz slab under a water spray while the worker wears a respirator and safety glasses",
+    body: `
+Yes. A quartz countertop that is already cut, polished, and installed in your kitchen is safe to live with. In everyday use, cooking, cleaning, and setting things on it, it does not release silica dust. The health risk with quartz is the fine dust made when the slab is cut, ground, or polished, and that risk falls mainly on the people who fabricate and install it, and on anyone who cuts it inside a home without dust control.
+
+So the useful questions are not about the finished counter. They are about where your countertop gets cut, how, and what happens if it has to be adjusted in your kitchen.
+
+## Why so many people are asking now
+
+Engineered quartz has been in the news again this fall. On September 16, 2026, California's workplace safety agency, Cal/OSHA, released a draft emergency rule that would stop the fabrication of engineered stone containing more than 1 percent crystalline silica, after hundreds of countertop workers in that state were diagnosed with silicosis. On October 22, 2026, an InvestigateTV report found that the largest U.S. maker of engineered stone slabs had its own air tests at fabrication shops showing silica dust above federal limits on several occasions, and it cited 668 confirmed silicosis cases among California countertop workers since 2019.
+
+None of that is about the countertop in your kitchen. It is about the shops that cut the slabs. But if you are choosing a countertop this fall, it is reasonable to ask how yours will be made.
+
+## Where the risk actually is
+
+- **Engineered quartz is mostly silica.** It is crushed quartz bound with resin, and it is typically far higher in crystalline silica than most granite or marble.
+- **Dust is the problem, not the surface.** When the slab is cut, ground, or polished dry, it throws off very fine silica dust. Breathing that dust over time can cause silicosis, an incurable lung disease. A finished countertop sitting in your kitchen does not do that.
+- **Wet cutting and dust control are the protection.** Shops that cut with water fed to the blade, use local dust extraction, and give workers proper respirators cut the exposure sharply. In Michigan, MIOSHA enforces the silica rules that apply to fabrication shops and job sites.
+
+## What happens in your kitchen
+
+Most of the cutting on a stone countertop happens in the fabricator's shop: the slab is cut to size, the edges are profiled, and the sink and cooktop cutouts are made before it ever reaches your house. Where homeowners can end up exposed is the small amount of work sometimes done on site.
+
+- **Ask for cutouts in the shop.** Sink, cooktop, and faucet holes are best cut in the shop from a template, not in your kitchen.
+- **Ask how any on-site adjustment is done.** If an edge or a seam has to be trimmed during installation, ask that it be wet-cut or done with a tool that has a vacuum shroud, not cut or ground dry indoors.
+- **Keep the room closed off while work is going on.** Keep children and pets out of the kitchen during installation. In a Metro Detroit house in late fall and winter, windows are shut and the furnace is running, so any dust made indoors stays indoors and moves through the ductwork.
+- **Do not cut or grind quartz yourself.** Drilling a hole for a soap dispenser or grinding an edge with a dry blade is exactly the kind of work that makes the dust. Leave it to a fabricator with the right tools.
+- **Tear-out counts too.** If you are replacing an old quartz or stone top, ask that it be taken out in pieces rather than broken up with a hammer in the kitchen.
+
+## Living with a quartz countertop
+
+Once it is in, the everyday cautions are about the countertop, not your health.
+
+- **Heat.** The resin in quartz can discolor or crack from a very hot pan set straight on it. Use a trivet.
+- **Cleaning.** Mild soap and water or a cleaner made for quartz. Skip harsh chemicals and abrasive pads.
+- **Food.** A sealed, non-porous quartz surface is a good food-prep surface and does not need sealing.
+
+## If you would rather choose something else
+
+Some homeowners decide they would rather not buy engineered stone at all because of how it is made. That is a personal choice, and there are good alternatives.
+
+- **Natural stone such as granite** is generally lower in silica than engineered quartz, though it still needs wet cutting. Quartzite, despite the name a natural stone, is high in silica as well.
+- **Solid surface, laminate, and butcher block** contain little or no crystalline silica and are cut with ordinary woodworking tools.
+- **Porcelain and sintered stone slabs** usually contain less silica than engineered quartz but still need wet cutting.
+- **Lower-silica engineered surfaces** are now offered by some manufacturers. Ask for the product's safety data sheet, which lists its crystalline silica content.
+
+Our guide to [countertop materials for Michigan kitchens](/blog/countertop-materials-michigan-homes) compares how each one holds up to heat, stains, and daily use.
+
+## What this means for the price
+
+We do not publish prices. The price of a new countertop depends on the material, the square footage, the edge profile, the number of cutouts and seams, whether an old top has to be removed, and whether it is part of a larger remodel. For a price on your job, call (313) 236-4558.
+
+## Where to start
+
+If you are planning a new top, ask your contractor three things: where the slab will be cut, whether the cutouts will be made in the shop, and how any on-site adjustment will be handled. For help choosing a material and planning the cutouts and seams, see our [countertop replacement](/services/countertop-replacement) service. BH Kitchen Remodeling Metro Detroit works with homeowners across Wayne, Oakland, and Macomb counties. Call or text (313) 236-4558 Sunday through Thursday 9:00 to 5:00 or Friday 9:00 to 12:00, or send us a message through the [contact form](/contact).
+`,
+  },
 ];
 
 export function findPost(slug: string) {
